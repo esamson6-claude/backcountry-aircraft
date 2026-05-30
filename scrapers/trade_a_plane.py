@@ -21,8 +21,10 @@ BASE = "https://www.trade-a-plane.com"
 SOURCE = "trade-a-plane"
 
 _LISTING_ID_RE = re.compile(r"listing_id=(\d+)")
+# Allow optional whitespace before the comma since TAP renders both
+# "City, ST USA" and "City , ST USA" depending on make/template.
 _LOC_RE = re.compile(
-    r"\b([A-Z][a-zA-Z]+(?:[ \-][A-Z][a-zA-Z]+){0,2}),\s+([A-Z]{2})\b"
+    r"\b([A-Z][a-zA-Z]+(?:[ \-][A-Z][a-zA-Z]+){0,2})\s*,\s+([A-Z]{2})\b"
 )
 
 

@@ -1,0 +1,521 @@
+{
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": {
+    "location": "Placerville, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+AURORA&listing_id=2447952&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+CITABRIA&listing_id=2444894&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC&listing_id=2451947&s-type=aircraft": {
+    "location": "Carrabassett Valley, ME"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2455353&s-type=aircraft": {
+    "location": "Washington, PA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2455412&s-type=aircraft": {
+    "location": "Port Orange, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2455448&s-type=aircraft": {
+    "location": "Rapid City, SD"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2455606&s-type=aircraft": {
+    "location": "Kimball, NE"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2456002&s-type=aircraft": {
+    "location": "Willcox, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2427230&s-type=aircraft": {
+    "location": "Overland Park, KS"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2455132&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2455378&s-type=aircraft": {
+    "location": "Mayfield, KY"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2455791&s-type=aircraft": {
+    "location": "Chillicothe, OH"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2455241&s-type=aircraft": {
+    "location": "Albany, NY"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2455813&s-type=aircraft": {
+    "location": "Denver, CO"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2456538&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2456539&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2432922&s-type=aircraft": {
+    "location": "Nampa, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2452102&s-type=aircraft": {
+    "location": "Houston, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2453192&s-type=aircraft": {
+    "location": "Andalusia, AL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2456410&s-type=aircraft": {
+    "location": "Nampa, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2456604&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2404694&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2453843&s-type=aircraft": {
+    "location": "St Petersburg, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2449870&s-type=aircraft": {
+    "location": "Middleton, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2453890&s-type=aircraft": {
+    "location": "McAllen, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2453892&s-type=aircraft": {
+    "location": "McAllen, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2454163&s-type=aircraft": {
+    "location": "Kerrville, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2454384&s-type=aircraft": {
+    "location": "Spearman, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2454882&s-type=aircraft": {
+    "location": "Anchorage, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2454936&s-type=aircraft": {
+    "location": "Lenoir, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2455348&s-type=aircraft": {
+    "location": "Winston-Salem, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2440673&s-type=aircraft": {
+    "location": "Plymouth, MA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2447203&s-type=aircraft": {
+    "location": "Middleton, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2450387&s-type=aircraft": {
+    "location": "Middleton, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2451781&s-type=aircraft": {
+    "location": "Middleton, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2454378&s-type=aircraft": {
+    "location": "Central Florida, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2455995&s-type=aircraft": {
+    "location": "South St Paul, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456145&s-type=aircraft": {
+    "location": "Morgan, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456160&s-type=aircraft": {
+    "location": "KBMC, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456334&s-type=aircraft": {
+    "location": "Richland, MI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456510&s-type=aircraft": {
+    "location": "McAllen, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BEARHAWK&model=COMPANION&listing_id=2453591&s-type=aircraft": {
+    "location": "Heber City, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BEARHAWK&model=PATROL&listing_id=2453708&s-type=aircraft": {
+    "location": "Newellton, LA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BUSH+CADDY&model=R80&listing_id=2455058&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BUSH+CADDY&model=R80&listing_id=2455377&s-type=aircraft": {
+    "location": "Petaluma, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2269042&s-type=aircraft": {
+    "location": "Pittstown, NJ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2402421&s-type=aircraft": {
+    "location": "Watsonville, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2428047&s-type=aircraft": {
+    "location": "Coral Springs, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2441947&s-type=aircraft": {
+    "location": "Polk County, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2452052&s-type=aircraft": {
+    "location": "Scottsdale, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2453224&s-type=aircraft": {
+    "location": "Camp Verde, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2454698&s-type=aircraft": {
+    "location": "Winterset, IA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2454991&s-type=aircraft": {
+    "location": "Caldwell, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2455731&s-type=aircraft": {
+    "location": "Spokane, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2456630&s-type=aircraft": {
+    "location": "Kenosha, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2451016&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2452097&s-type=aircraft": {
+    "location": "Louisburg, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2456289&s-type=aircraft": {
+    "location": "Kirkland, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2456533&s-type=aircraft": {
+    "location": "Beaver, WV"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180A&listing_id=2456069&s-type=aircraft": {
+    "location": "Caldwell, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180C&listing_id=2449630&s-type=aircraft": {
+    "location": "Nampa, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180F&listing_id=2453425&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180G&listing_id=2452634&s-type=aircraft": {
+    "location": "Live Oak, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2449195&s-type=aircraft": {
+    "location": "Ambler, PA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2456157&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2456461&s-type=aircraft": {
+    "location": "Anchorage, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180J&listing_id=2454390&s-type=aircraft": {
+    "location": "South St Paul, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180J&listing_id=2455119&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2454731&s-type=aircraft": {
+    "location": "La Grande, OR"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185&listing_id=2436256&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185&listing_id=2450806&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185&listing_id=2452630&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185&listing_id=2456187&s-type=aircraft": {
+    "location": "Peachtree Cty, GA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185A&listing_id=2453669&s-type=aircraft": {
+    "location": "Little Rock, AR"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2452517&s-type=aircraft": {
+    "location": "Viola, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2454485&s-type=aircraft": {
+    "location": "Corvallis, OR"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2456268&s-type=aircraft": {
+    "location": "Shippensburg, PA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2439706&s-type=aircraft": {
+    "location": "Wickenburg, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2448715&s-type=aircraft": {
+    "location": "Louisburg, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2454093&s-type=aircraft": {
+    "location": "Salida, CO"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2454400&s-type=aircraft": {
+    "location": "Anchorage, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2454450&s-type=aircraft": {
+    "location": "Watertown, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2456317&s-type=aircraft": {
+    "location": "Kenmore, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2448106&s-type=aircraft": {
+    "location": "Minden, NV"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2429154&s-type=aircraft": {
+    "location": "Baton Rouge, LA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2436336&s-type=aircraft": {
+    "location": "Pampa, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2440682&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2452631&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2453496&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2454155&s-type=aircraft": {
+    "location": "Cypress, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2454518&s-type=aircraft": {
+    "location": "Plymouth, MA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2454862&s-type=aircraft": {
+    "location": "Punta Gorda, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2456561&s-type=aircraft": {
+    "location": "Mount Vernon, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB&listing_id=2456321&s-type=aircraft": {
+    "location": "Minooka, IL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-2&listing_id=2453977&s-type=aircraft": {
+    "location": "Salt Lake City, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX2&listing_id=2456225&s-type=aircraft": {
+    "location": "Morgan, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-2&listing_id=2453780&s-type=aircraft": {
+    "location": "Carefree, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2452925&s-type=aircraft": {
+    "location": "Scottsdale, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2454846&s-type=aircraft": {
+    "location": "Kerrville, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2456226&s-type=aircraft": {
+    "location": "Fort Collins, CO"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2456262&s-type=aircraft": {
+    "location": "Blaine, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2456408&s-type=aircraft": {
+    "location": "Delta, CO"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX3&listing_id=2453691&s-type=aircraft": {
+    "location": "Santa Maria, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX3&listing_id=2455470&s-type=aircraft": {
+    "location": "St Petersburg, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2429395&s-type=aircraft": {
+    "location": "North Las Vegas, NV"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2442078&s-type=aircraft": {
+    "location": "Windermere, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2447939&s-type=aircraft": {
+    "location": "Hayden, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2454676&s-type=aircraft": {
+    "location": "San Luis Obispo, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2454927&s-type=aircraft": {
+    "location": "Santa Maria, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2456668&s-type=aircraft": {
+    "location": "Sanford, ME"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": {
+    "location": "Hamilton, MT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-180+XCUB&listing_id=2445424&s-type=aircraft": {
+    "location": "Savannah, GA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2452748&s-type=aircraft": {
+    "location": "Caldwell, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2454261&s-type=aircraft": {
+    "location": "Santa Maria, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2454473&s-type=aircraft": {
+    "location": "Falbrook, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2455306&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2455586&s-type=aircraft": {
+    "location": "Santa Maria, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2&listing_id=2431306&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2&listing_id=2440183&s-type=aircraft": {
+    "location": "International Falls, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2&listing_id=2441760&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2&listing_id=2453942&s-type=aircraft": {
+    "location": "Calgary, AB"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2435813&s-type=aircraft": {
+    "location": "Kenmore, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2435935&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2446954&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2449080&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2451559&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2451937&s-type=aircraft": {
+    "location": "South St Paul, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2451993&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2453024&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2455248&s-type=aircraft": {
+    "location": "Eau Claire, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2455463&s-type=aircraft": {
+    "location": "Buffalo, NY"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=HELIO&model=H-391B&listing_id=2439248&s-type=aircraft": {
+    "location": "Fairbanks, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=HELIO&model=H-800&listing_id=2454935&s-type=aircraft": {
+    "location": "Pullman, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=HIGHLANDER&listing_id=2453644&s-type=aircraft": {
+    "location": "Central Florida, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2455095&s-type=aircraft": {
+    "location": "Viola, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2456062&s-type=aircraft": {
+    "location": "Leavenworth, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=SUPERSTOL&listing_id=2453964&s-type=aircraft": {
+    "location": "Hailey, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SERIES+5&listing_id=2455853&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SERIES+6&listing_id=2455885&s-type=aircraft": {
+    "location": "Quitman, AR"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SERIES+7&listing_id=2446119&s-type=aircraft": {
+    "location": "Vancouver, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2452617&s-type=aircraft": {
+    "location": "Everett, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2454203&s-type=aircraft": {
+    "location": "Grant, NE"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-220C&listing_id=2456556&s-type=aircraft": {
+    "location": "Falcon, CO"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2425434&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2447391&s-type=aircraft": {
+    "location": "Caldwell, ID"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2450269&s-type=aircraft": {
+    "location": "Ogden, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-210C&listing_id=2447631&s-type=aircraft": {
+    "location": "Bend, OR"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-235C&listing_id=2446092&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235B&listing_id=2447607&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235B&listing_id=2455196&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2446957&s-type=aircraft": {
+    "location": "Brownsville, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2452820&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2454161&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260&listing_id=2437807&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260&listing_id=2455403&s-type=aircraft": {
+    "location": "Galesburg, IL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260C&listing_id=2426032&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260C&listing_id=2428277&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MT-7-260&listing_id=2431556&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2454359&s-type=aircraft": {
+    "location": "Fall Creek, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-235&listing_id=2432459&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180&listing_id=2454015&s-type=aircraft": {
+    "location": "Jackson, MS"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180&listing_id=2454826&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180&listing_id=2455383&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180A&listing_id=2420073&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180B&listing_id=2456215&s-type=aircraft": {
+    "location": "Nashua, NH"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=NOT+SPECIFIED&listing_id=2385397&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108&listing_id=2454669&s-type=aircraft": {
+    "location": "Mocksville, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108&listing_id=2455077&s-type=aircraft": {
+    "location": "Lake Havasu City, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2433495&s-type=aircraft": {
+    "location": "Eagle River, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Turboprop&make=DEHAVILLAND&model=DHC-2+MK+III&listing_id=2447817&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Turboprop&make=DEHAVILLAND&model=DHC-2T&listing_id=2415003&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Turboprop&make=DEHAVILLAND&model=DHC-2T&listing_id=2439795&s-type=aircraft": {
+    "location": null
+  }
+}

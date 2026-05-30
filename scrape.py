@@ -396,6 +396,14 @@ def main() -> int:
         file=sys.stderr,
     )
 
+    # Enrich each TAP listing with clean location from its detail page
+    # (cached per-URL — only new URLs fetch fresh).
+    try:
+        import enrich
+        enrich.main()
+    except Exception as e:
+        print(f"  enrich failed: {e}", file=sys.stderr)
+
     # Geocode any new locations (cached, idempotent, ~1 req/sec)
     try:
         import geocode
