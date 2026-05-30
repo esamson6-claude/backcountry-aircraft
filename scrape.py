@@ -419,6 +419,16 @@ def main() -> int:
     except Exception as e:
         print(f"  HTML generation failed: {e}", file=sys.stderr)
 
+    # Email digest of new listings (no-op if RESEND_API_KEY not set or none new)
+    try:
+        import notify
+        notify.send(
+            (current[u] for u in new_urls),
+            project_url="https://esamson6-claude.github.io/backcountry-aircraft/",
+        )
+    except Exception as e:
+        print(f"  notify failed: {e}", file=sys.stderr)
+
     return 0
 
 
