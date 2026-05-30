@@ -48,8 +48,7 @@ SEARCHES: list[dict] = [
         "make": "Aviat Husky",
         "module": "scrapers.aircraftforsale",
         "slug": "aviat-husky",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=Aviat&model=A-1",
-        "href_substring": "husky",
+        "sitemap_patterns": ["/aviat/a-1"],
         "default_model": "Husky",
         "post_filter": _keep_husky_180_or_c,
     },
@@ -87,8 +86,7 @@ SEARCHES: list[dict] = [
         "make": "Maule",
         "module": "scrapers.aircraftforsale",
         "slug": "maule",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=Maule",
-        "href_substring": "maule",
+        "sitemap_patterns": ["/maule/"],
         "default_model": "Maule",
     },
     {
@@ -119,8 +117,7 @@ SEARCHES: list[dict] = [
         "make": "CubCrafters",
         "module": "scrapers.aircraftforsale",
         "slug": "cubcrafters",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=CubCrafters",
-        "href_substring": "cub-crafters",
+        "sitemap_patterns": ["/cubcrafters/", "/cub-crafters/"],
         "default_model": "CubCrafters",
     },
 
@@ -136,8 +133,7 @@ SEARCHES: list[dict] = [
         "make": "American Champion",
         "module": "scrapers.aircraftforsale",
         "slug": "american-champion",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=American+Champion",
-        "href_substring": "american-champion",
+        "sitemap_patterns": ["/american-champion/", "/aeronca/", "/champion/"],
         "default_model": "American Champion",
     },
 
@@ -153,8 +149,7 @@ SEARCHES: list[dict] = [
         "make": "Bearhawk",
         "module": "scrapers.aircraftforsale",
         "slug": "bearhawk",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=Bearhawk",
-        "href_substring": "bearhawk",
+        "sitemap_patterns": ["/bearhawk/"],
         "default_model": "Bearhawk",
     },
 
@@ -164,6 +159,13 @@ SEARCHES: list[dict] = [
         "module": "scrapers.trade_a_plane",
         "slug": "bushcaddy",
         "url": "https://www.trade-a-plane.com/filtered/search?make=BUSH+CADDY&s-type=aircraft",
+        "default_model": "BushCaddy",
+    },
+    {
+        "make": "BushCaddy",
+        "module": "scrapers.aircraftforsale",
+        "slug": "bushcaddy",
+        "sitemap_patterns": ["/bushcaddy/", "/bush-caddy/"],
         "default_model": "BushCaddy",
     },
 
@@ -179,8 +181,7 @@ SEARCHES: list[dict] = [
         "make": "Cessna 180",
         "module": "scrapers.aircraftforsale",
         "slug": "cessna-180",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=Cessna&model=180",
-        "href_substring": "cessna/180",
+        "sitemap_patterns": ["/cessna/180"],
         "default_model": "180",
     },
 
@@ -196,8 +197,7 @@ SEARCHES: list[dict] = [
         "make": "Cessna 185",
         "module": "scrapers.aircraftforsale",
         "slug": "cessna-185",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=Cessna&model=185",
-        "href_substring": "cessna/185",
+        "sitemap_patterns": ["/cessna/185"],
         "default_model": "185",
     },
 
@@ -213,8 +213,7 @@ SEARCHES: list[dict] = [
         "make": "Cessna 195",
         "module": "scrapers.aircraftforsale",
         "slug": "cessna-195",
-        "url": "https://aircraftforsale.com/aircraft/search?manufacturer=Cessna&model=195",
-        "href_substring": "cessna/195",
+        "sitemap_patterns": ["/cessna/195", "/cessna/190"],
         "default_model": "195",
     },
 
@@ -226,6 +225,13 @@ SEARCHES: list[dict] = [
         "url": "https://www.trade-a-plane.com/filtered/search?make=JUST+AIRCRAFT&s-type=aircraft",
         "default_model": "Just Aircraft",
     },
+    {
+        "make": "Just Aircraft",
+        "module": "scrapers.aircraftforsale",
+        "slug": "just-aircraft",
+        "sitemap_patterns": ["/just-aircraft/", "/just/"],
+        "default_model": "Just Aircraft",
+    },
 
     # ---- Kitfox (Super Sport 7 LSA) ----
     {
@@ -235,6 +241,13 @@ SEARCHES: list[dict] = [
         "url": "https://www.trade-a-plane.com/filtered/search?make=KITFOX&s-type=aircraft",
         "default_model": "Kitfox",
     },
+    {
+        "make": "Kitfox",
+        "module": "scrapers.aircraftforsale",
+        "slug": "kitfox",
+        "sitemap_patterns": ["/kitfox/"],
+        "default_model": "Kitfox",
+    },
 
     # ---- Stinson 108 ----
     {
@@ -242,6 +255,13 @@ SEARCHES: list[dict] = [
         "module": "scrapers.trade_a_plane",
         "slug": "stinson-108",
         "url": "https://www.trade-a-plane.com/filtered/search?make=STINSON&s-type=aircraft",
+        "default_model": "Stinson 108",
+    },
+    {
+        "make": "Stinson 108",
+        "module": "scrapers.aircraftforsale",
+        "slug": "stinson-108",
+        "sitemap_patterns": ["/stinson/108"],
         "default_model": "Stinson 108",
     },
 
@@ -254,6 +274,13 @@ SEARCHES: list[dict] = [
         "default_model": "DHC-2",
         "post_filter": _keep_dhc2,
     },
+    {
+        "make": "DHC-2 Beaver",
+        "module": "scrapers.aircraftforsale",
+        "slug": "dhc-2",
+        "sitemap_patterns": ["/havilland/dhc-2", "/de-havilland/dhc-2", "/dhc-2/"],
+        "default_model": "DHC-2",
+    },
 
     # ---- Helio Courier ----
     {
@@ -261,6 +288,13 @@ SEARCHES: list[dict] = [
         "module": "scrapers.trade_a_plane",
         "slug": "helio",
         "url": "https://www.trade-a-plane.com/filtered/search?make=HELIO&s-type=aircraft",
+        "default_model": "Courier",
+    },
+    {
+        "make": "Helio Courier",
+        "module": "scrapers.aircraftforsale",
+        "slug": "helio",
+        "sitemap_patterns": ["/helio/"],
         "default_model": "Courier",
     },
 ]

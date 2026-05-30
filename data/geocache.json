@@ -4,6 +4,10 @@
     -99.3750239
   ],
   "AIRCRAFT Overland Park, KS": null,
+  "Adelaide, South Australia, Australia": [
+    -34.9281805,
+    138.5999312
+  ],
   "Aero Services Sidney, BC": null,
   "Air LLC Kerrville, TX": null,
   "Aircraft Blaine, MN": null,
@@ -164,6 +168,14 @@
     44.811349,
     -91.4984941
   ],
+  "El Centro, CA": [
+    32.792,
+    -115.563051
+  ],
+  "Englewood, Colorado": [
+    39.6482059,
+    -104.9879641
+  ],
   "Eric Dapp Corvallis, OR": null,
   "Everett, WA": [
     47.9793437,
@@ -197,6 +209,10 @@
   "Frase Fall Creek, WI": null,
   "Fultz Eagle River, AK": null,
   "Galesburg, IL": [
+    40.9475652,
+    -90.3712169
+  ],
+  "Galesburg, Illinois": [
     40.9475652,
     -90.3712169
   ],
@@ -317,6 +333,10 @@
     45.3246068,
     -118.0878695
   ],
+  "La Grande, Oregon": [
+    45.3246068,
+    -118.0878695
+  ],
   "Ladd Klinglesmith Morgan, UT": null,
   "Lake Havasu City, AZ": [
     34.4775296,
@@ -350,6 +370,10 @@
     36.0990393,
     -78.301106
   ],
+  "Madisonville, Texas": [
+    30.9498688,
+    -95.9127773
+  ],
   "Matt Hofeldt Middleton, WI": null,
   "Matt McCormack Kenosha, WI": null,
   "Mayfield, KY": [
@@ -363,6 +387,14 @@
   "Mcallen, Texas": [
     26.204114,
     -98.2300605
+  ],
+  "Mcminnville, Oregon": [
+    45.2100367,
+    -123.194463
+  ],
+  "Mesa, AZ": [
+    33.4151005,
+    -111.831455
   ],
   "Michael Scalera Spokane, WA": null,
   "Michael Schnell Spearman, TX": null,
@@ -406,6 +438,14 @@
   "Mount Vernon, WA": [
     48.4200462,
     -122.32642
+  ],
+  "Mount Vernon, Washington": [
+    48.4200462,
+    -122.32642
+  ],
+  "Mountain Home, Texas": [
+    30.1784056,
+    -99.3750239
   ],
   "Mulcaire Camp Verde, AZ": null,
   "Nampa, ID": [
@@ -451,6 +491,10 @@
   "Petaluma, CA": [
     38.2325829,
     -122.636465
+  ],
+  "Phoenix, AZ": [
+    33.4484367,
+    -112.074141
   ],
   "Pitt Meadows, BC": [
     49.2207623,
