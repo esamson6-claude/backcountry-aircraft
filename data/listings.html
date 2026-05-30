@@ -53,6 +53,12 @@
   .body { padding:12px 14px; display:flex; flex-direction:column; gap:6px; }
   .title { font-weight:600; font-size:15px; }
   .price { color:var(--accent); font-weight:600; font-size:16px; }
+  .drop { display:inline-block; padding:3px 8px; border-radius:4px;
+           background:#fdecea; color:#a40000; font-size:12px; font-weight:600;
+           margin-top:2px; }
+  @media (prefers-color-scheme: dark) {
+    .drop { background:#4a1f1f; color:#ff9999; }
+  }
   .specs { display:grid; grid-template-columns: auto 1fr; gap:2px 10px; font-size:12px;
             color:var(--muted); margin-top:2px; }
   .spec { display:contents; }
@@ -126,6 +132,12 @@
       </div>
     </div>
   </div>
+  <div style="margin-top:10px;">
+    <label style="font-size:12px; color:var(--muted); cursor:pointer;">
+      <input id="drops-only" type="checkbox" style="vertical-align:middle;">
+      Show only listings with recent price drops
+    </label>
+  </div>
   <div class="chips">
     <span class="chip-row-label">Make:</span>
     <button class="chip make-chip active" data-make="__all__">All</button>
@@ -147,6 +159,7 @@
   <div class="body">
     <div class="title">2026 American Champion 8-KCAB SUPER DECATHLON</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB SUPER DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc">Nampa, ID</span>
@@ -165,6 +178,7 @@
   <div class="body">
     <div class="title">2026 American Champion 8-KCAB SUPER DECATHLON</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB SUPER DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc">Nampa, ID</span>
@@ -183,6 +197,7 @@
   <div class="body">
     <div class="title">2026 American Champion 8-KCAB XTREME DECATHLON</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB XTREME DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -201,6 +216,7 @@
   <div class="body">
     <div class="title">2019 American Champion 7-GCBC HIGH COUNTRY EXPLORER</div>
     <div class="price">$269,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCBC HIGH COUNTRY EXPLORER</span></div></div>
     <div class="meta">
       <span class="loc">Willcox, AZ</span>
@@ -219,6 +235,7 @@
   <div class="body">
     <div class="title">2015 American Champion 8-GCBC SCOUT</div>
     <div class="price">$329,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-GCBC SCOUT</span></div><div class="spec"><span>Engine</span><span>Lycoming ENGINE</span></div></div>
     <div class="meta">
       <span class="loc">Overland Park, KS</span>
@@ -239,6 +256,7 @@ aeio-390-a1b6, mtv-a5-c-c tt composite pro... more info mike urb st petersburg ,
   <div class="body">
     <div class="title">2013 American Champion 8-KCAB XTREME DECATHLON</div>
     <div class="price">$222,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB XTREME DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc">St Petersburg, FL</span>
@@ -257,6 +275,7 @@ aeio-390-a1b6, mtv-a5-c-c tt composite pro... more info mike urb st petersburg ,
   <div class="body">
     <div class="title">2012 American Champion 7-GCBC HIGH COUNTRY EXPLORER</div>
     <div class="price">$249,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCBC HIGH COUNTRY EXPLORER</span></div></div>
     <div class="meta">
       <span class="loc">Kimball, NE</span>
@@ -275,6 +294,7 @@ aeio-390-a1b6, mtv-a5-c-c tt composite pro... more info mike urb st petersburg ,
   <div class="body">
     <div class="title">2010 American Champion 8-GCBC SCOUT</div>
     <div class="price">$259,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-GCBC SCOUT</span></div><div class="spec"><span>Airframe TT</span><span>530 hrs</span></div></div>
     <div class="meta">
       <span class="loc">Mayfield, KY</span>
@@ -296,6 +316,7 @@ aeio-390-a1b6, mtv-a5-c-c tt composite pro... more info mike urb st petersburg ,
   <div class="body">
     <div class="title">2008 American Champion 7-GCBC EXPLORER</div>
     <div class="price">$265,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCBC EXPLORER</span></div><div class="spec"><span>Airframe TT</span><span>453 Hours</span></div></div>
     <div class="meta">
       <span class="loc">Washington, PA</span>
@@ -314,6 +335,7 @@ aeio-390-a1b6, mtv-a5-c-c tt composite pro... more info mike urb st petersburg ,
   <div class="body">
     <div class="title">2006 American Champion 8-GCBC SCOUT</div>
     <div class="price">$224,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-GCBC SCOUT</span></div><div class="spec"><span>Airframe TT</span><span>169 HRS</span></div></div>
     <div class="meta">
       <span class="loc">Chillicothe, OH</span>
@@ -332,6 +354,7 @@ aeio-390-a1b6, mtv-a5-c-c tt composite pro... more info mike urb st petersburg ,
   <div class="body">
     <div class="title">2006 American Champion 8-KCAB SUPER DECATHLON</div>
     <div class="price">$218,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB SUPER DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -352,6 +375,7 @@ beautiful one-of-a-kind 7gcbc.  the aircraft was completely restored in 2023 aft
   <div class="body">
     <div class="title">2004 American Champion 7-GCBC EXPLORER</div>
     <div class="price">$159,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCBC EXPLORER</span></div></div>
     <div class="meta">
       <span class="loc">Rapid City, SD</span>
@@ -370,6 +394,7 @@ beautiful one-of-a-kind 7gcbc.  the aircraft was completely restored in 2023 aft
   <div class="body">
     <div class="title">2002 American Champion 7-GCAA CITABRIA</div>
     <div class="price">$154,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCAA CITABRIA</span></div><div class="spec"><span>Airframe TT</span><span>946 Hours</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -388,6 +413,7 @@ beautiful one-of-a-kind 7gcbc.  the aircraft was completely restored in 2023 aft
   <div class="body">
     <div class="title">2001 American Champion 8-GCBC SCOUT</div>
     <div class="price">$195,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-GCBC SCOUT</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -409,6 +435,7 @@ obrien a... more info obrien aviation port orange , fl usa (386) 314-xxxx (click
   <div class="body">
     <div class="title">2001 American Champion 7-GCBC EXPLORER</div>
     <div class="price">$145,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCBC EXPLORER</span></div></div>
     <div class="meta">
       <span class="loc">Port Orange, FL</span>
@@ -428,6 +455,7 @@ total time 1865, engine tim... more info tim mcwilliams houston , tx usa compare
   <div class="body">
     <div class="title">1992 American Champion 8-KCAB SUPER DECATHLON</div>
     <div class="price">$128,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB SUPER DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc">Houston, TX</span>
@@ -446,6 +474,7 @@ total time 1865, engine tim... more info tim mcwilliams houston , tx usa compare
   <div class="body">
     <div class="title">1992 American Champion 8-KCAB SUPER DECATHLON</div>
     <div class="price">$125,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB SUPER DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc">Andalusia, AL</span>
@@ -464,6 +493,7 @@ total time 1865, engine tim... more info tim mcwilliams houston , tx usa compare
   <div class="body">
     <div class="title">1991 American Champion 8-KCAB DECATHLON</div>
     <div class="price">$118,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB DECATHLON</span></div><div class="spec"><span>Engine</span><span>Lycoming</span></div><div class="spec"><span>Airframe TT</span><span>1,654 hours</span></div></div>
     <div class="meta">
       <span class="loc">Denver, CO</span>
@@ -482,6 +512,7 @@ total time 1865, engine tim... more info tim mcwilliams houston , tx usa compare
   <div class="body">
     <div class="title">1979 American Champion 8-KCAB DECATHLON</div>
     <div class="price">$95,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -500,6 +531,7 @@ total time 1865, engine tim... more info tim mcwilliams houston , tx usa compare
   <div class="body">
     <div class="title">1973 American Champion 8-KCAB DECATHLON</div>
     <div class="price">$135,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB DECATHLON</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -520,6 +552,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">1973 American Champion 8-KCAB DECATHLON</div>
     <div class="price">$99,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>8-KCAB DECATHLON</span></div><div class="spec"><span>Airframe TT</span><span>8505 TT</span></div></div>
     <div class="meta">
       <span class="loc">Albany, NY</span>
@@ -538,6 +571,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">1966 American Champion 7-GCBC</div>
     <div class="price">$105,750</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-GCBC</span></div><div class="spec"><span>Engine</span><span>Lycoming O-320-B2B</span></div><div class="spec"><span>Airframe TT</span><span>5 SMOH</span></div><div class="spec"><span>Engine TT</span><span>745.5 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Carrabassett Valley, ME</span>
@@ -556,6 +590,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">1965 American Champion 7-ECA AURORA</div>
     <div class="price">$49,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-ECA AURORA</span></div><div class="spec"><span>Airframe TT</span><span>2139 TT</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -574,6 +609,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">1945 American Champion 7-AC</div>
     <div class="price">$38,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>7-AC</span></div><div class="spec"><span>Airframe TT</span><span>2997 TTAF</span></div><div class="spec"><span>Engine TT</span><span>100 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Placerville, CA</span>
@@ -592,6 +628,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2026 Aviat Husky A-1C-200</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>1 TT</span></div><div class="spec"><span>Engine TT</span><span>1 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Morgan, Utah</span>
@@ -610,6 +647,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2026 Aviat Husky A-1C-200</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>0 TT</span></div><div class="spec"><span>Engine TT</span><span>0 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Belgrade, Montana</span>
@@ -628,6 +666,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2026 Aviat Husky HUSKY A-1C</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">Middleton, WI</span>
@@ -646,6 +685,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2026 Aviat Husky HUSKY A-1C</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">Morgan, UT</span>
@@ -664,6 +704,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky HUSKY A-1C</div>
     <div class="price">$598,820</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">Middleton, WI</span>
@@ -682,6 +723,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky A-1C-180</div>
     <div class="price">$525,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>35 TT</span></div><div class="spec"><span>Engine TT</span><span>35 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Dayton, Ohio</span>
@@ -700,6 +742,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky A-1C-200</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>40 TT</span></div><div class="spec"><span>Engine TT</span><span>0 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Plymouth, Massachusetts</span>
@@ -718,6 +761,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky A-1C-200</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>122 TT</span></div><div class="spec"><span>Engine TT</span><span>0 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Hugo, Oklahoma</span>
@@ -736,6 +780,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky A-1C-200</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>0 TT</span></div><div class="spec"><span>Engine TT</span><span>0 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Stayner, Ontario, Canada</span>
@@ -754,6 +799,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky A-1C-200</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>0 TT</span></div><div class="spec"><span>Engine TT</span><span>0 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Orlando, Florida</span>
@@ -772,6 +818,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2025 Aviat Husky HUSKY A-1C</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">Plymouth, MA</span>
@@ -790,6 +837,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2023 Aviat Husky A-1C-200</div>
     <div class="price">$470,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>100 TT</span></div><div class="spec"><span>Engine TT</span><span>100 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Mcallen, Texas</span>
@@ -808,6 +856,7 @@ this aircraft spent the bulk of i... more info steel aviation, inc. albany , ny 
   <div class="body">
     <div class="title">2023 Aviat Husky HUSKY A-1C</div>
     <div class="price">$470,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div><div class="spec"><span>Airframe TT</span><span>100 hours</span></div></div>
     <div class="meta">
       <span class="loc">McAllen, TX</span>
@@ -828,6 +877,7 @@ fresh annual - o... updated : wednesday, may 13, 2026 08:18 am location : dudley
   <div class="body">
     <div class="title">2021 Aviat Husky A-1C-180</div>
     <div class="price">$325,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>95 TT</span></div><div class="spec"><span>Engine TT</span><span>95 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Dudley, Missouri</span>
@@ -848,6 +898,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2021 Aviat Husky HUSKY A-1C</div>
     <div class="price">$319,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div><div class="spec"><span>Airframe TT</span><span>129 Hrs</span></div></div>
     <div class="meta">
       <span class="loc">Central Florida, FL</span>
@@ -867,6 +918,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2019 Aviat Husky Husky A-1C-180</div>
     <div class="price">$365,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>Husky A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>168 TT</span></div></div>
     <div class="meta">
       <span class="loc">C29</span>
@@ -885,6 +937,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2019 Aviat Husky A-1C-180</div>
     <div class="price">$365,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>168 TT</span></div><div class="spec"><span>Engine TT</span><span>65 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Middleton, Wisconsin</span>
@@ -903,6 +956,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2019 Aviat Husky HUSKY A-1C</div>
     <div class="price">$365,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">Middleton, WI</span>
@@ -921,6 +975,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2019 Aviat Husky A-1C-180</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>150 TT</span></div><div class="spec"><span>Engine TT</span><span>150 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Brookings, South Dakota</span>
@@ -939,6 +994,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2014 Aviat Husky HUSKY A-1C</div>
     <div class="price">$399,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">Richland, MI</span>
@@ -957,6 +1013,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2014 Aviat Husky A-1C-180</div>
     <div class="price">$309,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>315 TT</span></div><div class="spec"><span>Engine TT</span><span>315 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Mcallen, Texas</span>
@@ -975,6 +1032,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2013 Aviat Husky A-1C-200</div>
     <div class="price">$325,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>Lycoming ENGINE 200 hp</span></div><div class="spec"><span>Airframe TT</span><span>663 TT</span></div><div class="spec"><span>Engine TT</span><span>663 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">South Saint Paul, Minnesota</span>
@@ -993,6 +1051,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2013 Aviat Husky HUSKY A-1C</div>
     <div class="price">$325,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div></div>
     <div class="meta">
       <span class="loc">South St Paul, MN</span>
@@ -1011,6 +1070,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2013 Aviat Husky A-1C-180</div>
     <div class="price">$279,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>415 TT</span></div><div class="spec"><span>Engine TT</span><span>415 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Mcallen, Texas</span>
@@ -1029,6 +1089,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2013 Aviat Husky A-1C-180</div>
     <div class="price">$265,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>233 TT</span></div><div class="spec"><span>Engine TT</span><span>281.61 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Grand Junction, Colorado</span>
@@ -1047,6 +1108,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2013 Aviat Husky HUSKY A-1C</div>
     <div class="price">$255,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1C</span></div><div class="spec"><span>Airframe TT</span><span>468 TT</span></div><div class="spec"><span>Engine TT</span><span>468 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">KBMC, UT</span>
@@ -1065,6 +1127,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2012 Aviat Husky A-1C-200</div>
     <div class="price">$329,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-200</span></div><div class="spec"><span>Engine</span><span>200 hp</span></div><div class="spec"><span>Airframe TT</span><span>410 TT</span></div><div class="spec"><span>Engine TT</span><span>410 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Tupelo, Mississippi</span>
@@ -1083,6 +1146,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2011 Aviat Husky A-1C-180</div>
     <div class="price">$239,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>180 TT</span></div><div class="spec"><span>Engine TT</span><span>180 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Mcallen, Texas</span>
@@ -1102,6 +1166,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2007 Aviat Husky Husky A-1C-180</div>
     <div class="price">$245,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>Husky A-1C-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -1120,6 +1185,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2007 Aviat Husky A-1B</div>
     <div class="price">$245,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1B</span></div><div class="spec"><span>Airframe TT</span><span>294 TT</span></div><div class="spec"><span>Engine TT</span><span>294 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Middleton, Wisconsin</span>
@@ -1138,6 +1204,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2007 Aviat Husky HUSKY A-1B</div>
     <div class="price">$245,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div></div>
     <div class="meta">
       <span class="loc">Middleton, WI</span>
@@ -1156,6 +1223,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2007 Aviat Husky A-1B</div>
     <div class="price">$199,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1B</span></div><div class="spec"><span>Airframe TT</span><span>475 TT</span></div><div class="spec"><span>Engine TT</span><span>475 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Mcallen, Texas</span>
@@ -1174,6 +1242,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2007 Aviat Husky HUSKY A-1B</div>
     <div class="price">$199,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div></div>
     <div class="meta">
       <span class="loc">McAllen, TX</span>
@@ -1192,6 +1261,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2006 Aviat Husky HUSKY A-1B</div>
     <div class="price">$245,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div></div>
     <div class="meta">
       <span class="loc">Anchorage, AK</span>
@@ -1210,6 +1280,7 @@ very clean, exceptionally low-time 2021 aviat husky with just 129 hours total ti
   <div class="body">
     <div class="title">2006 Aviat Husky HUSKY A-1B</div>
     <div class="price">$189,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div></div>
     <div class="meta">
       <span class="loc">Winston-Salem, NC</span>
@@ -1234,6 +1305,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2005 Aviat Husky HUSKY A-1B</div>
     <div class="price">$187,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div><div class="spec"><span>Engine</span><span>Lycoming 0-360</span></div><div class="spec"><span>Airframe TT</span><span>485 hours</span></div></div>
     <div class="meta">
       <span class="loc">Lenoir, NC</span>
@@ -1252,6 +1324,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2005 Aviat Husky HUSKY A-1B</div>
     <div class="price">$181,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div><div class="spec"><span>Engine TT</span><span>757 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Spearman, TX</span>
@@ -1271,6 +1344,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2005 Aviat Husky Husky</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>Husky</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -1289,6 +1363,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2002 Aviat Husky Husky</div>
     <div class="price">$155,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>Husky</span></div></div>
     <div class="meta">
       <span class="loc">78058 Mountain Home Texas</span>
@@ -1307,6 +1382,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2000 Aviat Husky HUSKY A-1B</div>
     <div class="price">$195,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div><div class="spec"><span>Airframe TT</span><span>547 TT</span></div></div>
     <div class="meta">
       <span class="loc">Kerrville, TX</span>
@@ -1325,6 +1401,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2000 Aviat Husky A-1B</div>
     <div class="price">$134,553</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1B</span></div><div class="spec"><span>Engine</span><span>Lycoming O-360-A1P</span></div><div class="spec"><span>Airframe TT</span><span>420 TT</span></div><div class="spec"><span>Engine TT</span><span>420 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">London, London, United Kingdom</span>
@@ -1343,6 +1420,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">1999 Aviat Husky A-1B</div>
     <div class="price">$179,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A-1B</span></div><div class="spec"><span>Airframe TT</span><span>1,675 TT</span></div><div class="spec"><span>Engine TT</span><span>1,675 SNEW</span></div></div>
     <div class="meta">
       <span class="loc">Mcallen, Texas</span>
@@ -1361,6 +1439,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">1999 Aviat Husky HUSKY A-1B</div>
     <div class="price">$179,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HUSKY A-1B</span></div></div>
     <div class="meta">
       <span class="loc">McAllen, TX</span>
@@ -1379,6 +1458,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2025 Bearhawk COMPANION</div>
     <div class="price">$219,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>COMPANION</span></div><div class="spec"><span>Engine</span><span>Lycoming O-360</span></div></div>
     <div class="meta">
       <span class="loc">Heber City, UT</span>
@@ -1397,6 +1477,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2017 Bearhawk PATROL</div>
     <div class="price">$200,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>PATROL</span></div><div class="spec"><span>Engine</span><span>Lycoming O-360</span></div><div class="spec"><span>Airframe TT</span><span>360 TT</span></div></div>
     <div class="meta">
       <span class="loc">Newellton, LA</span>
@@ -1415,6 +1496,7 @@ ga... more info lenoir , nc usa compare save last update: 05/09/2026 lycoming 0-
   <div class="body">
     <div class="title">2008 BushCaddy R80</div>
     <div class="price">$45,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>R80</span></div><div class="spec"><span>Engine</span><span>Rotax</span></div></div>
     <div class="meta">
       <span class="loc">Petaluma, CA</span>
@@ -1435,6 +1517,7 @@ the redoubtable rick, &quot;isun&quot; bol... more info hugo lefebvre ottawa , o
   <div class="body">
     <div class="title">2001 BushCaddy R80</div>
     <div class="price">$73,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>R80</span></div><div class="spec"><span>Airframe TT</span><span>100 hour</span></div></div>
     <div class="meta">
       <span class="loc">Hugo Lefebvre Ottawa, ON</span>
@@ -1453,6 +1536,7 @@ the redoubtable rick, &quot;isun&quot; bol... more info hugo lefebvre ottawa , o
   <div class="body">
     <div class="title">2021 Cessna 180 180</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div></div>
     <div class="meta">
       <span class="loc">Pittstown, NJ</span>
@@ -1472,6 +1556,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1981 Cessna 180 180K</div>
     <div class="price">$249,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180K</span></div></div>
     <div class="meta">
       <span class="loc">La Grande, OR</span>
@@ -1490,6 +1575,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1976 Cessna 180 180</div>
     <div class="price">$169,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div></div>
     <div class="meta">
       <span class="loc">Polk County, FL</span>
@@ -1508,6 +1594,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1975 Cessna 180 180J</div>
     <div class="price">$265,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180J</span></div></div>
     <div class="meta">
       <span class="loc">South St Paul, MN</span>
@@ -1526,6 +1613,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1974 Cessna 180 180 SKYWAGON</div>
     <div class="price">$325,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180 SKYWAGON</span></div></div>
     <div class="meta">
       <span class="loc">Kirkland, WA</span>
@@ -1544,6 +1632,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1973 Cessna 180 180J</div>
     <div class="price">$229,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180J</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -1562,6 +1651,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1968 Cessna 180 180H</div>
     <div class="price">$100,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180H</span></div></div>
     <div class="meta">
       <span class="loc">Anchorage, AK</span>
@@ -1580,6 +1670,7 @@ financing and delivery availa... more info hiller aviation consulting la grande 
   <div class="body">
     <div class="title">1967 Cessna 180 180 SKYWAGON</div>
     <div class="price">$250,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180 SKYWAGON</span></div><div class="spec"><span>Airframe TT</span><span>5577 TT</span></div><div class="spec"><span>Engine TT</span><span>51 SMOH</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -1600,6 +1691,7 @@ selling our commercially operated &amp; maintaine... more info fort nelson , bc 
   <div class="body">
     <div class="title">1966 Cessna 180 180H</div>
     <div class="price">$145,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180H</span></div><div class="spec"><span>Airframe TT</span><span>1343 SMOH</span></div><div class="spec"><span>Engine TT</span><span>1343 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Info Fort Nelson, BC</span>
@@ -1618,6 +1710,7 @@ selling our commercially operated &amp; maintaine... more info fort nelson , bc 
   <div class="body">
     <div class="title">1966 Cessna 180 180H</div>
     <div class="price">$136,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180H</span></div><div class="spec"><span>Engine</span><span>Continental 047R</span></div></div>
     <div class="meta">
       <span class="loc">Ambler, PA</span>
@@ -1636,6 +1729,7 @@ selling our commercially operated &amp; maintaine... more info fort nelson , bc 
   <div class="body">
     <div class="title">1964 Cessna 180 180G</div>
     <div class="price">$255,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180G</span></div></div>
     <div class="meta">
       <span class="loc">Live Oak, FL</span>
@@ -1655,6 +1749,7 @@ interior refurbished 2021, paint 8/10... more info timothy ross rivers , mb can 
   <div class="body">
     <div class="title">1962 Cessna 180 180F</div>
     <div class="price">$114,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180F</span></div><div class="spec"><span>Airframe TT</span><span>2702 hrs</span></div></div>
     <div class="meta">
       <span class="loc">Timothy Ross Rivers, MB</span>
@@ -1673,6 +1768,7 @@ interior refurbished 2021, paint 8/10... more info timothy ross rivers , mb can 
   <div class="body">
     <div class="title">1960 Cessna 180 180C</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180C</span></div></div>
     <div class="meta">
       <span class="loc">Nampa, ID</span>
@@ -1696,6 +1792,7 @@ fresh oil sam... more info joe dory aviation llc caldwell , id usa (208) 484-xxx
   <div class="body">
     <div class="title">1958 Cessna 180 180A</div>
     <div class="price">$249,999</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180A</span></div></div>
     <div class="meta">
       <span class="loc">Caldwell, ID</span>
@@ -1714,6 +1811,7 @@ fresh oil sam... more info joe dory aviation llc caldwell , id usa (208) 484-xxx
   <div class="body">
     <div class="title">1958 Cessna 180 180</div>
     <div class="price">$111,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div></div>
     <div class="meta">
       <span class="loc">Winterset, IA</span>
@@ -1733,6 +1831,7 @@ don&#x27;t miss out on the opportunity to own this gorgeous well-maintained, ful
   <div class="body">
     <div class="title">1957 Cessna 180 180 SKYWAGON</div>
     <div class="price">$225,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180 SKYWAGON</span></div></div>
     <div class="meta">
       <span class="loc">Beaver, WV</span>
@@ -1751,6 +1850,7 @@ don&#x27;t miss out on the opportunity to own this gorgeous well-maintained, ful
   <div class="body">
     <div class="title">1956 Cessna 180 180</div>
     <div class="price">$189,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div></div>
     <div class="meta">
       <span class="loc">Kenosha, WI</span>
@@ -1773,6 +1873,7 @@ $120,000++ sp... more info joe dory aviation llc caldwell , id usa (208) 484-xxx
   <div class="body">
     <div class="title">1956 Cessna 180 180</div>
     <div class="price">$176,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div><div class="spec"><span>Airframe TT</span><span>7200 TT</span></div><div class="spec"><span>Engine TT</span><span>570 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Caldwell, ID</span>
@@ -1791,6 +1892,7 @@ $120,000++ sp... more info joe dory aviation llc caldwell , id usa (208) 484-xxx
   <div class="body">
     <div class="title">1956 Cessna 180 180</div>
     <div class="price">$159,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div><div class="spec"><span>Airframe TT</span><span>8 hours</span></div></div>
     <div class="meta">
       <span class="loc">Coral Springs, FL</span>
@@ -1813,6 +1915,7 @@ prop - mccauley 88&quot;,  hrs... more info bruce roberts watsonville , ca usa c
   <div class="body">
     <div class="title">1956 Cessna 180 180</div>
     <div class="price">$129,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div><div class="spec"><span>Engine</span><span>Continental 0-470-K</span></div></div>
     <div class="meta">
       <span class="loc">Watsonville, CA</span>
@@ -1837,6 +1940,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1955 Cessna 180 180</div>
     <div class="price">$175,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div><div class="spec"><span>Airframe TT</span><span>240 smoh</span></div><div class="spec"><span>Engine TT</span><span>240 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Camp Verde, AZ</span>
@@ -1855,6 +1959,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1955 Cessna 180 180</div>
     <div class="price">$175,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div><div class="spec"><span>Engine TT</span><span>3275, SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Spokane, WA</span>
@@ -1873,6 +1978,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1954 Cessna 180 180 SKYWAGON</div>
     <div class="price">$314,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180 SKYWAGON</span></div><div class="spec"><span>Engine</span><span>Continental O</span></div></div>
     <div class="meta">
       <span class="loc">Louisburg, NC</span>
@@ -1891,6 +1997,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1954 Cessna 180 180</div>
     <div class="price">$245,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>180</span></div></div>
     <div class="meta">
       <span class="loc">Scottsdale, AZ</span>
@@ -1909,6 +2016,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1980 Cessna 185 A185F</div>
     <div class="price">$375,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div><div class="spec"><span>Airframe TT</span><span>204 SMOH</span></div><div class="spec"><span>Engine TT</span><span>204 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Baton Rouge, LA</span>
@@ -1927,6 +2035,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1979 Cessna 185 A185F</div>
     <div class="price">$285,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div></div>
     <div class="meta">
       <span class="loc">Aviation Fort Smith, NT</span>
@@ -1945,6 +2054,7 @@ vortex genera... more info tristen mulcaire camp verde , az usa compare save las
   <div class="body">
     <div class="title">1979 Cessna 185 A185F</div>
     <div class="price">$200,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div><div class="spec"><span>Airframe TT</span><span>4189 TT</span></div></div>
     <div class="meta">
       <span class="loc">Aero Services Sidney, BC</span>
@@ -1968,6 +2078,7 @@ new spinner... more info jason williams cypress , tx usa compare save last updat
   <div class="body">
     <div class="title">1978 Cessna 185 A185F</div>
     <div class="price">$385,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div></div>
     <div class="meta">
       <span class="loc">Cypress, TX</span>
@@ -1988,6 +2099,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1978 Cessna 185 185F</div>
     <div class="price">$349,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185F</span></div></div>
     <div class="meta">
       <span class="loc">Salida, CO</span>
@@ -2006,6 +2118,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1978 Cessna 185 185F</div>
     <div class="price">$230,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185F</span></div><div class="spec"><span>Airframe TT</span><span>3737 TT</span></div></div>
     <div class="meta">
       <span class="loc">Wickenburg, AZ</span>
@@ -2025,6 +2138,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1977 Cessna 185 185F</div>
     <div class="price">$340,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185F</span></div></div>
     <div class="meta">
       <span class="loc">Kenmore, WA</span>
@@ -2043,6 +2157,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1976 Cessna 185 A185F</div>
     <div class="price">$350,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div><div class="spec"><span>Airframe TT</span><span>1623 TT</span></div></div>
     <div class="meta">
       <span class="loc">Plymouth, MA</span>
@@ -2061,6 +2176,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1976 Cessna 185 185</div>
     <div class="price">$268,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185</span></div><div class="spec"><span>Engine</span><span>Continental IO-550-D</span></div><div class="spec"><span>Airframe TT</span><span>4825 Hrs</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -2079,6 +2195,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1975 Cessna 185 A185F</div>
     <div class="price">$350,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div><div class="spec"><span>Airframe TT</span><span>2114 TT</span></div></div>
     <div class="meta">
       <span class="loc">Aero Services Sidney, BC</span>
@@ -2097,6 +2214,7 @@ n8400q is a clean, straight, no-excuses 185f that has been thoughtfully upgr... 
   <div class="body">
     <div class="title">1975 Cessna 185 A185F</div>
     <div class="price">$219,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div></div>
     <div class="meta">
       <span class="loc">Mount Vernon, WA</span>
@@ -2117,6 +2235,7 @@ well-equipped and proven cessna a185f configured for alaska operations. this a..
   <div class="body">
     <div class="title">1974 Cessna 185 185F</div>
     <div class="price">$259,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185F</span></div></div>
     <div class="meta">
       <span class="loc">Anchorage, AK</span>
@@ -2144,6 +2263,7 @@ spin on o... more info airplane mode sales &amp; consulting - jared segebartt vi
   <div class="body">
     <div class="title">1974 Cessna 185 185E</div>
     <div class="price">$195,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185E</span></div><div class="spec"><span>Airframe TT</span><span>185 TT</span></div><div class="spec"><span>Engine TT</span><span>4400 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Viola, ID</span>
@@ -2164,6 +2284,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1973 Cessna 185 185F</div>
     <div class="price">$405,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185F</span></div></div>
     <div class="meta">
       <span class="loc">Watertown, WI</span>
@@ -2182,6 +2303,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1973 Cessna 185 185</div>
     <div class="price">$325,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185</span></div><div class="spec"><span>Airframe TT</span><span>3527 Hrs</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Hawkesbury, ON</span>
@@ -2200,6 +2322,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1973 Cessna 185 185</div>
     <div class="price">$299,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Hawkesbury, ON</span>
@@ -2218,6 +2341,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1973 Cessna 185 A185F</div>
     <div class="price">$245,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div><div class="spec"><span>Airframe TT</span><span>970 SMOH</span></div><div class="spec"><span>Engine TT</span><span>3500 TTSN</span></div></div>
     <div class="meta">
       <span class="loc">Pampa, TX</span>
@@ -2236,6 +2360,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1973 Cessna 185 185F</div>
     <div class="price">$214,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185F</span></div></div>
     <div class="meta">
       <span class="loc">Louisburg, NC</span>
@@ -2254,6 +2379,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1973 Cessna 185 A185F</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185F</span></div></div>
     <div class="meta">
       <span class="loc">Punta Gorda, FL</span>
@@ -2272,6 +2398,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1971 Cessna 185 185E</div>
     <div class="price">$325,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185E</span></div></div>
     <div class="meta">
       <span class="loc">Shippensburg, PA</span>
@@ -2290,6 +2417,7 @@ if you have been searching for the nicest 185 on the market, n192j... more info 
   <div class="body">
     <div class="title">1970 Cessna 185 A185E SKYWAGON</div>
     <div class="price">$265,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>A185E SKYWAGON</span></div></div>
     <div class="meta">
       <span class="loc">Minden, NV</span>
@@ -2310,6 +2438,7 @@ n50au carries an n-number that recognizes its history: it was a prospecting airp
   <div class="body">
     <div class="title">1968 Cessna 185 185E</div>
     <div class="price">$275,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185E</span></div></div>
     <div class="meta">
       <span class="loc">Corvallis, OR</span>
@@ -2330,6 +2459,7 @@ overview: exceptionally capable 1962 cessna 185a &quot;light&quot; skywa... more
   <div class="body">
     <div class="title">1962 Cessna 185 185A</div>
     <div class="price">$275,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185A</span></div><div class="spec"><span>Airframe TT</span><span>249 SMOH</span></div><div class="spec"><span>Engine TT</span><span>249 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Little Rock, AR</span>
@@ -2350,6 +2480,7 @@ al... more info james sells peachtree cty , ga usa compare save last update: 05/
   <div class="body">
     <div class="title">1961 Cessna 185 185</div>
     <div class="price">$265,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>185</span></div></div>
     <div class="meta">
       <span class="loc">Peachtree Cty, GA</span>
@@ -2368,6 +2499,7 @@ al... more info james sells peachtree cty , ga usa compare save last update: 05/
   <div class="body">
     <div class="title">2023 CubCrafters CC393I-215 XCUB</div>
     <div class="price">$590,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC393I-215 XCUB</span></div><div class="spec"><span>Engine</span><span>215 hp</span></div><div class="spec"><span>Airframe TT</span><span>60 hrs</span></div></div>
     <div class="meta">
       <span class="loc">Steve Charlesworth Vancouver, BC</span>
@@ -2389,6 +2521,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2023 CubCrafters CC19-215 XCUB</div>
     <div class="price">$490,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC19-215 XCUB</span></div><div class="spec"><span>Engine</span><span>215 hp</span></div><div class="spec"><span>Airframe TT</span><span>48 Hours</span></div></div>
     <div class="meta">
       <span class="loc">Caldwell, ID</span>
@@ -2407,6 +2540,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2023 CubCrafters CARBON CUB FX-3</div>
     <div class="price">$399,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX-3</span></div></div>
     <div class="meta">
       <span class="loc">Delta, CO</span>
@@ -2425,6 +2559,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2023 CubCrafters CARBON CUB FX-3</div>
     <div class="price">$379,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX-3</span></div></div>
     <div class="meta">
       <span class="loc">Kerrville, TX</span>
@@ -2443,6 +2578,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2022 CubCrafters CC393I-215 XCUB</div>
     <div class="price">$469,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC393I-215 XCUB</span></div><div class="spec"><span>Engine</span><span>215 hp</span></div></div>
     <div class="meta">
       <span class="loc">Falbrook, CA</span>
@@ -2461,6 +2597,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2022 CubCrafters NXCUB</div>
     <div class="price">$460,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>NXCUB</span></div></div>
     <div class="meta">
       <span class="loc">Santa Maria, CA</span>
@@ -2481,6 +2618,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2022 CubCrafters CARBON CUB FX3</div>
     <div class="price">$360,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX3</span></div></div>
     <div class="meta">
       <span class="loc">St Petersburg, FL</span>
@@ -2499,6 +2637,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2021 CubCrafters CARBON CUB FX-3</div>
     <div class="price">$299,900</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX-3</span></div><div class="spec"><span>Airframe TT</span><span>295 TT</span></div></div>
     <div class="meta">
       <span class="loc">Scottsdale, AZ</span>
@@ -2517,6 +2656,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2020 CubCrafters CC393I-215 XCUB</div>
     <div class="price">$399,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC393I-215 XCUB</span></div><div class="spec"><span>Engine</span><span>215 hp</span></div></div>
     <div class="meta">
       <span class="loc">Santa Maria, CA</span>
@@ -2535,6 +2675,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2020 CubCrafters CARBON CUB FX-3</div>
     <div class="price">$299,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX-3</span></div><div class="spec"><span>Engine</span><span>Lycoming</span></div></div>
     <div class="meta">
       <span class="loc">Blaine, MN</span>
@@ -2553,6 +2694,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2019 CubCrafters CARBON CUB FX-3</div>
     <div class="price">$359,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX-3</span></div></div>
     <div class="meta">
       <span class="loc">Fort Collins, CO</span>
@@ -2571,6 +2713,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2019 CubCrafters CARBON CUB EX2</div>
     <div class="price">$260,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB EX2</span></div><div class="spec"><span>Airframe TT</span><span>335 hours</span></div></div>
     <div class="meta">
       <span class="loc">Morgan, UT</span>
@@ -2589,6 +2732,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2019 CubCrafters CC11-160 CARBON CUB SS</div>
     <div class="price">$211,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC11-160 CARBON CUB SS</span></div><div class="spec"><span>Engine</span><span>160 hp</span></div></div>
     <div class="meta">
       <span class="loc">Santa Maria, CA</span>
@@ -2607,6 +2751,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2018 CubCrafters CC19-180 XCUB</div>
     <div class="price">$339,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC19-180 XCUB</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>170 hours</span></div></div>
     <div class="meta">
       <span class="loc">Savannah, GA</span>
@@ -2625,6 +2770,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2018 CubCrafters CARBON CUB FX3</div>
     <div class="price">$335,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX3</span></div></div>
     <div class="meta">
       <span class="loc">Santa Maria, CA</span>
@@ -2643,6 +2789,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2017 CubCrafters CARBON CUB FX-2</div>
     <div class="price">$279,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB FX-2</span></div></div>
     <div class="meta">
       <span class="loc">Carefree, AZ</span>
@@ -2661,6 +2808,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2017 CubCrafters CARBON CUB EX-2</div>
     <div class="price">$260,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB EX-2</span></div><div class="spec"><span>Airframe TT</span><span>390 hours</span></div></div>
     <div class="meta">
       <span class="loc">Salt Lake City, UT</span>
@@ -2679,6 +2827,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2016 CubCrafters CC11-160 CARBON CUB SS</div>
     <div class="price">$320,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC11-160 CARBON CUB SS</span></div><div class="spec"><span>Engine</span><span>160 hp</span></div></div>
     <div class="meta">
       <span class="loc">Hayden, ID</span>
@@ -2697,6 +2846,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2015 CubCrafters CC11-160 CARBON CUB SS</div>
     <div class="price">$295,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC11-160 CARBON CUB SS</span></div><div class="spec"><span>Engine</span><span>160 hp</span></div></div>
     <div class="meta">
       <span class="loc">Windermere, FL</span>
@@ -2715,6 +2865,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2015 CubCrafters CARBON CUB</div>
     <div class="price">$289,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CARBON CUB</span></div></div>
     <div class="meta">
       <span class="loc">Minooka, IL</span>
@@ -2733,6 +2884,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2014 CubCrafters CC11-160 CARBON CUB SS</div>
     <div class="price">$235,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC11-160 CARBON CUB SS</span></div><div class="spec"><span>Engine</span><span>160 hp</span></div></div>
     <div class="meta">
       <span class="loc">San Luis Obispo, CA</span>
@@ -2751,6 +2903,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2013 CubCrafters CC18-180 TOP CUB</div>
     <div class="price">$200,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC18-180 TOP CUB</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc">Hamilton, MT</span>
@@ -2769,6 +2922,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2011 CubCrafters CC11-160 CARBON CUB SS</div>
     <div class="price">$219,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC11-160 CARBON CUB SS</span></div><div class="spec"><span>Engine</span><span>160 hp</span></div></div>
     <div class="meta">
       <span class="loc">North Las Vegas, NV</span>
@@ -2787,6 +2941,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2010 CubCrafters CC11-160 CARBON CUB SS</div>
     <div class="price">$210,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>CC11-160 CARBON CUB SS</span></div><div class="spec"><span>Engine</span><span>160 hp</span></div></div>
     <div class="meta">
       <span class="loc">Sanford, ME</span>
@@ -2805,6 +2960,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">2026 DHC-2 Beaver DHC-2</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2</span></div></div>
     <div class="meta">
       <span class="loc">Calgary, AB</span>
@@ -2823,6 +2979,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1967 DHC-2 Beaver DHC-2 MK III</div>
     <div class="price">$1,595,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK III</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Hawkesbury, BC</span>
@@ -2841,6 +2998,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1965 DHC-2 Beaver DHC-2</div>
     <div class="price">$495,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2</span></div><div class="spec"><span>Airframe TT</span><span>313 hours</span></div></div>
     <div class="meta">
       <span class="loc">International Falls, MN</span>
@@ -2859,6 +3017,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1958 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$1,225,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Buffalo, NY</span>
@@ -2877,6 +3036,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1958 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$695,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Kenmore, WA</span>
@@ -2895,6 +3055,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1957 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$475,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Aero Services Sidney, BC</span>
@@ -2913,6 +3074,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1957 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">South St Paul, MN</span>
@@ -2931,6 +3093,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1956 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$729,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Hawkesbury, ON</span>
@@ -2949,6 +3112,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1956 DHC-2 Beaver DHC-2</div>
     <div class="price">$495,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2</span></div></div>
     <div class="meta">
       <span class="loc">FM, KT</span>
@@ -2967,6 +3131,7 @@ infrared camera also... more info joe dory aviation llc caldwell , id usa (208) 
   <div class="body">
     <div class="title">1954 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$1,125,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Eau Claire, WI</span>
@@ -2986,6 +3151,7 @@ gross weight: 6100 lbs, useful l... more info canadian aircraft sales hawkesbury
   <div class="body">
     <div class="title">1954 DHC-2 Beaver DHC-2T</div>
     <div class="price">$1,095,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2T</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales HAWKESBURY, ON</span>
@@ -3004,6 +3170,7 @@ gross weight: 6100 lbs, useful l... more info canadian aircraft sales hawkesbury
   <div class="body">
     <div class="title">1954 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$695,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Aero Services Sidney, BC</span>
@@ -3022,6 +3189,7 @@ gross weight: 6100 lbs, useful l... more info canadian aircraft sales hawkesbury
   <div class="body">
     <div class="title">1953 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$795,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Hawkesbury, BC</span>
@@ -3042,6 +3210,7 @@ price is now 890,000 usd.  you will have a hard time finding a nicer beaver in t
   <div class="body">
     <div class="title">1952 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$890,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Chilliwack, BC</span>
@@ -3060,6 +3229,7 @@ price is now 890,000 usd.  you will have a hard time finding a nicer beaver in t
   <div class="body">
     <div class="title">1952 DHC-2 Beaver DHC-2</div>
     <div class="price">$425,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2</span></div><div class="spec"><span>Airframe TT</span><span>1172 SMOH</span></div><div class="spec"><span>Engine TT</span><span>22918, SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Aircraft Sales Hawkesbury, ON</span>
@@ -3078,6 +3248,7 @@ price is now 890,000 usd.  you will have a hard time finding a nicer beaver in t
   <div class="body">
     <div class="title">1952 DHC-2 Beaver DHC-2T</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2T</span></div></div>
     <div class="meta">
       <span class="loc">Fairley North Bay, ON</span>
@@ -3096,6 +3267,7 @@ price is now 890,000 usd.  you will have a hard time finding a nicer beaver in t
   <div class="body">
     <div class="title">1951 DHC-2 Beaver DHC-2 MK I</div>
     <div class="price">$300,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>DHC-2 MK I</span></div></div>
     <div class="meta">
       <span class="loc">Aero Services Sidney, BC</span>
@@ -3114,6 +3286,7 @@ price is now 890,000 usd.  you will have a hard time finding a nicer beaver in t
   <div class="body">
     <div class="title">1984 Helio Courier H-800</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>H-800</span></div><div class="spec"><span>Airframe TT</span><span>8004 TT</span></div></div>
     <div class="meta">
       <span class="loc">Pullman, WA</span>
@@ -3133,6 +3306,7 @@ serial number 99! n10cj is a fascinating aircraft with loads of history. aftt of
   <div class="body">
     <div class="title">1958 Helio Courier H-391B</div>
     <div class="price">$135,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>H-391B</span></div><div class="spec"><span>Engine</span><span>391 hp</span></div></div>
     <div class="meta">
       <span class="loc">Fairbanks, AK</span>
@@ -3151,6 +3325,7 @@ serial number 99! n10cj is a fascinating aircraft with loads of history. aftt of
   <div class="body">
     <div class="title">2023 Just Aircraft HIGHLANDER</div>
     <div class="price">$159,555</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>HIGHLANDER</span></div></div>
     <div class="meta">
       <span class="loc">Central Florida, FL</span>
@@ -3174,6 +3349,7 @@ oratex fabric
   <div class="body">
     <div class="title">2018 Just Aircraft SUPERSTOL</div>
     <div class="price">$185,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>SUPERSTOL</span></div><div class="spec"><span>Engine</span><span>Lycoming 0320-E2A</span></div><div class="spec"><span>Airframe TT</span><span>70 Hours</span></div></div>
     <div class="meta">
       <span class="loc">Hailey, ID</span>
@@ -3192,6 +3368,7 @@ oratex fabric
   <div class="body">
     <div class="title">2015 Just Aircraft JA-30 SUPERSTOL</div>
     <div class="price">$235,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>JA-30 SUPERSTOL</span></div><div class="spec"><span>Engine</span><span>Rotax</span></div></div>
     <div class="meta">
       <span class="loc">Leavenworth, WA</span>
@@ -3212,6 +3389,7 @@ dialed-in backcountry machine with ultra-low time and performance upgrades. this
   <div class="body">
     <div class="title">2015 Just Aircraft JA-30 SUPERSTOL</div>
     <div class="price">$139,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>JA-30 SUPERSTOL</span></div></div>
     <div class="meta">
       <span class="loc">Viola, ID</span>
@@ -3230,6 +3408,7 @@ dialed-in backcountry machine with ultra-low time and performance upgrades. this
   <div class="body">
     <div class="title">2017 Kitfox SERIES 7</div>
     <div class="price">$119,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>SERIES 7</span></div></div>
     <div class="meta">
       <span class="loc">Vancouver, WA</span>
@@ -3248,6 +3427,7 @@ dialed-in backcountry machine with ultra-low time and performance upgrades. this
   <div class="body">
     <div class="title">2012 Kitfox SUPER SPORT</div>
     <div class="price">$119,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>SUPER SPORT</span></div></div>
     <div class="meta">
       <span class="loc">Grant, NE</span>
@@ -3266,6 +3446,7 @@ dialed-in backcountry machine with ultra-low time and performance upgrades. this
   <div class="body">
     <div class="title">2009 Kitfox SUPER SPORT</div>
     <div class="price">$180,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>SUPER SPORT</span></div></div>
     <div class="meta">
       <span class="loc">Everett, WA</span>
@@ -3293,6 +3474,7 @@ year model:  2000
   <div class="body">
     <div class="title">2000 Kitfox SERIES 6</div>
     <div class="price">$125,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>SERIES 6</span></div></div>
     <div class="meta">
       <span class="loc">Quitman, AR</span>
@@ -3311,6 +3493,7 @@ year model:  2000
   <div class="body">
     <div class="title">2000 Kitfox SERIES 5</div>
     <div class="price">$95,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>SERIES 5</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3329,6 +3512,7 @@ year model:  2000
   <div class="body">
     <div class="title">2020 Maule NOT SPECIFIED</div>
     <div class="price">Price n/a</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>NOT SPECIFIED</span></div><div class="spec"><span>Engine</span><span>Continental US</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3347,6 +3531,7 @@ year model:  2000
   <div class="body">
     <div class="title">2008 Maule MXT-7-180</div>
     <div class="price">$219,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MXT-7-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>1009 hr</span></div></div>
     <div class="meta">
       <span class="loc">Jackson, MS</span>
@@ -3365,6 +3550,7 @@ year model:  2000
   <div class="body">
     <div class="title">2007 Maule M-7-260</div>
     <div class="price">$262,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-260</span></div><div class="spec"><span>Engine</span><span>260 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3383,6 +3569,7 @@ year model:  2000
   <div class="body">
     <div class="title">2004 Maule M-7-260C</div>
     <div class="price">$330,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-260C</span></div><div class="spec"><span>Engine</span><span>260 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3401,6 +3588,7 @@ year model:  2000
   <div class="body">
     <div class="title">2004 Maule M-7-235C</div>
     <div class="price">$225,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-235C</span></div><div class="spec"><span>Engine</span><span>235 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3421,6 +3609,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">2004 Maule MXT7-180A</div>
     <div class="price">$121,800</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MXT7-180A</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc">Colorado</span>
@@ -3439,6 +3628,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">2002 Maule MT-7-260</div>
     <div class="price">$230,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MT-7-260</span></div><div class="spec"><span>Engine</span><span>260 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3457,6 +3647,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">2002 Maule M-7-235B</div>
     <div class="price">$185,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-235B</span></div><div class="spec"><span>Engine</span><span>235 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3475,6 +3666,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">2001 Maule M-7-260C</div>
     <div class="price">$186,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-260C</span></div><div class="spec"><span>Engine</span><span>260 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3493,6 +3685,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">2000 Maule M-7-235C</div>
     <div class="price">$221,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-235C</span></div><div class="spec"><span>Engine</span><span>235 hp</span></div><div class="spec"><span>Airframe TT</span><span>730 hrs</span></div></div>
     <div class="meta">
       <span class="loc">Brownsville, TX</span>
@@ -3511,6 +3704,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">2000 Maule MXT-7-180B</div>
     <div class="price">$172,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MXT-7-180B</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>212 hours</span></div></div>
     <div class="meta">
       <span class="loc">Nashua, NH</span>
@@ -3529,6 +3723,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">1999 Maule M-7-235C</div>
     <div class="price">$249,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-235C</span></div><div class="spec"><span>Engine</span><span>Lycoming IO-5 235 hp</span></div></div>
     <div class="meta">
       <span class="loc">Pitt Meadows, BC</span>
@@ -3547,6 +3742,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">1999 Maule M7-260</div>
     <div class="price">$219,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M7-260</span></div><div class="spec"><span>Engine</span><span>260 hp</span></div></div>
     <div class="meta">
       <span class="loc">Illinois</span>
@@ -3565,6 +3761,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">1999 Maule M-7-260</div>
     <div class="price">$219,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-260</span></div><div class="spec"><span>Engine</span><span>260 hp</span></div></div>
     <div class="meta">
       <span class="loc">Galesburg, IL</span>
@@ -3583,6 +3780,7 @@ $121,800 obo 180 hp" data-lat="38.7251776" data-lng="-105.607716"
   <div class="body">
     <div class="title">1996 Maule M-7-235B</div>
     <div class="price">$185,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-7-235B</span></div><div class="spec"><span>Engine</span><span>235 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3602,6 +3800,7 @@ and the annual inspection in 2024 was made i... more info pedro cobos puebla , p
   <div class="body">
     <div class="title">1996 Maule MXT-7-180</div>
     <div class="price">$170,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MXT-7-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc">Pedro Cobos Puebla, PU</span>
@@ -3620,6 +3819,7 @@ and the annual inspection in 2024 was made i... more info pedro cobos puebla , p
   <div class="body">
     <div class="title">1996 Maule MXT-7-180</div>
     <div class="price">$115,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MXT-7-180</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3638,6 +3838,7 @@ and the annual inspection in 2024 was made i... more info pedro cobos puebla , p
   <div class="body">
     <div class="title">1995 Maule MXT-7-180A</div>
     <div class="price">$95,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MXT-7-180A</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3656,6 +3857,7 @@ and the annual inspection in 2024 was made i... more info pedro cobos puebla , p
   <div class="body">
     <div class="title">1993 Maule MX-7-180B</div>
     <div class="price">$180,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MX-7-180B</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>1388 SMOH</span></div><div class="spec"><span>Engine TT</span><span>1388 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Fall Creek, WI</span>
@@ -3674,6 +3876,7 @@ and the annual inspection in 2024 was made i... more info pedro cobos puebla , p
   <div class="body">
     <div class="title">1986 Maule MX-7-235</div>
     <div class="price">$132,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>MX-7-235</span></div><div class="spec"><span>Engine</span><span>235 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3695,6 +3898,7 @@ if you&#x27;re looking for a beautiful 180hp maule with an ifr panel i&#x27;ve g
   <div class="body">
     <div class="title">1985 Maule M-5-180C</div>
     <div class="price">$109,999</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-5-180C</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div><div class="spec"><span>Airframe TT</span><span>4500 TT</span></div><div class="spec"><span>Engine TT</span><span>1100 SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Caldwell, ID</span>
@@ -3713,6 +3917,7 @@ if you&#x27;re looking for a beautiful 180hp maule with an ifr panel i&#x27;ve g
   <div class="body">
     <div class="title">1985 Maule M-5-180C</div>
     <div class="price">$75,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-5-180C</span></div><div class="spec"><span>Engine</span><span>180 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3734,6 +3939,7 @@ radio: king kx... more info dustin hancock ogden , ut usa compare save last upda
   <div class="body">
     <div class="title">1984 Maule M-5-180C</div>
     <div class="price">$129,500</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-5-180C</span></div><div class="spec"><span>Engine</span><span>Lycoming 0-360-C1F 180 hp</span></div></div>
     <div class="meta">
       <span class="loc">Ogden, UT</span>
@@ -3752,6 +3958,7 @@ radio: king kx... more info dustin hancock ogden , ut usa compare save last upda
   <div class="body">
     <div class="title">1978 Maule M-5-235C</div>
     <div class="price">$225,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-5-235C</span></div><div class="spec"><span>Engine</span><span>235 hp</span></div></div>
     <div class="meta">
       <span class="loc"></span>
@@ -3774,6 +3981,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   <div class="body">
     <div class="title">1975 Maule M-5-210C</div>
     <div class="price">$105,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-5-210C</span></div><div class="spec"><span>Engine</span><span>210 hp</span></div></div>
     <div class="meta">
       <span class="loc">Bend, OR</span>
@@ -3792,6 +4000,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   <div class="body">
     <div class="title">1972 Maule M-4-220C</div>
     <div class="price">$75,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>M-4-220C</span></div><div class="spec"><span>Engine</span><span>Franklin ENGINE 220 hp</span></div></div>
     <div class="meta">
       <span class="loc">Falcon, CO</span>
@@ -3810,6 +4019,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   <div class="body">
     <div class="title">1947 Stinson 108 108-2</div>
     <div class="price">$59,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>108-2</span></div><div class="spec"><span>Engine</span><span>Franklin</span></div><div class="spec"><span>Airframe TT</span><span>1027 hours</span></div></div>
     <div class="meta">
       <span class="loc">Eagle River, AK</span>
@@ -3828,6 +4038,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   <div class="body">
     <div class="title">1946 Stinson 108 108</div>
     <div class="price">$89,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>108</span></div><div class="spec"><span>Airframe TT</span><span>15 hours</span></div></div>
     <div class="meta">
       <span class="loc">Lake Havasu City, AZ</span>
@@ -3846,6 +4057,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   <div class="body">
     <div class="title">1946 Stinson 108 108</div>
     <div class="price">$22,000</div>
+    
     <div class="specs"><div class="spec"><span>Model</span><span>108</span></div><div class="spec"><span>Engine</span><span>Franklin ENGINE</span></div><div class="spec"><span>Engine TT</span><span>2484, SMOH</span></div></div>
     <div class="meta">
       <span class="loc">Mocksville, NC</span>
@@ -3872,6 +4084,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   const priceMaxEl = document.getElementById('price-max');
   const yearMinEl = document.getElementById('year-min');
   const yearMaxEl = document.getElementById('year-max');
+  const dropsOnlyEl = document.getElementById('drops-only');
 
   let activeMake = '__all__';
   let activeSource = '__all__';
@@ -3899,6 +4112,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
       if (pMax !== null && price > pMax) show = false;
       if (yMin !== null && (year === 0 || year < yMin)) show = false;
       if (yMax !== null && year > yMax) show = false;
+      if (dropsOnlyEl.checked && c.dataset.drop !== '1') show = false;
 
       c.classList.toggle('hidden', !show);
       if (show) visible.push(c);
@@ -3936,7 +4150,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
     activeSource = b.dataset.source;
     apply();
   }));
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl]) {
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl]) {
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
   }
@@ -3994,7 +4208,7 @@ empty weight ... more info connor obrien bend , or usa (503) 819-xxxx (click) co
   // they captured the original. Use a wrapper instead.
   function applyAndMap() { apply(); }
   // Already wired above with `apply`. Add a separate listener to re-render markers on filter change.
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl]) {
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl]) {
     el.addEventListener('input', () => { if (document.body.classList.contains('map-view')) renderMarkers(); });
   }
   document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {

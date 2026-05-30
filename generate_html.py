@@ -57,6 +57,12 @@ def render() -> Path:
     rows = list(csv.DictReader(CSV_PATH.open(newline="", encoding="utf-8")))
     geocache = _load_geocache()
 
+    try:
+        import price_history
+        drops_by_url = price_history.recent_drops_by_url(days=21)
+    except Exception:
+        drops_by_url = {}
+
     makes = sorted({r.get("make") or "Unknown" for r in rows})
     sources = sorted({r.get("source") or "" for r in rows if r.get("source")})
 
@@ -94,6 +100,17 @@ def render() -> Path:
         coords = geocache.get((r.get("location") or "").strip())
         lat_attr = f' data-lat="{coords[0]}"' if coords else ""
         lng_attr = f' data-lng="{coords[1]}"' if coords else ""
+        # Recent price drop?
+        drop = drops_by_url.get(r.get("url") or "")
+        drop_html = ""
+        drop_attr = ""
+        if drop:
+            drop_attr = ' data-drop="1"'
+            drop_html = (
+                f'<div class="drop">↓ {drop["pct_change"]}%'
+                f' &nbsp;${drop["previous_price"]:,} → ${drop["current_price"]:,}'
+                f'</div>'
+            )
         # Searchable text blob
         search_blob = html.escape(
             " ".join([
@@ -120,12 +137,13 @@ def render() -> Path:
             f"""<a class="card" href="{url}" target="_blank" rel="noopener"
    data-make="{make}" data-source="{source}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
-   data-search="{search_blob}"{lat_attr}{lng_attr}
+   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}
    data-title="{title}" data-price-text="{price}" data-loc="{loc}" data-img="{img}">
   <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'"></div>
   <div class="body">
     <div class="title">{title}</div>
     <div class="price">{price}</div>
+    {drop_html}
     <div class="specs">{''.join(spec_rows)}</div>
     <div class="meta">
       <span class="loc">{loc}</span>
@@ -202,6 +220,12 @@ def render() -> Path:
   .body {{ padding:12px 14px; display:flex; flex-direction:column; gap:6px; }}
   .title {{ font-weight:600; font-size:15px; }}
   .price {{ color:var(--accent); font-weight:600; font-size:16px; }}
+  .drop {{ display:inline-block; padding:3px 8px; border-radius:4px;
+           background:#fdecea; color:#a40000; font-size:12px; font-weight:600;
+           margin-top:2px; }}
+  @media (prefers-color-scheme: dark) {{
+    .drop {{ background:#4a1f1f; color:#ff9999; }}
+  }}
   .specs {{ display:grid; grid-template-columns: auto 1fr; gap:2px 10px; font-size:12px;
             color:var(--muted); margin-top:2px; }}
   .spec {{ display:contents; }}
@@ -275,6 +299,12 @@ def render() -> Path:
       </div>
     </div>
   </div>
+  <div style="margin-top:10px;">
+    <label style="font-size:12px; color:var(--muted); cursor:pointer;">
+      <input id="drops-only" type="checkbox" style="vertical-align:middle;">
+      Show only listings with recent price drops
+    </label>
+  </div>
   <div class="chips">
     <span class="chip-row-label">Make:</span>
     <button class="chip make-chip active" data-make="__all__">All</button>
@@ -304,6 +334,7 @@ def render() -> Path:
   const priceMaxEl = document.getElementById('price-max');
   const yearMinEl = document.getElementById('year-min');
   const yearMaxEl = document.getElementById('year-max');
+  const dropsOnlyEl = document.getElementById('drops-only');
 
   let activeMake = '__all__';
   let activeSource = '__all__';
@@ -331,6 +362,7 @@ def render() -> Path:
       if (pMax !== null && price > pMax) show = false;
       if (yMin !== null && (year === 0 || year < yMin)) show = false;
       if (yMax !== null && year > yMax) show = false;
+      if (dropsOnlyEl.checked && c.dataset.drop !== '1') show = false;
 
       c.classList.toggle('hidden', !show);
       if (show) visible.push(c);
@@ -368,7 +400,7 @@ def render() -> Path:
     activeSource = b.dataset.source;
     apply();
   }}));
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl]) {{
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl]) {{
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
   }}
@@ -426,7 +458,7 @@ def render() -> Path:
   // they captured the original. Use a wrapper instead.
   function applyAndMap() {{ apply(); }}
   // Already wired above with `apply`. Add a separate listener to re-render markers on filter change.
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl]) {{
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl]) {{
     el.addEventListener('input', () => {{ if (document.body.classList.contains('map-view')) renderMarkers(); }});
   }}
   document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {{

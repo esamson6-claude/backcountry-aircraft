@@ -9,6 +9,7 @@ from curl_cffi import requests as cr
 
 from .common import (
     Listing,
+    ScraperFailure,
     extract_engine,
     extract_engine_time,
     first_hours,
@@ -34,7 +35,15 @@ def _model_from_url(href: str) -> str | None:
 
 
 def scrape(search: dict) -> list[Listing]:
-    html = cr.get(search["url"], impersonate="chrome", timeout=30).text
+    r = cr.get(search["url"], impersonate="chrome", timeout=30)
+    # TAP serves a CAPTCHA page (status 403, body contains 'captcha') when
+    # it rate-limits us. Raise ScraperFailure so previous rows are preserved
+    # rather than being silently wiped because 0 cards parsed.
+    if r.status_code != 200 or "captcha" in r.text.lower()[:5000]:
+        raise ScraperFailure(
+            f"Trade-A-Plane returned {r.status_code} / captcha — rate-limited"
+        )
+    html = r.text
     save_raw(f"{SOURCE}_{search['slug']}", html)
     soup = BeautifulSoup(html, "lxml")
 

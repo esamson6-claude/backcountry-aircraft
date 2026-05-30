@@ -90,7 +90,7 @@ def main() -> int:
     for i, url in enumerate(todo):
         cache[url] = fetch_tap_detail(url)
         if i < len(todo) - 1:
-            time.sleep(1.0)
+            time.sleep(2.5)  # be polite to TAP — they 403 us above ~1/sec
         if (i + 1) % 25 == 0:
             save_cache(cache)
             print(f"    progress: {i+1}/{len(todo)}", file=sys.stderr)
