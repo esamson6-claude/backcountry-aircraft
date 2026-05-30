@@ -362,6 +362,27 @@ def render() -> Path:
             position:sticky; top:0; z-index:2; }}
   h1 {{ margin:0 0 4px 0; font-size:18px; font-weight:600; }}
   .subhead {{ color:var(--muted); font-size:12px; margin-bottom:10px; }}
+  .filter-toggle {{ display:none; padding:6px 14px; border:1px solid var(--border);
+                    border-radius:6px; background:var(--bg); color:var(--fg); font:inherit;
+                    cursor:pointer; }}
+  #filter-panel {{ display:block; }}
+  @media (max-width: 759px) {{
+    /* On mobile the controls are tall; don't pin the entire header to the
+       viewport top — let it scroll away. The toggle still lets users
+       reopen the panel from anywhere on the page via the floating button. */
+    header {{ position:static; padding:10px 14px; }}
+    .filter-toggle {{ display:inline-flex; align-items:center; gap:6px; }}
+    #filter-panel {{ display:none; margin-top:10px; }}
+    #filter-panel.open {{ display:block; }}
+    /* Floating "Filters" button visible while scrolling listings */
+    #floating-filter {{ position:fixed; right:14px; bottom:14px; z-index:5;
+                        background:var(--accent); color:#fff; border:0; padding:10px 16px;
+                        border-radius:999px; font:inherit; font-weight:600;
+                        box-shadow:0 4px 12px rgba(0,0,0,0.25); cursor:pointer; }}
+  }}
+  @media (min-width: 760px) {{
+    #floating-filter {{ display:none; }}
+  }}
   .controls {{ display:grid; gap:10px;
                grid-template-columns: 1fr; }}
   @media (min-width: 760px) {{
@@ -437,11 +458,15 @@ def render() -> Path:
       <h1>Aircraft listings — <span id="count">{len(rows)}</span> shown</h1>
       <div class="subhead">Updated {date.today().isoformat()} · click any card to open the listing</div>
     </div>
-    <div class="view-toggle">
-      <button id="view-grid" class="active">Grid</button>
-      <button id="view-map">Map</button>
+    <div style="display:flex; gap:8px; align-items:center;">
+      <button class="filter-toggle" id="filter-toggle" aria-expanded="false">Filters ▾</button>
+      <div class="view-toggle">
+        <button id="view-grid" class="active">Grid</button>
+        <button id="view-map">Map</button>
+      </div>
     </div>
   </div>
+  <div id="filter-panel">
   <div class="controls">
     <div class="control-group">
       <label for="search">Search</label>
@@ -490,7 +515,9 @@ def render() -> Path:
     <button class="chip source-chip active" data-source="__all__">All</button>
     {source_buttons}
   </div>
+  </div><!-- /#filter-panel -->
 </header>
+<button id="floating-filter" type="button">☰ Filters</button>
 <main id="grid">
   {''.join(cards_html)}
 </main>
@@ -503,6 +530,21 @@ def render() -> Path:
   const cards = Array.from(grid.querySelectorAll('.card'));
   const countEl = document.getElementById('count');
   const emptyEl = document.getElementById('empty');
+
+  // Mobile filter-panel toggle (button in header + floating button at bottom-right)
+  const filterPanel = document.getElementById('filter-panel');
+  const filterToggle = document.getElementById('filter-toggle');
+  const floatingFilter = document.getElementById('floating-filter');
+  function toggleFilters() {{
+    const open = !filterPanel.classList.contains('open');
+    filterPanel.classList.toggle('open', open);
+    filterToggle.setAttribute('aria-expanded', String(open));
+    filterToggle.textContent = open ? 'Filters ▴' : 'Filters ▾';
+    if (open) filterPanel.scrollIntoView({{behavior: 'smooth', block: 'start'}});
+  }}
+  filterToggle.addEventListener('click', toggleFilters);
+  floatingFilter.addEventListener('click', toggleFilters);
+
   const searchEl = document.getElementById('search');
   const sortEl = document.getElementById('sort');
   const priceMinEl = document.getElementById('price-min');
