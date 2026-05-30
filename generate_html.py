@@ -246,8 +246,11 @@ def render() -> Path:
         )
     )
 
-    # Generate one detail page per listing, build a slug → relative URL map.
-    detail_links = _write_detail_pages(rows, drops_by_url)
+    # Remove any per-listing detail pages from previous runs — cards now link
+    # straight to the source marketplace.
+    if LISTING_DIR.exists():
+        for p in LISTING_DIR.glob("*.html"):
+            p.unlink(missing_ok=True)
 
     cards_html: list[str] = []
     for r in rows:
@@ -307,9 +310,8 @@ def render() -> Path:
         if eng_time:
             spec_rows.append(f'<div class="spec"><span>Engine TT</span><span>{eng_time}</span></div>')
 
-        detail_href = html.escape(detail_links[id(r)], quote=True)
         cards_html.append(
-            f"""<a class="card" href="{detail_href}"
+            f"""<a class="card" href="{url}" target="_blank" rel="noopener"
    data-make="{make}" data-source="{source}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
    data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}
