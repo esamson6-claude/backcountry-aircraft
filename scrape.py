@@ -31,6 +31,31 @@ def _keep_dhc2(l: dict) -> bool:
     return "DHC-2" in blob
 
 
+def _keep_rans_s6_s7_s20(l: dict) -> bool:
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return bool(re.search(r"\bS[-\s]?(?:6|7|20)\b", blob))
+
+
+def _keep_zenith_701_750_801(l: dict) -> bool:
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return bool(re.search(r"\bCH[-\s]?(?:701|750|801)\b", blob))
+
+
+def _keep_pa18(l: dict) -> bool:
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return bool(re.search(r"\bPA[-\s]?18\b|SUPER\s*CUB", blob))
+
+
+def _keep_kitplanes_for_africa(l: dict) -> bool:
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return bool(re.search(r"EXPLORER|SAFARI|KITPLANES", blob))
+
+
+def _keep_arctic_tern(l: dict) -> bool:
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return "ARCTIC" in blob and "TERN" in blob
+
+
 
 
 # Each search is one (source, make, url) combination.
@@ -296,6 +321,250 @@ SEARCHES: list[dict] = [
         "slug": "helio",
         "sitemap_patterns": ["/helio/"],
         "default_model": "Courier",
+    },
+
+    # ---- Piper PA-18 Super Cub ----
+    {
+        "make": "Piper PA-18 Super Cub",
+        "module": "scrapers.trade_a_plane",
+        "slug": "piper-pa18",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=PIPER&model_group=PIPER+PA-18+SERIES&s-type=aircraft",
+        "default_model": "PA-18 Super Cub",
+    },
+    {
+        "make": "Piper PA-18 Super Cub",
+        "module": "scrapers.controller",
+        "slug": "piper-supercub",
+        "url": "https://www.controller.com/listings/for-sale/piper/super-cub/aircraft",
+        "title_make_pattern": "PIPER",
+        "default_model": "PA-18 Super Cub",
+    },
+    {
+        "make": "Piper PA-18 Super Cub",
+        "module": "scrapers.aircraftforsale",
+        "slug": "piper-pa18",
+        "sitemap_patterns": ["/piper/pa-18", "/piper/super-cub"],
+        "default_model": "PA-18 Super Cub",
+    },
+
+    # ---- Kitplanes for Africa (Explorer, Safari, Safari XL) ----
+    # Drake Aircraft Adventures is the US dealer but only has spec pages,
+    # no individual listings, so we scrape the secondary marketplaces.
+    {
+        "make": "Kitplanes for Africa",
+        "module": "scrapers.trade_a_plane",
+        "slug": "kitplanes-africa",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=KITPLANES+FOR+AFRICA&s-type=aircraft",
+        "default_model": "Explorer/Safari",
+        "post_filter": _keep_kitplanes_for_africa,
+    },
+    {
+        "make": "Kitplanes for Africa",
+        "module": "scrapers.controller",
+        "slug": "kitplanes-africa",
+        "url": "https://www.controller.com/listings/for-sale/kitplanes-for-africa/aircraft",
+        "title_make_pattern": "KITPLANES",
+        "default_model": "Explorer/Safari",
+    },
+
+    # ---- ICP Savannah ----
+    {
+        "make": "ICP Savannah",
+        "module": "scrapers.trade_a_plane",
+        "slug": "icp",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=ICP&s-type=aircraft",
+        "default_model": "Savannah",
+    },
+    {
+        "make": "ICP Savannah",
+        "module": "scrapers.controller",
+        "slug": "icp",
+        "url": "https://www.controller.com/listings/for-sale/icp/aircraft",
+        "title_make_pattern": "ICP",
+        "default_model": "Savannah",
+    },
+
+    # ---- Murphy Rebel ----
+    {
+        "make": "Murphy Rebel",
+        "module": "scrapers.trade_a_plane",
+        "slug": "murphy",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=MURPHY&s-type=aircraft",
+        "default_model": "Rebel",
+    },
+    {
+        "make": "Murphy Rebel",
+        "module": "scrapers.controller",
+        "slug": "murphy",
+        "url": "https://www.controller.com/listings/for-sale/murphy/aircraft",
+        "title_make_pattern": "MURPHY",
+        "default_model": "Rebel",
+    },
+
+    # ---- Nando Groppo Trial ----
+    {
+        "make": "Nando Groppo Trial",
+        "module": "scrapers.trade_a_plane",
+        "slug": "groppo",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=GROPPO&s-type=aircraft",
+        "default_model": "Trial",
+    },
+
+    # ---- Rans (S6 Coyote, S7 Courier, S20 Raven) ----
+    {
+        "make": "Rans",
+        "module": "scrapers.trade_a_plane",
+        "slug": "rans",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=RANS&s-type=aircraft",
+        "default_model": "Rans",
+        "post_filter": _keep_rans_s6_s7_s20,
+    },
+    {
+        "make": "Rans",
+        "module": "scrapers.controller",
+        "slug": "rans",
+        "url": "https://www.controller.com/listings/for-sale/rans/aircraft",
+        "title_make_pattern": "RANS",
+        "default_model": "Rans",
+        "post_filter": _keep_rans_s6_s7_s20,
+    },
+
+    # ---- Zenith (CH701, CH750, CH801) ----
+    {
+        "make": "Zenith",
+        "module": "scrapers.trade_a_plane",
+        "slug": "zenith",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=ZENITH&s-type=aircraft",
+        "default_model": "Zenith",
+        "post_filter": _keep_zenith_701_750_801,
+    },
+    {
+        "make": "Zenith",
+        "module": "scrapers.controller",
+        "slug": "zenith",
+        "url": "https://www.controller.com/listings/for-sale/zenith/aircraft",
+        "title_make_pattern": "ZENITH",
+        "default_model": "Zenith",
+        "post_filter": _keep_zenith_701_750_801,
+    },
+
+    # ---- Cessna 172 Skyhawk ----
+    {
+        "make": "Cessna 172",
+        "module": "scrapers.trade_a_plane",
+        "slug": "cessna-172",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=CESSNA&model_group=CESSNA+172+SERIES&s-type=aircraft",
+        "default_model": "172",
+    },
+    {
+        "make": "Cessna 172",
+        "module": "scrapers.controller",
+        "slug": "cessna-172",
+        "url": "https://www.controller.com/listings/for-sale/cessna/172/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "172",
+    },
+    {
+        "make": "Cessna 172",
+        "module": "scrapers.aircraftforsale",
+        "slug": "cessna-172",
+        "sitemap_patterns": ["/cessna/172"],
+        "default_model": "172",
+    },
+
+    # ---- Cessna 205/206/207 ----
+    {
+        "make": "Cessna 205/206/207",
+        "module": "scrapers.trade_a_plane",
+        "slug": "cessna-206",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=CESSNA&model_group=CESSNA+206+SERIES&s-type=aircraft",
+        "default_model": "206",
+    },
+    {
+        "make": "Cessna 205/206/207",
+        "module": "scrapers.controller",
+        "slug": "cessna-206",
+        "url": "https://www.controller.com/listings/for-sale/cessna/206/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "206",
+    },
+    {
+        "make": "Cessna 205/206/207",
+        "module": "scrapers.aircraftforsale",
+        "slug": "cessna-205-207",
+        "sitemap_patterns": ["/cessna/205", "/cessna/206", "/cessna/207"],
+        "default_model": "205/206/207",
+    },
+
+    # ---- PZL-104 Wilga ----
+    {
+        "make": "PZL-104 Wilga",
+        "module": "scrapers.trade_a_plane",
+        "slug": "pzl-wilga",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=PZL&s-type=aircraft",
+        "default_model": "PZL-104 Wilga",
+    },
+
+    # ---- Dream Aircraft Tundra ----
+    {
+        "make": "Dream Aircraft Tundra",
+        "module": "scrapers.trade_a_plane",
+        "slug": "dream-tundra",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=DREAM+AIRCRAFT&s-type=aircraft",
+        "default_model": "Tundra",
+    },
+
+    # ---- Glasair Sportsman 2+2 ----
+    {
+        "make": "Glasair Sportsman 2+2",
+        "module": "scrapers.trade_a_plane",
+        "slug": "glasair",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=GLASAIR&s-type=aircraft",
+        "default_model": "Sportsman 2+2",
+    },
+
+    # ---- Wag-Aero Sportsman 2+2 ----
+    {
+        "make": "Wag-Aero Sportsman 2+2",
+        "module": "scrapers.trade_a_plane",
+        "slug": "wagaero",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=WAG-AERO&s-type=aircraft",
+        "default_model": "Sportsman 2+2",
+    },
+    {
+        "make": "Wag-Aero Sportsman 2+2",
+        "module": "scrapers.controller",
+        "slug": "wagaero",
+        "url": "https://www.controller.com/listings/for-sale/wag-aero/aircraft",
+        "title_make_pattern": "WAG.?AERO",
+        "default_model": "Sportsman 2+2",
+    },
+
+    # ---- Found Bush Hawk ----
+    {
+        "make": "Found Bush Hawk",
+        "module": "scrapers.trade_a_plane",
+        "slug": "found-bushhawk",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=FOUND&s-type=aircraft",
+        "default_model": "Bush Hawk",
+    },
+    {
+        "make": "Found Bush Hawk",
+        "module": "scrapers.controller",
+        "slug": "found-bushhawk",
+        "url": "https://www.controller.com/listings/for-sale/found/aircraft",
+        "title_make_pattern": "FOUND",
+        "default_model": "Bush Hawk",
+    },
+
+    # ---- Arctic Tern ----
+    {
+        "make": "Arctic Tern",
+        "module": "scrapers.trade_a_plane",
+        "slug": "arctic-tern",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=INTERSTATE&s-type=aircraft",
+        "default_model": "Arctic Tern",
+        "post_filter": _keep_arctic_tern,
     },
 ]
 
