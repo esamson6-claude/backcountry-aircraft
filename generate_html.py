@@ -2,20 +2,53 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import html
 import json
 import re
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_DIR = PROJECT_ROOT / "data"
 DOCS_DIR = PROJECT_ROOT / "docs"
+LISTING_DIR = DOCS_DIR / "listing"
 DOCS_DIR.mkdir(exist_ok=True)
+LISTING_DIR.mkdir(exist_ok=True)
 CSV_PATH = DATA_DIR / "listings.csv"
 GEOCACHE_PATH = DATA_DIR / "geocache.json"
 HTML_PATH = DATA_DIR / "listings.html"
 DOCS_HTML_PATH = DOCS_DIR / "index.html"
+
+
+_SOURCE_LABELS = {
+    "trade-a-plane": "Trade-A-Plane",
+    "controller": "Controller",
+    "aviat": "Aviat Aircraft",
+    "aircraftforsale": "AircraftForSale.com",
+    "barnstormers": "Barnstormers",
+}
+
+
+def _slug_for(row: dict) -> str:
+    """Stable filename slug per listing: '<source>-<id>' where possible."""
+    src = (row.get("source") or "x").replace(" ", "-").lower()
+    url = row.get("url") or ""
+    # Try to extract a stable numeric/alnum ID from the URL
+    for pat in (
+        r"listing_id=(\d+)",                # TAP
+        r"/listing/for-sale/(\d+)/",        # Controller
+        r"husky-for-sale-(\d+)",            # AircraftForSale
+        r"#(N\w{3,6})",                     # Aviat (N-number)
+        r"id=(\d+)",                        # Barnstormers
+    ):
+        m = re.search(pat, url)
+        if m:
+            return f"{src}-{m.group(1)}"
+    # Fallback: short hash of the URL
+    h = hashlib.md5(url.encode("utf-8")).hexdigest()[:10]
+    return f"{src}-{h}"
 
 
 def _load_geocache() -> dict[str, list[float] | None]:
@@ -51,6 +84,144 @@ def _int_from(text: str) -> int:
         return 0
 
 
+def _write_detail_pages(rows: list[dict], drops_by_url: dict) -> dict[int, str]:
+    """Write docs/listing/<slug>.html for each row. Return id(row) → relative URL.
+
+    Uses id(row) as the key so the caller can look up the href without
+    re-deriving the slug. Stale listing files are removed.
+    """
+    detail_links: dict[int, str] = {}
+    keep_slugs: set[str] = set()
+
+    for r in rows:
+        slug = _slug_for(r)
+        keep_slugs.add(slug)
+        detail_links[id(r)] = f"listing/{slug}.html"
+        (LISTING_DIR / f"{slug}.html").write_text(
+            _detail_html(r, drops_by_url.get(r.get("url") or "")),
+            encoding="utf-8",
+        )
+
+    # Prune stale per-listing files (URLs that are no longer in the CSV)
+    for p in LISTING_DIR.glob("*.html"):
+        if p.stem not in keep_slugs:
+            p.unlink(missing_ok=True)
+
+    return detail_links
+
+
+def _detail_html(r: dict, drop: dict | None) -> str:
+    title = html.escape(
+        f"{r.get('year') or '?'} {r.get('make') or ''} {r.get('model') or ''}".strip()
+    )
+    price = html.escape(r.get("price") or "Price n/a")
+    description = (r.get("description") or "").strip()
+    description_html = html.escape(description).replace("\n", "<br>")
+    source = (r.get("source") or "").lower()
+    source_label = html.escape(_SOURCE_LABELS.get(source, source.title() or "Source"))
+    source_url = html.escape(r.get("url") or "#", quote=True)
+    img = html.escape(r.get("image_url") or "", quote=True) or PLACEHOLDER_IMG
+    first_seen = html.escape(r.get("first_seen") or "")
+    last_seen = html.escape(r.get("last_seen") or "")
+
+    spec_pairs = [
+        ("Make", r.get("make")),
+        ("Year", str(r.get("year")) if r.get("year") else None),
+        ("Model", r.get("model")),
+        ("Engine", r.get("engine")),
+        ("Airframe TT", r.get("total_time")),
+        ("Engine TT", r.get("engine_time")),
+        ("Location", r.get("location")),
+        ("First seen", first_seen),
+        ("Last seen", last_seen),
+    ]
+    spec_rows = "".join(
+        f"<tr><th>{html.escape(k)}</th><td>{html.escape(str(v))}</td></tr>"
+        for k, v in spec_pairs
+        if v
+    )
+
+    drop_html = ""
+    if drop:
+        drop_html = (
+            f'<div class="drop">↓ {drop["pct_change"]}% '
+            f'&nbsp;${drop["previous_price"]:,} → ${drop["current_price"]:,} '
+            f'<span class="drop-days">({drop["days_ago"]} day{"s" if drop["days_ago"] != 1 else ""} ago)</span>'
+            f'</div>'
+        )
+
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<style>
+  :root {{ color-scheme: light dark; --bg:#f5f5f7; --card:#fff; --fg:#222; --muted:#666;
+           --border:#e2e2e6; --accent:#0366d6; }}
+  @media (prefers-color-scheme: dark) {{
+    :root {{ --bg:#1a1a1c; --card:#26262a; --fg:#eee; --muted:#aaa; --border:#3a3a40;
+             --accent:#58a6ff; }}
+  }}
+  * {{ box-sizing: border-box; }}
+  body {{ margin:0; font: 14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+          background:var(--bg); color:var(--fg); }}
+  header {{ padding:14px 20px; border-bottom:1px solid var(--border); background:var(--card); }}
+  .back {{ color:var(--accent); text-decoration:none; font-size:13px; }}
+  main {{ max-width: 880px; margin: 0 auto; padding: 20px; }}
+  h1 {{ margin:0 0 4px 0; font-size:24px; font-weight:600; }}
+  .price {{ color:var(--accent); font-weight:700; font-size:22px; margin-bottom:8px; }}
+  .drop {{ display:inline-block; padding:5px 12px; border-radius:6px;
+           background:#fdecea; color:#a40000; font-size:13px; font-weight:600;
+           margin-bottom:16px; }}
+  .drop-days {{ font-weight:400; opacity:0.8; }}
+  @media (prefers-color-scheme: dark) {{
+    .drop {{ background:#4a1f1f; color:#ff9999; }}
+  }}
+  .hero {{ width:100%; aspect-ratio: 16/9; object-fit:cover;
+           border-radius:10px; border:1px solid var(--border); margin: 14px 0 20px; background:#0001; }}
+  .cta {{ display:inline-block; background:var(--accent); color:#fff !important; padding:10px 20px;
+          border-radius:8px; font-weight:600; text-decoration:none; margin-bottom:20px; }}
+  .cta:hover {{ opacity:0.9; }}
+  table.specs {{ width:100%; border-collapse:collapse; background:var(--card);
+                 border:1px solid var(--border); border-radius:8px; overflow:hidden; }}
+  table.specs th, table.specs td {{ padding:8px 12px; text-align:left;
+                                    border-bottom:1px solid var(--border); font-size:13px; }}
+  table.specs tr:last-child th, table.specs tr:last-child td {{ border-bottom:0; }}
+  table.specs th {{ width:120px; color:var(--muted); font-weight:500; text-transform:uppercase;
+                    letter-spacing:0.4px; font-size:11px; vertical-align:top; }}
+  .description {{ margin-top:24px; padding:18px; background:var(--card);
+                  border:1px solid var(--border); border-radius:8px; }}
+  .description h2 {{ margin:0 0 10px 0; font-size:15px; color:var(--muted);
+                     text-transform:uppercase; letter-spacing:0.5px; font-weight:600; }}
+  .description-text {{ font-size:14px; line-height:1.55; color:var(--fg); white-space:pre-wrap; }}
+  footer {{ margin-top:30px; padding-top:12px; border-top:1px solid var(--border);
+            font-size:12px; color:var(--muted); }}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../">← All listings</a>
+</header>
+<main>
+  <h1>{title}</h1>
+  <div class="price">{price}</div>
+  {drop_html}
+  <img class="hero" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'">
+  <p><a class="cta" href="{source_url}" target="_blank" rel="noopener">
+    View original on {source_label} →
+  </a></p>
+  <table class="specs">{spec_rows}</table>
+  {('<div class="description"><h2>Description</h2><div class="description-text">' + description_html + '</div></div>') if description else ''}
+  <footer>
+    Aggregated from {source_label}. Click "View original" for current pricing and full details.
+  </footer>
+</main>
+</body>
+</html>
+"""
+
+
 def render() -> Path:
     if not CSV_PATH.exists():
         raise SystemExit(f"{CSV_PATH} not found — run scrape.py first")
@@ -74,6 +245,9 @@ def render() -> Path:
             -_int_from(r.get("price") or ""),
         )
     )
+
+    # Generate one detail page per listing, build a slug → relative URL map.
+    detail_links = _write_detail_pages(rows, drops_by_url)
 
     cards_html: list[str] = []
     for r in rows:
@@ -133,8 +307,9 @@ def render() -> Path:
         if eng_time:
             spec_rows.append(f'<div class="spec"><span>Engine TT</span><span>{eng_time}</span></div>')
 
+        detail_href = html.escape(detail_links[id(r)], quote=True)
         cards_html.append(
-            f"""<a class="card" href="{url}" target="_blank" rel="noopener"
+            f"""<a class="card" href="{detail_href}"
    data-make="{make}" data-source="{source}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
    data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}
