@@ -9,19 +9,29 @@
     138.5999312
   ],
   "Aero Services Sidney, BC": null,
+  "Afton, WY": [
+    42.7252774,
+    -110.933402
+  ],
   "Air LLC Kerrville, TX": null,
   "Aircraft Blaine, MN": null,
   "Aircraft LLC Denver, CO": null,
   "Aircraft LLC Nampa, ID": null,
   "Aircraft LLC Pittstown, NJ": null,
   "Aircraft Sales Anchorage, AK": null,
+  "Aircraft Sales Bonnyville, AB": null,
+  "Aircraft Sales Calgary, AB": null,
+  "Aircraft Sales Chelsea, QC": null,
   "Aircraft Sales Chilliwack, BC": null,
   "Aircraft Sales Falcon, CO": null,
   "Aircraft Sales HAWKESBURY, ON": null,
   "Aircraft Sales Hawkesbury, BC": null,
   "Aircraft Sales Hawkesbury, ON": null,
   "AircraftMerchants LLC Louisburg, NC": null,
+  "Airside Aviation Burlington, ON": null,
   "Airside Aviation Calgary, AB": null,
+  "Airside Aviation Orillia, ON": null,
+  "Airside Aviation Smithers, BC": null,
   "Albany, NY": [
     42.6511674,
     -73.754968
@@ -43,19 +53,40 @@
     31.3080607,
     -86.482424
   ],
+  "Anderson, IN": [
+    40.1053196,
+    -85.6802541
+  ],
   "Annie Vogel Middleton, WI": null,
   "Arizona Aircraft Carefree, AZ": null,
+  "Arlington, TX": [
+    32.7355816,
+    -97.1071186
+  ],
   "Atlanta, Georgia": [
     33.7544657,
     -84.3898151
   ],
+  "Atwater, CA": [
+    45.4896787,
+    -73.5863126
+  ],
+  "Auburn, CA": [
+    38.8945939,
+    -121.0739897
+  ],
   "Auckland, North Island, New Zealand": null,
+  "Audio Panel, PS": null,
   "Aviation Carrabassett Valley, ME": null,
   "Aviation Fort Smith, NT": null,
   "Aviation LLC Caldwell, ID": null,
   "Aviation LLC Fairbanks, AK": null,
   "Aviation Port Orange, FL": null,
   "Aviation Services Plymouth, MA": null,
+  "Bastrop, LA": [
+    32.7777896,
+    -91.9138683
+  ],
   "Baton Rouge, LA": [
     30.4494155,
     -91.1869659
@@ -63,6 +94,10 @@
   "Baytown, TX": [
     29.7355047,
     -94.9774274
+  ],
+  "Beaver Island, MI": [
+    45.6660782,
+    -85.5544216
   ],
   "Beaver, WV": [
     37.738448,
@@ -72,18 +107,34 @@
     45.776288,
     -111.1771685
   ],
+  "Beloeil, QC": [
+    45.5643183,
+    -73.2040066
+  ],
   "Ben International Falls, MN": null,
   "Bend, OR": [
     44.0581728,
     -121.3153096
   ],
+  "Berlin, MD": [
+    38.324505,
+    -75.2188589
+  ],
   "Bethany, Oklahoma": [
     35.5186728,
     -97.6322648
   ],
+  "Blackfoot, ID": [
+    43.190039,
+    -112.348357
+  ],
   "Blaine, MN": [
     45.1607987,
     -93.2349489
+  ],
+  "Blair, NE": [
+    41.5438035,
+    -96.1360014
   ],
   "Blake Barrymore Hailey, ID": null,
   "Blattmachr Anchorage, AK": null,
@@ -122,7 +173,15 @@
     42.8864163,
     -78.8781493
   ],
+  "Burnsville, NC": [
+    35.9172243,
+    -82.2996695
+  ],
   "C29": null,
+  "CZG--Endicott, NY": [
+    42.0788041,
+    -76.094931
+  ],
   "Caldwell, ID": [
     43.6678736,
     -116.689415
@@ -136,9 +195,17 @@
     51.0456064,
     -114.057541
   ],
+  "Calhoun, GA": [
+    31.5311784,
+    -84.614328
+  ],
   "Camp Verde, AZ": [
     34.5636358,
     -111.854317
+  ],
+  "Canada, AB": [
+    55.001251,
+    -115.002136
   ],
   "Carefree, AZ": [
     33.8222377,
@@ -148,9 +215,33 @@
     45.0782382,
     -70.2114804
   ],
+  "Carroll, OH": [
+    40.5250362,
+    -81.0927234
+  ],
+  "Casa Grande, AZ": [
+    32.8772834,
+    -111.7536818
+  ],
   "Central Florida, FL": [
     28.599591,
     -81.1971284
+  ],
+  "Champaign, IL": [
+    40.1164841,
+    -88.2430932
+  ],
+  "Charleston, SC": [
+    32.7884363,
+    -79.9399309
+  ],
+  "Charlotte, NC": [
+    35.2272086,
+    -80.8430827
+  ],
+  "Chattanooga, TN": [
+    35.0457219,
+    -85.3094883
   ],
   "Chattanooga, Tennessee": [
     35.0457219,
@@ -165,7 +256,23 @@
     39.3331197,
     -82.9824019
   ],
+  "Chino, CA": [
+    34.0133561,
+    -117.690075
+  ],
   "Christopher Butrico Vancouver, WA": null,
+  "Cincinnati, OH": [
+    39.1012809,
+    -84.5127405
+  ],
+  "Cisco, TX": [
+    32.3881293,
+    -98.9793386
+  ],
+  "Clearwater, FL": [
+    27.9658533,
+    -82.8001026
+  ],
   "Clyde Kornegay Brownsville, TX": null,
   "Colorado": [
     38.7251776,
@@ -176,6 +283,10 @@
   "Coral Springs, FL": [
     26.271192,
     -80.2706044
+  ],
+  "Corona, CA": [
+    33.8752945,
+    -117.566444
   ],
   "Corvallis, OR": [
     44.5645659,
@@ -189,6 +300,10 @@
   "Cypress, TX": [
     29.9691116,
     -95.6971686
+  ],
+  "Dallas, TX": [
+    32.7762719,
+    -96.7968559
   ],
   "Darrel Robbins Petaluma, CA": null,
   "Dayton, Ohio": [
@@ -204,6 +319,10 @@
     -104.984862
   ],
   "Douglas Young Scottsdale, AZ": null,
+  "Doylestown, PA": [
+    40.3100446,
+    -75.1304588
+  ],
   "Doylestown, Pennsylvania": [
     40.3100446,
     -75.1304588
@@ -211,6 +330,10 @@
   "Dudley, Missouri": [
     36.7886649,
     -90.0931526
+  ],
+  "Duluth, MN": [
+    46.7838287,
+    -92.1052679
   ],
   "Dustin Hancock Ogden, UT": null,
   "Eagle River, AK": [
@@ -221,15 +344,32 @@
     44.811349,
     -91.4984941
   ],
+  "Edmonton, AB": [
+    53.5462055,
+    -113.491241
+  ],
   "El Centro, CA": [
     32.792,
     -115.563051
+  ],
+  "Elkhart, KS": [
+    37.0027644,
+    -101.89733
+  ],
+  "Englewood, CO": [
+    39.6482059,
+    -104.9879641
   ],
   "Englewood, Colorado": [
     39.6482059,
     -104.9879641
   ],
   "Eric Dapp Corvallis, OR": null,
+  "Estero, FL": [
+    26.4381474,
+    -81.8067537
+  ],
+  "Eurika, NV": null,
   "Everett, WA": [
     47.9793437,
     -122.2127011
@@ -252,11 +392,24 @@
     44.7635717,
     -91.2770993
   ],
+  "Fayetteville, AR": [
+    36.0625843,
+    -94.1574328
+  ],
+  "Fayettville, AR": null,
+  "Finleyville, PA": [
+    40.2522922,
+    -80.0028294
+  ],
   "Flight Ltd Pampa, TX": null,
   "Floats Savannah, GA": null,
   "Fort Collins, CO": [
     40.5871782,
     -105.0770113
+  ],
+  "Fort Lauderdale, FL": [
+    26.1223084,
+    -80.1433786
   ],
   "Fort Lauderdale, Florida": [
     26.1223084,
@@ -282,6 +435,19 @@
     -90.3712169
   ],
   "George Gal Sanford, ME": null,
+  "Germanton, NC": [
+    36.262771,
+    -80.2309735
+  ],
+  "Germantown, MD": [
+    39.1712341,
+    -77.2655648
+  ],
+  "Gig Harbor, WA": [
+    47.3259697,
+    -122.5878659
+  ],
+  "Glenn Graham Pembroke, ON": null,
   "Grand Junction, Colorado": [
     39.0672568,
     -108.56448
@@ -289,6 +455,30 @@
   "Grant, NE": [
     41.9231444,
     -101.7354061
+  ],
+  "Grants Pass, OR": [
+    42.4393707,
+    -123.3272489
+  ],
+  "Greeley, CO": [
+    40.4233142,
+    -104.7091322
+  ],
+  "Greenup, KY": [
+    38.5108112,
+    -82.9180186
+  ],
+  "Greenville, NC": [
+    35.613224,
+    -77.3724593
+  ],
+  "Greenville, SC": [
+    34.851354,
+    -82.3984882
+  ],
+  "Gulfport, MS": [
+    30.3674198,
+    -89.0928155
   ],
   "Hailey, ID": [
     43.519629,
@@ -301,6 +491,10 @@
   "Hamilton, MT": [
     46.2472045,
     -114.1555462
+  ],
+  "Hampton, GA": [
+    33.3870578,
+    -84.2829784
   ],
   "Hangar Gurus Kirkland, WA": null,
   "Hartley Paul Kenmore, WA": null,
@@ -316,19 +510,35 @@
     47.7590638,
     -116.7866807
   ],
+  "Hayti, MO": [
+    36.2319804,
+    -89.7480887
+  ],
   "Heber City, UT": [
     40.506463,
     -111.4132963
   ],
   "Helmut Guehr Mocksville, NC": null,
+  "Hillsboro, OR": [
+    45.5228939,
+    -122.989827
+  ],
   "Hodges Santa Maria, CA": [
     36.8184949,
     -76.4098999
   ],
   "Hogan Aviation Placerville, CA": null,
+  "Hollister, CA": [
+    36.8524545,
+    -121.4016021
+  ],
   "Homestead, Florida": [
     25.4718946,
     -80.4759905
+  ],
+  "Hot Springs, AR": [
+    34.5038393,
+    -93.0552437
   ],
   "Houston, TX": [
     29.7589382,
@@ -338,6 +548,10 @@
     29.7589382,
     -95.3676974
   ],
+  "Howell, MI": [
+    42.6072552,
+    -83.9293952
+  ],
   "Hugo Lefebvre Ottawa, ON": null,
   "Hugo, Oklahoma": [
     34.0106208,
@@ -346,6 +560,10 @@
   "Huntsville, Alabama": [
     34.729847,
     -86.5859011
+  ],
+  "INSTRUCTION, OR": [
+    44.0843051,
+    -123.088894
   ],
   "Illinois": [
     40.0796606,
@@ -360,9 +578,17 @@
     48.601033,
     -93.4105904
   ],
+  "Ironwood, MI": [
+    46.4555673,
+    -90.1684371
+  ],
   "Jackson, MS": [
     32.2998686,
     -90.1830408
+  ],
+  "Jacksonville, FL": [
+    30.3262247,
+    -81.6579179
   ],
   "Jared Segebartt Viola, ID": null,
   "Jason Williams Cypress, TX": null,
@@ -371,14 +597,27 @@
     -26.205,
     28.049722
   ],
+  "Johns Island, SC": [
+    32.7024009,
+    -80.0481488
+  ],
   "Johns Island, South Carolina": [
     32.7024009,
     -80.0481488
   ],
   "Jon Cannon Morgan, UT": null,
+  "Juneau, AK": [
+    58.3019613,
+    -134.4196751
+  ],
   "KBMC, UT": [
     41.5582521,
     -112.0627385
+  ],
+  "KFFZ - Falcon Field - Mesa, AZ": null,
+  "Kansas City, MO": [
+    39.100105,
+    -94.5781416
   ],
   "Kenmore, WA": [
     47.7596715,
@@ -393,6 +632,7 @@
     30.048469,
     -99.1399464
   ],
+  "Kevin Fairley Delta, BC": null,
   "Kimball, NE": [
     41.1881305,
     -103.6997645
@@ -406,6 +646,10 @@
     -122.2070775
   ],
   "Klinglesmith Fort Collins, CO": null,
+  "Kokomo, IN": [
+    40.4864444,
+    -86.1336351
+  ],
   "Kokomo, Indiana": [
     40.4864444,
     -86.1336351
@@ -459,13 +703,29 @@
     42.7338254,
     -84.5546295
   ],
+  "Las Vegas, NV": [
+    36.1674263,
+    -115.1484131
+  ],
+  "League City, TX": [
+    29.5074538,
+    -95.0949303
+  ],
   "Leavenworth, WA": [
     47.5969138,
     -120.661081
   ],
+  "Lebanon, MO": [
+    37.6806669,
+    -92.6637835
+  ],
   "Lenoir, NC": [
     35.2590371,
     -77.6484879
+  ],
+  "Ligonier Township, PA": [
+    40.228627,
+    -79.2130224
   ],
   "Like New, NO": [
     42.7001037,
@@ -487,20 +747,41 @@
     46.1695739,
     8.7954859
   ],
+  "Lodi, CA": [
+    38.1342805,
+    -121.2736022
+  ],
   "London, London, United Kingdom": [
     51.5156177,
     -0.0919983
+  ],
+  "Long Beach, CA": [
+    33.7690164,
+    -118.191604
   ],
   "Louisburg, NC": [
     36.0990393,
     -78.301106
   ],
+  "Louisville, KY": [
+    38.2542376,
+    -85.759407
+  ],
+  "Luis Barajas Monterrey, NL": null,
   "Madisonville, Texas": [
     30.9498688,
     -95.9127773
   ],
+  "Marietta, SC": [
+    35.0209502,
+    -82.501512
+  ],
   "Matt Hofeldt Middleton, WI": null,
   "Matt McCormack Kenosha, WI": null,
+  "Matthews, NC": [
+    35.1159532,
+    -80.7224386
+  ],
   "Mayfield, KY": [
     36.7413418,
     -88.6355497
@@ -513,6 +794,7 @@
     26.204114,
     -98.2300605
   ],
+  "McMinville, OR": null,
   "Mcallen, Texas": [
     26.204114,
     -98.2300605
@@ -556,6 +838,10 @@
     38.9565145,
     -119.7700488
   ],
+  "Minneapolis, MN": [
+    44.9772995,
+    -93.2654692
+  ],
   "Minooka, IL": [
     41.4553084,
     -88.2617305
@@ -567,6 +853,7 @@
   "More Info Anchorage, AK": null,
   "More Info Everett, WA": null,
   "More Info Jackson, MS": null,
+  "More Info Leask, SK": null,
   "More Info Lenoir, NC": null,
   "More Info Minooka, IL": null,
   "More Info Newellton, LA": null,
@@ -594,6 +881,14 @@
   ],
   "Mt Maunganui, Bay Of Plenty Region, New Zealand": null,
   "Mulcaire Camp Verde, AZ": null,
+  "Murray, KY": [
+    36.6106122,
+    -88.3021092
+  ],
+  "Muscle Shoals, AL": [
+    34.7436791,
+    -87.6532615
+  ],
   "Muscle Shoals, Alabama": [
     34.7436791,
     -87.6532615
@@ -606,15 +901,24 @@
     42.7656251,
     -71.4677032
   ],
+  "Nelson, BC": [
+    49.494891,
+    -117.290039
+  ],
   "New Orleans, Louisiana": [
     29.9561422,
     -90.0733934
+  ],
+  "New Richmond, WI": [
+    45.1227287,
+    -92.537502
   ],
   "Newellton, LA": [
     32.0744291,
     -91.2345884
   ],
   "Nick Filimoehala KBMC, UT": null,
+  "Niles Quebec City, QC": null,
   "North Las Vegas, NV": [
     36.2005191,
     -115.1214745
@@ -622,6 +926,14 @@
   "Ogden, UT": [
     41.2230048,
     -111.9738429
+  ],
+  "Okeechobee, FL": [
+    27.3923408,
+    -80.8873655
+  ],
+  "Olathe, KS": [
+    38.8838856,
+    -94.81887
   ],
   "Orlando, Florida": [
     28.5421218,
@@ -632,14 +944,38 @@
     38.9742502,
     -94.6851702
   ],
+  "PARIS, TX": [
+    33.6617962,
+    -95.555513
+  ],
+  "PITTSBURGH, PA": [
+    40.4406968,
+    -80.0025666
+  ],
   "Pablo Bartlett Falbrook, CA": null,
   "Pakenham Upper, Victoria, Australia": [
     -38.0090108,
     145.5043271
   ],
+  "Palm Coast, FL": [
+    29.5541432,
+    -81.2207673
+  ],
+  "Palm Springs, CA": [
+    33.8246269,
+    -116.540303
+  ],
+  "Palo alto, CA": [
+    37.4443293,
+    -122.1598465
+  ],
   "Pampa, TX": [
     35.536297,
     -100.9601552
+  ],
+  "Panama City Beach, FL": [
+    30.1765914,
+    -85.805386
   ],
   "Panorama City, California": [
     34.2242902,
@@ -654,6 +990,10 @@
     -84.5898256
   ],
   "Pedro Cobos Puebla, PU": null,
+  "Pembroke Pines, FL": [
+    26.0061943,
+    -80.2872086
+  ],
   "Petaluma, CA": [
     38.2325829,
     -122.636465
@@ -661,6 +1001,10 @@
   "Petersburg, Virginia": [
     37.227928,
     -77.4019268
+  ],
+  "Philadelphia, PA": [
+    39.9527237,
+    -75.1635262
   ],
   "Phoenix, AZ": [
     33.4484367,
@@ -677,6 +1021,10 @@
   "Pitt Meadows, British Columbia, Canada": [
     49.2207623,
     -122.690153
+  ],
+  "Pittsburgh, PA": [
+    40.4406968,
+    -80.0025666
   ],
   "Pittstown, NJ": [
     40.5821362,
@@ -702,9 +1050,21 @@
     27.9448537,
     -81.7268789
   ],
+  "Pompano Beach, FL": [
+    26.2378597,
+    -80.1247667
+  ],
   "Port Orange, FL": [
     29.1386874,
     -80.9968286
+  ],
+  "Portage Des Sioux, MO": [
+    38.9250486,
+    -90.3417806
+  ],
+  "Poughkeepsie, NY": [
+    41.7065539,
+    -73.9283672
   ],
   "Pullman, WA": [
     46.7295818,
@@ -730,27 +1090,62 @@
     44.0806041,
     -103.228023
   ],
+  "Rice Lake, WI": [
+    45.5027926,
+    -91.733423
+  ],
   "Richard Coates Andalusia, AL": null,
   "Richland, MI": [
     42.3761504,
     -85.4550054
   ],
+  "Rigby, ID": [
+    43.6722397,
+    -111.9148632
+  ],
+  "Rockwall, TX": [
+    32.8923464,
+    -96.4066987
+  ],
   "Rocky View County, Alberta, Canada": [
     51.3699347,
     -114.014186
   ],
+  "Ronkonkoma, NY": [
+    40.8075225,
+    -73.1359924
+  ],
+  "Russellville, KY": [
+    36.8453199,
+    -86.887219
+  ],
+  "Russelville, AR": [
+    31.6409992,
+    -106.1579253
+  ],
+  "SOH, PM": null,
   "Sales Eau Claire, WI": [
     44.7966851,
     -91.463996
   ],
   "Sales LLC Minden, NV": null,
+  "Sales Pitt Meadows, BC": null,
+  "Sales Williams Lake, BC": null,
   "Salida, CO": [
     38.5371195,
     -105.990968
   ],
+  "Salisbury, MD": [
+    38.366027,
+    -75.6009964
+  ],
   "Salt Lake City, UT": [
     40.7596198,
     -111.886797
+  ],
+  "San Antonio, TX": [
+    29.4246002,
+    -98.4951405
   ],
   "San Antonio, Texas": [
     29.4246002,
@@ -760,9 +1155,17 @@
     32.7174202,
     -117.162772
   ],
+  "San Jose, CA": [
+    37.3361663,
+    -121.890591
+  ],
   "San Luis Obispo, CA": [
     35.3540209,
     -120.375716
+  ],
+  "San Marcos, TX": [
+    29.8826436,
+    -97.9405828
   ],
   "Sanford, ME": [
     43.4387179,
@@ -771,6 +1174,14 @@
   "Santa Maria, CA": [
     34.9531295,
     -120.435857
+  ],
+  "Santa Teresa, NM": [
+    31.8700346,
+    -106.6865799
+  ],
+  "Sarasota, FL": [
+    27.3365805,
+    -82.5308545
   ],
   "Savannah, GA": [
     32.0790074,
@@ -781,10 +1192,34 @@
     33.4942189,
     -111.926018
   ],
+  "Sea Girt, NJ": [
+    40.1320592,
+    -74.0345813
+  ],
   "Sells Peachtree Cty, GA": null,
+  "Severna Park, MD": [
+    39.0826193,
+    -76.5719676
+  ],
+  "Shady Cove, OR": [
+    42.610909,
+    -122.8219854
+  ],
+  "Sheyenne, ND": [
+    47.828054,
+    -99.120122
+  ],
   "Shippensburg, PA": [
     40.0507198,
     -77.5205485
+  ],
+  "Sioux Center, IA": [
+    43.0796879,
+    -96.1756497
+  ],
+  "South Bend, IN": [
+    41.6833813,
+    -86.2500066
   ],
   "South Saint Paul, Minnesota": [
     44.8906694,
@@ -793,6 +1228,10 @@
   "South St Paul, MN": [
     44.8906694,
     -93.0372808
+  ],
+  "Sparta, TN": [
+    35.9258921,
+    -85.4641342
   ],
   "Spearman, TX": [
     36.1938947,
@@ -806,9 +1245,17 @@
     37.1098772,
     -113.5832063
   ],
+  "St Louis, MO": [
+    38.6254063,
+    -90.190009
+  ],
   "St Petersburg, FL": [
     27.7712264,
     -82.6340259
+  ],
+  "St. Charles, MO": [
+    38.7877791,
+    -90.6747372
   ],
   "Stayner, Ontario, Canada": [
     44.4194642,
@@ -817,13 +1264,29 @@
   "Steve Charlesworth Vancouver, BC": null,
   "Steven Houseman Chillicothe, OH": null,
   "Stuart McBride Kimball, NE": null,
+  "Stuart, FL": [
+    27.197983,
+    -80.2519175
+  ],
   "Tampa, Florida": [
     27.9449854,
     -82.4583107
   ],
+  "Throckmorton, TX": [
+    33.1571081,
+    -99.2017838
+  ],
+  "Tifton, GA": [
+    31.4549719,
+    -83.5108284
+  ],
   "Tim Mcwilliams Houston, TX": null,
   "Timm Central Florida, FL": null,
   "Timothy Ross Rivers, MB": null,
+  "Tobyhanna, PA": [
+    41.1770316,
+    -75.4179623
+  ],
   "Townsend Heber City, UT": null,
   "Trever Throop Hamilton, MT": null,
   "Tupelo, Mississippi": [
@@ -835,6 +1298,10 @@
     -99.1057728
   ],
   "Urb St Petersburg, FL": null,
+  "Van Nuys, CA": [
+    34.1866193,
+    -118.4486675
+  ],
   "Van Nuys, California": [
     34.1866193,
     -118.4486675
@@ -843,6 +1310,19 @@
     45.6306954,
     -122.6744557
   ],
+  "Venice, CA": [
+    33.995044,
+    -118.4668875
+  ],
+  "Vero Beach, FL": [
+    27.6387163,
+    -80.3975399
+  ],
+  "Vienna, OH": [
+    41.2378167,
+    -80.6638925
+  ],
+  "Vikram Toor Brampton, ON": null,
   "Viola, ID": [
     46.8385007,
     -117.0246114
@@ -856,9 +1336,17 @@
     43.194335,
     -88.7241822
   ],
+  "Watkins, CO": [
+    39.7443406,
+    -104.6031986
+  ],
   "Watsonville, CA": [
     36.9089338,
     -121.7557942
+  ],
+  "Waynesville, NC": [
+    35.4887476,
+    -82.9888725
   ],
   "Wickenburg, AZ": [
     33.9680962,
@@ -883,5 +1371,13 @@
     41.3347631,
     -94.0135687
   ],
-  "Wisconsin Aviation Watertown, WI": null
+  "Wisconsin Aviation Watertown, WI": null,
+  "laytonsville, MD": [
+    39.2087905,
+    -77.1413425
+  ],
+  "palo alto, CA": [
+    37.4443293,
+    -122.1598465
+  ]
 }
