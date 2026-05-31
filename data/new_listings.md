@@ -1,6 +1,6 @@
 # New listings — 2026-05-31
 
-344 new listings:
+343 new listings:
 
 - **2025 Aviat Husky HUSKY A-1C** — price n/a —  — Shawn Francis Afton, WY — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2444392&s-type=aircraft
@@ -168,7 +168,7 @@
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2456240&s-type=aircraft
 - **1977 Cessna 172 172K SKYHAWK** — $239,000 — 3,391 TT — Marcel Bisschops Doylestown, PA — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2455835&s-type=aircraft
-- **1977 Cessna 172 172 SKYHAWK** — $230,000 — 4 HR — David Rastavan Chino, CA — _trade-a-plane_  
+- **1977 Cessna 172 172 SKYHAWK** — $234,000 — 4 HR — David Rastavan Chino, CA — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2456158&s-type=aircraft
 - **1977 Cessna 172 172 HAWK XP-R172** — $197,500 —  — Johnny Lowe Tifton, GA — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2456381&s-type=aircraft
@@ -288,8 +288,6 @@
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2455285&s-type=aircraft
 - **1979 Cessna 172 172 HAWK XP II** — $199,000 —  — Aircraft Sales Hawkesbury, ON — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2453330&s-type=aircraft
-- **1978 Cessna 172 172N SKYHAWK** — $129,500 — 2652 TT — Jan Moon Hillsboro, OR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2449389&s-type=aircraft
 - **1978 Cessna 172 172N SKYHAWK** — $119,000 —  —  — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2452808&s-type=aircraft
 - **1978 Cessna 172 172N SKYHAWK** — $135,000 —  — Yang San Antonio, TX — _trade-a-plane_  

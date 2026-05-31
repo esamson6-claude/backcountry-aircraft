@@ -36,6 +36,10 @@
     42.6511674,
     -73.754968
   ],
+  "Alberta": [
+    55.001251,
+    -115.002136
+  ],
   "Alene Aviation Hayden, ID": null,
   "Amarillo, Texas": [
     35.20729,
@@ -198,6 +202,10 @@
   "Calhoun, GA": [
     31.5311784,
     -84.614328
+  ],
+  "California": [
+    36.7014631,
+    -118.755997
   ],
   "Camp Verde, AZ": [
     34.5636358,
@@ -821,6 +829,10 @@
   ],
   "Michael Scalera Spokane, WA": null,
   "Michael Schnell Spearman, TX": null,
+  "Michigan": [
+    43.6211955,
+    -84.6824346
+  ],
   "Middleton, WI": [
     43.0962919,
     -89.5119565
@@ -934,6 +946,10 @@
   "Olathe, KS": [
     38.8838856,
     -94.81887
+  ],
+  "Ontario": [
+    50.000678,
+    -86.000977
   ],
   "Orlando, Florida": [
     28.5421218,
@@ -1275,6 +1291,10 @@
   "Throckmorton, TX": [
     33.1571081,
     -99.2017838
+  ],
+  "Ti": [
+    46.3351913,
+    8.7525902
   ],
   "Tifton, GA": [
     31.4549719,
