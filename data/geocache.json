@@ -879,6 +879,7 @@
     -80.5495112
   ],
   "More Info Anchorage, AK": null,
+  "More Info Corona, CA": null,
   "More Info Everett, WA": null,
   "More Info Jackson, MS": null,
   "More Info Leask, SK": null,
@@ -1346,6 +1347,10 @@
     -99.1057728
   ],
   "Urb St Petersburg, FL": null,
+  "Utah": [
+    39.4225192,
+    -111.714358
+  ],
   "Van Nuys, CA": [
     34.1866193,
     -118.4486675
