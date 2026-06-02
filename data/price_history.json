@@ -961,6 +961,10 @@
     {
       "date": "2026-05-30",
       "price": 73000
+    },
+    {
+      "date": "2026-06-02",
+      "price": 47000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BUSH+CADDY&model=R80&listing_id=2455377&s-type=aircraft": [
@@ -1193,6 +1197,10 @@
     {
       "date": "2026-05-31",
       "price": 109500
+    },
+    {
+      "date": "2026-06-02",
+      "price": 99000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2451245&s-type=aircraft": [
@@ -1289,6 +1297,10 @@
     {
       "date": "2026-05-31",
       "price": 99900
+    },
+    {
+      "date": "2026-06-02",
+      "price": 89900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2456106&s-type=aircraft": [
@@ -2193,6 +2205,10 @@
     {
       "date": "2026-06-02",
       "price": 629000
+    },
+    {
+      "date": "2026-06-02",
+      "price": 609000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2448106&s-type=aircraft": [
@@ -2379,6 +2395,12 @@
     {
       "date": "2026-05-31",
       "price": 949000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TP206C&listing_id=2456787&s-type=aircraft": [
+    {
+      "date": "2026-06-02",
+      "price": 238000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206+STATIONAIR&listing_id=2449390&s-type=aircraft": [
@@ -2851,6 +2873,12 @@
     {
       "date": "2026-06-02",
       "price": 315500
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MT-7-260&listing_id=2456832&s-type=aircraft": [
+    {
+      "date": "2026-06-02",
+      "price": 340000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2454359&s-type=aircraft": [
