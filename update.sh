@@ -14,5 +14,14 @@ if git diff --staged --quiet; then
 fi
 
 git commit -m "Update listings: $(date -u +%Y-%m-%d)"
-git push
-echo "Pushed. Pages will rebuild in ~1 minute → https://esamson6-claude.github.io/husky-finder/"
+
+# The daily GitHub Actions cron writes to the same files. If it ran since
+# our last pull, our push will be rejected. Pull --rebase preferring our
+# local data ("-X theirs" during rebase = keep the commit being rebased),
+# then push.
+if ! git push 2>/dev/null; then
+  echo "Push rejected — fast-forwarding past remote daily-cron commit…"
+  git pull --rebase -X theirs
+  git push
+fi
+echo "Pushed. Pages will rebuild in ~1 minute → https://esamson6-claude.github.io/backcountry-aircraft/"
