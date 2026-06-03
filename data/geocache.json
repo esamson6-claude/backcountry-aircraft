@@ -19,6 +19,7 @@
   "Aircraft LLC Nampa, ID": null,
   "Aircraft LLC Pittstown, NJ": null,
   "Aircraft Sales Anchorage, AK": null,
+  "Aircraft Sales Bonneville, AB": null,
   "Aircraft Sales Bonnyville, AB": null,
   "Aircraft Sales Calgary, AB": null,
   "Aircraft Sales Chelsea, QC": null,
@@ -460,6 +461,10 @@
     -122.5878659
   ],
   "Glenn Graham Pembroke, ON": null,
+  "Goffs, Nova Scotia, Canada": [
+    44.8581372,
+    -63.5423535
+  ],
   "Grand Junction, Colorado": [
     39.0672568,
     -108.56448
@@ -796,6 +801,10 @@
     -85.759407
   ],
   "Luis Barajas Monterrey, NL": null,
+  "Luray, VA": [
+    38.6654653,
+    -78.4600202
+  ],
   "Madisonville, Texas": [
     30.9498688,
     -95.9127773
@@ -1378,6 +1387,10 @@
   "Vero Beach, FL": [
     27.6387163,
     -80.3975399
+  ],
+  "Victoria": [
+    -36.5986096,
+    144.6780052
   ],
   "Vienna, OH": [
     41.2378167,
