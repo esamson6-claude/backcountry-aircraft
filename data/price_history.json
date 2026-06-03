@@ -239,6 +239,24 @@
       "price": 245000
     }
   ],
+  "https://www.aerotrader.com/listing/1945-American+Champion-7-AC-5036661131": [
+    {
+      "date": "2026-06-03",
+      "price": 38500
+    }
+  ],
+  "https://www.aerotrader.com/listing/1959-Cessna-172-5040700905": [
+    {
+      "date": "2026-06-03",
+      "price": 10000
+    }
+  ],
+  "https://www.aerotrader.com/listing/1989-Cessna-172-5040385313": [
+    {
+      "date": "2026-06-03",
+      "price": 200000
+    }
+  ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
     {
       "date": "2026-05-30",
@@ -509,6 +527,12 @@
     {
       "date": "2026-05-30",
       "price": 179900
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/254311915/1977-cessna-r172-hawk-xp-piston-single-aircraft": [
+    {
+      "date": "2026-06-03",
+      "price": 150000
     }
   ],
   "https://www.controller.com/listing/for-sale/254619999/1968-cessna-u206-stationair-piston-single-aircraft": [
