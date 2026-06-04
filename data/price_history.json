@@ -243,24 +243,6 @@
       "price": 209000
     }
   ],
-  "https://www.aerotrader.com/listing/1959-Cessna-172-5040700905": [
-    {
-      "date": "2026-06-04",
-      "price": 10000
-    }
-  ],
-  "https://www.aerotrader.com/listing/1981-Cessna-172RG+CUTLASS-5040753544": [
-    {
-      "date": "2026-06-04",
-      "price": 109500
-    }
-  ],
-  "https://www.aerotrader.com/listing/1989-Cessna-172-5040385313": [
-    {
-      "date": "2026-06-04",
-      "price": 200000
-    }
-  ],
   "https://www.aerotrader.com/listing/1945-American+Champion-7-AC-5036661131": [
     {
       "date": "2026-06-03",
@@ -271,6 +253,12 @@
     {
       "date": "2026-06-03",
       "price": 10000
+    }
+  ],
+  "https://www.aerotrader.com/listing/1981-Cessna-172RG+CUTLASS-5040753544": [
+    {
+      "date": "2026-06-04",
+      "price": 109500
     }
   ],
   "https://www.aerotrader.com/listing/1989-Cessna-172-5040385313": [
@@ -743,6 +731,10 @@
     {
       "date": "2026-06-03",
       "price": 97476
+    },
+    {
+      "date": "2026-06-04",
+      "price": 97091
     }
   ],
   "https://www.controller.com/listing/for-sale/256460209/2025-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -807,6 +799,12 @@
     {
       "date": "2026-06-02",
       "price": 179000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/256919545/1977-cessna-r172-hawk-xp-ii-piston-single-aircraft": [
+    {
+      "date": "2026-06-04",
+      "price": 249500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
