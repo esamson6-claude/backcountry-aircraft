@@ -194,6 +194,59 @@ SEARCHES: list[dict] = [
         "default_model": "BushCaddy",
     },
 
+    # ---- Cessna 170/175 ----
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.trade_a_plane",
+        "slug": "cessna-170",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=CESSNA&model_group=CESSNA+170+SERIES&s-type=aircraft",
+        "default_model": "170",
+    },
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.trade_a_plane",
+        "slug": "cessna-175",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=CESSNA&model_group=CESSNA+175+SERIES&s-type=aircraft",
+        "default_model": "175",
+    },
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.controller",
+        "slug": "cessna-170",
+        "url": "https://www.controller.com/listings/for-sale/cessna/170/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "170",
+    },
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.controller",
+        "slug": "cessna-175",
+        "url": "https://www.controller.com/listings/for-sale/cessna/175/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "175",
+    },
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.aircraftforsale",
+        "slug": "cessna-170-175",
+        "sitemap_patterns": ["/cessna/170", "/cessna/175"],
+        "default_model": "170/175",
+    },
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.vanbortel",
+        "slug": "cessna-170-175",
+        "vb_patterns": ["cessna-170", "cessna-175"],
+        "default_model": "170/175",
+    },
+    {
+        "make": "Cessna 170/175",
+        "module": "scrapers.aerotrader",
+        "slug": "cessna-170-175",
+        "at_patterns": ["cessna-170", "cessna+170", "cessna-175", "cessna+175"],
+        "default_model": "170/175",
+    },
+
     # ---- Cessna 180 ----
     {
         "make": "Cessna 180",
