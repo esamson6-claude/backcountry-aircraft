@@ -4,6 +4,10 @@
     -99.3750239
   ],
   "AIRCRAFT Overland Park, KS": null,
+  "Acworth, Georgia": [
+    34.0659329,
+    -84.6768796
+  ],
   "Adelaide, South Australia, Australia": [
     -34.9281805,
     138.5999312
@@ -75,6 +79,10 @@
   "Atwater, CA": [
     45.4896787,
     -73.5863126
+  ],
+  "Atwood, IL": [
+    39.7994772,
+    -88.4622789
   ],
   "Auburn, CA": [
     38.8945939,
@@ -153,6 +161,10 @@
   "Brainerd, Minnesota": [
     46.3580221,
     -94.2008288
+  ],
+  "Brandon, Mississippi": [
+    32.2731475,
+    -89.9868058
   ],
   "Branson, Missouri": [
     36.6440772,
@@ -421,6 +433,10 @@
   ],
   "Flight Ltd Pampa, TX": null,
   "Floats Savannah, GA": null,
+  "Fort Atkinson, WI": [
+    42.9288944,
+    -88.8370509
+  ],
   "Fort Collins, CO": [
     40.5871782,
     -105.0770113
@@ -441,6 +457,7 @@
     56.2527571,
     -120.8472064
   ],
+  "Frank Peters Ardrossan, AB": null,
   "Frank Wright Quitman, AR": null,
   "Frankfort, OH": [
     39.4014524,
@@ -683,6 +700,7 @@
     47.6765382,
     -122.2070775
   ],
+  "Kleim Swift Current, SK": null,
   "Klinglesmith Fort Collins, CO": null,
   "Kokomo, IN": [
     40.4864444,
@@ -742,6 +760,10 @@
     -84.5546295
   ],
   "Las Vegas, NV": [
+    36.1674263,
+    -115.1484131
+  ],
+  "Las Vegas, Nevada": [
     36.1674263,
     -115.1484131
   ],
@@ -848,6 +870,10 @@
   "Mcminnville, Oregon": [
     45.2100367,
     -123.194463
+  ],
+  "Medford, Oregon": [
+    42.3264181,
+    -122.8718605
   ],
   "Merritt Island, Florida": [
     28.2662775,
@@ -1175,6 +1201,10 @@
     -85.4550054
   ],
   "Rigby, ID": [
+    43.6722397,
+    -111.9148632
+  ],
+  "Rigby, Idaho": [
     43.6722397,
     -111.9148632
   ],

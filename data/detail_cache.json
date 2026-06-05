@@ -689,6 +689,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456510&s-type=aircraft": {
     "location": "McAllen, TX"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456992&s-type=aircraft": {
+    "location": "Middleton, WI"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BEARHAWK&model=COMPANION&listing_id=2453591&s-type=aircraft": {
     "location": "Heber City, UT"
   },
@@ -746,6 +749,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2456326&s-type=aircraft": {
     "location": "Sparta, TN"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2456483&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2269039&s-type=aircraft": {
     "location": "Pittstown, NJ"
   },
@@ -802,6 +808,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2456792&s-type=aircraft": {
     "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2456851&s-type=aircraft": {
+    "location": "Atwood, IL"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2456922&s-type=aircraft": {
     "location": "Frankfort, OH"
@@ -1132,6 +1141,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2456739&s-type=aircraft": {
     "location": "Palm Coast, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2456953&s-type=aircraft": {
+    "location": "Minneapolis, MN"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2075411&s-type=aircraft": {
     "location": null
@@ -1910,11 +1922,17 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=HIGHLANDER&listing_id=2453644&s-type=aircraft": {
     "location": "Central Florida, FL"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=HIGHLANDER&listing_id=2456956&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2455095&s-type=aircraft": {
     "location": "Viola, ID"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2456062&s-type=aircraft": {
     "location": "Leavenworth, WA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2456928&s-type=aircraft": {
+    "location": "Fort Atkinson, WI"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=SUPERSTOL&listing_id=2453964&s-type=aircraft": {
     "location": "Hailey, ID"
@@ -1980,6 +1998,9 @@
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2454161&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2456997&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260&listing_id=2437807&s-type=aircraft": {
