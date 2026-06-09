@@ -237,9 +237,24 @@ def render() -> Path:
     makes = sorted({r.get("make") or "Unknown" for r in rows})
     sources = sorted({r.get("source") or "" for r in rows if r.get("source")})
 
-    # Default sort: make, then year desc, then price desc
+    # Listings whose first_seen is within the last NEW_WINDOW_DAYS are
+    # flagged as "new" — green badge + sorted to the top of the grid by
+    # default, and selectable via the "Show only new" filter.
+    NEW_WINDOW_DAYS = 7
+    _today = date.today()
+
+    def _is_new(r: dict) -> bool:
+        try:
+            return (_today - date.fromisoformat(r.get("first_seen") or "")).days <= NEW_WINDOW_DAYS
+        except ValueError:
+            return False
+
+    new_count = sum(1 for r in rows if _is_new(r))
+
+    # Default sort: new-first, then make, year desc, price desc
     rows.sort(
         key=lambda r: (
+            not _is_new(r),  # False (0) before True (1) → new at top
             r.get("make") or "",
             -int(r.get("year") or 0),
             -_int_from(r.get("price") or ""),
@@ -288,6 +303,10 @@ def render() -> Path:
                 f' &nbsp;${drop["previous_price"]:,} → ${drop["current_price"]:,}'
                 f'</div>'
             )
+        # New (first_seen within NEW_WINDOW_DAYS)?
+        is_new = _is_new(r)
+        new_attr = ' data-new="1"' if is_new else ""
+        new_html = '<div class="new-badge">NEW</div>' if is_new else ""
         # Searchable text blob
         search_blob = html.escape(
             " ".join([
@@ -314,9 +333,9 @@ def render() -> Path:
             f"""<a class="card" href="{url}" target="_blank" rel="noopener"
    data-make="{make}" data-source="{source}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
-   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}
+   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}{new_attr}
    data-title="{title}" data-price-text="{price}" data-loc="{loc}" data-img="{img}">
-  <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'"></div>
+  <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'">{new_html}</div>
   <div class="body">
     <div class="title">{title}</div>
     <div class="price">{price}</div>
@@ -424,6 +443,11 @@ def render() -> Path:
   @media (prefers-color-scheme: dark) {{
     .drop {{ background:#4a1f1f; color:#ff9999; }}
   }}
+  .thumb {{ position:relative; }}
+  .new-badge {{ position:absolute; top:8px; left:8px; background:#1e9e3e;
+                color:#fff; font-size:11px; font-weight:700;
+                padding:3px 8px; border-radius:4px; letter-spacing:0.5px;
+                box-shadow:0 1px 4px rgba(0,0,0,0.2); }}
   .specs {{ display:grid; grid-template-columns: auto 1fr; gap:2px 10px; font-size:12px;
             color:var(--muted); margin-top:2px; }}
   .spec {{ display:contents; }}
@@ -501,7 +525,11 @@ def render() -> Path:
       </div>
     </div>
   </div>
-  <div style="margin-top:10px;">
+  <div style="margin-top:10px; display:flex; gap:18px; flex-wrap:wrap;">
+    <label style="font-size:12px; color:var(--muted); cursor:pointer;">
+      <input id="new-only" type="checkbox" style="vertical-align:middle;">
+      Show only new listings ({new_count} in last 7 days)
+    </label>
     <label style="font-size:12px; color:var(--muted); cursor:pointer;">
       <input id="drops-only" type="checkbox" style="vertical-align:middle;">
       Show only listings with recent price drops
@@ -554,6 +582,7 @@ def render() -> Path:
   const yearMinEl = document.getElementById('year-min');
   const yearMaxEl = document.getElementById('year-max');
   const dropsOnlyEl = document.getElementById('drops-only');
+  const newOnlyEl = document.getElementById('new-only');
 
   let activeMake = '__all__';
   let activeSource = '__all__';
@@ -582,6 +611,7 @@ def render() -> Path:
       if (yMin !== null && (year === 0 || year < yMin)) show = false;
       if (yMax !== null && year > yMax) show = false;
       if (dropsOnlyEl.checked && c.dataset.drop !== '1') show = false;
+      if (newOnlyEl.checked && c.dataset.new !== '1') show = false;
 
       c.classList.toggle('hidden', !show);
       if (show) visible.push(c);
@@ -619,7 +649,7 @@ def render() -> Path:
     activeSource = b.dataset.source;
     apply();
   }}));
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl]) {{
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl]) {{
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
   }}
@@ -677,7 +707,7 @@ def render() -> Path:
   // they captured the original. Use a wrapper instead.
   function applyAndMap() {{ apply(); }}
   // Already wired above with `apply`. Add a separate listener to re-render markers on filter change.
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl]) {{
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl]) {{
     el.addEventListener('input', () => {{ if (document.body.classList.contains('map-view')) renderMarkers(); }});
   }}
   document.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {{
