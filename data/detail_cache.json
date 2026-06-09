@@ -728,6 +728,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2456680&s-type=aircraft": {
     "location": "Placerville, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2457113&s-type=aircraft": {
+    "location": "Chesterfield, MO"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2405352&s-type=aircraft": {
     "location": "Charleston, SC"
   },
@@ -910,6 +913,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2456453&s-type=aircraft": {
     "location": "Bend, OR"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2457109&s-type=aircraft": {
+    "location": "Mesa, AZ"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2455538&s-type=aircraft": {
     "location": "Casa Grande, AZ"
@@ -1334,8 +1340,14 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2455491&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2457088&s-type=aircraft": {
+    "location": "Atwater, MA"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2428770&s-type=aircraft": {
     "location": "Livermore, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2433520&s-type=aircraft": {
+    "location": "DAYTON, OH"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2434234&s-type=aircraft": {
     "location": "Livermore, CA"
@@ -1414,6 +1426,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2456609&s-type=aircraft": {
     "location": "Venice, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457091&s-type=aircraft": {
+    "location": "Van Nuys, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2456758&s-type=aircraft": {
     "location": "Kennebunk, ME"
@@ -1895,6 +1910,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2456668&s-type=aircraft": {
     "location": "Sanford, ME"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2457116&s-type=aircraft": {
+    "location": "Fishers, IN"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": {
     "location": "Hamilton, MT"
   },
@@ -2104,6 +2122,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180&listing_id=2444058&s-type=aircraft": {
     "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180&listing_id=2457076&s-type=aircraft": {
+    "location": "Washington, MI"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180A&listing_id=2416077&s-type=aircraft": {
     "location": null

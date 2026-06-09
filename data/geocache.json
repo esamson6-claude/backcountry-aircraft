@@ -84,6 +84,10 @@
     45.4896787,
     -73.5863126
   ],
+  "Atwater, MA": [
+    45.1363343,
+    -94.7810199
+  ],
   "Atwood, IL": [
     39.7994772,
     -88.4622789
@@ -285,6 +289,10 @@
     35.0457219,
     -85.3094883
   ],
+  "Chesterfield, MO": [
+    38.6581764,
+    -90.5680617
+  ],
   "Chicago Aviation Scottsdale, AZ": null,
   "Chicago, Illinois": [
     41.8755616,
@@ -338,6 +346,10 @@
   "Cypress, TX": [
     29.9691116,
     -95.6971686
+  ],
+  "DAYTON, OH": [
+    39.7589478,
+    -84.1916069
   ],
   "Dallas, TX": [
     32.7762719,
@@ -458,6 +470,10 @@
   "Finleyville, PA": [
     40.2522922,
     -80.0028294
+  ],
+  "Fishers, IN": [
+    39.9555928,
+    -86.0138729
   ],
   "Flight Ltd Pampa, TX": null,
   "Floats Savannah, GA": null,
@@ -1517,6 +1533,10 @@
     -117.0246114
   ],
   "Vucetic Coral Springs, FL": null,
+  "Washington, MI": [
+    45.4612061,
+    9.1563104
+  ],
   "Washington, PA": [
     40.1943798,
     -80.2541251
