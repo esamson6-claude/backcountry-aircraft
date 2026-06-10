@@ -321,6 +321,10 @@
     {
       "date": "2026-06-09",
       "price": 106291
+    },
+    {
+      "date": "2026-06-10",
+      "price": 105660
     }
   ],
   "https://www.controller.com/listing/for-sale/236659995/2019-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -361,6 +365,10 @@
     {
       "date": "2026-06-09",
       "price": 83119
+    },
+    {
+      "date": "2026-06-10",
+      "price": 83144
     }
   ],
   "https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -453,6 +461,10 @@
     {
       "date": "2026-06-09",
       "price": 45864
+    },
+    {
+      "date": "2026-06-10",
+      "price": 45609
     }
   ],
   "https://www.controller.com/listing/for-sale/247913915/1952-piper-super-cub-piston-single-aircraft": [
@@ -519,6 +531,10 @@
     {
       "date": "2026-06-09",
       "price": 105547
+    },
+    {
+      "date": "2026-06-10",
+      "price": 105732
     }
   ],
   "https://www.controller.com/listing/for-sale/251045521/1976-cessna-r172-hawk-xp-piston-single-aircraft": [
@@ -599,6 +615,10 @@
     {
       "date": "2026-06-09",
       "price": 134066
+    },
+    {
+      "date": "2026-06-10",
+      "price": 133728
     }
   ],
   "https://www.controller.com/listing/for-sale/252652755/1954-cessna-170b-piston-single-aircraft": [
@@ -665,6 +685,10 @@
     {
       "date": "2026-06-09",
       "price": 230802
+    },
+    {
+      "date": "2026-06-10",
+      "price": 229433
     }
   ],
   "https://www.controller.com/listing/for-sale/253591041/2004-maule-mxt7-180a-piston-single-aircraft": [
@@ -815,6 +839,10 @@
     {
       "date": "2026-05-30",
       "price": 145000
+    },
+    {
+      "date": "2026-06-10",
+      "price": 140000
     }
   ],
   "https://www.controller.com/listing/for-sale/256097491/2012-cessna-206h-stationair-piston-single-aircraft": [
@@ -929,6 +957,10 @@
     {
       "date": "2026-06-09",
       "price": 133598
+    },
+    {
+      "date": "2026-06-10",
+      "price": 133831
     }
   ],
   "https://www.controller.com/listing/for-sale/256498095/1961-piper-super-cub-piston-single-aircraft": [
@@ -941,6 +973,10 @@
     {
       "date": "2026-05-30",
       "price": 299999
+    },
+    {
+      "date": "2026-06-10",
+      "price": 270000
     }
   ],
   "https://www.controller.com/listing/for-sale/256668449/2023-aviat-husky-a-1c-200-piston-single-aircraft": [
@@ -1023,6 +1059,18 @@
     {
       "date": "2026-06-05",
       "price": 299900
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/257163303/1962-cessna-172-skyhawk-piston-single-aircraft": [
+    {
+      "date": "2026-06-10",
+      "price": 150000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/257237119/2010-aviat-husky-a-1c-180-piston-single-aircraft": [
+    {
+      "date": "2026-06-10",
+      "price": 174938
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
