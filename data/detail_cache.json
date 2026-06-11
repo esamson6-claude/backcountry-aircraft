@@ -887,11 +887,20 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2454090&s-type=aircraft": {
     "location": "Champaign, IL"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2455536&s-type=aircraft": {
+    "location": "Pittstown, NJ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2455710&s-type=aircraft": {
+    "location": "Fort Lauderdale, FL"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2456158&s-type=aircraft": {
     "location": "Chino, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2456207&s-type=aircraft": {
     "location": "Baton Rouge, LA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2457189&s-type=aircraft": {
+    "location": "Anderson, IN"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2448959&s-type=aircraft": {
     "location": "Russelville, AR"
@@ -961,6 +970,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2456228&s-type=aircraft": {
     "location": "Vienna, OH"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2456647&s-type=aircraft": {
+    "location": "Twin Falls, ID"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2457066&s-type=aircraft": {
     "location": "San Jose, CA"
@@ -1181,6 +1193,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2456953&s-type=aircraft": {
     "location": "Minneapolis, MN"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2457180&s-type=aircraft": {
+    "location": "San Diego, CA"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2075411&s-type=aircraft": {
     "location": null
   },
@@ -1381,6 +1396,12 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2456581&s-type=aircraft": {
     "location": "Anderson, IN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2456846&s-type=aircraft": {
+    "location": "Anchorage, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2457174&s-type=aircraft": {
+    "location": "Reedville, VA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=1737123&s-type=aircraft": {
     "location": null
@@ -1787,6 +1808,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2456790&s-type=aircraft": {
     "location": "Arlington, TX"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457154&s-type=aircraft": {
+    "location": "Phoenix, AZ"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": {
     "location": "Louisburg, NC"
   },
@@ -1888,6 +1912,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2429395&s-type=aircraft": {
     "location": "North Las Vegas, NV"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2432556&s-type=aircraft": {
+    "location": "agua dulce, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2442078&s-type=aircraft": {
     "location": "Windermere, FL"
@@ -2179,6 +2206,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=L-5&listing_id=2453509&s-type=aircraft": {
     "location": "Memphis, TN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=V77&listing_id=2429864&s-type=aircraft": {
+    "location": "agua dulce, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Turboprop&make=DEHAVILLAND&model=DHC-2+MK+III&listing_id=2447817&s-type=aircraft": {
     "location": null
