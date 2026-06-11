@@ -268,7 +268,16 @@ def render() -> Path:
             p.unlink(missing_ok=True)
 
     cards_html: list[str] = []
+    skipped_no_image = 0
     for r in rows:
+        # Skip listings that have no thumbnail — the grid only shows
+        # picture-bearing cards. (Most listings without an image come from
+        # Aviat factory or Barnstormers, where the scraper can't find a
+        # usable thumbnail from the search/category page.)
+        if not (r.get("image_url") or "").strip():
+            skipped_no_image += 1
+            continue
+
         title = html.escape(
             f"{r.get('year') or '?'} {r.get('make') or ''} {r.get('model') or ''}".strip()
         )
@@ -281,7 +290,7 @@ def render() -> Path:
         source = html.escape(r.get("source") or "")
         make = html.escape(r.get("make") or "Unknown")
         url = html.escape(r.get("url") or "#", quote=True)
-        img = html.escape(r.get("image_url") or "", quote=True) or PLACEHOLDER_IMG
+        img = html.escape(r.get("image_url"), quote=True)
         first_seen = html.escape(r.get("first_seen") or "")
 
         # Numeric data attributes for sort/filter
@@ -481,7 +490,7 @@ def render() -> Path:
 <header>
   <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
     <div>
-      <h1>Aircraft listings — <span id="count">{len(rows)}</span> shown</h1>
+      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_no_image}</span> shown</h1>
       <div class="subhead">Updated {date.today().isoformat()} · click any card to open the listing</div>
     </div>
     <div style="display:flex; gap:8px; align-items:center;">
@@ -584,8 +593,16 @@ def render() -> Path:
   const dropsOnlyEl = document.getElementById('drops-only');
   const newOnlyEl = document.getElementById('new-only');
 
-  let activeMake = '__all__';
-  let activeSource = '__all__';
+  // Multi-select sets. Empty = no make/source filter (show all).
+  // The "All" chip is purely cosmetic — it gets the active class when
+  // no other chips in its row are selected.
+  function activeChips(selector) {{
+    return new Set(
+      Array.from(document.querySelectorAll(selector + '.active'))
+        .map(c => c.dataset.make || c.dataset.source)
+        .filter(v => v && v !== '__all__')
+    );
+  }}
 
   function num(v) {{ const n = parseInt(v, 10); return Number.isFinite(n) ? n : null; }}
 
@@ -593,6 +610,8 @@ def render() -> Path:
     const q = searchEl.value.trim().toLowerCase();
     const pMin = num(priceMinEl.value), pMax = num(priceMaxEl.value);
     const yMin = num(yearMinEl.value), yMax = num(yearMaxEl.value);
+    const activeMakes = activeChips('.make-chip');
+    const activeSources = activeChips('.source-chip');
 
     let visible = [];
     for (const c of cards) {{
@@ -603,8 +622,8 @@ def render() -> Path:
       const search = c.dataset.search;
 
       let show = true;
-      if (activeMake !== '__all__' && make !== activeMake) show = false;
-      if (activeSource !== '__all__' && source !== activeSource) show = false;
+      if (activeMakes.size > 0 && !activeMakes.has(make)) show = false;
+      if (activeSources.size > 0 && !activeSources.has(source)) show = false;
       if (q && !search.includes(q)) show = false;
       if (pMin !== null && (price === 0 || price < pMin)) show = false;
       if (pMax !== null && price > pMax) show = false;
@@ -637,18 +656,31 @@ def render() -> Path:
     emptyEl.style.display = visible.length === 0 ? 'block' : 'none';
   }}
 
-  document.querySelectorAll('.make-chip').forEach(b => b.addEventListener('click', () => {{
-    document.querySelectorAll('.make-chip').forEach(x => x.classList.remove('active'));
-    b.classList.add('active');
-    activeMake = b.dataset.make;
-    apply();
-  }}));
-  document.querySelectorAll('.source-chip').forEach(b => b.addEventListener('click', () => {{
-    document.querySelectorAll('.source-chip').forEach(x => x.classList.remove('active'));
-    b.classList.add('active');
-    activeSource = b.dataset.source;
-    apply();
-  }}));
+  // Multi-select toggle: clicking a chip flips its active state. Clicking
+  // "All" clears every chip in the row and reactivates only "All".
+  function wireChipRow(rowSelector) {{
+    const chips = document.querySelectorAll(rowSelector);
+    const allChip = Array.from(chips).find(c =>
+      (c.dataset.make || c.dataset.source) === '__all__'
+    );
+    chips.forEach(b => b.addEventListener('click', () => {{
+      const key = b.dataset.make || b.dataset.source;
+      if (key === '__all__') {{
+        chips.forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+      }} else {{
+        b.classList.toggle('active');
+        // "All" reflects "nothing else selected"
+        const others = Array.from(chips).filter(c =>
+          (c.dataset.make || c.dataset.source) !== '__all__' && c.classList.contains('active')
+        );
+        if (allChip) allChip.classList.toggle('active', others.length === 0);
+      }}
+      apply();
+    }}));
+  }}
+  wireChipRow('.make-chip');
+  wireChipRow('.source-chip');
   for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl]) {{
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
