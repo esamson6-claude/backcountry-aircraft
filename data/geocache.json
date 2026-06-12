@@ -328,6 +328,10 @@
     38.7251776,
     -105.607716
   ],
+  "Colorado Springs, CO": [
+    38.8339578,
+    -104.825348
+  ],
   "Connor OBrien Bend, OR": null,
   "Consulting La Grande, OR": null,
   "Coral Springs, FL": [
@@ -363,6 +367,10 @@
   "Dayton, Ohio": [
     39.7589478,
     -84.1916069
+  ],
+  "Deer Valley, Arizona": [
+    33.686086,
+    -112.1185607
   ],
   "Delta, CO": [
     38.8368777,
@@ -630,6 +638,10 @@
     45.5228939,
     -122.989827
   ],
+  "Hillsboro, Oregon": [
+    45.5228939,
+    -122.989827
+  ],
   "Hodges Santa Maria, CA": [
     36.8184949,
     -76.4098999
@@ -818,6 +830,10 @@
   "Lancaster, California": [
     34.6981064,
     -118.1366153
+  ],
+  "Land O' Lakes, WI": [
+    46.1699705,
+    -89.4049091
   ],
   "Lansing, Michigan": [
     42.7338254,
@@ -1316,6 +1332,10 @@
     31.6409992,
     -106.1579253
   ],
+  "SHELBYVILLE, KY": [
+    38.2110702,
+    -85.217294
+  ],
   "SOH, PM": null,
   "Saint George, UT": [
     37.1098813,
@@ -1466,6 +1486,10 @@
   "Steven Houseman Chillicothe, OH": null,
   "Stuart McBride Kimball, NE": null,
   "Stuart, FL": [
+    27.197983,
+    -80.2519175
+  ],
+  "Stuart, Florida": [
     27.197983,
     -80.2519175
   ],
