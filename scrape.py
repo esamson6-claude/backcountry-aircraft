@@ -228,6 +228,17 @@ SEARCHES: list[dict] = [
         "vb_patterns": ["cessna-l-19", "cessna-l19", "cessna-o-1", "cessna-305", "bird-dog"],
         "default_model": "L-19 Bird Dog",
     },
+    {
+        "make": "Cessna L-19 Bird Dog",
+        "module": "scrapers.aircraftcom",
+        "slug": "cessna-l19",
+        # aircraft.com listings discovered manually. Append more URLs here
+        # as they're found (the site has no enumerable category surface).
+        "urls": [
+            "https://www.aircraft.com/aircraft/197823883/n432wc-1951-cessna-l19-305a-bird-dog",
+        ],
+        "default_model": "L-19 Bird Dog",
+    },
 
     # ---- Cessna 170/175 ----
     {
