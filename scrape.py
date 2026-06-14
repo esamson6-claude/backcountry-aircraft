@@ -56,6 +56,17 @@ def _keep_arctic_tern(l: dict) -> bool:
     return "ARCTIC" in blob and "TERN" in blob
 
 
+def _keep_bird_dog(l: dict) -> bool:
+    """Cessna L-19 / O-1 Bird Dog (also marketed as Cessna 305A).
+
+    Catches: L-19, L19, L-19A/E, O-1, O-1A/E/F/G, "Bird Dog", 305A.
+    """
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return bool(
+        re.search(r"\bL[-\s]?19|\bO[-\s]?1[A-Z]?\b|BIRD\s*DOG|\b305A?\b", blob)
+    )
+
+
 
 
 # Each search is one (source, make, url) combination.
@@ -192,6 +203,30 @@ SEARCHES: list[dict] = [
         "slug": "bushcaddy",
         "sitemap_patterns": ["/bushcaddy/", "/bush-caddy/"],
         "default_model": "BushCaddy",
+    },
+
+    # ---- Cessna L-19 Bird Dog (O-1, 305A — military observation) ----
+    {
+        "make": "Cessna L-19 Bird Dog",
+        "module": "scrapers.trade_a_plane",
+        "slug": "cessna-l19",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=CESSNA&model_group=CESSNA+L19+SERIES&s-type=aircraft",
+        "default_model": "L-19 Bird Dog",
+    },
+    {
+        "make": "Cessna L-19 Bird Dog",
+        "module": "scrapers.aerotrader",
+        "slug": "cessna-l19",
+        "at_patterns": ["l-19", "l19", "bird-dog", "birddog", "o-1", "-305a-", "-305-"],
+        "default_model": "L-19 Bird Dog",
+        "post_filter": _keep_bird_dog,
+    },
+    {
+        "make": "Cessna L-19 Bird Dog",
+        "module": "scrapers.vanbortel",
+        "slug": "cessna-l19",
+        "vb_patterns": ["cessna-l-19", "cessna-l19", "cessna-o-1", "cessna-305", "bird-dog"],
+        "default_model": "L-19 Bird Dog",
     },
 
     # ---- Cessna 170/175 ----
