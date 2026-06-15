@@ -697,6 +697,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2451781&s-type=aircraft": {
     "location": "Middleton, WI"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2452086&s-type=aircraft": {
+    "location": "Afton, WY"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2454378&s-type=aircraft": {
     "location": "Central Florida, FL"
   },
@@ -1096,6 +1099,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2455835&s-type=aircraft": {
     "location": "Doylestown, PA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2456599&s-type=aircraft": {
+    "location": "Wadsworth, OH"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2456726&s-type=aircraft": {
     "location": null
   },
@@ -1227,6 +1233,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2456953&s-type=aircraft": {
     "location": "Minneapolis, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2457153&s-type=aircraft": {
+    "location": "Arlington, WA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2457180&s-type=aircraft": {
     "location": "San Diego, CA"
@@ -1455,6 +1464,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2401897&s-type=aircraft": {
     "location": "Livermore, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2413795&s-type=aircraft": {
+    "location": "Los Angeles, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2421933&s-type=aircraft": {
     "location": "Livermore, CA"
@@ -2128,6 +2140,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2454203&s-type=aircraft": {
     "location": "Grant, NE"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-180V&listing_id=2453446&s-type=aircraft": {
+    "location": "El Cajon, CA"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-210&listing_id=2422375&s-type=aircraft": {
     "location": null
   },
@@ -2268,6 +2283,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2433495&s-type=aircraft": {
     "location": "Eagle River, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2456879&s-type=aircraft": {
+    "location": "McPherson, KS"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=AT-19+RELIANT&listing_id=2437152&s-type=aircraft": {
     "location": "Minneapolis, MN"
