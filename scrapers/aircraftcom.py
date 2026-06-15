@@ -15,10 +15,13 @@ in the wild to the SEARCHES entry for the corresponding make.
 from __future__ import annotations
 
 import json
+import os
 import re
+import sys
 import time
 from pathlib import Path
 
+import requests
 from bs4 import BeautifulSoup
 from curl_cffi import requests as cr
 
@@ -28,6 +31,9 @@ from .common import (
     extract_times_from,
     save_raw,
 )
+
+SCRAPINGBEE_ENDPOINT = "https://app.scrapingbee.com/api/v1/"
+_INTERSTITIAL_RE = re.compile(r"Pardon Our Interruption", re.I)
 
 SOURCE = "aircraft.com"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -52,6 +58,37 @@ def _save_cache(cache: dict[str, dict]) -> None:
     CACHE_PATH.write_text(json.dumps(cache, sort_keys=True, indent=2))
 
 
+def _fetch_html(url: str) -> str | None:
+    """Try curl_cffi first; if Imperva blocks, fall back to ScrapingBee."""
+    try:
+        r = cr.get(url, impersonate="chrome", timeout=30)
+        if r.status_code == 200 and not _INTERSTITIAL_RE.search(r.text):
+            return r.text
+    except Exception:
+        pass
+
+    api_key = os.environ.get("SCRAPINGBEE_API_KEY")
+    if not api_key:
+        return None
+    params = {
+        "api_key": api_key, "url": url,
+        "render_js": "True", "premium_proxy": "True",
+        "country_code": "us", "block_resources": "False", "wait": "5000",
+    }
+    for attempt in range(3):
+        try:
+            r = requests.get(SCRAPINGBEE_ENDPOINT, params=params, timeout=180)
+        except requests.RequestException:
+            continue
+        if r.status_code == 200 and not _INTERSTITIAL_RE.search(r.text):
+            return r.text
+    print(
+        f"  [aircraft.com] all fetchers failed for {url[:60]}",
+        file=sys.stderr,
+    )
+    return None
+
+
 def _parse_detail(html: str) -> dict:
     soup = BeautifulSoup(html, "lxml")
     h1 = soup.select_one("h1")
@@ -63,14 +100,12 @@ def _parse_detail(html: str) -> dict:
     text_blob = soup.get_text(" ", strip=True)
     price_m = re.search(r"\$[\d,]+", text_blob)
     af, en = extract_times_from(text_blob)
-    # Listing image — aircraft.com puts the first listing photo as the only
-    # non-logo CDN image on the page
+    # Listing image — aircraft.com puts photos under media.sandhills.com/img.axd
+    # The first <img> is a country flag and the logo is in Images/Logos.
     img_url = None
     for img in soup.find_all("img"):
         src = img.get("src") or img.get("data-src") or ""
-        if src.startswith(("http://", "https://")) and (
-            "sandhills.com/CDN/Images" in src or "media.sandhills" in src
-        ) and "logo" not in src.lower():
+        if "media.sandhills.com/img.axd" in src:
             img_url = src
             break
 
@@ -97,19 +132,23 @@ def scrape(search: dict) -> list[Listing]:
         return []
 
     cache = _load_cache()
-    new_fetches = [u for u in urls if u not in cache or "error" in cache.get(u, {})]
-    for i, url in enumerate(new_fetches):
-        try:
-            r = cr.get(url, impersonate="chrome", timeout=30)
-            if r.status_code == 200:
-                cache[url] = _parse_detail(r.text)
-            else:
-                cache[url] = {"error": f"status {r.status_code}"}
-        except Exception as e:
-            cache[url] = {"error": str(e)[:120]}
-        if i < len(new_fetches) - 1:
+    # Re-fetch any cached entries that previously got the Imperva interstitial
+    # (their "title" got stored as "Pardon Our Interruption").
+    needs_fetch = [
+        u for u in urls
+        if u not in cache
+        or "error" in cache.get(u, {})
+        or (cache.get(u, {}).get("title") or "").startswith("Pardon Our Interruption")
+    ]
+    for i, url in enumerate(needs_fetch):
+        html = _fetch_html(url)
+        if html is None:
+            cache[url] = {"error": "fetch failed (Imperva)"}
+        else:
+            cache[url] = _parse_detail(html)
+        if i < len(needs_fetch) - 1:
             time.sleep(2.0)
-    if new_fetches:
+    if needs_fetch:
         _save_cache(cache)
 
     save_raw(f"aircraftcom_{search['slug']}", "\n".join(urls))
