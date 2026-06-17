@@ -53,6 +53,18 @@
       "price": 470000
     }
   ],
+  "https://aircraftforsale.com/aircraft/single-engine-piston/boeing-stearman/a75n1-pt-17/santa-teresa-nm-88008-usa/boeing-stearman-a75n1-pt-17-for-sale-502501": [
+    {
+      "date": "2026-06-17",
+      "price": 129000
+    }
+  ],
+  "https://aircraftforsale.com/aircraft/single-engine-piston/boeing-stearman/pt-17/20654-sw-citrus-blvd-s-indiantown-fl-34956-usa/boeing-stearman-pt-17-for-sale-501495": [
+    {
+      "date": "2026-06-17",
+      "price": 159900
+    }
+  ],
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172-skyhawk/texas-united-states/cessna-172-skyhawk-for-sale-601566": [
     {
       "date": "2026-06-02",
@@ -325,6 +337,12 @@
       "price": 200000
     }
   ],
+  "https://www.aerotrader.com/listing/2001-Cessna-172S+SKYHAWK+SP-5039918707": [
+    {
+      "date": "2026-06-17",
+      "price": 315000
+    }
+  ],
   "https://www.aerotrader.com/listing/2010-American+Champion-8-GCBC+SCOUT-5040136267": [
     {
       "date": "2026-06-17",
@@ -335,6 +353,12 @@
     {
       "date": "2026-06-17",
       "price": 199500
+    }
+  ],
+  "https://www.aerotrader.com/listing/2012-Kitfox-SUPER+SPORT-5039767080": [
+    {
+      "date": "2026-06-17",
+      "price": 99000
     }
   ],
   "https://www.aerotrader.com/listing/2019-Cessna-172S+SKYHAWK+SP-5039833033": [
@@ -1271,18 +1295,6 @@
       "price": 1690000
     }
   ],
-  "https://www.controller.com/listing/for-sale/256799843/2014-cessna-caravan-208b-grand-ex-turboprop-aircraft": [
-    {
-      "date": "2026-06-17",
-      "price": 2575000
-    }
-  ],
-  "https://www.controller.com/listing/for-sale/256851547/1991-cessna-citation-v-jet-aircraft": [
-    {
-      "date": "2026-06-17",
-      "price": 1690000
-    }
-  ],
   "https://www.controller.com/listing/for-sale/256855579/2003-aviat-husky-a-1b-piston-amphibious-slash-floatplanes": [
     {
       "date": "2026-06-02",
@@ -1737,6 +1749,78 @@
     {
       "date": "2026-05-30",
       "price": 200000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2411983&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 124500
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2428619&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 99500
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2455807&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 79500
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2456056&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 132000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2457027&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 125000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=E75&listing_id=2455324&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 125000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-13+KAYDET&listing_id=2455080&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 59000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2442037&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 112000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2446179&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 110000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2456426&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 149000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17+KAYDET&listing_id=2433204&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 159000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=STEARMAN&listing_id=2457121&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 89000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BUSH+CADDY&model=R80&listing_id=2455058&s-type=aircraft": [
@@ -2621,6 +2705,12 @@
     {
       "date": "2026-05-31",
       "price": 89000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2455552&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 115000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2455623&s-type=aircraft": [
@@ -3779,6 +3869,12 @@
     {
       "date": "2026-06-13",
       "price": 519000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457427&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 835000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": [
