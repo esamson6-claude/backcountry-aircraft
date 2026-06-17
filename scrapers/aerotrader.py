@@ -1,21 +1,35 @@
-"""Scrape AeroTrader.com — small but high-quality general marketplace.
+"""Scrape AeroTrader.com via its JSON search API.
 
-Site is bot-protected (returns 403 for plain requests), so we use
-curl_cffi with Chrome TLS impersonation. The listings index at
-/aircraft-for-sale exposes all current detail URLs in the format
-/listing/<year>-<make>-<model>-<numeric-id>. We filter those by
-`at_patterns` and fetch each detail page, caching per URL.
+AeroTrader migrated to a Nuxt SPA fronted by DataDome + AWS WAF, so the old
+HTML index scrape no longer works (curl_cffi gets a challenge page; even a
+JS render returns an un-hydrated shell). The SPA loads listings from an
+internal JSON endpoint:
+
+    /ssr-api/search-results?page=<n>&make=<name>
+
+which returns clean structured records (year, make, model, price, location,
+description, photo ids, and the canonical detail URL). That endpoint still
+sits behind the WAF, but ScrapingBee's *stealth* proxy clears the challenge
+and returns the JSON. Because the API carries the full listing payload we no
+longer fetch per-listing detail pages at all.
+
+Cost note: only the stealth proxy gets through (premium just gets the
+challenge), at ~75 ScrapingBee credits per request, and the page size is
+fixed at 42, so a full crawl is `ceil(total/42)` stealth calls. The whole
+inventory (~250 listings) is fetched once per run and cached in-process via
+lru_cache, then every (make) search filters that single result set.
 """
 from __future__ import annotations
 
 import functools
+import html
 import json
+import os
 import re
 import time
 from pathlib import Path
 
-from bs4 import BeautifulSoup
-from curl_cffi import requests as cr
+import requests
 
 from .common import (
     Listing,
@@ -26,142 +40,147 @@ from .common import (
 )
 
 BASE = "https://www.aerotrader.com"
-INDEX_URL = f"{BASE}/aircraft-for-sale"
+API_URL = f"{BASE}/ssr-api/search-results"
 SOURCE = "aerotrader"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-CACHE_PATH = PROJECT_ROOT / "data" / "detail_cache.json"
 
-_SLUG_RE = re.compile(
-    r"/listing/(\d{4})-([A-Z][a-zA-Z+]+)-([A-Za-z0-9\-+]+)-(\d+)", re.I
+SCRAPINGBEE_ENDPOINT = "https://app.scrapingbee.com/api/v1/"
+IMG_TEMPLATE = (
+    "https://cdn-media.tilabs.io/v1/media/{pid}.jpg"
+    "?width=1024&height=768&quality=70&upsize=true"
 )
+MAX_PAGES = 15  # safety cap; inventory is normally ~6 pages of 42
+
+_TAG_RE = re.compile(r"<[^>]+>")
 
 
-def _load_cache() -> dict[str, dict]:
-    if CACHE_PATH.exists():
+def _clean_text(text: str | None) -> str | None:
+    """The API returns HTML-escaped descriptions with inline tags. Unescape
+    entities, strip tags, and collapse whitespace to plain text."""
+    if not text:
+        return None
+    text = _TAG_RE.sub(" ", html.unescape(text))
+    text = re.sub(r"\s+", " ", text).strip()
+    return text or None
+
+
+def _fetch_api_page(page: int) -> dict:
+    """Fetch one page of the search API through ScrapingBee's stealth proxy.
+
+    Returns the parsed `data` object. Raises ScraperFailure if the key is
+    missing or every attempt is blocked, so scrape.py preserves prior rows.
+    """
+    api_key = os.environ.get("SCRAPINGBEE_API_KEY")
+    if not api_key:
+        raise ScraperFailure("AeroTrader needs SCRAPINGBEE_API_KEY (WAF-gated API)")
+
+    target = f"{API_URL}?page={page}"
+    params = {
+        "api_key": api_key, "url": target,
+        "stealth_proxy": "True", "country_code": "us",
+        "block_resources": "False",
+    }
+    for attempt in range(6):
         try:
-            return json.loads(CACHE_PATH.read_text())
-        except json.JSONDecodeError:
-            return {}
-    return {}
-
-
-def _save_cache(cache: dict[str, dict]) -> None:
-    CACHE_PATH.write_text(json.dumps(cache, sort_keys=True, indent=2))
+            r = requests.get(SCRAPINGBEE_ENDPOINT, params=params, timeout=200)
+        except requests.RequestException:
+            time.sleep(2 + attempt)
+            continue
+        # Stealth proxy intermittently 500s with "try again (not charged)".
+        if r.status_code == 200 and '"total_results"' in r.text:
+            body = r.text
+            i, j = body.find("{"), body.rfind("}")
+            try:
+                return json.loads(body[i : j + 1])["data"]
+            except (ValueError, KeyError):
+                pass
+        time.sleep(2 + attempt)
+    raise ScraperFailure(
+        f"AeroTrader API page {page} blocked by DataDome/WAF (stealth retries exhausted)"
+    )
 
 
 @functools.lru_cache(maxsize=1)
-def _fetch_listing_urls() -> tuple[str, ...]:
-    # AeroTrader sits behind DataDome + AWS WAF and intermittently returns
-    # a challenge page (status 200 but with no listings) instead of the real
-    # index. Retry a few times with brief backoff; raise ScraperFailure if
-    # every attempt comes back empty so existing rows are preserved.
-    for attempt in range(4):
-        r = cr.get(INDEX_URL, impersonate="chrome", timeout=30)
-        if r.status_code == 200:
-            urls = sorted(set(re.findall(r'href="(/listing/[^"#?]+)"', r.text)))
-            if urls:
-                return tuple(urls)
-        time.sleep(2 + attempt)  # 2, 3, 4, 5s
-    raise ScraperFailure(
-        "AeroTrader served a DataDome/WAF challenge — no listings extracted"
+def _fetch_all_listings() -> tuple[dict, ...]:
+    """Paginate the whole inventory once. A partial crawl would falsely look
+    like listings were removed, so any failed page raises ScraperFailure."""
+    first = _fetch_api_page(1)
+    total_pages = min(int(first["meta"]["page"].get("total_pages", 1)), MAX_PAGES)
+
+    by_id: dict[int, dict] = {}
+    for res in first["results"]:
+        by_id[res["ad_id"]["raw"]] = res
+    for page in range(2, total_pages + 1):
+        data = _fetch_api_page(page)
+        for res in data["results"]:
+            by_id[res["ad_id"]["raw"]] = res
+
+    return tuple(by_id.values())
+
+
+def _raw(res: dict, key: str):
+    v = res.get(key)
+    if isinstance(v, dict):
+        v = v.get("raw")
+    if isinstance(v, list):
+        v = v[0] if v else None
+    return v
+
+
+def _make_listing(res: dict, search: dict) -> Listing:
+    year = _raw(res, "year")
+    make_name = _raw(res, "make_name")
+    model_name = _raw(res, "model_name")
+    description = _clean_text(_raw(res, "description"))
+
+    price = _raw(res, "price")
+    price_str = f"${int(price):,}" if isinstance(price, (int, float)) and price else None
+
+    city = _raw(res, "city")
+    state = _raw(res, "state_code")
+    location = f"{city.title()}, {state}" if city and state else (state or None)
+
+    photo_ids = res.get("photo_ids", {})
+    photo_ids = photo_ids.get("raw") if isinstance(photo_ids, dict) else photo_ids
+    image_url = IMG_TEMPLATE.format(pid=photo_ids[0]) if photo_ids else None
+
+    title_bits = [str(b) for b in (year, make_name, model_name) if b]
+    title = " ".join(title_bits) or None
+
+    af, en = extract_times_from(description)
+    model = search.get("default_model")
+
+    return Listing(
+        source=SOURCE,
+        url=_raw(res, "ad_detail_url"),
+        make=search["make"],
+        year=int(year) if isinstance(year, (int, float)) else None,
+        model=model,
+        price=price_str,
+        total_time=af,
+        engine_time=en,
+        location=location,
+        title=title,
+        description=description[:1500] if description else None,
+        image_url=image_url,
+        engine=extract_engine(description, model),
     )
-
-
-def _parse_detail(url: str, html: str) -> dict:
-    soup = BeautifulSoup(html, "lxml")
-    h1 = soup.select_one("h1")
-    h1_text = h1.get_text(" ", strip=True) if h1 else ""
-    year_m = re.match(r"(\d{4})", h1_text)
-    year = int(year_m.group(1)) if year_m else None
-
-    text_blob = soup.get_text(" ", strip=True)
-    price_m = re.search(r"\$[\d,]+", text_blob)
-    loc_m = re.search(
-        r"(?:located|in)\s+([A-Z][a-zA-Z\.\-' ]+,\s*[A-Z]{2})\b", text_blob
-    )
-    af, en = extract_times_from(text_blob)
-
-    # Try a few image strategies — they don't expose og:image so look in DOM
-    img_url = None
-    og = soup.find("meta", property="og:image")
-    if og:
-        img_url = og.get("content")
-    if not img_url:
-        for img in soup.find_all("img"):
-            src = img.get("src") or img.get("data-src") or ""
-            if src.startswith(("http://", "https://")) and any(
-                k in src.lower() for k in ("listing", "vehicle", "aircraft", "cdn")
-            ):
-                img_url = src
-                break
-
-    return {
-        "year": year,
-        "title": h1_text[:200] if h1_text else None,
-        "price": price_m.group(0) if price_m else None,
-        "total_time": af,
-        "engine_time": en,
-        "location": loc_m.group(1).strip() if loc_m else None,
-        "image_url": img_url,
-        "description": text_blob[:1500] if text_blob else None,
-    }
 
 
 def scrape(search: dict) -> list[Listing]:
     patterns = [p.lower() for p in search["at_patterns"]]
 
-    inv_urls = _fetch_listing_urls()
+    all_listings = _fetch_all_listings()
     matched = []
-    for path in inv_urls:
-        m = _SLUG_RE.search(path)
-        if not m:
-            continue
-        slug = path.lower()
+    for res in all_listings:
+        url = _raw(res, "ad_detail_url") or ""
+        slug = url.lower()
         if any(p in slug for p in patterns):
-            matched.append(path)
+            matched.append(res)
 
-    cache = _load_cache()
-    new_fetches = [u for u in matched if u not in cache or "error" in cache.get(u, {})]
-    for i, path in enumerate(new_fetches):
-        url = f"{BASE}{path}"
-        try:
-            r = cr.get(url, impersonate="chrome", timeout=30)
-            if r.status_code == 200:
-                cache[path] = _parse_detail(url, r.text)
-            else:
-                cache[path] = {"error": f"status {r.status_code}"}
-        except Exception as e:
-            cache[path] = {"error": str(e)[:120]}
-        if i < len(new_fetches) - 1:
-            time.sleep(2.0)
-    if new_fetches:
-        _save_cache(cache)
+    save_raw(
+        f"{SOURCE}_{search['slug']}",
+        "\n".join(_raw(r, "ad_detail_url") or "" for r in matched),
+    )
 
-    save_raw(f"{SOURCE}_{search['slug']}", "\n".join(matched))
-
-    listings: list[Listing] = []
-    for path in matched:
-        data = cache.get(path) or {}
-        if "error" in data or not data:
-            continue
-        full_url = f"{BASE}{path}"
-        model = search.get("default_model")
-        listings.append(
-            Listing(
-                source=SOURCE,
-                url=full_url,
-                make=search["make"],
-                year=data.get("year"),
-                model=model,
-                price=data.get("price"),
-                total_time=data.get("total_time"),
-                engine_time=data.get("engine_time"),
-                location=data.get("location"),
-                title=data.get("title"),
-                description=data.get("description"),
-                image_url=data.get("image_url"),
-                engine=extract_engine(data.get("description"), model),
-            )
-        )
-
-    return listings
+    return [_make_listing(res, search) for res in matched]
