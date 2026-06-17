@@ -32,6 +32,7 @@
   "Aircraft Sales HAWKESBURY, ON": null,
   "Aircraft Sales Hawkesbury, BC": null,
   "Aircraft Sales Hawkesbury, ON": null,
+  "Aircraft Sales Hawkesbury, SK": null,
   "AircraftMerchants LLC Louisburg, NC": null,
   "Airside Aviation Burlington, ON": null,
   "Airside Aviation Calgary, AB": null,
@@ -628,6 +629,10 @@
     36.0434539,
     14.2483064
   ],
+  "Hagerstown, MD": [
+    39.6430455,
+    -77.7191081
+  ],
   "Hailey, ID": [
     43.519629,
     -114.315325
@@ -1059,6 +1064,10 @@
     44.9772995,
     -93.2654692
   ],
+  "Minnesota": [
+    45.9896587,
+    -94.6113288
+  ],
   "Minooka, IL": [
     41.4553084,
     -88.2617305
@@ -1070,6 +1079,10 @@
   "Monroe, NC": [
     34.9854275,
     -80.5495112
+  ],
+  "Mooresville, NC": [
+    35.5848596,
+    -80.8100724
   ],
   "More Info Anchorage, AK": null,
   "More Info Corona, CA": null,
@@ -1189,6 +1202,10 @@
     50.000678,
     -86.000977
   ],
+  "Oregon": [
+    43.9792797,
+    -120.737257
+  ],
   "Orlando, Florida": [
     28.5421218,
     -81.379045
@@ -1255,6 +1272,10 @@
   "Pembroke Pines, FL": [
     26.0061943,
     -80.2872086
+  ],
+  "Pendleton, OR": [
+    45.672075,
+    -118.7885967
   ],
   "Petaluma, CA": [
     38.2325829,
@@ -1520,6 +1541,7 @@
     41.6833813,
     -86.2500066
   ],
+  "South LLC Memphis, MB": null,
   "South Saint Paul, Minnesota": [
     44.8906694,
     -93.0372808
