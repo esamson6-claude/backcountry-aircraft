@@ -67,6 +67,31 @@ def _keep_bird_dog(l: dict) -> bool:
     )
 
 
+def _keep_cessna_170_175(l: dict) -> bool:
+    """Keep only Cessna 170/175 piston singles.
+
+    Controller's /cessna/170 and /cessna/175 URLs fall back to the full Cessna
+    inventory (incl. Citation jets), and title_make_pattern="CESSNA" doesn't
+    filter. We check title/description (NOT model — jets fall back to the
+    "170/175" default_model) and require a real 170/175 token while excluding
+    Citations.
+    """
+    blob = " ".join((l.get(k) or "").upper() for k in ("title", "description"))
+    if "CITATION" in blob:
+        return False
+    return bool(re.search(r"\b170[A-C]?\b|\b175[A-C]?\b|SKYLARK", blob))
+
+
+def _keep_wilga(l: dict) -> bool:
+    """PZL-104 Wilga family (Wilga 35/80, PZL-104MA Wilga 2000, 104MF, 2000 Patrol).
+
+    Used on the broad source entries (TAP make=PZL, AircraftForSale /pzl) to
+    exclude other PZL types (gliders, Koliber, Iskra) that share the make.
+    """
+    blob = " ".join((l.get(k) or "").upper() for k in ("model", "description", "title"))
+    return "WILGA" in blob or bool(re.search(r"PZL[-\s]?104", blob))
+
+
 
 
 # Each search is one (source, make, url) combination.
@@ -262,6 +287,7 @@ SEARCHES: list[dict] = [
         "url": "https://www.controller.com/listings/for-sale/cessna/170/aircraft",
         "title_make_pattern": "CESSNA",
         "default_model": "170",
+        "post_filter": _keep_cessna_170_175,
     },
     {
         "make": "Cessna 170/175",
@@ -270,6 +296,7 @@ SEARCHES: list[dict] = [
         "url": "https://www.controller.com/listings/for-sale/cessna/175/aircraft",
         "title_make_pattern": "CESSNA",
         "default_model": "175",
+        "post_filter": _keep_cessna_170_175,
     },
     {
         "make": "Cessna 170/175",
@@ -610,15 +637,6 @@ SEARCHES: list[dict] = [
         "default_model": "205/206/207",
     },
 
-    # ---- PZL-104 Wilga ----
-    {
-        "make": "PZL-104 Wilga",
-        "module": "scrapers.trade_a_plane",
-        "slug": "pzl-wilga",
-        "url": "https://www.trade-a-plane.com/filtered/search?make=PZL&s-type=aircraft",
-        "default_model": "PZL-104 Wilga",
-    },
-
     # ---- Dream Aircraft Tundra ----
     {
         "make": "Dream Aircraft Tundra",
@@ -681,6 +699,55 @@ SEARCHES: list[dict] = [
         "post_filter": _keep_arctic_tern,
     },
 
+    # ---- Stearman (Boeing Model 75: PT-13/17/18/27, N2S series, A75/B75/D75/E75) ----
+    # TAP files the whole family under make "BOEING/STEARMAN" — clean, no jets.
+    # Controller is deliberately omitted: its "Boeing" inventory is all airliners
+    # (737/747/767/777/BBJ) with no Stearmans.
+    {
+        "make": "Stearman",
+        "module": "scrapers.trade_a_plane",
+        "slug": "stearman",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=BOEING%2FSTEARMAN&s-type=aircraft",
+        "default_model": "Stearman",
+    },
+    {
+        "make": "Stearman",
+        "module": "scrapers.aircraftforsale",
+        "slug": "stearman",
+        "sitemap_patterns": ["/boeing-stearman/", "/stearman/"],
+        "default_model": "Stearman",
+    },
+
+    # ---- Wilga (PZL-104 Wilga 35/80, PZL-104MA Wilga 2000, 104MF, 2000 Patrol) ----
+    # Rare in the US; no current listings on any source. TAP make=PZL and
+    # AircraftForSale /pzl are broad (cover other PZL types) so they carry a
+    # _keep_wilga filter; Controller /pzl/wilga and the AeroTrader slug are
+    # already Wilga-specific.
+    {
+        "make": "Wilga",
+        "module": "scrapers.trade_a_plane",
+        "slug": "wilga",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=PZL&s-type=aircraft",
+        "default_model": "Wilga",
+        "post_filter": _keep_wilga,
+    },
+    {
+        "make": "Wilga",
+        "module": "scrapers.aircraftforsale",
+        "slug": "wilga",
+        "sitemap_patterns": ["/pzl", "/wilga"],
+        "default_model": "Wilga",
+        "post_filter": _keep_wilga,
+    },
+    {
+        "make": "Wilga",
+        "module": "scrapers.controller",
+        "slug": "wilga",
+        "url": "https://www.controller.com/listings/for-sale/pzl/wilga/aircraft",
+        "title_make_pattern": "PZL",
+        "default_model": "Wilga",
+    },
+
     # ---- AeroTrader.com — small marketplace, all makes via slug filter ----
     # Index page is fetched once per scrape run (lru_cache) then reused by each search.
     {"make": "Aviat Husky", "module": "scrapers.aerotrader", "slug": "aviat-husky",
@@ -735,6 +802,11 @@ SEARCHES: list[dict] = [
      "at_patterns": ["wag-aero", "wagaero"], "default_model": "Sportsman 2+2"},
     {"make": "Found Bush Hawk", "module": "scrapers.aerotrader", "slug": "found-bushhawk",
      "at_patterns": ["found-bushhawk", "found+bushhawk", "bush-hawk"], "default_model": "Bush Hawk"},
+    {"make": "Stearman", "module": "scrapers.aerotrader", "slug": "stearman",
+     "at_patterns": ["stearman", "n2s"], "default_model": "Stearman"},
+    {"make": "Wilga", "module": "scrapers.aerotrader", "slug": "wilga",
+     "at_patterns": ["wilga", "pzl-104", "pzl%2f104"], "default_model": "Wilga",
+     "post_filter": _keep_wilga},
 ]
 
 FIELDS = [
