@@ -1,37 +1,37 @@
 # New listings — 2026-06-17
 
-53 new listings:
+67 new listings:
 
 - **2020 CubCrafters CARBON CUB EX-3** — $350,000 — 329 TT — Aircraft Sales Hawkesbury, SK — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-3&listing_id=2457406&s-type=aircraft
+- **2008 Cessna 170/175 172S Skyhawk** — $499,999 —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/257322143/2008-cessna-172s-skyhawk-sp-piston-single-aircraft
 - **2000 Cessna 170/175 Citation Excel** — price n/a —  —  — _controller_  
   https://www.controller.com/listing/for-sale/233419211/2000-cessna-citation-excel-jet-aircraft
 - **? Cessna 170/175 175** — price n/a —  —  — _controller_  
   https://www.controller.com/listing/for-sale/21571405/cessna-citation-cj2-jet-aircraft
 - **2005 Cessna 170/175 Citation Xls** — price n/a —  —  — _controller_  
   https://www.controller.com/listing/for-sale/122427867/2005-cessna-citation-xls-jet-aircraft
-- **2008 Cessna 170/175 172S Skyhawk** — $499,999 —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/257322143/2008-cessna-172s-skyhawk-sp-piston-single-aircraft
-- **2009 Cessna 170/175 Citation Mustang** — price n/a —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/243167403/2009-cessna-citation-mustang-jet-aircraft
 - **2026 Cessna 170/175 Turbo 206H** — $1,259,997 —  —  — _controller_  
   https://www.controller.com/listing/for-sale/256553611/2026-cessna-turbo-206h-stationair-hd-piston-single-aircraft
+- **2009 Cessna 170/175 Citation Mustang** — price n/a —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/243167403/2009-cessna-citation-mustang-jet-aircraft
 - **? Cessna 170/175 175** — price n/a —  —  — _controller_  
   https://www.controller.com/listing/for-sale/237885019/cessna-citation-excel-jet-aircraft
-- **2019 Cessna 170/175 Citation Cj3** — price n/a —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/234025353/2019-cessna-citation-cj3-plus-jet-aircraft
-- **2016 Cessna 170/175 Citation Latitude** — price n/a —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/253518713/2016-cessna-citation-latitude-jet-aircraft
-- **2009 Cessna 170/175 Citation Cj3** — price n/a —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/254816949/2009-cessna-citation-cj3-jet-aircraft
-- **1999 Cessna 170/175 Citation Jet** — price n/a —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/256706477/1999-cessna-citation-jet-jet-aircraft
-- **1995 Cessna 170/175 Citation V** — $1,920,000 —  —  — _controller_  
-  https://www.controller.com/listing/for-sale/257172263/1995-cessna-citation-v-ultra-jet-aircraft
 - **2000 Cessna 170/175 172S Skyhawk** — $310,000 —  —  — _controller_  
   https://www.controller.com/listing/for-sale/257322151/2000-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **1995 Cessna 170/175 Citation V** — $1,920,000 —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/257172263/1995-cessna-citation-v-ultra-jet-aircraft
 - **2014 Cessna 170/175 Caravan 208B** — $2,575,000 —  —  — _controller_  
   https://www.controller.com/listing/for-sale/256799843/2014-cessna-caravan-208b-grand-ex-turboprop-aircraft
+- **1999 Cessna 170/175 Citation Jet** — price n/a —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/256706477/1999-cessna-citation-jet-jet-aircraft
+- **2009 Cessna 170/175 Citation Cj3** — price n/a —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/254816949/2009-cessna-citation-cj3-jet-aircraft
+- **2016 Cessna 170/175 Citation Latitude** — price n/a —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/253518713/2016-cessna-citation-latitude-jet-aircraft
+- **2019 Cessna 170/175 Citation Cj3** — price n/a —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/234025353/2019-cessna-citation-cj3-plus-jet-aircraft
 - **1998 Cessna 170/175 172R Skyhawk** — price n/a —  —  — _controller_  
   https://www.controller.com/listing/for-sale/257322159/1998-cessna-172r-skyhawk-piston-single-aircraft
 - **2016 Cessna 170/175 Citation Cj3** — price n/a —  —  — _controller_  
@@ -50,6 +50,8 @@
   https://www.controller.com/listing/for-sale/252532435/2017-murphy-super-rebel-experimental-slash-homebuilt-aircraft
 - **1968 Cessna 172 172I SKYHAWK** — $139,000 — 2880 TT — Low Time, IA — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2457419&s-type=aircraft
+- **2001 Cessna 172 172S SKYHAWK SP** — $279,900 — 1969 TT — Ben Halcomb Lexington, KY — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457431&s-type=aircraft
 - **1974 Cessna 172 172%2F180 CONVERSION** — $164,900 — 4818 TT — Aviation Consulting Pendleton, OR — _trade-a-plane_  
   https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2457402&s-type=aircraft
 - **1966 Cessna 172 172G SKYHAWK** — $109,995 — 4519 TT — More Info Mooresville, NC — _trade-a-plane_  
@@ -108,3 +110,29 @@
   https://www.controller.com/listing/for-sale/255069401/2019-cessna-172s-skyhawk-sp-piston-single-aircraft
 - **2012 Cessna 172 172S Skyhawk** — $399,999 — 5,600 TT — Whitehouse Station, New Jersey — _controller_  
   https://www.controller.com/listing/for-sale/257321631/2012-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **2010 CubCrafters CubCrafters** — $199,500 —  — Fishers, IN — _aerotrader_  
+  https://www.aerotrader.com/listing/2010-Cubcrafters-CC11-160+CARBON+CUB+SS-5040904433
+- **2010 American Champion American Champion** — $239,500 — 530 hrs — Mayfield, KY — _aerotrader_  
+  https://www.aerotrader.com/listing/2010-American+Champion-8-GCBC+SCOUT-5040136267
+- **1980 Cessna 185 185** — $375,000 — 2096 AFTT — Baton Rouge, LA — _aerotrader_  
+  https://www.aerotrader.com/listing/1980-Cessna-A185F-5031246398
+- **2019 Cessna 172 172** — $569,500 — 1,047 hrs — Mayfield, KY — _aerotrader_  
+  https://www.aerotrader.com/listing/2019-Cessna-172S+SKYHAWK+SP-5039833033
+- **1977 Cessna 172 172** — $249,500 — 2,875 hrs — Mayfield, KY — _aerotrader_  
+  https://www.aerotrader.com/listing/1977-Cessna-172+HAWK+XP-R172-5040831582
+- **1967 Cessna 172 172** — $89,500 —  — Anderson, IN — _aerotrader_  
+  https://www.aerotrader.com/listing/1967-Cessna-172+SKYHAWK-5040937101
+- **1974 Cessna 172 172** — $89,000 —  — Johns Island, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/1974-Cessna-172M+SKYHAWK-5040117637
+- **1961 Cessna 172 172** — $72,500 — 3161 TTAF — Rock Hill, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/1961-Cessna-172-5040430000
+- **2019 Cessna 172 172** — price n/a — 1,435 hrs — Mayfield, KY — _aerotrader_  
+  https://www.aerotrader.com/listing/2019-Cessna-172S+SKYHAWK+SP-5039943100
+- **? Cessna 172 172** — price n/a —  — Chattanooga, TN — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-172+SKYHAWK-5037867817
+- **? Cessna 172 172** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-172-5016588048
+- **2021 Cessna 205/206/207 205/206/207** — $895,000 —  — Thomaston, GA — _aerotrader_  
+  https://www.aerotrader.com/listing/2021-Cessna-206-5040872892
+- **? Cessna 205/206/207 205/206/207** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-205-5016587976

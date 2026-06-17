@@ -279,16 +279,74 @@
       "price": 10000
     }
   ],
+  "https://www.aerotrader.com/listing/1961-Cessna-172-5040430000": [
+    {
+      "date": "2026-06-17",
+      "price": 72500
+    }
+  ],
+  "https://www.aerotrader.com/listing/1967-Cessna-172+SKYHAWK-5040937101": [
+    {
+      "date": "2026-06-17",
+      "price": 89500
+    }
+  ],
+  "https://www.aerotrader.com/listing/1974-Cessna-172M+SKYHAWK-5040117637": [
+    {
+      "date": "2026-06-17",
+      "price": 89000
+    }
+  ],
+  "https://www.aerotrader.com/listing/1977-Cessna-172+HAWK+XP-R172-5040831582": [
+    {
+      "date": "2026-06-17",
+      "price": 249500
+    }
+  ],
+  "https://www.aerotrader.com/listing/1980-Cessna-A185F-5031246398": [
+    {
+      "date": "2026-06-17",
+      "price": 375000
+    }
+  ],
   "https://www.aerotrader.com/listing/1981-Cessna-172RG+CUTLASS-5040753544": [
     {
       "date": "2026-06-04",
       "price": 109500
+    },
+    {
+      "date": "2026-06-17",
+      "price": 104500
     }
   ],
   "https://www.aerotrader.com/listing/1989-Cessna-172-5040385313": [
     {
       "date": "2026-06-03",
       "price": 200000
+    }
+  ],
+  "https://www.aerotrader.com/listing/2010-American+Champion-8-GCBC+SCOUT-5040136267": [
+    {
+      "date": "2026-06-17",
+      "price": 239500
+    }
+  ],
+  "https://www.aerotrader.com/listing/2010-Cubcrafters-CC11-160+CARBON+CUB+SS-5040904433": [
+    {
+      "date": "2026-06-17",
+      "price": 199500
+    }
+  ],
+  "https://www.aerotrader.com/listing/2019-Cessna-172S+SKYHAWK+SP-5039833033": [
+    {
+      "date": "2026-06-17",
+      "price": 569500
+    }
+  ],
+  "https://www.aerotrader.com/listing/2021-Cessna-206-5040872892": [
+    {
+      "date": "2026-06-17",
+      "price": 895000
     }
   ],
   "https://www.aircraft.com/aircraft/197823883/n432wc-1951-cessna-l19-305a-bird-dog": [
@@ -1195,6 +1253,22 @@
     {
       "date": "2026-06-05",
       "price": 150000
+    },
+    {
+      "date": "2026-06-17",
+      "price": 130000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/256799843/2014-cessna-caravan-208b-grand-ex-turboprop-aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 2575000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/256851547/1991-cessna-citation-v-jet-aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 1690000
     }
   ],
   "https://www.controller.com/listing/for-sale/256799843/2014-cessna-caravan-208b-grand-ex-turboprop-aircraft": [
@@ -3087,6 +3161,12 @@
     {
       "date": "2026-06-17",
       "price": 249000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457431&s-type=aircraft": [
+    {
+      "date": "2026-06-17",
+      "price": 279900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2456758&s-type=aircraft": [
