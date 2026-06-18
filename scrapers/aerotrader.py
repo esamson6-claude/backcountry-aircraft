@@ -13,11 +13,19 @@ sits behind the WAF, but ScrapingBee's *stealth* proxy clears the challenge
 and returns the JSON. Because the API carries the full listing payload we no
 longer fetch per-listing detail pages at all.
 
+We query *per make* (`?make=<name>`). The unfiltered search (no `make`) is
+unreliable — it returns a varying subset of inventory between requests, so
+niche makes would intermittently drop to zero. A `?make=` filter returns the
+complete, stable set for that make. Each search config carries an `at_make`
+(the AeroTrader taxonomy make string) plus `at_patterns` for model-level
+filtering on the detail-URL slug. Kit/experimental brands that AeroTrader
+files under its catch-all "Other" make (CubCrafters, Bearhawk, Glasair, …)
+use `at_make="Other"`; the at_patterns then pick out the specific brand.
+Results are cached per make in-process (lru_cache), so the eight Cessna
+searches share one fetch.
+
 Cost note: only the stealth proxy gets through (premium just gets the
-challenge), at ~75 ScrapingBee credits per request, and the page size is
-fixed at 42, so a full crawl is `ceil(total/42)` stealth calls. The whole
-inventory (~250 listings) is fetched once per run and cached in-process via
-lru_cache, then every (make) search filters that single result set.
+challenge), at ~75 ScrapingBee credits per request; page size is fixed at 42.
 """
 from __future__ import annotations
 
@@ -28,6 +36,7 @@ import os
 import re
 import time
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -64,8 +73,8 @@ def _clean_text(text: str | None) -> str | None:
     return text or None
 
 
-def _fetch_api_page(page: int) -> dict:
-    """Fetch one page of the search API through ScrapingBee's stealth proxy.
+def _fetch_api_page(make: str, page: int) -> dict:
+    """Fetch one page of the per-make search API via ScrapingBee's stealth proxy.
 
     Returns the parsed `data` object. Raises ScraperFailure if the key is
     missing or every attempt is blocked, so scrape.py preserves prior rows.
@@ -74,7 +83,7 @@ def _fetch_api_page(page: int) -> dict:
     if not api_key:
         raise ScraperFailure("AeroTrader needs SCRAPINGBEE_API_KEY (WAF-gated API)")
 
-    target = f"{API_URL}?page={page}"
+    target = f"{API_URL}?make={quote(make)}&page={page}"
     params = {
         "api_key": api_key, "url": target,
         "stealth_proxy": "True", "country_code": "us",
@@ -96,22 +105,25 @@ def _fetch_api_page(page: int) -> dict:
                 pass
         time.sleep(2 + attempt)
     raise ScraperFailure(
-        f"AeroTrader API page {page} blocked by DataDome/WAF (stealth retries exhausted)"
+        f"AeroTrader API make={make!r} page {page} blocked by DataDome/WAF "
+        "(stealth retries exhausted)"
     )
 
 
-@functools.lru_cache(maxsize=1)
-def _fetch_all_listings() -> tuple[dict, ...]:
-    """Paginate the whole inventory once. A partial crawl would falsely look
-    like listings were removed, so any failed page raises ScraperFailure."""
-    first = _fetch_api_page(1)
+@functools.lru_cache(maxsize=None)
+def _fetch_make(make: str) -> tuple[dict, ...]:
+    """Paginate the full result set for one make. Cached per make, so searches
+    that share a make (the eight Cessna slugs, the "Other" bucket) fetch once.
+    A partial crawl would falsely look like removals, so any failed page raises
+    ScraperFailure (preserving prior rows)."""
+    first = _fetch_api_page(make, 1)
     total_pages = min(int(first["meta"]["page"].get("total_pages", 1)), MAX_PAGES)
 
     by_id: dict[int, dict] = {}
     for res in first["results"]:
         by_id[res["ad_id"]["raw"]] = res
     for page in range(2, total_pages + 1):
-        data = _fetch_api_page(page)
+        data = _fetch_api_page(make, page)
         for res in data["results"]:
             by_id[res["ad_id"]["raw"]] = res
 
@@ -170,9 +182,9 @@ def _make_listing(res: dict, search: dict) -> Listing:
 def scrape(search: dict) -> list[Listing]:
     patterns = [p.lower() for p in search["at_patterns"]]
 
-    all_listings = _fetch_all_listings()
+    make_listings = _fetch_make(search["at_make"])
     matched = []
-    for res in all_listings:
+    for res in make_listings:
         url = _raw(res, "ad_detail_url") or ""
         slug = url.lower()
         if any(p in slug for p in patterns):
