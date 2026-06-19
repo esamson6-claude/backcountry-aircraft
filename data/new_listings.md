@@ -1,56 +1,34 @@
-# New listings — 2026-06-18
+# New listings — 2026-06-19
 
-26 new listings:
+15 new listings:
 
-- **2013 Aviat Husky A-1C-200** — $325,000 — 663 TT — South Saint Paul, Minnesota — _controller_  
-  https://www.controller.com/listing/for-sale/256159869/2013-aviat-husky-a-1c-200-piston-amphibious-slash-floatplanes
-- **2023 Aviat Husky A-1C-200** — $470,000 — 105 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/256668449/2023-aviat-husky-a-1c-200-piston-single-aircraft
-- **2014 Aviat Husky A-1C-180** — $299,000 — 315 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/255199797/2014-aviat-husky-a-1c-180-piston-single-aircraft
-- **2013 Aviat Husky A-1C-180** — $279,000 — 415 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft
-- **2011 Aviat Husky A-1C-180** — $239,000 — 180 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/255957485/2011-aviat-husky-a-1c-180-piston-single-aircraft
-- **2010 Aviat Husky A-1C-180** — $244,000 — 804 TT — Peterborough, Ontario, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/257237119/2010-aviat-husky-a-1c-180-piston-single-aircraft
-- **2007 Aviat Husky A-1B** — $199,000 — 475 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/254084127/2007-aviat-husky-a-1b-piston-single-aircraft
-- **1999 Aviat Husky A-1B** — $179,900 — 1,675 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/254195533/1999-aviat-husky-a-1b-piston-single-aircraft
-- **2012 Aviat Husky A-1C-200** — $329,000 — 410 TT — Tupelo, Mississippi — _controller_  
-  https://www.controller.com/listing/for-sale/249384829/2012-aviat-husky-a-1c-200-piston-single-aircraft
-- **2019 Aviat Husky A-1C-180** — price n/a — 150 TT — Brookings, South Dakota — _controller_  
-  https://www.controller.com/listing/for-sale/246680021/2019-aviat-husky-a-1c-180-piston-single-aircraft
-- **2013 Aviat Husky A-1C-180** — $245,000 — 233 TT — Grand Junction, Colorado — _controller_  
-  https://www.controller.com/listing/for-sale/255053795/2013-aviat-husky-a-1c-180-piston-single-aircraft
-- **2025 Aviat Husky A-1C-200** — price n/a — 0 TT — Orlando, Florida — _controller_  
-  https://www.controller.com/listing/for-sale/249371347/2025-aviat-husky-a-1c-200-piston-single-aircraft
-- **2025 Aviat Husky A-1C-200** — price n/a — 0 TT — Stayner, Ontario, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/247908261/2025-aviat-husky-a-1c-200-piston-single-aircraft
-- **2025 Aviat Husky A-1C-200** — price n/a — 122 TT — Hugo, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/245530899/2025-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-200** — price n/a — 1 TT — Middleton, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/257078389/2026-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-200** — price n/a — 0 TT — Belgrade, Montana — _controller_  
-  https://www.controller.com/listing/for-sale/252216853/2026-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-200** — price n/a — 1 TT — Morgan, Utah — _controller_  
-  https://www.controller.com/listing/for-sale/251582831/2026-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-180** — price n/a — 1 TT — Plymouth, Massachusetts — _controller_  
-  https://www.controller.com/listing/for-sale/252440995/2026-aviat-husky-a-1c-180-piston-single-aircraft
-- **2025 Aviat Husky A-1C-180** — $525,000 — 35 TT — Dayton, Ohio — _controller_  
-  https://www.controller.com/listing/for-sale/256460209/2025-aviat-husky-a-1c-180-piston-single-aircraft
-- **2021 Aviat Husky A-1C-180** — $325,000 — 95 TT — Dudley, Missouri — _controller_  
-  https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft
-- **2019 Aviat Husky A-1C-180** — $365,000 — 168 TT — Middleton, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/236659995/2019-aviat-husky-a-1c-180-piston-single-aircraft
-- **2007 Aviat Husky A-1B** — $209,000 — 294 TT — Middleton, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/250363283/2007-aviat-husky-a-1b-piston-single-aircraft
-- **2000 Aviat Husky A-1B** — $133,131 — 420 TT — London, London, United Kingdom — _controller_  
-  https://www.controller.com/listing/for-sale/256480029/2000-aviat-husky-a-1b-piston-single-aircraft
-- **2010 ICP Savannah Savannah Light** — $45,721 — 520 TT — Pakenham Upper, Victoria, Australia — _controller_  
-  https://www.controller.com/listing/for-sale/247832859/2010-icp-savannah-light-sport-aircraft
-- **2002 Cessna 172 172S Skyhawk** — $325,000 — 4,152 TT — Pitt Meadows, British Columbia, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/255873505/2002-cessna-172s-skyhawk-sp-piston-single-aircraft
-- **2000 Cessna 172 172S Skyhawk** — $310,000 — 1,830 TT — Los Angeles, California — _controller_  
-  https://www.controller.com/listing/for-sale/257322151/2000-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **2004 Maule Mxt7-180A** — $121,800 — 3,503 TT — Englewood, Colorado — _controller_  
+  https://www.controller.com/listing/for-sale/253591041/2004-maule-mxt7-180a-piston-single-aircraft
+- **1997 Maule Mxt7-180** — $125,705 — 1,500 TT — SchwabmÃ¼nchen, Bavaria, Germany — _controller_  
+  https://www.controller.com/listing/for-sale/257321739/1997-maule-mxt7-180-piston-single-aircraft
+- **1994 Maule Mx7-180B** — price n/a — 2,337 TT — Adelaide, South Australia, Australia — _controller_  
+  https://www.controller.com/listing/for-sale/244192851/1994-maule-mx7-180b-piston-single-aircraft
+- **1962 Cessna 185 185A** — $275,000 — 9524 TT — Crank Little Rock, AR — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185A&listing_id=2453669&s-type=aircraft
+- **1977 Cessna 185 185F** — $280,000 — 5400 TTAF — Wayne King Anchorage, AK — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2457474&s-type=aircraft
+- **2005 Cessna 172 172SP SKYHAWK SP** — $349,500 — 1480 TT — Brennan Mansfield, MA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2457454&s-type=aircraft
+- **1980 Cessna 172 172N SKYHAWK** — $117,900 — 4143 TT — Ownership Solutions Kokomo, IN — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2457492&s-type=aircraft
+- **1974 Cessna 172 172M SKYHAWK** — $175,000 — 2270 TT — Aviation West Hampton, NY — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2457488&s-type=aircraft
+- **1967 Cessna 172 172H SKYHAWK** — $99,000 — 3435 TT — John Dixon Duluth, MN — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2455581&s-type=aircraft
+- **1982 Cessna 172 172P Skyhawk** — $149,900 — 5,862 TT — Phoenix, Arizona — _controller_  
+  https://www.controller.com/listing/for-sale/257364171/1982-cessna-172p-skyhawk-piston-single-aircraft
+- **1998 Cessna 172 172R Skyhawk** — $4,850 — 3,180 TT — Los Angeles, California — _controller_  
+  https://www.controller.com/listing/for-sale/257322159/1998-cessna-172r-skyhawk-piston-single-aircraft
+- **1972 Cessna 172 172M Skyhawk** — price n/a — 4,833 TT — East Hampton, New York — _controller_  
+  https://www.controller.com/listing/for-sale/248494673/1972-cessna-172m-skyhawk-piston-single-aircraft
+- **2012 Cessna 172 172S Skyhawk** — $487,000 — 1,280 TT — Buenos Aires, Florida, Argentina — _controller_  
+  https://www.controller.com/listing/for-sale/257359803/2012-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **2008 Cessna 205/206/207 T206H STATIONAIR** — $445,000 — 12776 TT — Brad Hutchings Jacksonville, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2446285&s-type=aircraft
+- **2006 Cessna 205/206/207 T206H STATIONAIR** — $485,000 — 5162 TT — Brad Hutchings Jacksonville, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2446282&s-type=aircraft
