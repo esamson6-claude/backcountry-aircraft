@@ -565,6 +565,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC&listing_id=2451947&s-type=aircraft": {
     "location": "Carrabassett Valley, ME"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC&listing_id=2457500&s-type=aircraft": {
+    "location": "Fairmount, ND"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2412649&s-type=aircraft": {
     "location": "Nampa, ID"
   },
@@ -1096,6 +1099,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2457276&s-type=aircraft": {
     "location": "Firebaugh, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2457475&s-type=aircraft": {
+    "location": "Franklin, NC"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2448467&s-type=aircraft": {
     "location": "Elkhart, KS"
   },
@@ -1242,6 +1248,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2456726&s-type=aircraft": {
     "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2457506&s-type=aircraft": {
+    "location": "Fernandina Beach, FL"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2409311&s-type=aircraft": {
     "location": "Livermore, CA"
@@ -1630,6 +1639,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2401897&s-type=aircraft": {
     "location": "Livermore, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2409094&s-type=aircraft": {
+    "location": "Daytona Beach, FL"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2413795&s-type=aircraft": {
     "location": "Los Angeles, CA"
   },
@@ -1678,6 +1690,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457091&s-type=aircraft": {
     "location": "Van Nuys, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457413&s-type=aircraft": {
+    "location": "Daytona Beach, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457414&s-type=aircraft": {
+    "location": "Daytona Beach, FL"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457431&s-type=aircraft": {
     "location": "Lexington, KY"
   },
@@ -1719,6 +1737,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2443236&s-type=aircraft": {
     "location": "Anchorage, AK"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2447202&s-type=aircraft": {
+    "location": "Lewiston, ID"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2452052&s-type=aircraft": {
     "location": "Scottsdale, AZ"
