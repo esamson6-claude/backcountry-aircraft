@@ -494,6 +494,13 @@ def render() -> Path:
   .leaflet-popup-content .popup-price {{ color:#0366d6; font-weight:600; font-size:13px; }}
   .leaflet-popup-content .popup-loc {{ font-size:11px; color:#666; }}
   .leaflet-popup-content a {{ color:#0366d6; text-decoration:none; font-size:11px; }}
+  .leaflet-popup-content .popup-media {{ position:relative; }}
+  .leaflet-popup-content .popup-fav {{ position:absolute; top:6px; right:6px; width:28px; height:28px;
+            display:flex; align-items:center; justify-content:center; cursor:pointer; border-radius:50%;
+            background:rgba(0,0,0,0.45); color:#fff; font-size:15px; line-height:1; user-select:none;
+            transition: transform .1s, background .15s, color .15s; }}
+  .leaflet-popup-content .popup-fav:hover {{ transform:scale(1.12); background:rgba(0,0,0,0.6); }}
+  .leaflet-popup-content .popup-fav.faved {{ color:#ff4d6d; }}
 </style>
 </head>
 <body>
@@ -594,16 +601,26 @@ def render() -> Path:
     favBadge.textContent = favs.size;
     favBadge.style.display = favs.size ? 'inline-block' : 'none';
   }}
+  const cardByUrl = new Map(cards.map(c => [c.dataset.url, c]));
   function markCardFav(card) {{
     const btn = card.querySelector('.fav-btn');
     const on = favs.has(card.dataset.url);
     if (btn) {{ btn.classList.toggle('faved', on); btn.setAttribute('aria-pressed', String(on)); }}
   }}
-  function toggleFav(card) {{
-    const url = card.dataset.url;
+  // Toggle a favorite by listing URL and sync every heart for it (grid card +
+  // any open map popup), so the two views never drift apart.
+  function toggleFavByUrl(url) {{
     if (favs.has(url)) favs.delete(url); else favs.add(url);
     saveFavs();
-    markCardFav(card);
+    const on = favs.has(url);
+    const card = cardByUrl.get(url);
+    if (card) markCardFav(card);
+    document.querySelectorAll('.popup-fav').forEach(el => {{
+      if (el.dataset.url === url) {{
+        el.classList.toggle('faved', on);
+        el.setAttribute('aria-pressed', String(on));
+      }}
+    }});
     updateFavBadge();
     // In the Favorites view, an un-favorited card should drop out immediately.
     if (document.body.classList.contains('fav-view')) apply();
@@ -611,17 +628,20 @@ def render() -> Path:
   // Reflect saved favorites on load.
   for (const c of cards) markCardFav(c);
   updateFavBadge();
-  // The whole card is an <a>; intercept heart clicks/keys so they don't navigate.
+  // Hearts live inside an <a> card (grid) and inside Leaflet popups (map);
+  // intercept their clicks/keys so they don't navigate or close oddly.
   function heartHandler(e) {{
-    const btn = e.target.closest('.fav-btn');
+    const btn = e.target.closest('.fav-btn, .popup-fav');
     if (!btn) return;
     if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
     e.preventDefault();
     e.stopPropagation();
-    toggleFav(btn.closest('.card'));
+    const card = btn.closest('.card');
+    toggleFavByUrl(card ? card.dataset.url : btn.dataset.url);
   }}
-  grid.addEventListener('click', heartHandler);
-  grid.addEventListener('keydown', heartHandler);
+  // Delegate on document so dynamically-created popup hearts are covered too.
+  document.addEventListener('click', heartHandler);
+  document.addEventListener('keydown', heartHandler);
 
   // Mobile filter-panel toggle (button in header + floating button at bottom-right)
   const filterPanel = document.getElementById('filter-panel');
@@ -769,7 +789,13 @@ def render() -> Path:
       const lat = parseFloat(c.dataset.lat);
       const lng = parseFloat(c.dataset.lng);
       if (!Number.isFinite(lat) || !Number.isFinite(lng)) continue;
-      const html = '<img class="popup-thumb" src="' + c.dataset.img + '" alt="">' +
+      const faved = favs.has(c.dataset.url) ? ' faved' : '';
+      const html = '<div class="popup-media">' +
+                     '<img class="popup-thumb" src="' + c.dataset.img + '" alt="">' +
+                     '<span class="popup-fav' + faved + '" role="button" tabindex="0" aria-pressed="' +
+                       (faved ? 'true' : 'false') + '" data-url="' + c.dataset.url +
+                       '" title="Save to favorites">&#9829;</span>' +
+                   '</div>' +
                    '<div class="popup-title">' + c.dataset.title + '</div>' +
                    '<div class="popup-price">' + c.dataset.priceText + '</div>' +
                    '<div class="popup-loc">' + c.dataset.loc + '</div>' +
