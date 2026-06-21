@@ -531,6 +531,10 @@
     {
       "date": "2026-06-19",
       "price": 82280
+    },
+    {
+      "date": "2026-06-21",
+      "price": 82602
     }
   ],
   "https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -657,6 +661,10 @@
     {
       "date": "2026-06-20",
       "price": 45559
+    },
+    {
+      "date": "2026-06-21",
+      "price": 45552
     }
   ],
   "https://www.controller.com/listing/for-sale/247913915/1952-piper-super-cub-piston-single-aircraft": [
@@ -891,6 +899,10 @@
     {
       "date": "2026-06-20",
       "price": 131928
+    },
+    {
+      "date": "2026-06-21",
+      "price": 131951
     }
   ],
   "https://www.controller.com/listing/for-sale/252652755/1954-cessna-170b-piston-single-aircraft": [
@@ -1299,6 +1311,10 @@
     {
       "date": "2026-06-19",
       "price": 131695
+    },
+    {
+      "date": "2026-06-21",
+      "price": 132333
     }
   ],
   "https://www.controller.com/listing/for-sale/256498095/1961-piper-super-cub-piston-single-aircraft": [
@@ -1477,6 +1493,10 @@
     {
       "date": "2026-06-19",
       "price": 62853
+    },
+    {
+      "date": "2026-06-21",
+      "price": 63099
     }
   ],
   "https://www.controller.com/listing/for-sale/257294647/1953-cessna-170b-piston-single-aircraft": [
@@ -1511,6 +1531,10 @@
     {
       "date": "2026-06-19",
       "price": 125705
+    },
+    {
+      "date": "2026-06-21",
+      "price": 126198
     }
   ],
   "https://www.controller.com/listing/for-sale/257322143/2008-cessna-172s-skyhawk-sp-piston-single-aircraft": [
@@ -4823,6 +4847,12 @@
     {
       "date": "2026-05-30",
       "price": 59000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2447656&s-type=aircraft": [
+    {
+      "date": "2026-06-21",
+      "price": 64900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2456879&s-type=aircraft": [
