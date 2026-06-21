@@ -340,11 +340,11 @@ def render() -> Path:
 
         cards_html.append(
             f"""<a class="card" href="{url}" target="_blank" rel="noopener"
-   data-make="{make}" data-source="{source}"
+   data-make="{make}" data-source="{source}" data-url="{url}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
    data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}{new_attr}
    data-title="{title}" data-price-text="{price}" data-loc="{loc}" data-img="{img}">
-  <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'">{new_html}</div>
+  <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'">{new_html}<span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">{title}</div>
     <div class="price">{price}</div>
@@ -473,6 +473,16 @@ def render() -> Path:
   .view-toggle button {{ padding:5px 14px; border:0; background:transparent; color:var(--fg);
                          font:inherit; cursor:pointer; border-radius:5px; }}
   .view-toggle button.active {{ background:var(--accent); color:#fff; }}
+  #fav-badge {{ display:none; min-width:16px; height:16px; padding:0 4px; margin-left:5px;
+                border-radius:999px; background:#ff4d6d; color:#fff; font-size:10px; font-weight:700;
+                line-height:16px; text-align:center; vertical-align:middle; }}
+  /* Heart toggle on each card (card itself is an <a>, so JS stops navigation) */
+  .fav-btn {{ position:absolute; top:8px; right:8px; z-index:2; width:32px; height:32px;
+              display:flex; align-items:center; justify-content:center; cursor:pointer;
+              border-radius:50%; background:rgba(0,0,0,0.45); color:#fff; font-size:17px;
+              line-height:1; user-select:none; transition: transform .1s, background .15s, color .15s; }}
+  .fav-btn:hover {{ transform:scale(1.12); background:rgba(0,0,0,0.6); }}
+  .fav-btn.faved {{ color:#ff4d6d; }}
   #map {{ height: calc(100vh - 250px); min-height: 500px; margin:0 20px 20px 20px;
           border-radius: 10px; border:1px solid var(--border); display:none; }}
   body.map-view #grid, body.map-view #empty {{ display:none; }}
@@ -497,6 +507,7 @@ def render() -> Path:
       <button class="filter-toggle" id="filter-toggle" aria-expanded="false">Filters ▾</button>
       <div class="view-toggle">
         <button id="view-grid" class="active">Grid</button>
+        <button id="view-favorites">♥ Favorites<span id="fav-badge">0</span></button>
         <button id="view-map">Map</button>
       </div>
     </div>
@@ -570,6 +581,48 @@ def render() -> Path:
   const countEl = document.getElementById('count');
   const emptyEl = document.getElementById('empty');
 
+  // ---- Favorites (persisted per-browser in localStorage, keyed by listing URL) ----
+  const FAV_KEY = 'backcountry-favorites';
+  const favBadge = document.getElementById('fav-badge');
+  function loadFavs() {{
+    try {{ return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }}
+    catch (e) {{ return new Set(); }}
+  }}
+  let favs = loadFavs();
+  function saveFavs() {{ localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }}
+  function updateFavBadge() {{
+    favBadge.textContent = favs.size;
+    favBadge.style.display = favs.size ? 'inline-block' : 'none';
+  }}
+  function markCardFav(card) {{
+    const btn = card.querySelector('.fav-btn');
+    const on = favs.has(card.dataset.url);
+    if (btn) {{ btn.classList.toggle('faved', on); btn.setAttribute('aria-pressed', String(on)); }}
+  }}
+  function toggleFav(card) {{
+    const url = card.dataset.url;
+    if (favs.has(url)) favs.delete(url); else favs.add(url);
+    saveFavs();
+    markCardFav(card);
+    updateFavBadge();
+    // In the Favorites view, an un-favorited card should drop out immediately.
+    if (document.body.classList.contains('fav-view')) apply();
+  }}
+  // Reflect saved favorites on load.
+  for (const c of cards) markCardFav(c);
+  updateFavBadge();
+  // The whole card is an <a>; intercept heart clicks/keys so they don't navigate.
+  function heartHandler(e) {{
+    const btn = e.target.closest('.fav-btn');
+    if (!btn) return;
+    if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    e.stopPropagation();
+    toggleFav(btn.closest('.card'));
+  }}
+  grid.addEventListener('click', heartHandler);
+  grid.addEventListener('keydown', heartHandler);
+
   // Mobile filter-panel toggle (button in header + floating button at bottom-right)
   const filterPanel = document.getElementById('filter-panel');
   const filterToggle = document.getElementById('filter-toggle');
@@ -612,6 +665,7 @@ def render() -> Path:
     const yMin = num(yearMinEl.value), yMax = num(yearMaxEl.value);
     const activeMakes = activeChips('.make-chip');
     const activeSources = activeChips('.source-chip');
+    const favView = document.body.classList.contains('fav-view');
 
     let visible = [];
     for (const c of cards) {{
@@ -631,6 +685,7 @@ def render() -> Path:
       if (yMax !== null && year > yMax) show = false;
       if (dropsOnlyEl.checked && c.dataset.drop !== '1') show = false;
       if (newOnlyEl.checked && c.dataset.new !== '1') show = false;
+      if (favView && !favs.has(c.dataset.url)) show = false;
 
       c.classList.toggle('hidden', !show);
       if (show) visible.push(c);
@@ -653,7 +708,14 @@ def render() -> Path:
     }}
 
     countEl.textContent = visible.length;
-    emptyEl.style.display = visible.length === 0 ? 'block' : 'none';
+    if (visible.length === 0) {{
+      emptyEl.textContent = (favView && favs.size === 0)
+        ? 'No favorites yet — tap the ♥ on any listing to save it here.'
+        : 'No listings match the current filters.';
+      emptyEl.style.display = 'block';
+    }} else {{
+      emptyEl.style.display = 'none';
+    }}
   }}
 
   // Multi-select toggle: clicking a chip flips its active state. Clicking
@@ -717,18 +779,25 @@ def render() -> Path:
     }}
     if (bounds.length > 0) map.fitBounds(bounds, {{padding: [30, 30], maxZoom: 10}});
   }}
-  document.getElementById('view-grid').addEventListener('click', () => {{
-    document.body.classList.remove('map-view');
-    document.getElementById('view-grid').classList.add('active');
-    document.getElementById('view-map').classList.remove('active');
-  }});
-  document.getElementById('view-map').addEventListener('click', () => {{
-    document.body.classList.add('map-view');
-    document.getElementById('view-map').classList.add('active');
-    document.getElementById('view-grid').classList.remove('active');
-    initMap();
-    setTimeout(() => {{ map.invalidateSize(); renderMarkers(); }}, 50);
-  }});
+  // ---- View switching: Grid | Favorites | Map (mutually exclusive) ----
+  const viewGrid = document.getElementById('view-grid');
+  const viewFav = document.getElementById('view-favorites');
+  const viewMap = document.getElementById('view-map');
+  function setView(view) {{
+    document.body.classList.toggle('map-view', view === 'map');
+    document.body.classList.toggle('fav-view', view === 'favorites');
+    viewGrid.classList.toggle('active', view === 'grid');
+    viewFav.classList.toggle('active', view === 'favorites');
+    viewMap.classList.toggle('active', view === 'map');
+    apply();  // re-filter (applies/clears the favorites-only constraint)
+    if (view === 'map') {{
+      initMap();
+      setTimeout(() => {{ map.invalidateSize(); renderMarkers(); }}, 50);
+    }}
+  }}
+  viewGrid.addEventListener('click', () => setView('grid'));
+  viewFav.addEventListener('click', () => setView('favorites'));
+  viewMap.addEventListener('click', () => setView('map'));
   // Re-render markers whenever filters change (only if map is currently shown)
   const origApply = apply;
   apply = function() {{
