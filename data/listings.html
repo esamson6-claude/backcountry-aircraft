@@ -17,7 +17,7 @@
   body { margin:0; font: 14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
           background:var(--bg); color:var(--fg); }
   header { padding:14px 20px; border-bottom:1px solid var(--border); background:var(--card);
-            position:sticky; top:0; z-index:2; }
+            position:sticky; top:0; z-index:30; }  /* above card hearts (z-index 2), below Leaflet panes */
   h1 { margin:0 0 4px 0; font-size:18px; font-weight:600; }
   .subhead { color:var(--muted); font-size:12px; margin-bottom:10px; }
   .filter-toggle { display:none; padding:6px 14px; border:1px solid var(--border);
@@ -135,7 +135,7 @@
 <header>
   <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
     <div>
-      <h1>Aircraft listings — <span id="count">683</span> shown</h1>
+      <h1>Aircraft listings — <span id="count">665</span> shown</h1>
       <div class="subhead">Updated 2026-06-22 · click any card to open the listing</div>
     </div>
     <div style="display:flex; gap:8px; align-items:center;">
@@ -183,7 +183,7 @@
   <div style="margin-top:10px; display:flex; gap:18px; flex-wrap:wrap;">
     <label style="font-size:12px; color:var(--muted); cursor:pointer;">
       <input id="new-only" type="checkbox" style="vertical-align:middle;">
-      Show only new listings (186 in last 7 days)
+      Show only new listings (157 in last 7 days)
     </label>
     <label style="font-size:12px; color:var(--muted); cursor:pointer;">
       <input id="drops-only" type="checkbox" style="vertical-align:middle;">
@@ -2699,34 +2699,6 @@ currently in skydive configuration, and with a freshly rebuilt engine that has n
     <div class="footer">
       <span class="source">aerotrader</span>
       <span class="seen">first seen 2026-06-17</span>
-    </div>
-  </div>
-</a><a class="card" href="https://www.controller.com/listing/for-sale/251592697/cessna-206h-stationair-piston-single-aircraft" target="_blank" rel="noopener"
-   data-make="Cessna 205/206/207" data-source="controller" data-url="https://www.controller.com/listing/for-sale/251592697/cessna-206h-stationair-piston-single-aircraft"
-   data-year="0" data-price="0" data-hours="0"
-   data-search=" 206 auckland, north island, new zealand cessna 206h stationair piston single aircraft options call for price operating costs view details total time : 0 engine 1 time : 0 soh engine tbo : 2000 description : hydrogen takes flight
-
-reserve your aircraft conversion now
-
-conversions available
-
-ask us about your aircraft 
-
-key features
-â¢	hydrogen-p... updated : sunday, june 14, 2026 10:59 pm location : auckland, north island, new zealand email seller +64 9 280 2094 seller : avgas limited " data-new="1"
-   data-title="? Cessna 205/206/207 206" data-price-text="Price n/a" data-loc="Auckland, North Island, New Zealand" data-img="https://media.sandhills.com/img.axd?id=10025732327&amp;wid=4326165471&amp;rwl=False&amp;p=&amp;ext=&amp;w=350&amp;h=220&amp;t=&amp;lp=&amp;c=True&amp;wt=False&amp;sz=Max&amp;rt=0&amp;checksum=UN5h07vssNVesiJ%2fMadtql5CszKMe8dQQgDhc94MI7M%3d">
-  <div class="thumb"><img loading="lazy" src="https://media.sandhills.com/img.axd?id=10025732327&amp;wid=4326165471&amp;rwl=False&amp;p=&amp;ext=&amp;w=350&amp;h=220&amp;t=&amp;lp=&amp;c=True&amp;wt=False&amp;sz=Max&amp;rt=0&amp;checksum=UN5h07vssNVesiJ%2fMadtql5CszKMe8dQQgDhc94MI7M%3d" alt="? Cessna 205/206/207 206" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><div class="new-badge">NEW</div><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
-  <div class="body">
-    <div class="title">? Cessna 205/206/207 206</div>
-    <div class="price">Price n/a</div>
-    
-    <div class="specs"><div class="spec"><span>Model</span><span>206</span></div><div class="spec"><span>Airframe TT</span><span>0 TT</span></div></div>
-    <div class="meta">
-      <span class="loc">Auckland, North Island, New Zealand</span>
-    </div>
-    <div class="footer">
-      <span class="source">controller</span>
-      <span class="seen">first seen 2026-06-22</span>
     </div>
   </div>
 </a><a class="card" href="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CUBCRAFTERS&amp;model=CARBON+CUB+EX-3&amp;listing_id=2457406&amp;s-type=aircraft" target="_blank" rel="noopener"
@@ -5793,8 +5765,8 @@ call for a firm... more info mid-continent aircraft corp. hayti , mo usa (573) 3
    data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172S+SKYHAWK+SP&amp;listing_id=2456060&amp;s-type=aircraft"
    data-year="2012" data-price="0" data-hours="5700"
    data-search="2012 cessna 172s skyhawk 172s skyhawk sp venice, ca 2012 cessna 172s skyhawk sp call for price get financing reg# n36jr tt: 5700 performance specs 2012 cessna 172s available. g1000/gfc700 with adsb in/out. 5700tt, 400smoh. fresh annual, flies perfect. more info planelease llc venice , ca usa (608) 469-xxxx (click) compare save last update: 06/15/2026 " data-lat="33.995044" data-lng="-118.4668875"
-   data-title="2012 Cessna 172 172S SKYHAWK SP" data-price-text="Price n/a" data-loc="Venice, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNjEyMzU3LmpwZyIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IndhdGVybWFyay5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NjgwLCJiYWNrZ3JvdW5kIjp7ImIiOjI1NSwiYWxwaGEiOjEsImciOjI1NSwiciI6MjU1fX19LCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNjEyMzU3LmpwZyIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IndhdGVybWFyay5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NjgwLCJiYWNrZ3JvdW5kIjp7ImIiOjI1NSwiYWxwaGEiOjEsImciOjI1NSwiciI6MjU1fX19LCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="2012 Cessna 172 172S SKYHAWK SP" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="2012 Cessna 172 172S SKYHAWK SP" data-price-text="Price n/a" data-loc="Venice, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IndhdGVybWFyay5wbmcifSwicmVzaXplIjp7ImJhY2tncm91bmQiOnsiYiI6MjU1LCJhbHBoYSI6MSwiZyI6MjU1LCJyIjoyNTV9LCJ3aWR0aCI6NjgwLCJmaXQiOiJjb250YWluIn19LCJrZXkiOiIxNjEyMzU3LmpwZyJ9">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IndhdGVybWFyay5wbmcifSwicmVzaXplIjp7ImJhY2tncm91bmQiOnsiYiI6MjU1LCJhbHBoYSI6MSwiZyI6MjU1LCJyIjoyNTV9LCJ3aWR0aCI6NjgwLCJmaXQiOiJjb250YWluIn19LCJrZXkiOiIxNjEyMzU3LmpwZyJ9" alt="2012 Cessna 172 172S SKYHAWK SP" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">2012 Cessna 172 172S SKYHAWK SP</div>
     <div class="price">Price n/a</div>
@@ -5836,8 +5808,8 @@ total time: 2,300 hours
 engine: 0 hours since major overhaul (smoh)
 propeller: 0 hours since overhaul
 avionics: garmin g1000... more info planelease llc new york , ny usa (608) 469-xxxx (click) compare save last update: 06/15/2026 " data-lat="40.7127281" data-lng="-74.0060152"
-   data-title="2008 Cessna 172 172S SKYHAWK SP" data-price-text="Price n/a" data-loc="New York, NY" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsiYmFja2dyb3VuZCI6eyJiIjoyNTUsInIiOjI1NSwiZyI6MjU1LCJhbHBoYSI6MX0sIndpZHRoIjo2ODAsImZpdCI6ImNvbnRhaW4ifSwic21hcnRPdmVybGF5Ijp7ImtleSI6IndhdGVybWFyay5wbmciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9fSwia2V5IjoiMTUwNDc2OC5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsiYmFja2dyb3VuZCI6eyJiIjoyNTUsInIiOjI1NSwiZyI6MjU1LCJhbHBoYSI6MX0sIndpZHRoIjo2ODAsImZpdCI6ImNvbnRhaW4ifSwic21hcnRPdmVybGF5Ijp7ImtleSI6IndhdGVybWFyay5wbmciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9fSwia2V5IjoiMTUwNDc2OC5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="2008 Cessna 172 172S SKYHAWK SP" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="2008 Cessna 172 172S SKYHAWK SP" data-price-text="Price n/a" data-loc="New York, NY" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IndhdGVybWFyay5wbmcifSwicmVzaXplIjp7ImJhY2tncm91bmQiOnsiYiI6MjU1LCJhbHBoYSI6MSwiciI6MjU1LCJnIjoyNTV9LCJmaXQiOiJjb250YWluIiwid2lkdGgiOjY4MH19LCJrZXkiOiIxNTA0NzY4LmpwZyJ9">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IndhdGVybWFyay5wbmcifSwicmVzaXplIjp7ImJhY2tncm91bmQiOnsiYiI6MjU1LCJhbHBoYSI6MSwiciI6MjU1LCJnIjoyNTV9LCJmaXQiOiJjb250YWluIiwid2lkdGgiOjY4MH19LCJrZXkiOiIxNTA0NzY4LmpwZyJ9" alt="2008 Cessna 172 172S SKYHAWK SP" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">2008 Cessna 172 172S SKYHAWK SP</div>
     <div class="price">Price n/a</div>
@@ -6413,8 +6385,8 @@ regularly flown, clean, honest, and exceptionally well-positio... more info vikr
    data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172P+SKYHAWK&amp;listing_id=2457278&amp;s-type=aircraft"
    data-year="1982" data-price="149900" data-hours="5862"
    data-search="1982 cessna 172p skyhawk 172p skyhawk phoenix, az 1982 cessna 172p skyhawk $149,900 get financing as low as $688.40 a month* reg# n64834 tt: 5862 performance specs fresh aircraft presents this coveted 172p; ready to accommodate the time-builder or the student who is earning their private pilot license.  this aircraft ... more info fresh aircraft sales phoenix , az usa (602) 717-xxxx (click) (602) 826-xxxx (click) compare save last update: 06/14/2026 " data-lat="33.4484367" data-lng="-112.074141"
-   data-title="1982 Cessna 172 172P SKYHAWK" data-price-text="$149,900" data-loc="Phoenix, AZ" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo2ODAsImJhY2tncm91bmQiOnsiYiI6MjU1LCJhbHBoYSI6MSwiciI6MjU1LCJnIjoyNTV9fSwic21hcnRPdmVybGF5Ijp7ImJ1Y2tldCI6InRhcC1hc3NldHMxIiwia2V5Ijoid2F0ZXJtYXJrLnBuZyJ9fSwiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiIxNjMxOTkxLmpwZyJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo2ODAsImJhY2tncm91bmQiOnsiYiI6MjU1LCJhbHBoYSI6MSwiciI6MjU1LCJnIjoyNTV9fSwic21hcnRPdmVybGF5Ijp7ImJ1Y2tldCI6InRhcC1hc3NldHMxIiwia2V5Ijoid2F0ZXJtYXJrLnBuZyJ9fSwiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiIxNjMxOTkxLmpwZyJ9" alt="1982 Cessna 172 172P SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="1982 Cessna 172 172P SKYHAWK" data-price-text="$149,900" data-loc="Phoenix, AZ" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn0sInJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJnIjoyNTUsImFscGhhIjoxLCJiIjoyNTUsInIiOjI1NX0sIndpZHRoIjo2ODB9fSwia2V5IjoiMTYzMTk5MS5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn0sInJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJnIjoyNTUsImFscGhhIjoxLCJiIjoyNTUsInIiOjI1NX0sIndpZHRoIjo2ODB9fSwia2V5IjoiMTYzMTk5MS5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="1982 Cessna 172 172P SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">1982 Cessna 172 172P SKYHAWK</div>
     <div class="price">$149,900</div>
@@ -7722,8 +7694,8 @@ complete logb... more info xing kong aviation atwater , ca usa compare save last
    data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172M+SKYHAWK&amp;listing_id=2433445&amp;s-type=aircraft"
    data-year="1975" data-price="75000" data-hours="20228"
    data-search="1975 cessna 172m skyhawk 172m skyhawk napa, ca 1975 cessna 172m skyhawk $75,000 get financing as low as $503.81 a month* reg# n9560v tt: 20228 performance specs recent interior and plastics. new seat tracks. new fuel selector valve. new battery. led lighting all around. rosen sun visors. garmin audio panel, gnc430w... more info michael smith napa , ca usa compare save last update: 06/15/2026 " data-lat="38.4898675" data-lng="-122.3218414"
-   data-title="1975 Cessna 172 172M SKYHAWK" data-price-text="$75,000" data-loc="Napa, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiYWxwaGEiOjEsImIiOjI1NSwiciI6MjU1LCJnIjoyNTV9LCJ3aWR0aCI6NjgwfSwic21hcnRPdmVybGF5Ijp7ImtleSI6IndhdGVybWFyay5wbmciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9fSwia2V5IjoiMTQzMTcxOS5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiYWxwaGEiOjEsImIiOjI1NSwiciI6MjU1LCJnIjoyNTV9LCJ3aWR0aCI6NjgwfSwic21hcnRPdmVybGF5Ijp7ImtleSI6IndhdGVybWFyay5wbmciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9fSwia2V5IjoiMTQzMTcxOS5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="1975 Cessna 172 172M SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="1975 Cessna 172 172M SKYHAWK" data-price-text="$75,000" data-loc="Napa, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IjE0MzE3MTkuanBnIiwiZWRpdHMiOnsic21hcnRPdmVybGF5Ijp7ImJ1Y2tldCI6InRhcC1hc3NldHMxIiwia2V5Ijoid2F0ZXJtYXJrLnBuZyJ9LCJyZXNpemUiOnsiYmFja2dyb3VuZCI6eyJyIjoyNTUsImIiOjI1NSwiZyI6MjU1LCJhbHBoYSI6MX0sImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NjgwfX19">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImtleSI6IjE0MzE3MTkuanBnIiwiZWRpdHMiOnsic21hcnRPdmVybGF5Ijp7ImJ1Y2tldCI6InRhcC1hc3NldHMxIiwia2V5Ijoid2F0ZXJtYXJrLnBuZyJ9LCJyZXNpemUiOnsiYmFja2dyb3VuZCI6eyJyIjoyNTUsImIiOjI1NSwiZyI6MjU1LCJhbHBoYSI6MX0sImZpdCI6ImNvbnRhaW4iLCJ3aWR0aCI6NjgwfX19" alt="1975 Cessna 172 172M SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">1975 Cessna 172 172M SKYHAWK</div>
     <div class="price">$75,000</div>
@@ -8377,8 +8349,8 @@ for sale: 1969 cessna 172k - a dependable, straight-flying classic with a newly 
    data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172K+SKYHAWK&amp;listing_id=2447867&amp;s-type=aircraft"
    data-year="1969" data-price="0" data-hours="9676"
    data-search="1969 cessna 172k skyhawk 172k skyhawk livermore, ca 1969 cessna 172k skyhawk get financing reg# n79453 tt: 9676 performance specs sale pending - n79453 - this 180 hp cessna skyhawk 172k has been hangar kept in a dry climate of northern california most of its life. complete logbooks an... more info american aircraft sales livermore , ca usa (510) 783-xxxx (click) compare save last update: 10/27/2025 " data-lat="37.6820583" data-lng="-121.768053"
-   data-title="1969 Cessna 172 172K SKYHAWK" data-price-text="Price n/a" data-loc="Livermore, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNTE0Njk2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjgwLCJiYWNrZ3JvdW5kIjp7ImFscGhhIjoxLCJnIjoyNTUsInIiOjI1NSwiYiI6MjU1fSwiZml0IjoiY29udGFpbiJ9LCJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn19LCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNTE0Njk2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NjgwLCJiYWNrZ3JvdW5kIjp7ImFscGhhIjoxLCJnIjoyNTUsInIiOjI1NSwiYiI6MjU1fSwiZml0IjoiY29udGFpbiJ9LCJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn19LCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="1969 Cessna 172 172K SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="1969 Cessna 172 172K SKYHAWK" data-price-text="Price n/a" data-loc="Livermore, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn0sInJlc2l6ZSI6eyJiYWNrZ3JvdW5kIjp7ImFscGhhIjoxLCJiIjoyNTUsInIiOjI1NSwiZyI6MjU1fSwiZml0IjoiY29udGFpbiIsIndpZHRoIjo2ODB9fSwia2V5IjoiMTUxNDY5Ni5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn0sInJlc2l6ZSI6eyJiYWNrZ3JvdW5kIjp7ImFscGhhIjoxLCJiIjoyNTUsInIiOjI1NSwiZyI6MjU1fSwiZml0IjoiY29udGFpbiIsIndpZHRoIjo2ODB9fSwia2V5IjoiMTUxNDY5Ni5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="1969 Cessna 172 172K SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">1969 Cessna 172 172K SKYHAWK</div>
     <div class="price">Price n/a</div>
@@ -8438,6 +8410,25 @@ this is a 1968 cessna 172i with 3,704.5 hours total time that had a full engine 
    data-search="1968 cessna 172i skyhawk 172i skyhawk greenville, sc 1968 cessna 172i skyhawk call for price get financing reg# n8463l tt: 3681 performance specs beautifully upgraded 172 new panel and interior: garmin gtn 750, (2) g5&#x27;s, gtr 205, gtx330es, and pma6000b.  overhauled lycoming 0-320-e2d installed januar... more info aircraft guides llc greenville , sc usa (316) 202-xxxx (click) compare save last update: 06/11/2026 lycoming 0-320-e2d" data-lat="34.851354" data-lng="-82.3984882"
    data-title="1968 Cessna 172 172I SKYHAWK" data-price-text="Price n/a" data-loc="Greenville, SC" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjY4MCwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYWxwaGEiOjEsImIiOjI1NX19LCJzbWFydE92ZXJsYXkiOnsia2V5Ijoid2F0ZXJtYXJrLnBuZyIsImJ1Y2tldCI6InRhcC1hc3NldHMxIn19LCJrZXkiOiIxNjIwNzI3LmpwZyJ9">
   <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwid2lkdGgiOjY4MCwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYWxwaGEiOjEsImIiOjI1NX19LCJzbWFydE92ZXJsYXkiOnsia2V5Ijoid2F0ZXJtYXJrLnBuZyIsImJ1Y2tldCI6InRhcC1hc3NldHMxIn19LCJrZXkiOiIxNjIwNzI3LmpwZyJ9" alt="1968 Cessna 172 172I SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+  <div class="body">
+    <div class="title">1968 Cessna 172 172I SKYHAWK</div>
+    <div class="price">Price n/a</div>
+    
+    <div class="specs"><div class="spec"><span>Model</span><span>172I SKYHAWK</span></div><div class="spec"><span>Engine</span><span>Lycoming 0-320-E2D</span></div><div class="spec"><span>Airframe TT</span><span>3681 TT</span></div></div>
+    <div class="meta">
+      <span class="loc">Greenville, SC</span>
+    </div>
+    <div class="footer">
+      <span class="source">trade-a-plane</span>
+      <span class="seen">first seen 2026-06-14</span>
+    </div>
+  </div>
+</a><a class="card" href="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172I+SKYHAWK&amp;listing_id=2455941&amp;s-type=aircraft" target="_blank" rel="noopener"
+   data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172I+SKYHAWK&amp;listing_id=2455941&amp;s-type=aircraft"
+   data-year="1968" data-price="0" data-hours="3681"
+   data-search="1968 cessna 172i skyhawk 172i skyhawk greenville, sc 1968 cessna 172i skyhawk call for price get financing reg# n8463l tt: 3681 performance specs beautifully upgraded 172 new panel and interior: garmin gtn 750, (2) g5&#x27;s, gtr 205, gtx330es, and pma6000b.  overhauled lycoming 0-320-e2d installed januar... more info aircraft guides llc greenville , sc usa (316) 202-xxxx (click) compare save last update: 06/11/2026 lycoming 0-320-e2d" data-lat="34.851354" data-lng="-82.3984882"
+   data-title="1968 Cessna 172 172I SKYHAWK" data-price-text="Price n/a" data-loc="Greenville, SC" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY4MCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiYWxwaGEiOjEsImIiOjI1NSwiZyI6MjU1LCJyIjoyNTV9fSwic21hcnRPdmVybGF5Ijp7ImtleSI6IndhdGVybWFyay5wbmciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9fSwia2V5IjoiMTYyMDcyNy5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjY4MCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiYWxwaGEiOjEsImIiOjI1NSwiZyI6MjU1LCJyIjoyNTV9fSwic21hcnRPdmVybGF5Ijp7ImtleSI6IndhdGVybWFyay5wbmciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9fSwia2V5IjoiMTYyMDcyNy5qcGciLCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="1968 Cessna 172 172I SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">1968 Cessna 172 172I SKYHAWK</div>
     <div class="price">Price n/a</div>
@@ -8550,8 +8541,8 @@ this is a 1968 cessna 172i with 3,704.5 hours total time that had a full engine 
    data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172G+SKYHAWK&amp;listing_id=2457271&amp;s-type=aircraft"
    data-year="1966" data-price="105000" data-hours="5655"
    data-search="1966 cessna 172g skyhawk 172g skyhawk newport beach, ca 1966 cessna 172g skyhawk $105,000 get financing as low as $482.20 a month* reg# n1158f tt: 5655 performance specs exceptionally well-maintained aircraft with only 500 hours since major overhaul, delivering strong performance and peace of mind for years to come. always ... more info american pride aviation newport beach , ca usa (949) 840-xxxx (click) compare save last update: 06/13/2026 " data-lat="33.6170092" data-lng="-117.9294401"
-   data-title="1966 Cessna 172 172G SKYHAWK" data-price-text="$105,000" data-loc="Newport Beach, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJnIjoyNTUsInIiOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX0sIndpZHRoIjo2ODB9LCJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn19LCJrZXkiOiIxNjMxMzkyLmpwZyJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJidWNrZXQiOiJ0YXAtYXNzZXRzMSIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJnIjoyNTUsInIiOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX0sIndpZHRoIjo2ODB9LCJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn19LCJrZXkiOiIxNjMxMzkyLmpwZyJ9" alt="1966 Cessna 172 172G SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="1966 Cessna 172 172G SKYHAWK" data-price-text="$105,000" data-loc="Newport Beach, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNjMxMzkyLmpwZyIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJrZXkiOiJ3YXRlcm1hcmsucG5nIiwiYnVja2V0IjoidGFwLWFzc2V0czEifSwicmVzaXplIjp7IndpZHRoIjo2ODAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19LCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNjMxMzkyLmpwZyIsImVkaXRzIjp7InNtYXJ0T3ZlcmxheSI6eyJrZXkiOiJ3YXRlcm1hcmsucG5nIiwiYnVja2V0IjoidGFwLWFzc2V0czEifSwicmVzaXplIjp7IndpZHRoIjo2ODAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19LCJidWNrZXQiOiJ0YXAtYXNzZXRzMSJ9" alt="1966 Cessna 172 172G SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">1966 Cessna 172 172G SKYHAWK</div>
     <div class="price">$105,000</div>
@@ -8962,8 +8953,27 @@ engine... more info travis schooley okeechobee , fl usa compare save last update
    data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172D+SKYHAWK&amp;listing_id=2457276&amp;s-type=aircraft"
    data-year="1963" data-price="70000" data-hours="3660"
    data-search="1963 cessna 172d skyhawk 172d skyhawk firebaugh, ca 1963 cessna 172d skyhawk $70,000 get financing as low as $470.22 a month* reg# n2699u tt: 3660 performance specs a great blend of classic cessna reliability and modern capability, this 1963 cessna 172d skyhawk is ready for training, personal transportation, and recrea... more info american pride aviation firebaugh , ca usa (949) 840-xxxx (click) compare save last update: 06/13/2026 " data-lat="36.8588376" data-lng="-120.456007"
-   data-title="1963 Cessna 172 172D SKYHAWK" data-price-text="$70,000" data-loc="Firebaugh, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn0sInJlc2l6ZSI6eyJiYWNrZ3JvdW5kIjp7ImciOjI1NSwiYWxwaGEiOjEsInIiOjI1NSwiYiI6MjU1fSwid2lkdGgiOjY4MCwiZml0IjoiY29udGFpbiJ9fSwiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiIxNjMxNTE4LmpwZyJ9">
-  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJlZGl0cyI6eyJzbWFydE92ZXJsYXkiOnsiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiJ3YXRlcm1hcmsucG5nIn0sInJlc2l6ZSI6eyJiYWNrZ3JvdW5kIjp7ImciOjI1NSwiYWxwaGEiOjEsInIiOjI1NSwiYiI6MjU1fSwid2lkdGgiOjY4MCwiZml0IjoiY29udGFpbiJ9fSwiYnVja2V0IjoidGFwLWFzc2V0czEiLCJrZXkiOiIxNjMxNTE4LmpwZyJ9" alt="1963 Cessna 172 172D SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+   data-title="1963 Cessna 172 172D SKYHAWK" data-price-text="$70,000" data-loc="Firebaugh, CA" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNjMxNTE4LmpwZyIsImJ1Y2tldCI6InRhcC1hc3NldHMxIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2ODAsImJhY2tncm91bmQiOnsiYiI6MjU1LCJyIjoyNTUsImciOjI1NSwiYWxwaGEiOjF9LCJmaXQiOiJjb250YWluIn0sInNtYXJ0T3ZlcmxheSI6eyJrZXkiOiJ3YXRlcm1hcmsucG5nIiwiYnVja2V0IjoidGFwLWFzc2V0czEifX19">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNjMxNTE4LmpwZyIsImJ1Y2tldCI6InRhcC1hc3NldHMxIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2ODAsImJhY2tncm91bmQiOnsiYiI6MjU1LCJyIjoyNTUsImciOjI1NSwiYWxwaGEiOjF9LCJmaXQiOiJjb250YWluIn0sInNtYXJ0T3ZlcmxheSI6eyJrZXkiOiJ3YXRlcm1hcmsucG5nIiwiYnVja2V0IjoidGFwLWFzc2V0czEifX19" alt="1963 Cessna 172 172D SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
+  <div class="body">
+    <div class="title">1963 Cessna 172 172D SKYHAWK</div>
+    <div class="price">$70,000</div>
+    
+    <div class="specs"><div class="spec"><span>Model</span><span>172D SKYHAWK</span></div><div class="spec"><span>Airframe TT</span><span>3660 TT</span></div></div>
+    <div class="meta">
+      <span class="loc">Firebaugh, CA</span>
+    </div>
+    <div class="footer">
+      <span class="source">trade-a-plane</span>
+      <span class="seen">first seen 2026-06-14</span>
+    </div>
+  </div>
+</a><a class="card" href="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172D+SKYHAWK&amp;listing_id=2445493&amp;s-type=aircraft" target="_blank" rel="noopener"
+   data-make="Cessna 172" data-source="trade-a-plane" data-url="https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&amp;make=CESSNA&amp;model=172D+SKYHAWK&amp;listing_id=2445493&amp;s-type=aircraft"
+   data-year="1963" data-price="65000" data-hours="2637"
+   data-search="1963 cessna 172d skyhawk 172d skyhawk beaver island, mi 1963 cessna 172d skyhawk $65,000 get financing as low as $436.63 a month* reg# n2624u tt: 2637 performance specs great airplane with newer interior, assume original headline though. upgraded e.i. egt and oil pressure gauge, e.i. egt/cht gauge, replaced pull starter wi... more info richard gillespie beaver island , mi usa compare save last update: 05/25/2026 " data-lat="45.6660782" data-lng="-85.5544216"
+   data-title="1963 Cessna 172 172D SKYHAWK" data-price-text="$65,000" data-loc="Beaver Island, MI" data-img="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNDc4NDk4LmpwZyIsImJ1Y2tldCI6InRhcC1hc3NldHMxIiwiZWRpdHMiOnsic21hcnRPdmVybGF5Ijp7ImJ1Y2tldCI6InRhcC1hc3NldHMxIiwia2V5Ijoid2F0ZXJtYXJrLnBuZyJ9LCJyZXNpemUiOnsid2lkdGgiOjY4MCwiYmFja2dyb3VuZCI6eyJnIjoyNTUsImFscGhhIjoxLCJiIjoyNTUsInIiOjI1NX0sImZpdCI6ImNvbnRhaW4ifX19">
+  <div class="thumb"><img loading="lazy" src="https://dsgiipnwy1jd8.cloudfront.net/eyJrZXkiOiIxNDc4NDk4LmpwZyIsImJ1Y2tldCI6InRhcC1hc3NldHMxIiwiZWRpdHMiOnsic21hcnRPdmVybGF5Ijp7ImJ1Y2tldCI6InRhcC1hc3NldHMxIiwia2V5Ijoid2F0ZXJtYXJrLnBuZyJ9LCJyZXNpemUiOnsid2lkdGgiOjY4MCwiYmFja2dyb3VuZCI6eyJnIjoyNTUsImFscGhhIjoxLCJiIjoyNTUsInIiOjI1NX0sImZpdCI6ImNvbnRhaW4ifX19" alt="1963 Cessna 172 172D SKYHAWK" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><rect width='400' height='250' fill='%23e0e0e0'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%23888'>No image</text></svg>'"><span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
     <div class="title">1963 Cessna 172 172D SKYHAWK</div>
     <div class="price">$70,000</div>

@@ -389,7 +389,7 @@ def render() -> Path:
   body {{ margin:0; font: 14px/1.4 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
           background:var(--bg); color:var(--fg); }}
   header {{ padding:14px 20px; border-bottom:1px solid var(--border); background:var(--card);
-            position:sticky; top:0; z-index:2; }}
+            position:sticky; top:0; z-index:30; }}  /* above card hearts (z-index 2), below Leaflet panes */
   h1 {{ margin:0 0 4px 0; font-size:18px; font-weight:600; }}
   .subhead {{ color:var(--muted); font-size:12px; margin-bottom:10px; }}
   .filter-toggle {{ display:none; padding:6px 14px; border:1px solid var(--border);
