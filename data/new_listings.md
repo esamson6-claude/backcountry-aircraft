@@ -1,86 +1,66 @@
-# New listings — 2026-06-21
+# New listings — 2026-06-22
 
-41 new listings:
+31 new listings:
 
-- **2013 Aviat Husky A-1C-200** — $325,000 — 663 TT — South Saint Paul, Minnesota — _controller_  
-  https://www.controller.com/listing/for-sale/256159869/2013-aviat-husky-a-1c-200-piston-amphibious-slash-floatplanes
-- **2023 Aviat Husky A-1C-200** — $470,000 — 105 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/256668449/2023-aviat-husky-a-1c-200-piston-single-aircraft
-- **2014 Aviat Husky A-1C-180** — $299,000 — 315 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/255199797/2014-aviat-husky-a-1c-180-piston-single-aircraft
-- **2013 Aviat Husky A-1C-180** — $279,000 — 415 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft
-- **2011 Aviat Husky A-1C-180** — $239,000 — 180 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/255957485/2011-aviat-husky-a-1c-180-piston-single-aircraft
-- **2010 Aviat Husky A-1C-180** — $244,000 — 804 TT — Peterborough, Ontario, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/257237119/2010-aviat-husky-a-1c-180-piston-single-aircraft
-- **2007 Aviat Husky A-1B** — $199,000 — 475 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/254084127/2007-aviat-husky-a-1b-piston-single-aircraft
-- **1999 Aviat Husky A-1B** — $179,900 — 1,675 TT — Mcallen, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/254195533/1999-aviat-husky-a-1b-piston-single-aircraft
-- **2012 Aviat Husky A-1C-200** — $329,000 — 410 TT — Tupelo, Mississippi — _controller_  
-  https://www.controller.com/listing/for-sale/249384829/2012-aviat-husky-a-1c-200-piston-single-aircraft
-- **2021 Aviat Husky A-1C-180** — $325,000 — 95 TT — Dudley, Missouri — _controller_  
-  https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft
-- **2019 Aviat Husky A-1C-180** — price n/a — 150 TT — Brookings, South Dakota — _controller_  
-  https://www.controller.com/listing/for-sale/246680021/2019-aviat-husky-a-1c-180-piston-single-aircraft
-- **2013 Aviat Husky A-1C-180** — $245,000 — 233 TT — Grand Junction, Colorado — _controller_  
-  https://www.controller.com/listing/for-sale/255053795/2013-aviat-husky-a-1c-180-piston-single-aircraft
-- **2025 Aviat Husky A-1C-200** — price n/a — 0 TT — Orlando, Florida — _controller_  
-  https://www.controller.com/listing/for-sale/249371347/2025-aviat-husky-a-1c-200-piston-single-aircraft
-- **2025 Aviat Husky A-1C-200** — price n/a — 0 TT — Stayner, Ontario, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/247908261/2025-aviat-husky-a-1c-200-piston-single-aircraft
-- **2025 Aviat Husky A-1C-200** — price n/a — 122 TT — Hugo, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/245530899/2025-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-200** — price n/a — 1 TT — Middleton, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/257078389/2026-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-200** — price n/a — 0 TT — Belgrade, Montana — _controller_  
-  https://www.controller.com/listing/for-sale/252216853/2026-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-200** — price n/a — 1 TT — Morgan, Utah — _controller_  
-  https://www.controller.com/listing/for-sale/251582831/2026-aviat-husky-a-1c-200-piston-single-aircraft
-- **2026 Aviat Husky A-1C-180** — price n/a — 1 TT — Plymouth, Massachusetts — _controller_  
-  https://www.controller.com/listing/for-sale/252440995/2026-aviat-husky-a-1c-180-piston-single-aircraft
-- **2025 Aviat Husky A-1C-180** — $525,000 — 35 TT — Dayton, Ohio — _controller_  
-  https://www.controller.com/listing/for-sale/256460209/2025-aviat-husky-a-1c-180-piston-single-aircraft
-- **2019 Aviat Husky A-1C-180** — $365,000 — 168 TT — Middleton, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/236659995/2019-aviat-husky-a-1c-180-piston-single-aircraft
-- **2007 Aviat Husky A-1B** — $209,000 — 294 TT — Middleton, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/250363283/2007-aviat-husky-a-1b-piston-single-aircraft
-- **2000 Aviat Husky A-1B** — $132,333 — 420 TT — London, London, United Kingdom — _controller_  
-  https://www.controller.com/listing/for-sale/256480029/2000-aviat-husky-a-1b-piston-single-aircraft
-- **2004 Maule Mxt7-180A** — $121,800 — 3,503 TT — Englewood, Colorado — _controller_  
-  https://www.controller.com/listing/for-sale/253591041/2004-maule-mxt7-180a-piston-single-aircraft
-- **1997 Maule Mxt7-180** — $126,198 — 1,500 TT — SchwabmÃ¼nchen, Bavaria, Germany — _controller_  
-  https://www.controller.com/listing/for-sale/257321739/1997-maule-mxt7-180-piston-single-aircraft
-- **1994 Maule Mx7-180B** — price n/a — 2,337 TT — Adelaide, South Australia, Australia — _controller_  
-  https://www.controller.com/listing/for-sale/244192851/1994-maule-mx7-180b-piston-single-aircraft
-- **1947 Stinson 108 108-2** — $64,900 — 3133 TT — Consulting La Grande, OR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2447656&s-type=aircraft
-- **1957 Piper PA-18 Super Cub Super Cub** — $349,999 — 50 TT — Bemidji, Minnesota — _controller_  
-  https://www.controller.com/listing/for-sale/245271781/1957-piper-super-cub-piston-single-aircraft
-- **1969 Piper PA-18 Super Cub Super Cub** — $140,000 — 2,292 TT — Lansing, Michigan — _controller_  
-  https://www.controller.com/listing/for-sale/256096815/1969-piper-super-cub-piston-single-aircraft
-- **1961 Piper PA-18 Super Cub Super Cub** — $175,000 — 5,820 TT — Medford, Oregon — _controller_  
-  https://www.controller.com/listing/for-sale/256498095/1961-piper-super-cub-piston-single-aircraft
-- **1959 Piper PA-18 Super Cub Super Cub** — $195,000 — 659 TT — Goffs, Nova Scotia, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/252016459/1959-piper-super-cub-piston-single-aircraft
-- **2003 Piper PA-18 Super Cub Super Cub** — $169,000 — 830 TT — Calgary, Alberta, Canada — _controller_  
-  https://www.controller.com/listing/for-sale/234016019/2003-piper-super-cub-piston-single-aircraft
-- **1990 Piper PA-18 Super Cub Super Cub** — $190,000 — 404 TT — Long Beach, California — _controller_  
-  https://www.controller.com/listing/for-sale/256862447/1990-piper-super-cub-piston-single-aircraft
-- **1989 Piper PA-18 Super Cub Super Cub** — price n/a — 74 TT — Bethany, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/254338435/1989-piper-super-cub-piston-single-aircraft
-- **1979 Piper PA-18 Super Cub Super Cub** — price n/a — 3,330 TT — Hayden, Idaho — _controller_  
-  https://www.controller.com/listing/for-sale/256100223/1979-piper-super-cub-piston-amphibious-slash-floatplanes
-- **1953 Piper PA-18 Super Cub Super Cub** — $220,000 — 5,287 TT — Placerville, California — _controller_  
-  https://www.controller.com/listing/for-sale/250041559/1953-piper-super-cub-piston-single-aircraft
-- **1952 Piper PA-18 Super Cub Super Cub** — $170,000 — 3,701 TT — Placerville, California — _controller_  
-  https://www.controller.com/listing/for-sale/247913915/1952-piper-super-cub-piston-single-aircraft
-- **1978 Piper PA-18 Super Cub Super Cub** — $82,602 — 6,823 TT — Locarno, Ti, Switzerland — _controller_  
-  https://www.controller.com/listing/for-sale/237220041/1978-piper-super-cub-piston-single-aircraft
-- **1951 Piper PA-18 Super Cub Super Cub** — $63,099 — 3,945 TT — Fareham, England, United Kingdom — _controller_  
-  https://www.controller.com/listing/for-sale/257263789/1951-piper-super-cub-piston-single-aircraft
-- **1961 Cessna 172 172B SKYHAWK** — $165,000 — 4923 TT — JEFFREY KROO Bend, OR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2456453&s-type=aircraft
-- **2019 Cessna 172 172S Skyhawk** — price n/a — 1,435 TT — Mayfield, Kentucky — _controller_  
-  https://www.controller.com/listing/for-sale/255069401/2019-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **1972 American Champion 7-KCAB CITABRIA** — $64,900 — 2764 TT — Ownership Solutions Kokomo, IN — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2457379&s-type=aircraft
+- **1951 Cessna 195 195** — $248,000 — 5082 TT — Aviation Professionals Coldwater, MI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195&listing_id=2456420&s-type=aircraft
+- **1953 Cessna 195 195B** — $110,000 — 3250 TT — Planes Aviation Goodland, KS — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195B&listing_id=2436792&s-type=aircraft
+- **1977 Cessna 172 R172K HAWK XP** — $229,900 — 1798 TT — Aviation Inc Bucyrus, OH — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=R172K+HAWK+XP&listing_id=2457523&s-type=aircraft
+- **1976 Cessna 172 172M SKYHAWK** — $104,000 — 10762 TT — Aviation Fort Smith, NT — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2439335&s-type=aircraft
+- **2005 Cessna 172 172S SKYHAWK SP** — price n/a —  — Benton Matthews Jacksonville, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457516&s-type=aircraft
+- **1977 Cessna 172 R172K Ii** — $199,900 — 4,250 TT — Phoenix, Arizona — _controller_  
+  https://www.controller.com/listing/for-sale/257584755/1977-cessna-r172k-ii-piston-single-aircraft
+- **1980 Cessna 205/206/207 U206G** — $695,000 — 2976 TT — West Palm Beach, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2447537&s-type=aircraft
+- **1965 Cessna 205/206/207 206 STATIONAIR** — $200,000 — 4325 TT — Kris Carter Bellingham, WA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2457466&s-type=aircraft
+- **1965 Cessna 205/206/207 P206** — $230,000 — 4616 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206&listing_id=2457524&s-type=aircraft
+- **1986 Cessna 205/206/207 U206G Stationair** — price n/a — 5,363 TT — Petersburg, Virginia — _controller_  
+  https://www.controller.com/listing/for-sale/255726965/1986-cessna-u206g-stationair-turboprop-aircraft
+- **1986 Cessna 205/206/207 U206G Stationair** — price n/a — 7,128 TT — Petersburg, Virginia — _controller_  
+  https://www.controller.com/listing/for-sale/255726711/1986-cessna-u206g-stationair-turboprop-aircraft
+- **1968 Cessna 205/206/207 U206 Stationair** — $299,900 — 6,585 TT — La Grande, Oregon — _controller_  
+  https://www.controller.com/listing/for-sale/254619999/1968-cessna-u206-stationair-piston-single-aircraft
+- **2005 Cessna 205/206/207 206H Stationair** — $458,000 — 3,619 TT — Homestead, Florida — _controller_  
+  https://www.controller.com/listing/for-sale/257340983/2005-cessna-206h-stationair-piston-single-aircraft
+- **1977 Cessna 205/206/207 U206G Stationair** — $289,900 — 4,375 TT — Brandon, Mississippi — _controller_  
+  https://www.controller.com/listing/for-sale/256986993/1977-cessna-u206g-stationair-piston-single-aircraft
+- **1983 Cessna 205/206/207 U206G Stationair** — $460,000 — 2,655 TT — Park Rapids, Minnesota — _controller_  
+  https://www.controller.com/listing/for-sale/257408697/1983-cessna-u206g-stationair-piston-amphibious-slash-floatplanes
+- **1981 Cessna 205/206/207 U206G Stationair** — price n/a — 1,821 TT — Brainerd, Minnesota — _controller_  
+  https://www.controller.com/listing/for-sale/247423189/1981-cessna-u206g-stationair-turboprop-aircraft
+- **1979 Cessna 205/206/207 U206G Stationair** — price n/a — 1,750 TT — Brainerd, Minnesota — _controller_  
+  https://www.controller.com/listing/for-sale/256748403/1979-cessna-u206g-stationair-turboprop-aircraft
+- **1976 Cessna 205/206/207 U206F Stationair** — $475,000 — 4,156 TT — Craig, Alaska — _controller_  
+  https://www.controller.com/listing/for-sale/251789417/1976-cessna-u206f-stationair-piston-amphibious-slash-floatplanes
+- **1980 Cessna 205/206/207 U206 Amphibian** — $695,000 — 3,116 TT — Lake Worth, Florida — _controller_  
+  https://www.controller.com/listing/for-sale/248697255/1980-cessna-u206-amphibian-piston-amphibious-slash-floatplanes
+- **1967 Cessna 205/206/207 P206 Super** — $195,000 — 14,595 TT — Kingston, Kingston, Jamaica — _controller_  
+  https://www.controller.com/listing/for-sale/246025289/1967-cessna-p206-super-skylane-piston-single-aircraft
+- **1979 Cessna 205/206/207 U206G Stationair** — $360,000 — 3,470 TT — Placerville, California — _controller_  
+  https://www.controller.com/listing/for-sale/244397971/1979-cessna-u206g-stationair-ii-piston-single-aircraft
+- **1967 Cessna 205/206/207 P206 Super** — $189,000 — 9,710 TT — Placerville, California — _controller_  
+  https://www.controller.com/listing/for-sale/256300061/1967-cessna-p206-super-skylane-piston-single-aircraft
+- **2008 Cessna 205/206/207 206H Stationair** — $599,000 — 1,350 TT — Placerville, California — _controller_  
+  https://www.controller.com/listing/for-sale/253229193/2008-cessna-206h-stationair-piston-single-aircraft
+- **1999 Cessna 205/206/207 206H Stationair** — $320,000 — 3,810 TT — Quebec, Quebec, Canada — _controller_  
+  https://www.controller.com/listing/for-sale/244007267/1999-cessna-206h-stationair-piston-single-aircraft
+- **1982 Cessna 205/206/207 U206G Stationair** — $445,000 — 6,871 TT — Pasay City, National Capital Region, The Philippines — _controller_  
+  https://www.controller.com/listing/for-sale/252750781/1982-cessna-u206g-stationair-piston-single-aircraft
+- **1972 Cessna 205/206/207 U206F Stationair** — price n/a — 16,731 TT — Randburg, Gauteng, South Africa — _controller_  
+  https://www.controller.com/listing/for-sale/254370353/1972-cessna-u206f-stationair-piston-single-aircraft
+- **1964 Cessna 205/206/207 U206 Super** — $239,000 — 7,800 TT — Hamilton Airport, New Zealand — _controller_  
+  https://www.controller.com/listing/for-sale/255987161/1964-cessna-u206-super-skywagon-piston-single-aircraft
+- **1978 Cessna 205/206/207 U206 Stationair** — $231,178 — 7,068 TT — Johannesburg, Gauteng, South Africa — _controller_  
+  https://www.controller.com/listing/for-sale/253586547/1978-cessna-u206-stationair-piston-single-aircraft
+- **? Cessna 205/206/207 206** — price n/a — 0 TT — Auckland, North Island, New Zealand — _controller_  
+  https://www.controller.com/listing/for-sale/251592697/cessna-206h-stationair-piston-single-aircraft
+- **2017 Cessna 205/206/207 205/206/207** — price n/a — 707 — Arlington, TX — _vanbortel_  
+  https://www.vanbortel.com/cessnas-for-sale/2017-cessna-t206h-n46vb

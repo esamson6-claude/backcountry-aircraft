@@ -49,6 +49,16 @@
     "total_time": "1285",
     "year": 2008
   },
+  "/cessnas-for-sale/2017-cessna-t206h-n46vb": {
+    "description": "2017 Cessna T206H CONTACT US Inventory Financing trade-ins international sales Sell My Cessna parts TESTIMONIALS about us No items found. No items found. 2017 Cessna T206H - Always Hangared! Arlington, Texas, United States 2017 Year Cessna Brand 707 Total Time 707 Engine Time N46VB Tail # Price About We only sell the very best Cessna aircraft and deliver them to our customers the way we would want them delivered. This 2017 Cessna T206H comes with our exclusive 100% money back guarantee and our Purchase Protection Plan\u00ae. At Van Bortel, Your Satisfaction is our Reputation\u00ae! .inline-text {\n  display: inline;\n  white-space: normal;\n} AIRCRAFT SPECS PDF 1 2 3 Aircraft Registration & Contact Information 2017 Cessna T206H N46VB Registered Owner's First Name Registered Owner's Last Name Email Address Phone Number Address State Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Cancel Next 2 3 Aircraft Location & Use Primary Airport and Identifier Aircraft Storage Select one... Hangared Tied Down Primary Use of Aircraft Select one... Pleasure and Business (P&B) Commercial",
+    "engine_time": null,
+    "image_url": "https://cdn.prod.website-files.com/681a2ca56764f419ce5548cd/698e08ee5373495c1ecb0d38_N46VB_1A.jpg",
+    "location": "Arlington, TX",
+    "price": null,
+    "title": "2017 Cessna T206H",
+    "total_time": "707",
+    "year": 2017
+  },
   "/cessnas-for-sale/2022-cessna-t206h-n22206": {
     "description": "2022 Cessna T206H CONTACT US Inventory Financing trade-ins international sales Sell My Cessna parts TESTIMONIALS about us No items found. No items found. 2022 Cessna T206H - Always Hangared! Arlington, Texas, United States 2022 Year Cessna Brand 183 Total Time 183 Engine Time N22206 Tail # Price About We only sell the very best Cessna aircraft and deliver them to our customers the way we would want them delivered. This 2022 Cessna T206H comes with our exclusive 100% money back guarantee and our Purchase Protection Plan\u00ae. At Van Bortel, Your Satisfaction is our Reputation\u00ae! .inline-text {\n  display: inline;\n  white-space: normal;\n} AIRCRAFT SPECS PDF REQUEST INSURANCE 1 2 3 Aircraft Registration & Contact Information 2022 Cessna T206H N22206 Registered Owner's First Name Registered Owner's Last Name Email Address Phone Number Address State Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Cancel Next 2 3 Aircraft Location & Use Primary Airport and Identifier Aircraft Storage Select one... Hangared Tied Down Primary Use of Aircraft Select one... Pleasure and Busin",
     "engine_time": null,
@@ -597,6 +607,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2445397&s-type=aircraft": {
     "location": "Livermore, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2457379&s-type=aircraft": {
+    "location": "Kokomo, IN"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+DENALI+SCOUT&listing_id=2309488&s-type=aircraft": {
     "location": "Nampa, ID"
@@ -1303,6 +1316,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2438886&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2439335&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2446468&s-type=aircraft": {
     "location": "Russellville, KY"
   },
@@ -1699,6 +1715,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457431&s-type=aircraft": {
     "location": "Lexington, KY"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457516&s-type=aircraft": {
+    "location": "Jacksonville, FL"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2456758&s-type=aircraft": {
     "location": "Kennebunk, ME"
   },
@@ -1882,6 +1901,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2457474&s-type=aircraft": {
     "location": "Anchorage, AK"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195&listing_id=2456420&s-type=aircraft": {
+    "location": "Coldwater, MI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195B&listing_id=2436792&s-type=aircraft": {
+    "location": "Goodland, KS"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=1098550&s-type=aircraft": {
     "location": null
   },
@@ -1905,6 +1930,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2457003&s-type=aircraft": {
     "location": "Griffin, GA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2457466&s-type=aircraft": {
+    "location": "Bellingham, WA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2441493&s-type=aircraft": {
     "location": "Fort Lauderdale, FL"
@@ -1975,6 +2003,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P172D&listing_id=2446668&s-type=aircraft": {
     "location": "Greeley, CO"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206&listing_id=2457524&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206+SUPER+SKYLANE&listing_id=2457235&s-type=aircraft": {
     "location": "Pampa, TX"
   },
@@ -1992,6 +2023,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=R172K+HAWK+XP&listing_id=2456286&s-type=aircraft": {
     "location": "Fort Myers, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=R172K+HAWK+XP&listing_id=2457523&s-type=aircraft": {
+    "location": "Bucyrus, OH"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2328752&s-type=aircraft": {
     "location": "Olathe, KS"
@@ -2145,6 +2179,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2443058&s-type=aircraft": {
     "location": "Placerville, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2447537&s-type=aircraft": {
+    "location": "West Palm Beach, FL"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2456235&s-type=aircraft": {
     "location": "Miami, FL"

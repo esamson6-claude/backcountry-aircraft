@@ -150,6 +150,10 @@
     45.776288,
     -111.1771685
   ],
+  "Bellingham, WA": [
+    48.7544012,
+    -122.478836
+  ],
   "Beloeil, QC": [
     45.5643183,
     -73.2040066
@@ -224,6 +228,10 @@
     -97.4981698
   ],
   "Bruce Roberts Watsonville, CA": null,
+  "Bucyrus, OH": [
+    40.8083909,
+    -82.9754649
+  ],
   "Budd Winston-Salem, NC": [
     36.0545625,
     -80.3159771
@@ -367,6 +375,10 @@
     -82.8001026
   ],
   "Clyde Kornegay Brownsville, TX": null,
+  "Coldwater, MI": [
+    41.941091,
+    -85.0030617
+  ],
   "Colorado": [
     38.7251776,
     -105.607716
@@ -633,6 +645,10 @@
   "Goffs, Nova Scotia, Canada": [
     44.8581372,
     -63.5423535
+  ],
+  "Goodland, KS": [
+    39.350833,
+    -101.710172
   ],
   "Grand Junction, Colorado": [
     39.0672568,
@@ -1805,6 +1821,10 @@
   "West Hampton, NY": [
     40.7763165,
     -72.7155239
+  ],
+  "West Palm Beach, FL": [
+    26.715364,
+    -80.0532942
   ],
   "West Simsbury, CT": [
     41.8784634,
