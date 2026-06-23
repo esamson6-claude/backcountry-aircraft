@@ -251,10 +251,19 @@ def render() -> Path:
 
     new_count = sum(1 for r in rows if _is_new(r))
 
-    # Default sort: new-first, then make, year desc, price desc
+    def _first_seen_ord(r: dict) -> int:
+        try:
+            return date.fromisoformat(r.get("first_seen") or "").toordinal()
+        except ValueError:
+            return 0
+
+    # Default sort: new listings first, ordered by date discovered (newest →
+    # oldest) so a refresh always surfaces the latest finds at the top; the
+    # remaining (non-new) listings keep the make / year desc / price desc order.
     rows.sort(
         key=lambda r: (
             not _is_new(r),  # False (0) before True (1) → new at top
+            -_first_seen_ord(r) if _is_new(r) else 0,  # new: newest date first
             r.get("make") or "",
             -int(r.get("year") or 0),
             -_int_from(r.get("price") or ""),
