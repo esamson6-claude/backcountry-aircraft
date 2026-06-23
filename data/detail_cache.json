@@ -1184,6 +1184,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2457389&s-type=aircraft": {
     "location": "Livermore, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2457549&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2422000&s-type=aircraft": {
     "location": null
   },
@@ -1210,6 +1213,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2456736&s-type=aircraft": {
     "location": "Monroe, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2457543&s-type=aircraft": {
+    "location": "Lawrenceville, GA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2449411&s-type=aircraft": {
     "location": "Livermore, CA"
@@ -1646,6 +1652,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2457174&s-type=aircraft": {
     "location": "Reedville, VA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2457541&s-type=aircraft": {
+    "location": "Amherst, OH"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=1737123&s-type=aircraft": {
     "location": null
   },
@@ -1807,6 +1816,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2449195&s-type=aircraft": {
     "location": "Ambler, PA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2454610&s-type=aircraft": {
+    "location": "Wasilla, AK"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2456157&s-type=aircraft": {
     "location": null
@@ -2069,6 +2081,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2452385&s-type=aircraft": {
     "location": "San Marcos, TX"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2452900&s-type=aircraft": {
+    "location": "Arlington, TX"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2453282&s-type=aircraft": {
     "location": "Arlington, TX"
   },
@@ -2236,6 +2251,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX3&listing_id=2455470&s-type=aircraft": {
     "location": "St Petersburg, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-100+SPORT+CUB&listing_id=2457554&s-type=aircraft": {
+    "location": "Blair, NE"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2429395&s-type=aircraft": {
     "location": "North Las Vegas, NV"
@@ -2525,6 +2543,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-20+RAVEN&listing_id=2457043&s-type=aircraft": {
     "location": "Saint George, UT"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-20+RAVEN&listing_id=2457544&s-type=aircraft": {
+    "location": "Placerville, CA"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108&listing_id=2454669&s-type=aircraft": {
     "location": "Mocksville, NC"
   },
@@ -2539,6 +2560,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2456879&s-type=aircraft": {
     "location": "McPherson, KS"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-3&listing_id=2457571&s-type=aircraft": {
+    "location": "Moundridge, KS"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=AT-19+RELIANT&listing_id=2437152&s-type=aircraft": {
     "location": "Minneapolis, MN"
