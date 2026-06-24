@@ -17,6 +17,10 @@
     42.7252774,
     -110.933402
   ],
+  "Afton, Wyoming": [
+    42.7252774,
+    -110.933402
+  ],
   "Air LLC Kerrville, TX": null,
   "Aircraft Blaine, MN": null,
   "Aircraft LLC Denver, CO": null,
@@ -47,6 +51,10 @@
     -115.002136
   ],
   "Alene Aviation Hayden, ID": null,
+  "Alpine, WY": [
+    43.1636455,
+    -111.0178761
+  ],
   "Amarillo, Texas": [
     35.20729,
     -101.8371192
@@ -758,6 +766,10 @@
     36.8524545,
     -121.4016021
   ],
+  "Hollywood, Florida": [
+    26.0112014,
+    -80.1494901
+  ],
   "Homestead, Florida": [
     25.4718946,
     -80.4759905
@@ -934,6 +946,10 @@
     34.4775296,
     -114.3379972
   ],
+  "Lake Havasu City, Arizona": [
+    34.4775296,
+    -114.3379972
+  ],
   "Lake Worth, Florida": [
     26.615891,
     -80.0691435
@@ -1001,6 +1017,10 @@
   "Like New, NO": [
     42.7001037,
     -72.0597841
+  ],
+  "Lindon, UT": [
+    40.3432857,
+    -111.72076
   ],
   "Little Rock, AR": [
     34.7465071,
@@ -1190,6 +1210,10 @@
   "Morrisville, VT": [
     44.5615499,
     -72.5982955
+  ],
+  "Moultrie, GA": [
+    31.1793436,
+    -83.788579
   ],
   "Moundridge, KS": [
     38.203065,
@@ -1702,6 +1726,7 @@
     27.197983,
     -80.2519175
   ],
+  "Subang Airport, Selangaor, Malaysia": null,
   "Tampa, Florida": [
     27.9449854,
     -82.4583107
@@ -1735,6 +1760,10 @@
   ],
   "Townsend Heber City, UT": null,
   "Trever Throop Hamilton, MT": null,
+  "Troy, MI": [
+    42.6055893,
+    -83.1499304
+  ],
   "Tupelo, Mississippi": [
     34.2576067,
     -88.7033859
@@ -1825,6 +1854,10 @@
   "Watkins, CO": [
     39.7443406,
     -104.6031986
+  ],
+  "Watkinsville, GA": [
+    33.8628959,
+    -83.4087709
   ],
   "Watsonville, CA": [
     36.9089338,
