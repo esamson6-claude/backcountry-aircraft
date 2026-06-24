@@ -56,6 +56,25 @@ def _keep_arctic_tern(l: dict) -> bool:
     return "ARCTIC" in blob and "TERN" in blob
 
 
+# Buy-side solicitations ("Wanted - CESSNA 172 ...", WTB, ISO, "looking to buy")
+# are people seeking to purchase, not aircraft for sale. Drop them site-wide.
+# Anchored at the START of the title/description so it can't catch a real
+# for-sale listing that merely mentions the word somewhere in its blurb
+# (those start with a year/price, e.g. "1958 CESSNA 172 $85,000").
+_SOLICITATION_RE = re.compile(
+    r"^\s*(wanted\b|w\.?\s?t\.?\s?b\.?\b|want(ed)?\s+to\s+buy|wish\s+to\s+buy|"
+    r"in\s+search\s+of\b|iso\b|looking\s+(to\s+buy|for\s+a)|we\s+buy\b|cash\s+for\b)",
+    re.I,
+)
+
+
+def _is_solicitation(l: dict) -> bool:
+    """True for 'want to buy' ads (not aircraft for sale)."""
+    return any(
+        _SOLICITATION_RE.match((l.get(k) or "").strip()) for k in ("title", "description")
+    )
+
+
 def _keep_bird_dog(l: dict) -> bool:
     """Cessna L-19 / O-1 Bird Dog (also marketed as Cessna 305A).
 
@@ -888,7 +907,14 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
             continue
 
         filt = search.get("post_filter")
-        kept = [l.as_row() for l in scraped if (filt is None or filt(l.as_row()))]
+        kept = []
+        for l in scraped:
+            row = l.as_row()
+            if filt is not None and not filt(row):
+                continue
+            if _is_solicitation(row):  # drop "Wanted/WTB/ISO" buy-side ads
+                continue
+            kept.append(row)
         dropped = len(scraped) - len(kept)
         suffix = f" ({dropped} filtered out)" if dropped else ""
         print(f"  {label}: {len(kept)} listings{suffix}", file=sys.stderr)
