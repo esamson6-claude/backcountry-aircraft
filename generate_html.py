@@ -243,7 +243,15 @@ def render() -> Path:
     NEW_WINDOW_DAYS = 7
     _today = date.today()
 
+    # Makes excluded from the "new listings" summary at the user's request:
+    # high-volume Cessnas that would otherwise dominate the new-listings view.
+    # They still appear everywhere else on the site — just never badged,
+    # counted, or sorted as "new".
+    NEW_EXCLUDED_MAKES = {"Cessna 172", "Cessna 205/206/207"}
+
     def _is_new(r: dict) -> bool:
+        if (r.get("make") or "") in NEW_EXCLUDED_MAKES:
+            return False
         try:
             return (_today - date.fromisoformat(r.get("first_seen") or "")).days <= NEW_WINDOW_DAYS
         except ValueError:
