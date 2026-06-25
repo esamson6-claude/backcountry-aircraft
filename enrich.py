@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import sys
 import time
@@ -30,11 +31,50 @@ UA = (
 )
 
 # Matches the detail-page "Location:" block which renders with whitespace/tabs
-# between the city, state, and "USA": "Location: McAllen    ,    TX    USA"
+# between the city, state, and "USA": "Location: McAllen    ,    TX    USA".
+# "USA" is optional so non-US listings (City, ST <Country>) still resolve to a
+# clean "City, ST".
 _TAP_LOC_RE = re.compile(
-    r"Location:\s*([A-Za-z][A-Za-z\.\-' ]+?)\s*,\s*([A-Z]{2})\s+USA",
+    r"Location:\s*([A-Za-z][A-Za-z\.\-' ]+?)\s*,\s*([A-Z]{2})\b(?:\s+USA)?",
     re.IGNORECASE,
 )
+
+# Business-name tokens that indicate a seller name glued in front of the city,
+# e.g. "Air LLC Houston, TX" or "Solutions Group Troy, MI". Used as a last-resort
+# cleaner for rows the detail-page fetch can't fix.
+_BIZ_RE = re.compile(
+    r"^(LLC|L\.L\.C\.?|Inc\.?|Incorporated|Co\.?|Corp\.?|Aviation|Aircraft|Aero|"
+    r"Airlines|Services|Service|Group|Sales|Jet|Jets|Aviators?|Air|Avionics|"
+    r"Center|Aerospace|Flight|Flying|Wings|Hangar|Brokerage|Brokers?|Trading|"
+    r"Holdings|Enterprises|Partners|Capital|Leasing|Sky|Skies)$",
+    re.IGNORECASE,
+)
+
+
+def _strip_seller_name(loc: str) -> str:
+    """Best-effort: drop a seller business name glued before a 'City, ST' tail.
+
+    "Air LLC Houston, TX" -> "Houston, TX"; "Solutions Group Troy, MI" -> "Troy, MI".
+    Conservative: only fires when a business-keyword token precedes the city, and
+    never when the business word *is* the last (city) word. Person-name prefixes
+    (e.g. "Brian Jenkins Alpine, WY") aren't detectable and are left for the
+    detail-page fetch to clean.
+    """
+    if not loc or "," not in loc:
+        return loc
+    before, after = loc.rsplit(",", 1)
+    state = after.strip()
+    if not re.fullmatch(r"[A-Za-z]{2}", state):  # only US/CA 2-letter tails
+        return loc
+    words = before.split()
+    last_biz = -1
+    for i, w in enumerate(words):
+        if _BIZ_RE.match(w.strip(".,")):
+            last_biz = i
+    if last_biz == -1 or last_biz == len(words) - 1:
+        return loc  # no business word, or it would eat the whole city
+    city = " ".join(words[last_biz + 1:]).strip()
+    return f"{city}, {state.upper()}" if city else loc
 
 
 def load_cache() -> dict[str, dict]:
@@ -78,7 +118,24 @@ def main() -> int:
 
     # Only enrich TAP listings (other sources have clean data or trivial counts)
     tap_urls = [r["url"] for r in rows if r.get("source") == "trade-a-plane"]
-    todo = [u for u in tap_urls if u not in cache]
+
+    # Normally fetch only uncached URLs plus transient errors (so we retry a blip
+    # but never re-hit pages that genuinely have no clean Location). Set
+    # ENRICH_RECLEAN=1 to also re-fetch entries that resolved to no location —
+    # used for the one-time backfill after hardening the extractor.
+    reclean = os.environ.get("ENRICH_RECLEAN") == "1"
+
+    def _needs_fetch(url: str) -> bool:
+        if url not in cache:
+            return True
+        entry = cache[url]
+        if "error" in entry:           # transient failure — retry
+            return True
+        if reclean and entry.get("location") is None:
+            return True
+        return False
+
+    todo = [u for u in tap_urls if _needs_fetch(u)]
 
     if not todo:
         print(f"  enrich: cache complete ({len(cache)} entries, 0 new)", file=sys.stderr)
@@ -104,14 +161,18 @@ def main() -> int:
 
 
 def _apply_cache_to_csv(rows: list[dict], cache: dict[str, dict]) -> None:
-    """Update each row's location field with the cached cleaner value (if any)."""
+    """Clean each row's location: prefer the cached TAP detail-page value, then
+    run the seller-name stripper (all sources) as a final fallback."""
     changed = 0
     for r in rows:
-        if r.get("source") != "trade-a-plane":
-            continue
-        cached_loc = cache.get(r["url"], {}).get("location")
-        if cached_loc and cached_loc != r.get("location"):
-            r["location"] = cached_loc
+        loc = r.get("location") or ""
+        if r.get("source") == "trade-a-plane":
+            cached_loc = cache.get(r["url"], {}).get("location")
+            if cached_loc:
+                loc = cached_loc
+        loc = _strip_seller_name(loc)
+        if loc and loc != r.get("location"):
+            r["location"] = loc
             changed += 1
     if changed:
         fields = list(rows[0].keys())

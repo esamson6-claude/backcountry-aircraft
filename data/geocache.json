@@ -80,12 +80,20 @@
     -85.6802541
   ],
   "Annie Vogel Middleton, WI": null,
+  "Ardrossan, AB": [
+    53.5517087,
+    -113.143322
+  ],
   "Arizona Aircraft Carefree, AZ": null,
   "Arlington, TX": [
     32.7355816,
     -97.1071186
   ],
   "Arlington, WA": [
+    48.1896827,
+    -122.1288887
+  ],
+  "Arlington, Washington": [
     48.1896827,
     -122.1288887
   ],
@@ -202,6 +210,14 @@
   "Blake Barrymore Hailey, ID": null,
   "Blattmachr Anchorage, AK": null,
   "Boccuti Ambler, PA": null,
+  "Bonneville, AB": [
+    53.5241436,
+    -113.3119515
+  ],
+  "Bonnyville, AB": [
+    54.267925,
+    -110.741515
+  ],
   "Boynton Beach, Florida": [
     26.5289139,
     -80.058141
@@ -210,6 +226,10 @@
   "Brainerd, Minnesota": [
     46.3580221,
     -94.2008288
+  ],
+  "Brampton, ON": [
+    43.685832,
+    -79.7599366
   ],
   "Brandon, Mississippi": [
     32.2731475,
@@ -263,6 +283,10 @@
   "Buffalo, NY": [
     42.8864163,
     -78.8781493
+  ],
+  "Burlington, ON": [
+    43.3248924,
+    -79.7966835
   ],
   "Burnsville, NC": [
     35.9172243,
@@ -377,6 +401,10 @@
     39.3331197,
     -82.9824019
   ],
+  "Chilliwack, BC": [
+    49.1709788,
+    -121.95255
+  ],
   "Chino, CA": [
     34.0133561,
     -117.690075
@@ -434,6 +462,10 @@
     39.7589478,
     -84.1916069
   ],
+  "DIDSBURY, AB": [
+    51.6567661,
+    -114.1375682
+  ],
   "Dallas, TX": [
     32.7762719,
     -96.7968559
@@ -450,6 +482,10 @@
   "Deer Valley, Arizona": [
     33.686086,
     -112.1185607
+  ],
+  "Delta, BC": [
+    49.0846258,
+    -123.057938
   ],
   "Delta, CO": [
     38.8368777,
@@ -485,6 +521,10 @@
     -92.1052679
   ],
   "Dustin Hancock Ogden, UT": null,
+  "EQY - Monroe, NC": [
+    35.0175356,
+    -80.6218759
+  ],
   "Eagle River, AK": [
     61.2700284,
     -149.3863924
@@ -616,9 +656,17 @@
     26.640628,
     -81.8723084
   ],
+  "Fort Nelson, BC": [
+    58.8048351,
+    -122.7014595
+  ],
   "Fort Scott, KS": [
     37.8399791,
     -94.7082882
+  ],
+  "Fort Smith, NT": [
+    60.005852,
+    -111.890259
   ],
   "Fort St. John, British Columbia, Canada": [
     56.2527571,
@@ -710,6 +758,10 @@
     30.3674198,
     -89.0928155
   ],
+  "HAWKESBURY, ON": [
+    45.610281,
+    -74.6055611
+  ],
   "HP, MT": [
     36.0434539,
     14.2483064
@@ -736,10 +788,19 @@
   ],
   "Hangar Gurus Kirkland, WA": null,
   "Hartley Paul Kenmore, WA": null,
+  "Hawkesbury, BC": [
+    53.5496338,
+    -129.1002215
+  ],
+  "Hawkesbury, ON": [
+    45.610281,
+    -74.6055611
+  ],
   "Hawkesbury, Ontario, Canada": [
     45.610281,
     -74.6055611
   ],
+  "Hawkesbury, SK": null,
   "Hayden, ID": [
     47.7590638,
     -116.7866807
@@ -994,6 +1055,10 @@
     29.5074538,
     -95.0949303
   ],
+  "Leask, SK": [
+    53.0199419,
+    -106.7412315
+  ],
   "Leavenworth, WA": [
     47.5969138,
     -120.661081
@@ -1138,6 +1203,10 @@
     42.3264181,
     -122.8718605
   ],
+  "Memphis, MB": [
+    35.146026,
+    -90.0517786
+  ],
   "Memphis, TN": [
     35.146026,
     -90.0517786
@@ -1204,6 +1273,10 @@
   "Monroe, NC": [
     34.9854275,
     -80.5495112
+  ],
+  "Monterrey, NL": [
+    25.664805,
+    -100.3462903
   ],
   "Mooresville, NC": [
     35.5848596,
@@ -1307,6 +1380,10 @@
   ],
   "Nick Filimoehala KBMC, UT": null,
   "Niles Quebec City, QC": null,
+  "North Bay, ON": [
+    46.3092115,
+    -79.4607617
+  ],
   "North Las Vegas, NV": [
     36.2005191,
     -115.1214745
@@ -1343,11 +1420,19 @@
     43.9792797,
     -120.737257
   ],
+  "Orillia, ON": [
+    44.6066135,
+    -79.4169256
+  ],
   "Orlando, Florida": [
     28.5421218,
     -81.379045
   ],
   "Otis Childers Leavenworth, WA": null,
+  "Ottawa, ON": [
+    45.4208777,
+    -75.6901106
+  ],
   "Overland Park, KS": [
     38.9742502,
     -94.6851702
@@ -1514,6 +1599,10 @@
     26.9351529,
     -82.0512058
   ],
+  "Quebec City, QC": [
+    46.8137431,
+    -71.2084061
+  ],
   "Quebec, Quebec, Canada": [
     46.8137431,
     -71.2084061
@@ -1550,6 +1639,10 @@
   "Rigby, Idaho": [
     43.6722397,
     -111.9148632
+  ],
+  "Rivers, MB": [
+    50.0310937,
+    -100.2342492
   ],
   "Roanoke, VA": [
     37.270973,
@@ -1682,9 +1775,17 @@
     40.0507198,
     -77.5205485
   ],
+  "Sidney, BC": [
+    48.6505788,
+    -123.398324
+  ],
   "Sioux Center, IA": [
     43.0796879,
     -96.1756497
+  ],
+  "Smithers, BC": [
+    54.7792074,
+    -127.1760991
   ],
   "South Bend, IN": [
     41.6833813,
@@ -1723,6 +1824,10 @@
     27.7712264,
     -82.6340259
   ],
+  "St-Mathieu-de-Beloeil, QC": [
+    45.6044349,
+    -73.2492469
+  ],
   "St. Charles, MO": [
     38.7877791,
     -90.6747372
@@ -1747,6 +1852,10 @@
     -80.2519175
   ],
   "Subang Airport, Selangaor, Malaysia": null,
+  "Swift Current, SK": [
+    50.2849138,
+    -107.7984496
+  ],
   "Tampa, Florida": [
     27.9449854,
     -82.4583107
@@ -1899,6 +2008,10 @@
     41.8784634,
     -72.8435645
   ],
+  "Westhampton Beach New, York": [
+    40.8101459,
+    -72.6413756
+  ],
   "Whitehouse Station, New Jersey": [
     40.61538,
     -74.7704409
@@ -1917,6 +2030,10 @@
   ],
   "William Cree Wickenburg, AZ": null,
   "William Kitchen Windermere, FL": null,
+  "Williams Lake, BC": [
+    52.1292657,
+    -122.1397259
+  ],
   "Willie Hege Shippensburg, PA": null,
   "Windermere, FL": [
     28.4944695,

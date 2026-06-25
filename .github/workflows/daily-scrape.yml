@@ -33,6 +33,9 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          # Enables image_filter.py (hides person-photo listings). If unset, that
+          # step no-ops and the rest of the pipeline runs normally.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: .venv/bin/python scrape.py
 
       - name: Commit and push if there are changes

@@ -26,6 +26,21 @@ from typing import Iterable
 PROJECT_ROOT = Path(__file__).resolve().parent
 HISTORY_PATH = PROJECT_ROOT / "data" / "price_history.json"
 
+# A reported "drop" must clear BOTH bars, so we don't badge currency-conversion
+# rounding or trivial relists (e.g. $96,896 -> $96,842). History still logs every
+# change; these thresholds only gate what counts as a drop worth surfacing.
+MIN_DROP_PCT = 2.0    # at least a 2% cut
+MIN_DROP_ABS = 1000   # ...and at least $1,000
+
+
+def _is_meaningful_drop(prev_price: int, curr_price: int) -> bool:
+    """True if curr_price is a drop from prev_price big enough to report."""
+    if curr_price >= prev_price:
+        return False
+    delta = prev_price - curr_price
+    pct = delta / prev_price * 100
+    return pct >= MIN_DROP_PCT and delta >= MIN_DROP_ABS
+
 
 def _parse_price(text: str | None) -> int | None:
     if not text:
@@ -78,7 +93,7 @@ def update_history(current_rows: Iterable[dict]) -> list[dict]:
             continue
 
         entries.append({"date": today, "price": price})
-        if price < last["price"]:
+        if _is_meaningful_drop(last["price"], price):
             drops.append({
                 "url": url,
                 "previous_price": last["price"],
@@ -108,7 +123,7 @@ def recent_drops_by_url(days: int = 14) -> dict[str, dict]:
         if len(entries) < 2:
             continue
         last, prev = entries[-1], entries[-2]
-        if last["price"] >= prev["price"]:
+        if not _is_meaningful_drop(prev["price"], last["price"]):
             continue
         try:
             last_date = date.fromisoformat(last["date"])

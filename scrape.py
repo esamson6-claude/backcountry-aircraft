@@ -67,12 +67,46 @@ _SOLICITATION_RE = re.compile(
     re.I,
 )
 
+# Unambiguous buy-side phrases that disqualify a listing wherever they appear in
+# the TITLE (not just at the start) — catches "Cessna 172 - We Buy Planes!".
+# Title-only on purpose: real for-sale listings sometimes carry dealer boilerplate
+# like "we buy / consignment" deep in their DESCRIPTION, so we don't scan that
+# (the ^-anchored _SOLICITATION_RE still covers descriptions that *open* with it).
+_TITLE_SOLICITATION_RE = re.compile(
+    r"\b(we\s+buy|we\s+purchase|wanted\b|w\.?\s?t\.?\s?b\.?\b|"
+    r"want(ed)?\s+to\s+buy|wish\s+to\s+buy|looking\s+to\s+buy|will\s+buy|"
+    r"cash\s+for\b|in\s+search\s+of\b|\biso\b)",
+    re.I,
+)
+
+
+# Buy-side dealer ads ("We pay cash for your plane", "Is your Cessna just
+# sitting in the hangar?", "ready for lease") use a normal-looking title but a
+# solicitation body, so anchoring fails. These phrases are unambiguous and don't
+# appear in genuine for-sale write-ups (a real listing's "if you ever wanted..."
+# won't match). Applied only when the listing has NO price — a real for-sale
+# listing that merely mentions a buy-back program still carries its own price.
+_BUYSIDE_RE = re.compile(
+    r"\bwe\s+buy\b|we'?re\s+buyers|we\s+are\s+buyers|we\s+pay\s+cash|"
+    r"we\s+purchase\b|we'?ll\s+buy\b|sell\s+us\s+your|sell\s+the\s+smart\s+way|"
+    r"cash\s+for\s+your|turn\s+your\s+(?:plane|aircraft|airplane)\s+into|"
+    r"skip\s+the\s+tire\s+kickers|just\s+sitting\s+in\s+(?:the|your)\s+hangar",
+    re.I,
+)
+
 
 def _is_solicitation(l: dict) -> bool:
-    """True for 'want to buy' ads (not aircraft for sale)."""
-    return any(
-        _SOLICITATION_RE.match((l.get(k) or "").strip()) for k in ("title", "description")
-    )
+    """True for buy-side / lease ads (not aircraft genuinely for sale)."""
+    title = (l.get("title") or "").strip()
+    if _TITLE_SOLICITATION_RE.search(title):
+        return True
+    if any(_SOLICITATION_RE.match((l.get(k) or "").strip()) for k in ("title", "description")):
+        return True
+    # Buy-side/lease body phrases, but only when there's no real price.
+    has_price = bool(re.search(r"\d{4,}", (l.get("price") or "")))
+    if not has_price and _BUYSIDE_RE.search(f"{title} {l.get('description') or ''}"):
+        return True
+    return False
 
 
 def _keep_bird_dog(l: dict) -> bool:
@@ -931,6 +965,66 @@ def dedupe(rows: list[dict]) -> dict[str, dict]:
     return by_url
 
 
+def dedupe_same_source_images(current: dict[str, dict]) -> int:
+    """Drop listings from the SAME source that share an identical photo (a true
+    re-post of one aircraft). Cross-source duplicates are kept on purpose, and
+    rows with no/!=image are never touched. Mutates `current` in place; returns
+    the number removed."""
+    seen: set[tuple[str, str]] = set()
+    drop_urls: list[str] = []
+    for url, row in current.items():
+        img = (row.get("image_url") or "").strip()
+        if not img:
+            continue
+        key = (row.get("source") or "", img)
+        if key in seen:
+            drop_urls.append(url)
+        else:
+            seen.add(key)
+    for url in drop_urls:
+        del current[url]
+    return len(drop_urls)
+
+
+# Tail registration ("Reg# N12345") is the authoritative same-aircraft signal.
+# Require a digit right after the N so "Reg# Not Listed" doesn't parse as "NOT".
+_REG_RE = re.compile(r"Reg#\s*(N\d[0-9A-Z]{0,4})\b", re.I)
+
+
+def _registration(row: dict) -> str | None:
+    m = _REG_RE.search(f"{row.get('title') or ''} {row.get('description') or ''}")
+    return m.group(1).upper() if m else None
+
+
+def dedupe_same_source_registration(current: dict[str, dict]) -> int:
+    """Collapse SAME-source listings that share a tail number (a true re-post of
+    one aircraft), keeping the priced copy. Cross-source duplicates are kept (so
+    you can compare the same plane across marketplaces), and listings with
+    different tails — even same year/model — are left alone. Mutates `current`;
+    returns the number removed."""
+    best: dict[tuple[str, str], str] = {}
+    drop_urls: list[str] = []
+    for url, row in current.items():
+        reg = _registration(row)
+        if not reg:
+            continue
+        key = (row.get("source") or "", reg)
+        if key not in best:
+            best[key] = url
+            continue
+        kept = current[best[key]]
+        cur_priced = bool((row.get("price") or "").strip())
+        kept_priced = bool((kept.get("price") or "").strip())
+        if cur_priced and not kept_priced:  # prefer the copy that shows a price
+            drop_urls.append(best[key])
+            best[key] = url
+        else:
+            drop_urls.append(url)
+    for url in drop_urls:
+        current.pop(url, None)
+    return len(drop_urls)
+
+
 def main() -> int:
     print("Scraping sources…", file=sys.stderr)
     previous = load_previous()
@@ -948,6 +1042,15 @@ def main() -> int:
                 carried += 1
         if carried:
             print(f"  Carried over {carried} rows from previous run (hard-failed sources)", file=sys.stderr)
+
+    # Collapse same-source re-posts (keeps cross-source duplicates). Done on the
+    # full merged set, before the diff. Two signals: identical photo, and shared
+    # tail number (Reg#) — the latter keeps the priced copy.
+    removed_img = dedupe_same_source_images(current)
+    removed_reg = dedupe_same_source_registration(current)
+    if removed_img or removed_reg:
+        print(f"  Removed {removed_img + removed_reg} same-source duplicate(s) "
+              f"({removed_img} by photo, {removed_reg} by tail number)", file=sys.stderr)
 
     today = date.today().isoformat()
     new_urls = [u for u in current if u not in previous]
@@ -1021,6 +1124,14 @@ def main() -> int:
         geocode.main()
     except Exception as e:
         print(f"  geocode failed: {e}", file=sys.stderr)
+
+    # Classify thumbnails (cached) so the HTML can hide person-photo listings.
+    # No-ops if ANTHROPIC_API_KEY isn't set.
+    try:
+        import image_filter
+        image_filter.main()
+    except Exception as e:
+        print(f"  image filter failed: {e}", file=sys.stderr)
 
     # Render the HTML view
     try:

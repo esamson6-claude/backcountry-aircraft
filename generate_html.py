@@ -18,6 +18,7 @@ DOCS_DIR.mkdir(exist_ok=True)
 LISTING_DIR.mkdir(exist_ok=True)
 CSV_PATH = DATA_DIR / "listings.csv"
 GEOCACHE_PATH = DATA_DIR / "geocache.json"
+IMAGE_CACHE_PATH = DATA_DIR / "image_cache.json"
 HTML_PATH = DATA_DIR / "listings.html"
 DOCS_HTML_PATH = DOCS_DIR / "index.html"
 
@@ -58,6 +59,17 @@ def _load_geocache() -> dict[str, list[float] | None]:
         except json.JSONDecodeError:
             return {}
     return {}
+
+
+def _load_human_image_urls() -> set[str]:
+    """Image URLs whose thumbnail was classified as a person photo (image_filter.py)."""
+    if IMAGE_CACHE_PATH.exists():
+        try:
+            cache = json.loads(IMAGE_CACHE_PATH.read_text())
+        except json.JSONDecodeError:
+            return set()
+        return {u for u, v in cache.items() if isinstance(v, dict) and v.get("has_human")}
+    return set()
 
 
 PLACEHOLDER_IMG = (
@@ -227,6 +239,7 @@ def render() -> Path:
         raise SystemExit(f"{CSV_PATH} not found — run scrape.py first")
     rows = list(csv.DictReader(CSV_PATH.open(newline="", encoding="utf-8")))
     geocache = _load_geocache()
+    human_imgs = _load_human_image_urls()
 
     try:
         import price_history
@@ -286,6 +299,7 @@ def render() -> Path:
 
     cards_html: list[str] = []
     skipped_no_image = 0
+    skipped_human = 0
     for r in rows:
         # Skip listings that have no thumbnail — the grid only shows
         # picture-bearing cards. (Most listings without an image come from
@@ -293,6 +307,12 @@ def render() -> Path:
         # usable thumbnail from the search/category page.)
         if not (r.get("image_url") or "").strip():
             skipped_no_image += 1
+            continue
+
+        # Skip listings whose thumbnail is a person photo (broker headshot etc.),
+        # as classified by image_filter.py.
+        if (r.get("image_url") or "").strip() in human_imgs:
+            skipped_human += 1
             continue
 
         title = html.escape(
@@ -524,7 +544,7 @@ def render() -> Path:
 <header>
   <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
     <div>
-      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_no_image}</span> shown</h1>
+      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_no_image - skipped_human}</span> shown</h1>
       <div class="subhead">Updated {date.today().isoformat()} · click any card to open the listing</div>
     </div>
     <div style="display:flex; gap:8px; align-items:center;">

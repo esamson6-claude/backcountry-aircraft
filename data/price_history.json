@@ -95,10 +95,22 @@
       "price": 129950
     }
   ],
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/11978-westhampton-beach-new-york-united-states/cessna-172m-skyhawk-for-sale-601664": [
+    {
+      "date": "2026-06-25",
+      "price": 175000
+    }
+  ],
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/97801-pendleton-oregon-united-states/cessna-172m-skyhawk-for-sale-601641": [
     {
       "date": "2026-06-18",
       "price": 164900
+    }
+  ],
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/arlington-washington-united-states/cessna-172m-skyhawk-for-sale-601662": [
+    {
+      "date": "2026-06-25",
+      "price": 134900
     }
   ],
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/mount-vernon-washington-united-states/cessna-172m-skyhawk-for-sale-601528": [
@@ -123,6 +135,12 @@
     {
       "date": "2026-05-30",
       "price": 169000
+    }
+  ],
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172n-skyhawk/aviation-drive-northwest-5202-24012-roanoke-virginia-united-states/cessna-172n-skyhawk-for-sale-601665": [
+    {
+      "date": "2026-06-25",
+      "price": 119900
     }
   ],
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172rg-skyhawk/livermore-ca-usa/cessna-172rg-skyhawk-for-sale-501148": [
@@ -1771,7 +1789,7 @@
       "price": 210000
     }
   ],
-  "https://www.controller.com/listing/for-sale/257694793/1977-cessna-r172-hawk-xp-piston-single-aircraft": [
+  "https://www.controller.com/listing/for-sale/257694793/1977-cessna-r172k-ii-piston-single-aircraft": [
     {
       "date": "2026-06-25",
       "price": 229900
@@ -3002,7 +3020,7 @@
     },
     {
       "date": "2026-06-25",
-      "price": 156000
+      "price": 155000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2457543&s-type=aircraft": [
@@ -3021,6 +3039,12 @@
     {
       "date": "2026-05-31",
       "price": 129000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2455941&s-type=aircraft": [
+    {
+      "date": "2026-06-25",
+      "price": 159000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2457419&s-type=aircraft": [
