@@ -3,11 +3,15 @@
 Some listings use a broker headshot or a person as the thumbnail instead of the
 aircraft, which looks wrong in the grid. We ask Claude (Haiku, vision) whether
 each thumbnail's main subject is a person rather than an aircraft, and cache the
-verdict per image URL in data/image_cache.json:
+verdict per LISTING URL in data/image_cache.json:
 
-    { "<image-url>": {"has_human": false}, ... }
+    { "<listing-url>": {"has_human": false}, ... }
 
-Idempotent — only image URLs missing from the cache (or that previously errored)
+The cache is keyed by the listing URL (stable across scrapes), NOT the image URL
+— the marketplaces serve image URLs with changing resize/watermark params, so
+keying by image would re-classify (and re-bill) nearly every listing each run.
+
+Idempotent — only listings missing from the cache (or that previously errored)
 hit the API. No-ops cleanly if ANTHROPIC_API_KEY isn't set, so local runs and the
 daily job still build the site without it.
 """
@@ -100,25 +104,28 @@ def main() -> int:
     cache = load_cache()
     rows = list(csv.DictReader(CSV_PATH.open(newline="", encoding="utf-8")))
 
-    # Unique http(s) thumbnail URLs (skip data: placeholders and blanks)
-    urls = []
+    # Build (listing_url, image_url) work items. Cache key = listing URL (stable);
+    # the image URL is still what we send to the model.
+    todo = []  # (listing_url, image_url)
     seen = set()
     for r in rows:
-        u = (r.get("image_url") or "").strip()
-        if u.startswith("http") and u not in seen:
-            seen.add(u)
-            urls.append(u)
+        lu = (r.get("url") or "").strip()
+        img = (r.get("image_url") or "").strip()
+        if not lu or lu in seen or not img.startswith("http"):
+            continue
+        seen.add(lu)
+        if _needs_classify(lu, cache):
+            todo.append((lu, img))
 
-    todo = [u for u in urls if _needs_classify(u, cache)]
     if not todo:
-        humans = sum(1 for u in urls if cache.get(u, {}).get("has_human"))
+        humans = sum(1 for u in seen if cache.get(u, {}).get("has_human"))
         print(f"  image filter: cache complete ({len(cache)} entries, {humans} person-photos)", file=sys.stderr)
         return 0
 
     client = anthropic.Anthropic()
-    print(f"  image filter: classifying {len(todo)} new thumbnail(s)…", file=sys.stderr)
-    for i, url in enumerate(todo):
-        result = classify_image(client, url)
+    print(f"  image filter: classifying {len(todo)} new listing thumbnail(s)…", file=sys.stderr)
+    for i, (lu, img) in enumerate(todo):
+        result = classify_image(client, img)
         # Abort the whole step on an account-level failure (no credit, bad key,
         # permission) instead of hammering every image with the same 400/401.
         err = result.get("error", "")
@@ -127,15 +134,15 @@ def main() -> int:
             print(f"  image filter: account error — aborting step ({err})", file=sys.stderr)
             save_cache(cache)
             return 0
-        cache[url] = result
+        cache[lu] = result
         if (i + 1) % 25 == 0:
             save_cache(cache)
             print(f"    progress: {i+1}/{len(todo)}", file=sys.stderr)
         time.sleep(0.2)  # gentle pacing under the Haiku rate limit
 
     save_cache(cache)
-    humans = sum(1 for u in urls if cache.get(u, {}).get("has_human"))
-    errors = sum(1 for u in urls if "error" in cache.get(u, {}))
+    humans = sum(1 for u in seen if cache.get(u, {}).get("has_human"))
+    errors = sum(1 for u in seen if "error" in cache.get(u, {}))
     print(
         f"  image filter: done — {humans} person-photo listing(s) flagged"
         f"{f', {errors} error(s)' if errors else ''}",

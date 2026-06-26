@@ -61,8 +61,8 @@ def _load_geocache() -> dict[str, list[float] | None]:
     return {}
 
 
-def _load_human_image_urls() -> set[str]:
-    """Image URLs whose thumbnail was classified as a person photo (image_filter.py)."""
+def _load_human_listing_urls() -> set[str]:
+    """Listing URLs whose thumbnail was classified as a person photo (image_filter.py)."""
     if IMAGE_CACHE_PATH.exists():
         try:
             cache = json.loads(IMAGE_CACHE_PATH.read_text())
@@ -239,7 +239,7 @@ def render() -> Path:
         raise SystemExit(f"{CSV_PATH} not found — run scrape.py first")
     rows = list(csv.DictReader(CSV_PATH.open(newline="", encoding="utf-8")))
     geocache = _load_geocache()
-    human_imgs = _load_human_image_urls()
+    human_urls = _load_human_listing_urls()
 
     try:
         import price_history
@@ -256,21 +256,10 @@ def render() -> Path:
     NEW_WINDOW_DAYS = 7
     _today = date.today()
 
-    # Makes excluded from the "new listings" summary at the user's request:
-    # high-volume Cessnas that would otherwise dominate the new-listings view.
-    # They still appear everywhere else on the site — just never badged,
-    # counted, or sorted as "new".
+    # High-volume Cessnas the user is less interested in: kept OUT of the default
+    # top-of-page surfacing so the refresh leads with the other makes. They still
+    # get a NEW badge when recent and appear normally everywhere else.
     NEW_EXCLUDED_MAKES = {"Cessna 172", "Cessna 205/206/207"}
-
-    def _is_new(r: dict) -> bool:
-        if (r.get("make") or "") in NEW_EXCLUDED_MAKES:
-            return False
-        try:
-            return (_today - date.fromisoformat(r.get("first_seen") or "")).days <= NEW_WINDOW_DAYS
-        except ValueError:
-            return False
-
-    new_count = sum(1 for r in rows if _is_new(r))
 
     def _first_seen_ord(r: dict) -> int:
         try:
@@ -278,13 +267,27 @@ def render() -> Path:
         except ValueError:
             return 0
 
-    # Default sort: newest listing first (most recently discovered) down to the
-    # oldest — applied globally. Because the make-filter chips hide other cards
-    # without re-sorting, this also means every make shows newest-first → oldest.
-    # Aircraft year then price break ties among listings first seen the same day.
+    def _is_recent(r: dict) -> bool:
+        """First seen within the last NEW_WINDOW_DAYS days (ANY make) — drives the NEW badge."""
+        try:
+            return (_today - date.fromisoformat(r.get("first_seen") or "")).days <= NEW_WINDOW_DAYS
+        except ValueError:
+            return False
+
+    def _is_priority(r: dict) -> bool:
+        """Recent AND not a de-prioritized Cessna — these lead the default view."""
+        return _is_recent(r) and (r.get("make") or "") not in NEW_EXCLUDED_MAKES
+
+    new_count = sum(1 for r in rows if _is_recent(r))
+
+    # Default order on refresh: recent (last 7 days) listings from makes OTHER than
+    # Cessna 172 / 205/206/207 come first, newest -> oldest; everything else follows,
+    # also newest -> oldest. Because the make-filter chips hide other cards without
+    # re-sorting, each make still reads newest -> oldest when selected.
     rows.sort(
         key=lambda r: (
-            -_first_seen_ord(r),  # newest first_seen first; unknown dates sink
+            not _is_priority(r),  # recent non-Cessna-172/206 first
+            -_first_seen_ord(r),  # then newest first; unknown dates sink
             -int(r.get("year") or 0),
             -_int_from(r.get("price") or ""),
         )
@@ -309,8 +312,8 @@ def render() -> Path:
             continue
 
         # Skip listings whose thumbnail is a person photo (broker headshot etc.),
-        # as classified by image_filter.py.
-        if (r.get("image_url") or "").strip() in human_imgs:
+        # as classified by image_filter.py (keyed by listing URL).
+        if (r.get("url") or "").strip() in human_urls:
             skipped_human += 1
             continue
 
@@ -348,8 +351,8 @@ def render() -> Path:
                 f' &nbsp;${drop["previous_price"]:,} → ${drop["current_price"]:,}'
                 f'</div>'
             )
-        # New (first_seen within NEW_WINDOW_DAYS)?
-        is_new = _is_new(r)
+        # NEW badge: first_seen within the last 7 days, every make (upper-left).
+        is_new = _is_recent(r)
         new_attr = ' data-new="1"' if is_new else ""
         new_html = '<div class="new-badge">NEW</div>' if is_new else ""
         # Searchable text blob
