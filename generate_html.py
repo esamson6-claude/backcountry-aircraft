@@ -278,14 +278,13 @@ def render() -> Path:
         except ValueError:
             return 0
 
-    # Default sort: new listings first, ordered by date discovered (newest →
-    # oldest) so a refresh always surfaces the latest finds at the top; the
-    # remaining (non-new) listings keep the make / year desc / price desc order.
+    # Default sort: newest listing first (most recently discovered) down to the
+    # oldest — applied globally. Because the make-filter chips hide other cards
+    # without re-sorting, this also means every make shows newest-first → oldest.
+    # Aircraft year then price break ties among listings first seen the same day.
     rows.sort(
         key=lambda r: (
-            not _is_new(r),  # False (0) before True (1) → new at top
-            -_first_seen_ord(r) if _is_new(r) else 0,  # new: newest date first
-            r.get("make") or "",
+            -_first_seen_ord(r),  # newest first_seen first; unknown dates sink
             -int(r.get("year") or 0),
             -_int_from(r.get("price") or ""),
         )
@@ -565,7 +564,7 @@ def render() -> Path:
     <div class="control-group">
       <label for="sort">Sort by</label>
       <select id="sort">
-        <option value="default">Default (make / newest / highest price)</option>
+        <option value="default">Default (newest listing first)</option>
         <option value="year-desc">Year — newest first</option>
         <option value="year-asc">Year — oldest first</option>
         <option value="price-asc">Price — low to high</option>

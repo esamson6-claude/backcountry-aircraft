@@ -1843,6 +1843,12 @@
       "price": 115195
     }
   ],
+  "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
+    {
+      "date": "2026-06-26",
+      "price": 349900
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
     {
       "date": "2026-05-30",
@@ -4663,6 +4669,12 @@
       "price": 230000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206B&listing_id=2457672&s-type=aircraft": [
+    {
+      "date": "2026-06-26",
+      "price": 172500
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206E&listing_id=2435810&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -5377,6 +5389,12 @@
     {
       "date": "2026-05-30",
       "price": 89000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-1&listing_id=2457682&s-type=aircraft": [
+    {
+      "date": "2026-06-26",
+      "price": 53000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2433495&s-type=aircraft": [
