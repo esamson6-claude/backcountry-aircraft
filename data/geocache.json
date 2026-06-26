@@ -137,6 +137,10 @@
   "Aviation LLC Fairbanks, AK": null,
   "Aviation Port Orange, FL": null,
   "Aviation Services Plymouth, MA": null,
+  "Bartow, FL": [
+    27.8964384,
+    -81.843323
+  ],
   "Bastrop, LA": [
     32.7777896,
     -91.9138683
@@ -1420,6 +1424,10 @@
     43.9792797,
     -120.737257
   ],
+  "Orehova Vas, Slovenia": [
+    46.4712789,
+    15.6674456
+  ],
   "Orillia, ON": [
     44.6066135,
     -79.4169256
@@ -1951,6 +1959,10 @@
     46.8385007,
     -117.0246114
   ],
+  "Visalia, CA": [
+    36.3302284,
+    -119.292058
+  ],
   "Vucetic Coral Springs, FL": null,
   "WAAS, GA": [
     60.229307,
@@ -1995,6 +2007,10 @@
   "Waynesville, NC": [
     35.4887476,
     -82.9888725
+  ],
+  "Weatherford, Oklahoma": [
+    35.5261633,
+    -98.7075744
   ],
   "West Hampton, NY": [
     40.7763165,
