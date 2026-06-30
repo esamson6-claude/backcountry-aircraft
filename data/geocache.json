@@ -729,6 +729,10 @@
     47.3259697,
     -122.5878659
   ],
+  "Glendale, Arizona": [
+    33.5386858,
+    -112.185994
+  ],
   "Glenn Graham Pembroke, ON": null,
   "Goffs, Nova Scotia, Canada": [
     44.8581372,
@@ -1406,6 +1410,10 @@
     33.6170092,
     -117.9294401
   ],
+  "Newport, RI": [
+    41.4899827,
+    -71.3137707
+  ],
   "Nick Filimoehala KBMC, UT": null,
   "Niles Quebec City, QC": null,
   "North Bay, ON": [
@@ -1476,6 +1484,10 @@
   "PITTSBURGH, PA": [
     40.4406968,
     -80.0025666
+  ],
+  "PMP, FL": [
+    26.2491023,
+    -80.1139574
   ],
   "Pablo Bartlett Falbrook, CA": null,
   "Pagosa Springs, CO": [
@@ -2029,6 +2041,10 @@
     -80.2541251
   ],
   "Wasilla, AK": [
+    61.5824216,
+    -149.442563
+  ],
+  "Wasilla, Alaska": [
     61.5824216,
     -149.442563
   ],
