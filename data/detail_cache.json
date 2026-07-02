@@ -617,6 +617,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+ADVENTURE&listing_id=2457224&s-type=aircraft": {
     "location": "Galesburg, IL"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+ADVENTURE&listing_id=2457905&s-type=aircraft": {
+    "location": "Juneau, WI"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+CITABRIA&listing_id=2444894&s-type=aircraft": {
     "location": null
   },
@@ -1007,6 +1010,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2457767&s-type=aircraft": {
     "location": "Newport, RI"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2457881&s-type=aircraft": {
+    "location": "Bethany, OK"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2269039&s-type=aircraft": {
     "location": "Pittstown, NJ"
   },
@@ -1216,6 +1222,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2456250&s-type=aircraft": {
     "location": "Hollister, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2457842&s-type=aircraft": {
+    "location": "Crossville, TN"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2449424&s-type=aircraft": {
     "location": null
@@ -2488,6 +2497,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2455586&s-type=aircraft": {
     "location": "Santa Maria, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2457911&s-type=aircraft": {
+    "location": "SAN ANTONIO, TX"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2&listing_id=2431306&s-type=aircraft": {
     "location": null
