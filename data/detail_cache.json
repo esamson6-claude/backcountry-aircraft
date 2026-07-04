@@ -914,6 +914,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170&listing_id=2457387&s-type=aircraft": {
     "location": "Pagosa Springs, CO"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170&listing_id=2457972&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2395812&s-type=aircraft": {
     "location": "Livermore, CA"
   },
@@ -1102,6 +1105,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2456456&s-type=aircraft": {
     "location": "Germantown, MD"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2457449&s-type=aircraft": {
+    "location": "Miami, FL"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2449943&s-type=aircraft": {
     "location": "Gulfport, MS"
@@ -1681,6 +1687,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2457627&s-type=aircraft": {
     "location": "Bartow, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2457638&s-type=aircraft": {
+    "location": "Watkins, CO"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2417613&s-type=aircraft": {
     "location": "Charleston, SC"

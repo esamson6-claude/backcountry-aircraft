@@ -605,6 +605,10 @@
     {
       "date": "2026-07-03",
       "price": 82436
+    },
+    {
+      "date": "2026-07-04",
+      "price": 82379
     }
   ],
   "https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -791,6 +795,10 @@
     {
       "date": "2026-07-03",
       "price": 45107
+    },
+    {
+      "date": "2026-07-04",
+      "price": 45045
     }
   ],
   "https://www.controller.com/listing/for-sale/247913915/1952-piper-super-cub-piston-single-aircraft": [
@@ -811,6 +819,10 @@
     {
       "date": "2026-06-06",
       "price": 695000
+    },
+    {
+      "date": "2026-07-04",
+      "price": 685000
     }
   ],
   "https://www.controller.com/listing/for-sale/249005629/1960-cessna-175-piston-single-aircraft": [
@@ -1043,6 +1055,10 @@
     {
       "date": "2026-07-03",
       "price": 127017
+    },
+    {
+      "date": "2026-07-04",
+      "price": 126695
     }
   ],
   "https://www.controller.com/listing/for-sale/252532435/2017-murphy-super-rebel-experimental-slash-homebuilt-aircraft": [
@@ -1307,6 +1323,10 @@
     {
       "date": "2026-07-03",
       "price": 234455
+    },
+    {
+      "date": "2026-07-04",
+      "price": 234113
     }
   ],
   "https://www.controller.com/listing/for-sale/253591041/2004-maule-mxt7-180a-piston-single-aircraft": [
@@ -1907,6 +1927,10 @@
     {
       "date": "2026-07-03",
       "price": 62972
+    },
+    {
+      "date": "2026-07-04",
+      "price": 62928
     }
   ],
   "https://www.controller.com/listing/for-sale/257294647/1953-cessna-170b-piston-single-aircraft": [
@@ -1993,6 +2017,10 @@
     {
       "date": "2026-07-03",
       "price": 125943
+    },
+    {
+      "date": "2026-07-04",
+      "price": 125857
     }
   ],
   "https://www.controller.com/listing/for-sale/257322143/2008-cessna-172s-skyhawk-sp-piston-single-aircraft": [
@@ -2143,6 +2171,10 @@
     {
       "date": "2026-07-03",
       "price": 115936
+    },
+    {
+      "date": "2026-07-04",
+      "price": 115857
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -2651,6 +2683,12 @@
       "price": 45000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170&listing_id=2457972&s-type=aircraft": [
+    {
+      "date": "2026-07-04",
+      "price": 70000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2439020&s-type=aircraft": [
     {
       "date": "2026-06-05",
@@ -2981,6 +3019,12 @@
       "price": 159000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2457449&s-type=aircraft": [
+    {
+      "date": "2026-07-04",
+      "price": 210000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2449943&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -3059,6 +3103,10 @@
     {
       "date": "2026-05-31",
       "price": 234000
+    },
+    {
+      "date": "2026-07-04",
+      "price": 229000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2456207&s-type=aircraft": [
@@ -4085,6 +4133,12 @@
     {
       "date": "2026-06-25",
       "price": 129000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2457638&s-type=aircraft": [
+    {
+      "date": "2026-07-04",
+      "price": 150000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2454649&s-type=aircraft": [
@@ -5267,6 +5321,10 @@
     {
       "date": "2026-06-22",
       "price": 695000
+    },
+    {
+      "date": "2026-07-04",
+      "price": 685000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2457612&s-type=aircraft": [
