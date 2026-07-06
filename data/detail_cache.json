@@ -1265,6 +1265,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2457633&s-type=aircraft": {
     "location": "John's Island, SC"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2457996&s-type=aircraft": {
+    "location": "Concord, NC"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2441349&s-type=aircraft": {
     "location": "Livermore, CA"
   },
@@ -1309,6 +1312,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2449989&s-type=aircraft": {
     "location": "Livermore, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2450058&s-type=aircraft": {
+    "location": "Peachland, BC"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2452291&s-type=aircraft": {
     "location": "Palo alto, CA"
@@ -1901,6 +1907,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2457454&s-type=aircraft": {
     "location": "Mansfield, MA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2458009&s-type=aircraft": {
+    "location": "West Columbia, SC"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175&listing_id=2449255&s-type=aircraft": {
     "location": "Watsonville, CA"
   },
@@ -2086,6 +2095,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2457588&s-type=aircraft": {
     "location": "Galesburg, IL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2458013&s-type=aircraft": {
+    "location": "Hawkesbury, ON"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195&listing_id=2456420&s-type=aircraft": {
     "location": "Coldwater, MI"
@@ -2326,6 +2338,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457685&s-type=aircraft": {
     "location": "Arlington, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457829&s-type=aircraft": {
+    "location": "Salina, KS"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": {
     "location": "Louisburg, NC"
@@ -2575,6 +2590,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2457840&s-type=aircraft": {
     "location": "South St Paul, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2458004&s-type=aircraft": {
+    "location": "Kenmore, WA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=HELIO&model=H-391B&listing_id=2439248&s-type=aircraft": {
     "location": "Fairbanks, AK"
