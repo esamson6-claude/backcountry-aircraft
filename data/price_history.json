@@ -447,6 +447,12 @@
       "price": 279000
     }
   ],
+  "https://www.controller.com/listing/for-sale/231335311/2004-aviat-husky-a-1b-piston-single-aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 199000
+    }
+  ],
   "https://www.controller.com/listing/for-sale/234016019/2003-piper-super-cub-piston-single-aircraft": [
     {
       "date": "2026-05-30",
@@ -643,6 +649,10 @@
     {
       "date": "2026-07-07",
       "price": 82347
+    },
+    {
+      "date": "2026-07-08",
+      "price": 82207
     }
   ],
   "https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -845,6 +855,10 @@
     {
       "date": "2026-07-07",
       "price": 45122
+    },
+    {
+      "date": "2026-07-08",
+      "price": 45130
     }
   ],
   "https://www.controller.com/listing/for-sale/247913915/1952-piper-super-cub-piston-single-aircraft": [
@@ -1003,6 +1017,10 @@
     {
       "date": "2026-07-07",
       "price": 105777
+    },
+    {
+      "date": "2026-07-08",
+      "price": 105520
     }
   ],
   "https://www.controller.com/listing/for-sale/251045521/1976-cessna-r172-hawk-xp-piston-single-aircraft": [
@@ -1125,6 +1143,10 @@
     {
       "date": "2026-07-07",
       "price": 126535
+    },
+    {
+      "date": "2026-07-08",
+      "price": 126798
     }
   ],
   "https://www.controller.com/listing/for-sale/252532435/2017-murphy-super-rebel-experimental-slash-homebuilt-aircraft": [
@@ -1407,6 +1429,10 @@
     {
       "date": "2026-07-07",
       "price": 233978
+    },
+    {
+      "date": "2026-07-08",
+      "price": 233616
     }
   ],
   "https://www.controller.com/listing/for-sale/253591041/2004-maule-mxt7-180a-piston-single-aircraft": [
@@ -1555,6 +1581,10 @@
     {
       "date": "2026-05-30",
       "price": 239000
+    },
+    {
+      "date": "2026-07-08",
+      "price": 225000
     }
   ],
   "https://www.controller.com/listing/for-sale/255987161/1964-cessna-u206-super-skywagon-piston-single-aircraft": [
@@ -1801,6 +1831,10 @@
     {
       "date": "2026-05-30",
       "price": 470000
+    },
+    {
+      "date": "2026-07-08",
+      "price": 459000
     }
   ],
   "https://www.controller.com/listing/for-sale/256673197/1976-cessna-172m-skyhawk-piston-single-aircraft": [
@@ -2027,6 +2061,10 @@
     {
       "date": "2026-07-07",
       "price": 62904
+    },
+    {
+      "date": "2026-07-08",
+      "price": 62797
     }
   ],
   "https://www.controller.com/listing/for-sale/257294647/1953-cessna-170b-piston-single-aircraft": [
@@ -2129,6 +2167,10 @@
     {
       "date": "2026-07-07",
       "price": 125808
+    },
+    {
+      "date": "2026-07-08",
+      "price": 125593
     }
   ],
   "https://www.controller.com/listing/for-sale/257322143/2008-cessna-172s-skyhawk-sp-piston-single-aircraft": [
@@ -2209,6 +2251,10 @@
     {
       "date": "2026-06-26",
       "price": 305000
+    },
+    {
+      "date": "2026-07-08",
+      "price": 290000
     }
   ],
   "https://www.controller.com/listing/for-sale/257618971/1979-cessna-r172-hawk-xp-ii-piston-single-aircraft": [
@@ -2295,6 +2341,10 @@
     {
       "date": "2026-07-07",
       "price": 115812
+    },
+    {
+      "date": "2026-07-08",
+      "price": 115615
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -2355,6 +2405,12 @@
     {
       "date": "2026-07-07",
       "price": 85000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/257998251/1980-cessna-r172-hawk-xp-ii-piston-single-aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 285000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
@@ -3823,6 +3879,12 @@
       "price": 139000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2445907&s-type=aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 129000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2453136&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -3981,6 +4043,10 @@
     {
       "date": "2026-06-17",
       "price": 180000
+    },
+    {
+      "date": "2026-07-08",
+      "price": 200000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2447451&s-type=aircraft": [
@@ -4143,6 +4209,12 @@
     {
       "date": "2026-06-24",
       "price": 134900
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458065&s-type=aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 159900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2434774&s-type=aircraft": [
@@ -5163,6 +5235,18 @@
       "price": 200000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2458076&s-type=aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 450000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2458087&s-type=aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 219000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2441493&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -5493,6 +5577,12 @@
       "price": 400000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2458012&s-type=aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 585000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -5607,6 +5697,12 @@
       "price": 289000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB&listing_id=2458077&s-type=aircraft": [
+    {
+      "date": "2026-07-08",
+      "price": 199000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-2&listing_id=2453977&s-type=aircraft": [
     {
       "date": "2026-05-30",
@@ -5697,6 +5793,10 @@
     {
       "date": "2026-06-13",
       "price": 349000
+    },
+    {
+      "date": "2026-07-08",
+      "price": 339000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-100+SPORT+CUB&listing_id=2457554&s-type=aircraft": [
