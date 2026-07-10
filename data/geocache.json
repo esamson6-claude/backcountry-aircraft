@@ -145,6 +145,10 @@
   "Aviation LLC Fairbanks, AK": null,
   "Aviation Port Orange, FL": null,
   "Aviation Services Plymouth, MA": null,
+  "Bainbridge Island, WA": [
+    47.6515096,
+    -122.5246791
+  ],
   "Bartow, FL": [
     27.8964384,
     -81.843323
@@ -1247,6 +1251,10 @@
     51.5156177,
     -0.0919983
   ],
+  "London, ON": [
+    42.9836747,
+    -81.2496068
+  ],
   "Long Beach, CA": [
     33.7690164,
     -118.191604
@@ -1376,6 +1384,10 @@
   "Middleton, Wisconsin": [
     43.0962919,
     -89.5119565
+  ],
+  "Mielec, Pk, Poland": [
+    50.2802473,
+    21.4631343
   ],
   "Mike Goulian Plymouth, MA": null,
   "Minden, NV": [
@@ -1975,6 +1987,10 @@
     40.0507198,
     -77.5205485
   ],
+  "Shreveport, LA": [
+    32.5135356,
+    -93.7477839
+  ],
   "Sidney, BC": [
     48.6505788,
     -123.398324
@@ -2059,6 +2075,10 @@
   "Swift Current, SK": [
     50.2849138,
     -107.7984496
+  ],
+  "Tampa, FL": [
+    27.9449854,
+    -82.4583107
   ],
   "Tampa, Florida": [
     27.9449854,

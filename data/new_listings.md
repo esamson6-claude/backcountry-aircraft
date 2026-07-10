@@ -1,30 +1,28 @@
-# New listings — 2026-07-09
+# New listings — 2026-07-10
 
-13 new listings:
+12 new listings:
 
-- **2004 Aviat Husky HUSKY A-1B** — $199,000 — 565 TT — McAllen, TX — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458104&s-type=aircraft
-- **2011 CubCrafters CARBON CUB** — $220,000 — 450 TT — Alene, ID — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB&listing_id=2458114&s-type=aircraft
-- **1965 American Champion 7-ECA %28PRE 1995%29** — $49,500 — 2139 TT —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2447952&s-type=aircraft
-- **1981 Cessna 180 180K** — $250,000 — 1911 TT — Aircraft Sales Anchorage, AK — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2458111&s-type=aircraft
-- **1954 Cessna 180 180** — $115,000 — 2900 TT — Aircraft Sales Anchorage, AK — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2458124&s-type=aircraft
-- **1973 Cessna 185 185F** — $395,000 — 4144 TT — Rob Haglund Crosslake, MN — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2458109&s-type=aircraft
-- **1974 Cessna 185 A185F** — $230,000 — 3081 TT — Aircraft Sales Anchorage, AK — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2458115&s-type=aircraft
-- **1962 Cessna 172 172D SKYHAWK** — $39,500 — 3906 TT — LLC Burlington, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2458123&s-type=aircraft
-- **1970 Cessna 172 172K SKYHAWK** — price n/a — 10342 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2421275&s-type=aircraft
-- **1970 Cessna 172 172K SKYHAWK** — price n/a — 2767 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2435012&s-type=aircraft
-- **1969 Cessna 172 172K SKYHAWK** — price n/a — 9676 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2447867&s-type=aircraft
-- **1968 Cessna 172 172I SKYHAWK** — price n/a — 10082 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2449411&s-type=aircraft
-- **2005 Cessna 205/206/207 TU206H TURBO STATIONAIR** — $488,500 — 986 TT — Beloeil, QC — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206H+TURBO+STATIONAIR&listing_id=2450533&s-type=aircraft
+- **2023 Aviat Husky HUSKY A-1C** — $459,000 — 163 TT — TXi, GI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2447550&s-type=aircraft
+- **1972 Maule M-4-220C** — $90,000 — 2350 TT — Mark Thiem Tampa, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-220C&listing_id=2458144&s-type=aircraft
+- **2002 Maule Mxt7-180** — price n/a — 1,446 TT — Mielec, Pk, Poland — _controller_  
+  https://www.controller.com/listing/for-sale/258091887/2002-maule-mxt7-180-piston-single-aircraft
+- **2019 American Champion 8-KCAB SUPER DECATHLON** — $299,950 — 320 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458177&s-type=aircraft
+- **2024 American Champion 7-GCBC EXPLORER** — price n/a —  — Aircraft LLC Nampa, ID — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2412649&s-type=aircraft
+- **1968 Cessna 185 185E** — $275,000 — 4600 TT — Eric Dapp Corvallis, OR — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2454485&s-type=aircraft
+- **1977 Cessna 172 172K SKYHAWK** — $210,000 — 4949 TT — Calgary, AB — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458155&s-type=aircraft
+- **1960 Cessna 172 172A SKYHAWK** — $77,800 — 5067 TT — London, ON — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2458173&s-type=aircraft
+- **1967 Cessna 172 172H SKYHAWK** — price n/a — 6562 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2449989&s-type=aircraft
+- **1978 Cessna 172 172N Skyhawk** — $104,500 — 22,000 TT — Breslau, Ontario, Canada — _controller_  
+  https://www.controller.com/listing/for-sale/257694845/1978-cessna-172n-skyhawk-piston-single-aircraft
+- **1965 Cessna 172 172 Skyhawk** — $129,000 — 5,730 TT — Johns Island, South Carolina — _controller_  
+  https://www.controller.com/listing/for-sale/257965101/1965-cessna-172-skyhawk-piston-single-aircraft
+- **2000 Cessna 205/206/207 206H STATIONAIR** — $425,000 — 980 TT — Jack Lenox Shreveport, LA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2458140&s-type=aircraft

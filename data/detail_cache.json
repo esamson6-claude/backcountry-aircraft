@@ -773,6 +773,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2457749&s-type=aircraft": {
     "location": "Egg Harbor City, NJ"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458177&s-type=aircraft": {
+    "location": "Livermore, CA"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2404694&s-type=aircraft": {
     "location": null
   },
@@ -832,6 +835,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2447203&s-type=aircraft": {
     "location": "Middleton, WI"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2447550&s-type=aircraft": {
+    "location": "Bainbridge Island, WA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2448832&s-type=aircraft": {
     "location": "Middleton, WI"
@@ -1205,6 +1211,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2455507&s-type=aircraft": {
     "location": "Corona, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2458173&s-type=aircraft": {
+    "location": "London, ON"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2440095&s-type=aircraft": {
     "location": "Wallace, NC"
   },
@@ -1432,6 +1441,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2457948&s-type=aircraft": {
     "location": "Bartow, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458155&s-type=aircraft": {
+    "location": "Calgary, AB"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2409311&s-type=aircraft": {
     "location": "Livermore, CA"
@@ -2225,6 +2237,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2457713&s-type=aircraft": {
     "location": "Canyon Lake, TX"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2458140&s-type=aircraft": {
+    "location": "Shreveport, LA"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2448106&s-type=aircraft": {
     "location": "Minden, NV"
   },
@@ -2731,6 +2746,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-220C&listing_id=2456556&s-type=aircraft": {
     "location": "Falcon, CO"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-220C&listing_id=2458144&s-type=aircraft": {
+    "location": "Tampa, FL"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2425434&s-type=aircraft": {
     "location": null
