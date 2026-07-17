@@ -1,40 +1,28 @@
-# New listings — 2026-07-16
+# New listings — 2026-07-17
 
-18 new listings:
+12 new listings:
 
-- **1985 Maule M-7-235** — $139,000 — 1288 TT —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235&listing_id=2458365&s-type=aircraft
-- **1966 American Champion 7-ECA %28PRE 1995%29** — $79,900 — 2608 TT — Aviation LLC Marion, IN — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2458390&s-type=aircraft
-- **1953 Cessna 170/175 170B** — $114,500 — 3950 TT — AircraftMerchants LLC Louisburg, NC — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2458395&s-type=aircraft
-- **1953 Cessna 170/175 170B** — $114,500 — 3,950 TT — Louisburg, North Carolina — _controller_  
-  https://www.controller.com/listing/for-sale/258253953/1953-cessna-170b-piston-single-aircraft
-- **1958 Cessna 180 180A** — $195,000 — 3150 TT — David Smith Ottawa, ON — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180A&listing_id=2458399&s-type=aircraft
-- **1989 Piper PA-18 Super Cub Super Cub** — $395,000 — 342 TT — Sandpoint, Idaho — _controller_  
-  https://www.controller.com/listing/for-sale/258245273/1989-piper-super-cub-piston-single-aircraft
-- **1978 Cessna 172 172N SKYHAWK** — $189,500 — 9360 TT — Aircraft Brokerage Richmond, VA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458379&s-type=aircraft
-- **1976 Cessna 172 172N SKYHAWK** — $149,500 — 10600 TT — Waukesha, WI — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458383&s-type=aircraft
-- **1976 Cessna 172 172M SKYHAWK** — $265,000 — 6394 TT — Raffini Van Nuys, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2456028&s-type=aircraft
-- **1972 Cessna 172 172M SKYHAWK** — $125,000 — 14814 TT — Mike Dinkel Greeley, CO — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458265&s-type=aircraft
-- **1965 Cessna 172 172F SKYHAWK** — $129,995 — 4580 TT — Keith Braun Midland, TX — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2458367&s-type=aircraft
-- **2026 Cessna 172 172S SKYHAWK SP** — price n/a —  —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2458375&s-type=aircraft
-- **2000 Cessna 172 172S Skyhawk** — $290,000 — 11,000 TT — Weatherford, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/257615761/2000-cessna-172s-skyhawk-sp-piston-single-aircraft
-- **1997 Cessna 172 172R Skyhawk** — $299,000 — 1,599 TT — Tampa, Florida — _controller_  
-  https://www.controller.com/listing/for-sale/240699223/1997-cessna-172r-skyhawk-piston-single-aircraft
-- **1982 Cessna 172 172Rg Cutlass** — $170,000 — 6,980 TT — Fort Lauderdale, Florida — _controller_  
-  https://www.controller.com/listing/for-sale/254797729/1982-cessna-172rg-cutlass-piston-single-aircraft
-- **1980 Cessna 172 172Rg Cutlass** — $105,000 — 12,130 TT — Lagrange, Georgia — _controller_  
-  https://www.controller.com/listing/for-sale/257984353/1980-cessna-172rg-cutlass-piston-single-aircraft
-- **1942 Stearman E75** — $125,000 — 3450 TT — Aviation Port Orange, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=E75&listing_id=2455324&s-type=aircraft
-- **1976 Cessna 172 172** — $149,500 —  — Waukesha, WI — _aerotrader_  
-  https://www.aerotrader.com/listing/1976-Cessna-172N+SKYHAWK-5041351802
+- **2021 CubCrafters CC19-215 XCUB** — $449,000 — 195 TT — Southwest Aero Scottsdale, AZ — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2458407&s-type=aircraft
+- **2015 CubCrafters CARBON CUB** — $219,000 — 220 TT — More Info Minooka, IL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB&listing_id=2456321&s-type=aircraft
+- **1951 Cessna 170/175 170A** — $85,000 — 2469 TT — Gossett Jr Granbury, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2450361&s-type=aircraft
+- **2017 Kitfox SUPER SPORT** — $100,000 — 655 TT — Jan Moon Troutdale, OR — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2458422&s-type=aircraft
+- **1947 Stinson 108 108-1** — $41,000 — 2853 TT — Anthony Johnson Wichita, KS — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-1&listing_id=2458411&s-type=aircraft
+- **1980 Cessna 172 172N SKYHAWK** — $109,900 — 10634 TT — Calera, AL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458424&s-type=aircraft
+- **1979 Cessna 172 172** — $122,500 — 5911 TT — AVIATION CONSULTANTS WASHINGTON, DC — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2457241&s-type=aircraft
+- **1974 Cessna 172 172M SKYHAWK** — $95,000 — 9140 TT — Calera, AL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458425&s-type=aircraft
+- **1969 Cessna 172 172K SKYHAWK** — $94,500 — 4477 TT — LLC Covington, WA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458416&s-type=aircraft
+- **1966 Cessna 172 172 SKYHAWK** — $62,000 —  — Alberta — _controller_  
+  https://www.controller.com/listing/for-sale/257891135/1966-cessna-172-skyhawk-piston-single-aircraft
+- **2003 Cessna 205/206/207 206H STATIONAIR** — $486,525 — 2742 TT — JETS Severna Park, MD — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2455130&s-type=aircraft
+- **1940 Stearman STEARMAN** — $70,000 — 6621 TT — Chicago Aviation Muskoka, ON — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=STEARMAN&listing_id=2458433&s-type=aircraft
