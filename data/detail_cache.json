@@ -792,6 +792,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458465&s-type=aircraft": {
     "location": "Glendale, AZ"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458576&s-type=aircraft": {
+    "location": "Nampa, ID"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2404694&s-type=aircraft": {
     "location": null
   },
@@ -848,6 +851,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458558&s-type=aircraft": {
     "location": "Buffalo, MN"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458584&s-type=aircraft": {
+    "location": "Colorado Springs, CO"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2440673&s-type=aircraft": {
     "location": "Plymouth, MA"
@@ -1710,6 +1716,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458568&s-type=aircraft": {
     "location": "Quincy, FL"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458591&s-type=aircraft": {
+    "location": "Charleston, SC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458608&s-type=aircraft": {
+    "location": "Troy, MI"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2075411&s-type=aircraft": {
     "location": null
   },
@@ -1853,6 +1865,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458424&s-type=aircraft": {
     "location": "Calera, AL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458572&s-type=aircraft": {
+    "location": "Leon, IA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2417613&s-type=aircraft": {
     "location": "Charleston, SC"
@@ -2243,6 +2258,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2456268&s-type=aircraft": {
     "location": "Shippensburg, PA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2416961&s-type=aircraft": {
+    "location": "Cedar City, UT"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2439706&s-type=aircraft": {
     "location": "Wickenburg, AZ"
@@ -2745,6 +2763,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2458345&s-type=aircraft": {
     "location": "San Angelo, TX"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2458575&s-type=aircraft": {
+    "location": "West Palm Beach, FL"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": {
     "location": "Hamilton, MT"
   },
@@ -3059,6 +3080,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-20+RAVEN&listing_id=2457544&s-type=aircraft": {
     "location": "Placerville, CA"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-7+COURIER&listing_id=2458605&s-type=aircraft": {
+    "location": "Omaha, NE"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108&listing_id=2454669&s-type=aircraft": {
     "location": "Mocksville, NC"
