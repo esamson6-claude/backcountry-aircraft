@@ -149,6 +149,10 @@
   "Aviation LLC Fairbanks, AK": null,
   "Aviation Port Orange, FL": null,
   "Aviation Services Plymouth, MA": null,
+  "Baggs, WY": [
+    41.035798,
+    -107.657569
+  ],
   "Bainbridge Island, WA": [
     47.6515096,
     -122.5246791
@@ -542,6 +546,10 @@
     -133.148333
   ],
   "Crank Little Rock, AR": null,
+  "Creswell, OR": [
+    43.9179023,
+    -123.024526
+  ],
   "Crosslake, MN": [
     46.6594065,
     -94.1138727
@@ -816,6 +824,10 @@
     -78.2787229
   ],
   "Frase Fall Creek, WI": null,
+  "Friday Harbor, WA": [
+    48.5342662,
+    -123.017124
+  ],
   "Fultz Eagle River, AK": null,
   "GA": [
     -0.8999695,
@@ -1021,6 +1033,10 @@
     -83.9293952
   ],
   "Hugo Lefebvre Ottawa, ON": null,
+  "Hugo, OK": [
+    34.0106208,
+    -95.513122
+  ],
   "Hugo, Oklahoma": [
     34.0106208,
     -95.513122
@@ -2377,6 +2393,10 @@
   "WASHINGTON, DC": [
     38.8950982,
     -77.0363849
+  ],
+  "Waco, TX": [
+    31.5491899,
+    -97.1474628
   ],
   "Wadsworth, OH": [
     41.0256101,
