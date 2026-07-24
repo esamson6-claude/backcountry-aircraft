@@ -1,34 +1,24 @@
-# New listings — 2026-07-23
+# New listings — 2026-07-24
 
-15 new listings:
+10 new listings:
 
-- **2023 Aviat Husky HUSKY A-1C** — $459,000 —  — Shawn Francis Hugo, OK — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458648&s-type=aircraft
-- **2026 Aviat Husky A-1C-180** — price n/a — 1 TT — Hugo, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/252440995/2026-aviat-husky-a-1c-180-piston-single-aircraft
-- **2015 Just Aircraft JA-30 SUPERSTOL** — $130,000 —  — Weber Baggs, WY — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2458620&s-type=aircraft
-- **1979 Cessna 172 172RG CUTLASS** — $101,900 — 7394 TT — Aviation LLC Waco, TX — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2458463&s-type=aircraft
-- **1974 Cessna 172 172M SKYHAWK** — $119,500 — 4516 TT — LLC Friday Harbor, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458586&s-type=aircraft
-- **1969 Cessna 172 172K SKYHAWK** — $49,000 — 4524.33 TTAF — ADF, II — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458643&s-type=aircraft
-- **1965 Cessna 172 172 SKYHAWK** — $89,500 — 4377 TT — Air Sales Anderson, IN — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2458646&s-type=aircraft
-- **1970 Cessna 172 172K SKYHAWK** — price n/a — 2767 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2435012&s-type=aircraft
-- **1969 Cessna 172 172K SKYHAWK** — price n/a — 9676 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2447867&s-type=aircraft
-- **1976 Cessna 172 172M Skyhawk** — $265,000 — 6,394 TT — Van Nuys, California — _controller_  
-  https://www.controller.com/listing/for-sale/256528817/1976-cessna-172m-skyhawk-piston-single-aircraft
-- **1972 Cessna 172 172M Skyhawk** — $220,000 — 5,601 TT — East Hampton, New York — _controller_  
-  https://www.controller.com/listing/for-sale/248494673/1972-cessna-172m-skyhawk-piston-single-aircraft
-- **2021 Cessna 205/206/207 206 STATIONAIR** — price n/a — 200 TT — John Spatuzzi Griffin, GA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2457003&s-type=aircraft
-- **1960 Cessna 172 172** — $60,000 —  — Culpepper (Kcjr), VA — _aerotrader_  
-  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041322052
-- **1960 Cessna 172 172** — $105,000 —  — Newport News (Kphf), VA — _aerotrader_  
-  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041379682
-- **1965 Cessna 172 172** — $89,500 —  — Anderson, IN — _aerotrader_  
-  https://www.aerotrader.com/listing/1965-Cessna-172+SKYHAWK-5041451604
+- **2026 Aviat Husky A-1C-200** — price n/a — 1 TT — Hugo, Oklahoma — _controller_  
+  https://www.controller.com/listing/for-sale/258495989/2026-aviat-husky-a-1c-200-piston-single-aircraft
+- **2014 Maule M9-235** — $450,000 — 261 TT — Chandler, Arizona — _controller_  
+  https://www.controller.com/listing/for-sale/258502779/2014-maule-m9-235-piston-single-aircraft
+- **2002 Maule Mxt7-180** — price n/a — 1,446 TT — Mielec, Pk, Poland — _controller_  
+  https://www.controller.com/listing/for-sale/258091887/2002-maule-mxt7-180-piston-single-aircraft
+- **1994 Maule Mx7-180B** — price n/a — 2,337 TT — Adelaide, South Australia, Australia — _controller_  
+  https://www.controller.com/listing/for-sale/244192851/1994-maule-mx7-180b-piston-single-aircraft
+- **1989 Piper PA-18 Super Cub Super Cub** — price n/a — 74 TT — Bethany, Oklahoma — _controller_  
+  https://www.controller.com/listing/for-sale/254338435/1989-piper-super-cub-piston-single-aircraft
+- **1979 Piper PA-18 Super Cub Super Cub** — price n/a — 3,330 TT — Hayden, Idaho — _controller_  
+  https://www.controller.com/listing/for-sale/256100223/1979-piper-super-cub-piston-amphibious-slash-floatplanes
+- **1965 Cessna 172 172 Skyhawk** — $97,000 — 2,014 TT — Columbus, Ohio — _controller_  
+  https://www.controller.com/listing/for-sale/257860149/1965-cessna-172-skyhawk-piston-single-aircraft
+- **2026 Cessna 172 172 Skyhawk** — price n/a — 0 TT — Chicago, Illinois — _controller_  
+  https://www.controller.com/listing/for-sale/242759995/2026-cessna-172-skyhawk-piston-single-aircraft
+- **1962 Cessna 172 172 Skyhawk** — $155,000 — 4,300 TT — Rigby, Idaho — _controller_  
+  https://www.controller.com/listing/for-sale/256748973/1962-cessna-172-skyhawk-piston-single-aircraft
+- **2001 Cessna 172 172** — $315,000 — 12,200 TTSN — Pampa, TX — _aerotrader_  
+  https://www.aerotrader.com/listing/2001-Cessna-172S+SKYHAWK+SP-5039918707
