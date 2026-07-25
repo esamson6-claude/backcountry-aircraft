@@ -909,6 +909,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458648&s-type=aircraft": {
     "location": "Hugo, OK"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458653&s-type=aircraft": {
+    "location": "Hugo, OK"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BEARHAWK&model=COMPANION&listing_id=2453591&s-type=aircraft": {
     "location": "Heber City, UT"
   },
@@ -1269,6 +1272,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2458646&s-type=aircraft": {
     "location": "Anderson, IN"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+XP&listing_id=2458693&s-type=aircraft": {
+    "location": "Hawkesbury, ON"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2448959&s-type=aircraft": {
     "location": "Russelville, AR"
   },
@@ -1304,6 +1310,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2457109&s-type=aircraft": {
     "location": "Mesa, AZ"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2458130&s-type=aircraft": {
+    "location": "Riverside, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2458563&s-type=aircraft": {
     "location": "Lisle, NY"
@@ -2274,6 +2283,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2456268&s-type=aircraft": {
     "location": "Shippensburg, PA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2458706&s-type=aircraft": {
+    "location": "Wasilla, AK"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2416961&s-type=aircraft": {
     "location": "Cedar City, UT"
   },
@@ -2597,6 +2609,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": {
     "location": "Louisburg, NC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2458686&s-type=aircraft": {
+    "location": "Livermore, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TP206C&listing_id=2442835&s-type=aircraft": {
     "location": null
