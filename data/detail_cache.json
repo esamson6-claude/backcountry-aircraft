@@ -1326,6 +1326,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2456611&s-type=aircraft": {
     "location": "Louisburg, NC"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2458781&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2445493&s-type=aircraft": {
     "location": "Beaver Island, MI"
   },
@@ -2477,6 +2480,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206+SUPER+SKYLANE&listing_id=2457235&s-type=aircraft": {
     "location": "Pampa, TX"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206+SUPER+SKYLANE&listing_id=2458560&s-type=aircraft": {
+    "location": "El Dorado, KS"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206B+STATIONAIR&listing_id=2456088&s-type=aircraft": {
     "location": "Placerville, CA"
