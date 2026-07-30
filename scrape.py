@@ -109,6 +109,36 @@ def _is_solicitation(l: dict) -> bool:
     return False
 
 
+# Non-US listings — this project targets the US market. Foreign rows carry a
+# country name (or a Canadian province code like ", QC") in the location, while
+# US rows use "City, ST". We match country names + Canadian province codes only,
+# which avoids false positives like "Ontario, CA" (California) or
+# "West Columbia, SC" (South Carolina).
+_FOREIGN_COUNTRY_RE = re.compile(
+    r"\b(canada|australia|united kingdom|england|scotland|wales|ireland|"
+    r"germany|france|south africa|new zealand|netherlands|switzerland|austria|"
+    r"belgium|sweden|norway|denmark|finland|spain|italy|portugal|poland|"
+    r"czech|mexico|brazil|argentina|japan|china|india)\b",
+    re.I,
+)
+# Canadian province/territory codes as the trailing token — none collide with
+# USPS state codes.
+_CA_PROVINCE_RE = re.compile(
+    r",\s*(AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT)\s*$", re.I
+)
+
+
+def _is_foreign(l: dict) -> bool:
+    """True for clearly non-US listings (dropped — this is a US-market site).
+
+    Unknown/blank locations are kept (return False) so we don't over-filter.
+    """
+    loc = (l.get("location") or "").strip()
+    if not loc:
+        return False
+    return bool(_FOREIGN_COUNTRY_RE.search(loc) or _CA_PROVINCE_RE.search(loc))
+
+
 def _keep_bird_dog(l: dict) -> bool:
     """Cessna L-19 / O-1 Bird Dog (also marketed as Cessna 305A).
 
@@ -264,6 +294,24 @@ SEARCHES: list[dict] = [
         "module": "scrapers.aircraftforsale",
         "slug": "bearhawk",
         "sitemap_patterns": ["/bearhawk/"],
+        "default_model": "Bearhawk",
+    },
+    {
+        # Barnstormers is the primary marketplace for homebuilt/experimental
+        # aircraft like Bearhawk. Category 18715 is the dedicated Bearhawk page.
+        "make": "Bearhawk",
+        "module": "scrapers.barnstormers",
+        "slug": "bearhawk",
+        "url": "https://www.barnstormers.com/category-18715-Experimental--Bearhawk.html",
+        "ad_keyword": "bearhawk",
+        "default_model": "Bearhawk",
+    },
+    {
+        "make": "Bearhawk",
+        "module": "scrapers.controller",
+        "slug": "bearhawk",
+        "url": "https://www.controller.com/listings/for-sale/bearhawk/aircraft",
+        "title_make_pattern": "BEARHAWK",
         "default_model": "Bearhawk",
     },
 
@@ -947,6 +995,8 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
             if filt is not None and not filt(row):
                 continue
             if _is_solicitation(row):  # drop "Wanted/WTB/ISO" buy-side ads
+                continue
+            if _is_foreign(row):  # drop non-US listings — this is a US-market site
                 continue
             kept.append(row)
         dropped = len(scraped) - len(kept)
