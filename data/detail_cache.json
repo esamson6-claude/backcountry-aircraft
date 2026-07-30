@@ -795,6 +795,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458576&s-type=aircraft": {
     "location": "Nampa, ID"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458844&s-type=aircraft": {
+    "location": "Ashville, AL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458847&s-type=aircraft": {
+    "location": "Ashville, AL"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2404694&s-type=aircraft": {
     "location": null
   },
@@ -1188,6 +1194,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2458536&s-type=aircraft": {
     "location": "Louisburg, NC"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2458835&s-type=aircraft": {
+    "location": "Sky Manor, NJ"
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2450491&s-type=aircraft": {
     "location": "Stephenville, TX"
   },
@@ -1208,6 +1217,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2458796&s-type=aircraft": {
     "location": "Beaufort, SC"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2458870&s-type=aircraft": {
+    "location": "Delaware, OH"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2449943&s-type=aircraft": {
     "location": "Gulfport, MS"
@@ -1517,6 +1529,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2445907&s-type=aircraft": {
     "location": "Homestead, FL"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2446552&s-type=aircraft": {
+    "location": "Erie, CO"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2447867&s-type=aircraft": {
     "location": "Livermore, CA"
