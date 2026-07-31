@@ -1,30 +1,24 @@
-# New listings — 2026-07-30
+# New listings — 2026-07-31
 
-13 new listings:
+10 new listings:
 
-- **2005 Aviat Husky Husky** — $198,499 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2060340-Husky-200HP.html
-- **2006 Aviat Husky Husky** — $239,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2054219-2006-Husky-A1-B.html
-- **2009 Maule MX-7-180C** — $180,000 — 628.5 TT — Moultrie, GA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180C&listing_id=2457606&s-type=aircraft
-- **2026 American Champion 8-KCAB SUPER DECATHLON** — price n/a — 46 TT — Koontz Airshows Ashville, AL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458844&s-type=aircraft
-- **2026 American Champion 8-KCAB SUPER DECATHLON** — price n/a —  — Koontz Airshows Ashville, AL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458847&s-type=aircraft
-- **2026 Bearhawk Bearhawk** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2039935-Bearhawk-Patrol,-Low-TTSN.html
-- **2024 Bearhawk Bearhawk** — $105,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2043988-Bearhawk-5-Quickbuild-Kit.html
-- **? Bearhawk Bearhawk** — $70,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2059034-BEARHAWK-COMPANION-4-PLACE-KIT.html
-- **1963 Cessna 172 172D SKYHAWK** — $70,000 — 3660 TT — Pride Aviation Firebaugh, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2457276&s-type=aircraft
-- **1979 Cessna 172 172 HAWK XP II** — $181,000 — 3918 TT — Advanced Aircraft Delaware, OH — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2458870&s-type=aircraft
-- **1976 Cessna 172 172** — $72,000 — 12045 — Argila Sky Manor, NJ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2458835&s-type=aircraft
-- **1969 Cessna 172 172K SKYHAWK** — $80,000 — 3684 TT — Aaron Melander Erie, CO — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2446552&s-type=aircraft
-- **1964 Cessna 172 172E SKYHAWK** — price n/a — 2147 TT — Aircraft Sales Livermore, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2452733&s-type=aircraft
+- **2003 Piper PA-18 Super Cub SUPER CUB** — $169,000 —  — Alberta — _controller_  
+  https://www.controller.com/listing/for-sale/234016019/2003-piper-super-cub-piston-single-aircraft
+- **1978 Piper PA-18 Super Cub SUPER CUB** — $82,854 —  — Ti — _controller_  
+  https://www.controller.com/listing/for-sale/237220041/1978-piper-super-cub-piston-single-aircraft
+- **1954 Piper PA-18 Super Cub SUPER CUB** — $82,854 —  —  — _controller_  
+  https://www.controller.com/listing/for-sale/258880049/1954-piper-super-cub-piston-single-aircraft
+- **2010 ICP Savannah SAVANNAH** — $45,681 —  — Victoria — _controller_  
+  https://www.controller.com/listing/for-sale/247832859/2010-icp-savannah-light-sport-aircraft
+- **2016 Rans S-20 Raven** — $129,000 — 991 TT — Placerville, California — _controller_  
+  https://www.controller.com/listing/for-sale/257521137/2016-rans-s-20-raven-experimental-slash-homebuilt-aircraft
+- **1983 Cessna 172 172Q CUTLASS** — $108,400 — 6754 TT — Tauber Las Vegas, NV — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172Q+CUTLASS&listing_id=2451572&s-type=aircraft
+- **1981 Cessna 172 172P SKYHAWK** — $319,900 — 4820 TT — Aircraft Sales Phoenix, AZ — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2458909&s-type=aircraft
+- **1977 Cessna 172 172 HAWK XP II** — $87,000 — 2031 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2458906&s-type=aircraft
+- **1963 Cessna 172 172** — $67,000 — 4245 TT — William Higgins Caldwell, ID — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2458907&s-type=aircraft
+- **1980 Cessna 172 172N Skyhawk** — $154,000 — 7,896 TT — Merritt Island, Florida — _controller_  
+  https://www.controller.com/listing/for-sale/251221413/1980-cessna-172n-skyhawk-piston-single-aircraft
