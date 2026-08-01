@@ -42,6 +42,10 @@
   "Airside Aviation Calgary, AB": null,
   "Airside Aviation Orillia, ON": null,
   "Airside Aviation Smithers, BC": null,
+  "Alameda, CA": [
+    37.6090291,
+    -121.899142
+  ],
   "Alaska": [
     64.4459613,
     -149.680909
@@ -931,6 +935,10 @@
     32.4426759,
     -97.7870525
   ],
+  "Grand Junction, CO": [
+    39.0672568,
+    -108.56448
+  ],
   "Grand Junction, Colorado": [
     39.0672568,
     -108.56448
@@ -1148,6 +1156,10 @@
   "Johns Island, South Carolina": [
     32.7024009,
     -80.0481488
+  ],
+  "Johnstown, NY": [
+    43.006075,
+    -74.3720027
   ],
   "Jon Cannon Morgan, UT": null,
   "Juneau, AK": [
@@ -1745,6 +1757,10 @@
   ],
   "Nick Filimoehala KBMC, UT": null,
   "Niles Quebec City, QC": null,
+  "Norfolk, VA": [
+    36.8493695,
+    -76.2899539
+  ],
   "North Bay, ON": [
     46.3092115,
     -79.4607617
@@ -2146,6 +2162,10 @@
     -75.6009964
   ],
   "Salt Lake City, UT": [
+    40.7596198,
+    -111.886797
+  ],
+  "Salt Lake City, Utah": [
     40.7596198,
     -111.886797
   ],
