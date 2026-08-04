@@ -3151,6 +3151,10 @@
     {
       "date": "2026-08-03",
       "price": 116794
+    },
+    {
+      "date": "2026-08-04",
+      "price": 116549
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -4371,6 +4375,12 @@
       "price": 67000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459038&s-type=aircraft": [
+    {
+      "date": "2026-08-04",
+      "price": 115000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2450491&s-type=aircraft": [
     {
       "date": "2026-06-18",
@@ -4587,6 +4597,10 @@
     {
       "date": "2026-08-03",
       "price": 149950
+    },
+    {
+      "date": "2026-08-04",
+      "price": 139500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+XP&listing_id=2458693&s-type=aircraft": [
@@ -5691,6 +5705,12 @@
     {
       "date": "2026-07-29",
       "price": 159900
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2459029&s-type=aircraft": [
+    {
+      "date": "2026-08-04",
+      "price": 125000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2434774&s-type=aircraft": [
@@ -7739,6 +7759,12 @@
       "price": 285000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2459005&s-type=aircraft": [
+    {
+      "date": "2026-08-04",
+      "price": 235000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": [
     {
       "date": "2026-05-30",
@@ -7783,6 +7809,10 @@
     {
       "date": "2026-08-03",
       "price": 475000
+    },
+    {
+      "date": "2026-08-04",
+      "price": 425000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2454261&s-type=aircraft": [
@@ -7807,6 +7837,12 @@
     {
       "date": "2026-07-15",
       "price": 415000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2459007&s-type=aircraft": [
+    {
+      "date": "2026-08-04",
+      "price": 435000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CCX-2300&listing_id=2456750&s-type=aircraft": [
