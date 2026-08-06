@@ -1403,6 +1403,10 @@
     {
       "date": "2026-05-30",
       "price": 475000
+    },
+    {
+      "date": "2026-08-06",
+      "price": 425000
     }
   ],
   "https://www.controller.com/listing/for-sale/251978477/1977-cessna-172n-skyhawk-piston-single-aircraft": [
@@ -3159,6 +3163,10 @@
     {
       "date": "2026-08-05",
       "price": 116775
+    },
+    {
+      "date": "2026-08-06",
+      "price": 116928
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3175,6 +3183,10 @@
     {
       "date": "2026-07-16",
       "price": 159900
+    },
+    {
+      "date": "2026-08-06",
+      "price": 139900
     }
   ],
   "https://www.controller.com/listing/for-sale/257802417/2009-aviat-husky-a-1c-200-piston-single-aircraft": [
@@ -3281,6 +3293,10 @@
     {
       "date": "2026-07-08",
       "price": 285000
+    },
+    {
+      "date": "2026-08-06",
+      "price": 260000
     }
   ],
   "https://www.controller.com/listing/for-sale/258114365/1977-cessna-172n-skyhawk-piston-single-aircraft": [
@@ -3349,6 +3365,12 @@
     {
       "date": "2026-08-05",
       "price": 105000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/259082931/1967-cessna-u206-stationair-piston-single-aircraft": [
+    {
+      "date": "2026-08-06",
+      "price": 265000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
