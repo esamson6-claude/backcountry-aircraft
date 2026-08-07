@@ -344,6 +344,10 @@
     43.3248924,
     -79.7966835
   ],
+  "Burlington, VT": [
+    44.4761601,
+    -73.212906
+  ],
   "Burlington, WA": [
     48.4738136,
     -122.330453
@@ -726,6 +730,10 @@
     37.8173015,
     -96.8537388
   ],
+  "Elizabethton, TN": [
+    36.3487756,
+    -82.2107617
+  ],
   "Elkhart, KS": [
     37.0027644,
     -101.89733
@@ -1059,6 +1067,10 @@
     -111.4132963
   ],
   "Helmut Guehr Mocksville, NC": null,
+  "Hickman, NE": [
+    40.6199714,
+    -96.6323776
+  ],
   "Hillsboro, OR": [
     45.5228939,
     -122.989827
@@ -1104,6 +1116,10 @@
     42.6072552,
     -83.9293952
   ],
+  "Hubbard, OR": [
+    45.1831388,
+    -122.808628
+  ],
   "Hugo Lefebvre Ottawa, ON": null,
   "Hugo, OK": [
     34.0106208,
@@ -1147,6 +1163,10 @@
     -90.1830408
   ],
   "Jacksonville, FL": [
+    30.3262247,
+    -81.6579179
+  ],
+  "Jacksonville, Florida": [
     30.3262247,
     -81.6579179
   ],
@@ -1315,6 +1335,10 @@
   "Lake Worth, Florida": [
     26.615891,
     -80.0691435
+  ],
+  "Lancaster, CA": [
+    34.6981064,
+    -118.1366153
   ],
   "Lancaster, California": [
     34.6981064,
@@ -1582,6 +1606,7 @@
   ],
   "Michael Scalera Spokane, WA": null,
   "Michael Schnell Spearman, TX": null,
+  "Michael Whitfield Cleveland, GA": null,
   "Michigan": [
     43.6211955,
     -84.6824346
@@ -1639,9 +1664,17 @@
     34.9854275,
     -80.5495112
   ],
+  "Monte Vista, Colorado": [
+    37.5816182,
+    -106.1496731
+  ],
   "Monterrey, NL": [
     25.664805,
     -100.3462903
+  ],
+  "Montgomery, NY": [
+    42.8941269,
+    -74.4099745
   ],
   "Mooresville, NC": [
     35.5848596,
@@ -2157,6 +2190,7 @@
     31.6409992,
     -106.1579253
   ],
+  "Ryan Crane Panama, FL": null,
   "SAN ANTONIO, TX": [
     29.4246002,
     -98.4951405
@@ -2281,6 +2315,7 @@
     42.610909,
     -122.8219854
   ],
+  "Shawn Francis Hugo, OK": null,
   "Shelton, Connecticut": [
     41.3546999,
     -73.1383092
@@ -2393,6 +2428,10 @@
   "Subang Airport, Selangor, Malaysia": [
     3.1322924,
     101.550697
+  ],
+  "Sugar Grove, IL": [
+    41.7616204,
+    -88.4439261
   ],
   "Swift Current, SK": [
     50.2849138,
@@ -2531,6 +2570,10 @@
     31.5491899,
     -97.1474628
   ],
+  "Waconia, MN": [
+    44.8507957,
+    -93.7869088
+  ],
   "Wadsworth, OH": [
     41.0256101,
     -81.7298519
@@ -2578,6 +2621,10 @@
   "Waynesville, NC": [
     35.4887476,
     -82.9888725
+  ],
+  "Weatherford, OK": [
+    35.5261633,
+    -98.7075744
   ],
   "Weatherford, Oklahoma": [
     35.5261633,
