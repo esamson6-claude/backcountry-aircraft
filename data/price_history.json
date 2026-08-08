@@ -3177,6 +3177,10 @@
     {
       "date": "2026-08-07",
       "price": 116694
+    },
+    {
+      "date": "2026-08-08",
+      "price": 117067
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -4459,6 +4463,12 @@
       "price": 115000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459150&s-type=aircraft": [
+    {
+      "date": "2026-08-08",
+      "price": 70000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459151&s-type=aircraft": [
     {
       "date": "2026-08-07",
@@ -4689,6 +4699,10 @@
     {
       "date": "2026-08-04",
       "price": 139500
+    },
+    {
+      "date": "2026-08-08",
+      "price": 129500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+XP&listing_id=2458693&s-type=aircraft": [
@@ -4893,6 +4907,10 @@
     {
       "date": "2026-06-26",
       "price": 180000
+    },
+    {
+      "date": "2026-08-08",
+      "price": 168000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2448467&s-type=aircraft": [
@@ -5479,6 +5497,12 @@
     {
       "date": "2026-07-29",
       "price": 135000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2459175&s-type=aircraft": [
+    {
+      "date": "2026-08-08",
+      "price": 115000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2441654&s-type=aircraft": [
@@ -6711,6 +6735,12 @@
       "price": 115000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2459176&s-type=aircraft": [
+    {
+      "date": "2026-08-08",
+      "price": 160000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2451016&s-type=aircraft": [
     {
       "date": "2026-05-30",
@@ -6791,6 +6821,10 @@
     {
       "date": "2026-07-10",
       "price": 225000
+    },
+    {
+      "date": "2026-08-08",
+      "price": 190000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2456157&s-type=aircraft": [
@@ -7223,6 +7257,12 @@
     {
       "date": "2026-07-29",
       "price": 190000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2459170&s-type=aircraft": [
+    {
+      "date": "2026-08-08",
+      "price": 399900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2429154&s-type=aircraft": [
@@ -7941,6 +7981,12 @@
     {
       "date": "2026-08-07",
       "price": 239000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2459177&s-type=aircraft": [
+    {
+      "date": "2026-08-08",
+      "price": 329000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": [
