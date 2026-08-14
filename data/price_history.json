@@ -3025,6 +3025,10 @@
     {
       "date": "2026-07-20",
       "price": 195000
+    },
+    {
+      "date": "2026-08-14",
+      "price": 180000
     }
   ],
   "https://www.controller.com/listing/for-sale/257673165/1977-cessna-r172-hawk-xp-piston-single-aircraft": [
@@ -3225,6 +3229,10 @@
     {
       "date": "2026-08-13",
       "price": 116710
+    },
+    {
+      "date": "2026-08-14",
+      "price": 116847
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3463,6 +3471,12 @@
     {
       "date": "2026-08-13",
       "price": 119900
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/259312785/1976-cessna-172m-skyhawk-piston-single-aircraft": [
+    {
+      "date": "2026-08-14",
+      "price": 99000
     }
   ],
   "https://www.controller.com/listing/for-sale/259317169/1948-cessna-170-piston-single-aircraft": [
