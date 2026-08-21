@@ -553,10 +553,22 @@
       "price": 85000
     }
   ],
+  "https://www.barnstormers.com/classified-2068143-2010-Husky-A-1C-180.html": [
+    {
+      "date": "2026-08-21",
+      "price": 319000
+    }
+  ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
     {
       "date": "2026-05-30",
       "price": 279000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/231335311/2004-aviat-husky-a-1b-180-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 199000
     }
   ],
   "https://www.controller.com/listing/for-sale/231335311/2004-aviat-husky-a-1b-piston-single-aircraft": [
@@ -569,6 +581,12 @@
     {
       "date": "2026-05-30",
       "price": 169000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/235218687/2005-aviat-husky-a-1b-180-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 195000
     }
   ],
   "https://www.controller.com/listing/for-sale/235218687/2005-aviat-husky-a-1b-piston-single-aircraft": [
@@ -1205,6 +1223,10 @@
     {
       "date": "2026-05-30",
       "price": 329000
+    },
+    {
+      "date": "2026-08-21",
+      "price": 309000
     }
   ],
   "https://www.controller.com/listing/for-sale/250041559/1953-piper-super-cub-piston-single-aircraft": [
@@ -1215,6 +1237,12 @@
     {
       "date": "2026-07-01",
       "price": 215000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/250363283/2007-aviat-husky-a-1b-180-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 209000
     }
   ],
   "https://www.controller.com/listing/for-sale/250363283/2007-aviat-husky-a-1b-piston-single-aircraft": [
@@ -1999,6 +2027,12 @@
     {
       "date": "2026-05-30",
       "price": 199000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/254195533/1999-aviat-husky-a-1b-180-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 169900
     }
   ],
   "https://www.controller.com/listing/for-sale/254195533/1999-aviat-husky-a-1b-piston-single-aircraft": [
@@ -3013,6 +3047,12 @@
       "price": 135000
     }
   ],
+  "https://www.controller.com/listing/for-sale/257636257/2000-aviat-husky-a-1b-180-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 189000
+    }
+  ],
   "https://www.controller.com/listing/for-sale/257636257/2000-aviat-husky-a-1b-piston-single-aircraft": [
     {
       "date": "2026-06-24",
@@ -3265,6 +3305,10 @@
     {
       "date": "2026-08-20",
       "price": 118221
+    },
+    {
+      "date": "2026-08-21",
+      "price": 118400
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3317,6 +3361,12 @@
     {
       "date": "2026-07-24",
       "price": 97000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/257882169/2006-aviat-husky-a-1b-180-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 194000
     }
   ],
   "https://www.controller.com/listing/for-sale/257882169/2006-aviat-husky-a-1b-piston-single-aircraft": [
@@ -3425,6 +3475,10 @@
     {
       "date": "2026-07-16",
       "price": 114500
+    },
+    {
+      "date": "2026-08-21",
+      "price": 98500
     }
   ],
   "https://www.controller.com/listing/for-sale/258386709/1975-cessna-u206f-stationair-piston-single-aircraft": [
@@ -3541,6 +3595,12 @@
     {
       "date": "2026-08-19",
       "price": 1250000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/259614079/1982-cessna-u206g-stationair-piston-single-aircraft": [
+    {
+      "date": "2026-08-21",
+      "price": 299900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
