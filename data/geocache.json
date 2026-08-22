@@ -95,7 +95,9 @@
     40.1053196,
     -85.6802541
   ],
+  "Andrew Bonner Decatur, AL": null,
   "Annie Vogel Middleton, WI": null,
+  "Anthony Hoffman Draper, UT": null,
   "Ardrossan, AB": [
     53.5517087,
     -113.143322
@@ -133,6 +135,7 @@
     33.7544657,
     -84.3898151
   ],
+  "Attitude Indicator, XM": null,
   "Atwater, CA": [
     45.4896787,
     -73.5863126
@@ -169,6 +172,7 @@
     47.6515096,
     -122.5246791
   ],
+  "Barry Richardson Marston, MO": null,
   "Bartow, FL": [
     27.8964384,
     -81.843323
@@ -316,6 +320,7 @@
     -97.4981698
   ],
   "Bruce Roberts Watsonville, CA": null,
+  "Bruno Daytona Beach, FL": null,
   "Brunswick, Germany": [
     52.2646577,
     10.5236066
@@ -463,6 +468,7 @@
     33.3062031,
     -111.841185
   ],
+  "Charles Fages Pacoima, CA": null,
   "Charleston, SC": [
     32.7884363,
     -79.9399309
@@ -510,6 +516,7 @@
     -117.690075
   ],
   "Christopher Butrico Vancouver, WA": null,
+  "Christopher Travland Austin, TX": null,
   "Cincinnati, OH": [
     39.1012809,
     -84.5127405
@@ -615,10 +622,15 @@
     51.6567661,
     -114.1375682
   ],
+  "Dacula, Georgia": [
+    33.9887165,
+    -83.8979573
+  ],
   "Dallas, TX": [
     32.7762719,
     -96.7968559
   ],
+  "Dan Roseland Sonoma, CA": null,
   "Darrel Robbins Petaluma, CA": null,
   "Davie, Florida": [
     26.0628665,
@@ -745,6 +757,10 @@
   "Elizabethton, TN": [
     36.3487756,
     -82.2107617
+  ],
+  "Elizabethtown, NC": [
+    34.6293372,
+    -78.6052899
   ],
   "Elkhart, KS": [
     37.0027644,
@@ -904,10 +920,18 @@
     48.5342662,
     -123.017124
   ],
+  "Friday Harbor, Washington": [
+    48.5342662,
+    -123.017124
+  ],
   "Fultz Eagle River, AK": null,
   "GA": [
     -0.8999695,
     11.6899699
+  ],
+  "Gaithersburg, MD": [
+    39.1399187,
+    -77.1929215
   ],
   "Galesburg, IL": [
     40.9475652,
@@ -922,6 +946,10 @@
     28.0813105
   ],
   "George Gal Sanford, ME": null,
+  "George, UT": [
+    37.1098772,
+    -113.5832063
+  ],
   "Georgetown, TX": [
     30.6370152,
     -97.6775634
@@ -938,6 +966,7 @@
     39.1712341,
     -77.2655648
   ],
+  "Gianmarco Parrillo Lynchburg, VA": null,
   "Gig Harbor, WA": [
     47.3259697,
     -122.5878659
@@ -959,6 +988,7 @@
     44.8581372,
     -63.5423535
   ],
+  "Gonzalez Porto Miami, FL": null,
   "Goodland, KS": [
     39.350833,
     -101.710172
@@ -1011,9 +1041,15 @@
     34.851354,
     -82.3984882
   ],
+  "Greg Bongiorno Concord, NH": null,
+  "Greg Phillips Kelseyville, CA": null,
   "Griffin, GA": [
     33.2467807,
     -84.2640904
+  ],
+  "Gulf Shores, AL": [
+    30.2711224,
+    -87.6893826
   ],
   "Gulfport, MS": [
     30.3674198,
@@ -1083,6 +1119,10 @@
     -111.4132963
   ],
   "Helmut Guehr Mocksville, NC": null,
+  "Henderson, NV": [
+    36.0319602,
+    -114.9822716
+  ],
   "Hickman, NE": [
     40.6199714,
     -96.6323776
@@ -1145,6 +1185,10 @@
     34.0106208,
     -95.513122
   ],
+  "Hunters, Washington": [
+    48.1172016,
+    -118.2020358
+  ],
   "Huntsville, Alabama": [
     34.729847,
     -86.5859011
@@ -1162,6 +1206,7 @@
     -89.4337288
   ],
   "Info AeroSolutions Washington, PA": null,
+  "Info Brian Watkins, CO": null,
   "Info Fort Nelson, BC": [
     58.8055781,
     -122.7146356
@@ -1170,10 +1215,19 @@
     48.601033,
     -93.4105904
   ],
+  "Inverness, FL": [
+    28.8358176,
+    -82.3303715
+  ],
+  "Iraan, TX": [
+    30.9138959,
+    -101.897873
+  ],
   "Ironwood, MI": [
     46.4555673,
     -90.1684371
   ],
+  "Jack Ivester Searcy, AR": null,
   "Jackson, MS": [
     32.2998686,
     -90.1830408
@@ -1192,6 +1246,8 @@
     33.0380388,
     -82.436141
   ],
+  "Jeffrey Thomas Corona, CA": null,
+  "Jeremy Richards Lebanon, TN": null,
   "Joe McDonough Middleton, WI": null,
   "Johannesburg, Gauteng, South Africa": [
     -26.205,
@@ -1218,6 +1274,7 @@
     45.3519627,
     -117.2311073
   ],
+  "Joshua Gilmore Reno, NV": null,
   "Juneau, AK": [
     58.3019613,
     -134.4196751
@@ -1295,6 +1352,7 @@
     40.4864444,
     -86.1336351
   ],
+  "Kyle Tufts Bangor, ME": null,
   "LLC Baton Rouge, LA": [
     30.3555069,
     -91.0389161
@@ -1335,6 +1393,7 @@
     46.611479,
     -72.633362
   ],
+  "Ladd Klinglesmith Longmont, CO": null,
   "Ladd Klinglesmith Morgan, UT": null,
   "Lafayette, TN": [
     36.5208223,
@@ -1516,6 +1575,7 @@
     38.2542376,
     -85.759407
   ],
+  "Ltd Pampa, TX": null,
   "Lubbock, Texas": [
     33.5855677,
     -101.8470215
@@ -1553,6 +1613,7 @@
     30.5777511,
     -98.2756505
   ],
+  "Marcel Kobberdahl Aitkin, MN": null,
   "Marietta, SC": [
     35.0209502,
     -82.501512
@@ -1582,6 +1643,10 @@
   "McAllen, TX": [
     26.204114,
     -98.2300605
+  ],
+  "McClellan, CA": [
+    33.1275461,
+    -117.2814001
   ],
   "McKinney, TX": [
     33.1976496,
@@ -1684,6 +1749,10 @@
     46.8701049,
     -113.995267
   ],
+  "Missoula, Montana": [
+    46.8701049,
+    -113.995267
+  ],
   "Missouri": [
     38.7604815,
     -92.5617875
@@ -1719,12 +1788,15 @@
   "More Info Anchorage, AK": null,
   "More Info Corona, CA": null,
   "More Info Everett, WA": null,
+  "More Info Greenville, SC": null,
   "More Info Jackson, MS": null,
+  "More Info Lantan, FL": null,
   "More Info Leask, SK": null,
   "More Info Lenoir, NC": null,
   "More Info Minooka, IL": null,
   "More Info Newellton, LA": null,
   "More Info Salida, CO": null,
+  "More Info Vancouver, WA": null,
   "More Info Winterset, IA": null,
   "Morgan, UT": [
     41.0784068,
@@ -1874,6 +1946,10 @@
     26.0022367,
     -80.2395229
   ],
+  "Northern, CA": [
+    43.7108083,
+    -79.3896692
+  ],
   "Nova Scotia": [
     45.1960403,
     -63.1653789
@@ -1947,6 +2023,7 @@
     32.5265264,
     -96.8863898
   ],
+  "Ownership Solutions Kokomo, IN": null,
   "PARIS, TX": [
     33.6617962,
     -95.555513
@@ -2137,6 +2214,10 @@
     45.5698156,
     -93.5803054
   ],
+  "Pryor, OK": [
+    36.3084275,
+    -95.3169136
+  ],
   "Pullman, WA": [
     46.7295818,
     -117.1799363
@@ -2189,7 +2270,9 @@
     45.5027926,
     -91.733423
   ],
+  "Richard Bartlett Sussex, NJ": null,
   "Richard Coates Andalusia, AL": null,
+  "Richard Wissenbach Stevensville, MT": null,
   "Richland, MI": [
     42.3761504,
     -85.4550054
@@ -2349,7 +2432,12 @@
     48.1805562,
     10.7578121
   ],
+  "Scott Cunningham Justin, TX": null,
   "Scottsdale, AZ": [
+    33.4942189,
+    -111.926018
+  ],
+  "Scottsdale, Arizona": [
     33.4942189,
     -111.926018
   ],
@@ -2417,6 +2505,10 @@
     44.8906694,
     -93.0372808
   ],
+  "Spanaway, WA": [
+    47.0898165,
+    -122.4176008
+  ],
   "Sparta, TN": [
     35.9258921,
     -85.4641342
@@ -2432,6 +2524,10 @@
   "St George, Utah": [
     37.1098772,
     -113.5832063
+  ],
+  "St Joseph, MI": [
+    41.9031963,
+    -85.5356726
   ],
   "St Louis, MO": [
     38.6254063,
@@ -2532,6 +2628,7 @@
     41.1770316,
     -75.4179623
   ],
+  "Tom Allen Vacaville, CA": null,
   "Townsend Heber City, UT": null,
   "Trever Throop Hamilton, MT": null,
   "Troutdale, OR": [
@@ -2557,6 +2654,10 @@
   "USA Kerrville, TX": [
     30.075937,
     -99.1057728
+  ],
+  "Upland, CA": [
+    34.09751,
+    -117.6483876
   ],
   "Urb St Petersburg, FL": null,
   "Utah": [
@@ -2682,6 +2783,10 @@
     35.5261633,
     -98.7075744
   ],
+  "West Columbia South, Carolina": [
+    33.9555091,
+    -81.0956032
+  ],
   "West Columbia, SC": [
     33.991869,
     -81.0640341
@@ -2726,6 +2831,7 @@
     32.2529138,
     -109.8315759
   ],
+  "William Alford Erie, MI": null,
   "William Cree Wickenburg, AZ": null,
   "William Kitchen Windermere, FL": null,
   "Williams Lake, BC": [
@@ -2754,6 +2860,10 @@
     -89.6884637
   ],
   "Wisconsin Aviation Watertown, WI": null,
+  "Wisconsin Rapids, WI": [
+    44.3917589,
+    -89.8228767
+  ],
   "Wyoming": [
     43.1700264,
     -107.568534
