@@ -47,6 +47,103 @@ class ScraperFailure(Exception):
     """
 
 
+# --- ScrapingBee ------------------------------------------------------------
+# Several sources block GitHub Actions' datacenter IPs, and some sit behind a
+# JS bot-challenge. ScrapingBee fronts both. Tiers differ ~75x in price, so
+# each caller asks for the cheapest one that actually works for its site:
+#
+#   "classic" (1 credit)  — plain rotating proxy. Enough for plain IP blocks.
+#   "premium" (10-25)     — residential IPs.
+#   "stealth" (75)        — solves JS bot-challenges (AWS WAF, etc).
+SCRAPINGBEE_ENDPOINT = "https://app.scrapingbee.com/api/v1/"
+
+_TIER_PARAMS = {
+    "classic": {},
+    "premium": {"premium_proxy": "True", "country_code": "us"},
+    "stealth": {"stealth_proxy": "True"},
+}
+TIER_COST = {"classic": 1, "premium": 25, "stealth": 75}
+
+# Guard rail: one run must never be able to drain the monthly plan. Counts
+# credits we believe we spent (by tier) and hard-fails past the ceiling.
+# Override with SCRAPINGBEE_MAX_CREDITS=0 to disable the cap.
+_DEFAULT_CREDIT_BUDGET = 8000
+_credits_spent = 0
+
+
+def scrapingbee_credits_spent() -> int:
+    return _credits_spent
+
+
+def _credit_budget() -> int:
+    raw = os.environ.get("SCRAPINGBEE_MAX_CREDITS", "")
+    if raw.strip().isdigit():
+        return int(raw.strip())
+    return _DEFAULT_CREDIT_BUDGET
+
+
+def fetch_via_scrapingbee(
+    url: str,
+    tier: str = "classic",
+    render_js: bool = False,
+    wait: Optional[int] = None,
+    attempts: int = 5,
+    timeout: int = 180,
+) -> Optional[str]:
+    """Fetch `url` through ScrapingBee. Returns HTML, or None if unavailable.
+
+    Raises ScraperFailure on 401 (bad key / plan exhausted) or when this run
+    has spent its credit budget — both mean "stop", not "try the next page".
+    """
+    import sys
+    import time
+
+    import requests
+
+    global _credits_spent
+
+    api_key = os.environ.get("SCRAPINGBEE_API_KEY")
+    if not api_key:
+        return None
+
+    budget = _credit_budget()
+    cost = TIER_COST.get(tier, 1)
+    if budget and _credits_spent + cost > budget:
+        raise ScraperFailure(
+            f"ScrapingBee credit budget exhausted for this run "
+            f"({_credits_spent}/{budget}) — raise SCRAPINGBEE_MAX_CREDITS to continue"
+        )
+
+    params = {"api_key": api_key, "url": url, "render_js": str(bool(render_js))}
+    params.update(_TIER_PARAMS.get(tier, {}))
+    if wait is not None:
+        params["wait"] = str(wait)
+
+    last_err = ""
+    for attempt in range(attempts):
+        if attempt:
+            # Stealth-tier requests 500 with "please try again" fairly often.
+            # Only successful requests are billed, so backing off and retrying
+            # costs nothing but time.
+            time.sleep(min(2 * attempt, 8))
+        try:
+            r = requests.get(SCRAPINGBEE_ENDPOINT, params=params, timeout=timeout)
+        except requests.RequestException as e:
+            last_err = str(e)[:150]
+            continue
+        if r.status_code == 401:
+            raise ScraperFailure(
+                "ScrapingBee returned 401 — credits exhausted or invalid key"
+            )
+        # Only successful requests are billed, so retries are free.
+        if r.status_code == 200:
+            _credits_spent += int(r.headers.get("spb-cost") or cost)
+            return r.text
+        last_err = f"status {r.status_code}: {r.text[:150]}"
+    print(f"  [scrapingbee] failed after {attempts} attempts — {last_err}", file=sys.stderr)
+    return None
+
+
 @dataclass
 class Listing:
     source: str

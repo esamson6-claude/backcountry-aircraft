@@ -23,8 +23,10 @@ from bs4 import BeautifulSoup
 from .common import (
     UA,
     Listing,
+    ScraperFailure,
     extract_engine,
     extract_engine_time,
+    fetch_via_scrapingbee,
     save_raw,
 )
 
@@ -51,10 +53,39 @@ def _save_cache(cache: dict[str, dict]) -> None:
     CACHE_PATH.write_text(json.dumps(cache, sort_keys=True, indent=2))
 
 
+def _get(url: str, timeout: int = 20) -> str | None:
+    """Fetch a URL directly, falling back to ScrapingBee when blocked.
+
+    The site's nginx answers datacenter IPs (GitHub Actions) with 405 while
+    serving residential IPs normally, so the direct attempt succeeds locally
+    and the proxy carries CI. The block is purely IP-based — no JS challenge —
+    so the 1-credit "classic" tier is enough.
+    """
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout)
+        if r.status_code == 200:
+            return r.text
+        blocked = r.status_code in (403, 405, 429)
+    except requests.RequestException:
+        blocked = True
+    if not blocked:
+        return None
+    return fetch_via_scrapingbee(url, tier="classic")
+
+
+# The sitemap is one 150KB document covering every listing on the site, but
+# scrape() runs once per search config (30+ times a run). Fetch it once.
+_sitemap_cache: list[str] | None = None
+
+
 def _fetch_sitemap_urls() -> list[str]:
-    r = requests.get(SITEMAP, headers={"User-Agent": UA}, timeout=20)
-    r.raise_for_status()
-    return re.findall(r"<loc>([^<]+)</loc>", r.text)
+    global _sitemap_cache
+    if _sitemap_cache is None:
+        xml = _get(SITEMAP)
+        if xml is None:
+            raise RuntimeError(f"could not fetch sitemap {SITEMAP} (direct + ScrapingBee)")
+        _sitemap_cache = re.findall(r"<loc>([^<]+)</loc>", xml)
+    return _sitemap_cache
 
 
 def _location_from_url(url: str) -> str | None:
@@ -118,11 +149,16 @@ def scrape(search: dict) -> list[Listing]:
 
     for i, url in enumerate(new_fetches):
         try:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
-            if r.status_code == 200:
-                cache[url] = _parse_detail(url, r.text)
+            html = _get(url, timeout=30)
+            if html:
+                cache[url] = _parse_detail(url, html)
             else:
-                cache[url] = {"error": f"status {r.status_code}"}
+                cache[url] = {"error": "fetch failed (direct + ScrapingBee)"}
+        except ScraperFailure:
+            # Out of credits / bad key — that's about the account, not this URL.
+            # Don't poison the cache with it; save progress and let it bubble up.
+            _save_cache(cache)
+            raise
         except Exception as e:
             cache[url] = {"error": str(e)[:120]}
         if i < len(new_fetches) - 1:

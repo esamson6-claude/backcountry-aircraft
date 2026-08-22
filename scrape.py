@@ -1083,12 +1083,14 @@ def main() -> int:
 
     # For (source, make) pairs that hard-failed (e.g. ScrapingBee credits gone),
     # carry over previous rows so the CSV doesn't lose data during outages.
+    carried_urls: set[str] = set()
     if hard_failed:
         carried = 0
         for url, row in previous.items():
             key = (row.get("source", ""), row.get("make", ""))
             if key in hard_failed and url not in current:
                 current[url] = row
+                carried_urls.add(url)
                 carried += 1
         if carried:
             print(f"  Carried over {carried} rows from previous run (hard-failed sources)", file=sys.stderr)
@@ -1108,11 +1110,18 @@ def main() -> int:
     merged: list[dict] = []
     for url, row in current.items():
         prev = previous.get(url)
+        # Rows carried over from a hard-failed source were NOT seen today — we
+        # just couldn't reach the site. Keep their real last_seen so a stale
+        # listing is still visibly stale instead of looking freshly confirmed.
+        if url in carried_urls:
+            last_seen = row.get("last_seen") or today
+        else:
+            last_seen = today
         merged.append(
             {
                 **{k: row.get(k, "") for k in FIELDS if k not in ("first_seen", "last_seen")},
                 "first_seen": prev["first_seen"] if prev else today,
-                "last_seen": today,
+                "last_seen": last_seen,
             }
         )
 
