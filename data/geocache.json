@@ -46,6 +46,10 @@
   "Airside Aviation Calgary, AB": null,
   "Airside Aviation Orillia, ON": null,
   "Airside Aviation Smithers, BC": null,
+  "Aitkin, MN": [
+    46.5714822,
+    -93.3847595
+  ],
   "Alameda, CA": [
     37.6090291,
     -121.899142
@@ -158,6 +162,10 @@
   ],
   "Auckland, North Island, New Zealand": null,
   "Audio Panel, PS": null,
+  "Austin, TX": [
+    30.2711286,
+    -97.7436995
+  ],
   "Aviation Carrabassett Valley, ME": null,
   "Aviation Fort Smith, NT": null,
   "Aviation LLC Caldwell, ID": null,
@@ -171,6 +179,10 @@
   "Bainbridge Island, WA": [
     47.6515096,
     -122.5246791
+  ],
+  "Bangor, ME": [
+    44.8016255,
+    -68.7713289
   ],
   "Barry Richardson Marston, MO": null,
   "Bartow, FL": [
@@ -299,6 +311,10 @@
     36.6440772,
     -93.2169256
   ],
+  "Breckenridge, TX": [
+    32.7554791,
+    -98.9026798
+  ],
   "Bremerton, WA": [
     47.5653663,
     -122.6246836
@@ -306,6 +322,10 @@
   "Breslau, Ontario, Canada": [
     43.4749611,
     -80.4127316
+  ],
+  "Bridgeport, TX": [
+    33.2101155,
+    -97.7547552
   ],
   "Brookings, South Dakota": [
     44.311461,
@@ -392,6 +412,10 @@
     33.1035045,
     -86.7505733
   ],
+  "Calera, Alabama": [
+    33.1035045,
+    -86.7505733
+  ],
   "Calgary, AB": [
     51.0456064,
     -114.057541
@@ -440,6 +464,7 @@
     40.5250362,
     -81.0927234
   ],
+  "Carson City (KCXP), NV": null,
   "Casa Grande, AZ": [
     32.8772834,
     -111.7536818
@@ -529,6 +554,10 @@
     27.9658533,
     -82.8001026
   ],
+  "Cleveland, GA": [
+    34.5972449,
+    -83.7633058
+  ],
   "Clifton, TX": [
     31.7800712,
     -97.5793301
@@ -537,6 +566,10 @@
   "Coeur D'Alene, ID": [
     47.6742994,
     -116.7811531
+  ],
+  "Cokeville, WY": [
+    42.0848242,
+    -110.9566093
   ],
   "Coldwater, MI": [
     41.941091,
@@ -609,6 +642,7 @@
     35.949684,
     -85.0274835
   ],
+  "Culpepper (KCJR), VA": null,
   "Culpepper (Kcjr), VA": null,
   "Cypress, TX": [
     29.9691116,
@@ -632,6 +666,10 @@
   ],
   "Dan Roseland Sonoma, CA": null,
   "Darrel Robbins Petaluma, CA": null,
+  "David City (93Y), NE": [
+    41.2527355,
+    -97.1300668
+  ],
   "Davie, Florida": [
     26.0628665,
     -80.2331038
@@ -652,6 +690,14 @@
     34.2928774,
     -91.3378987
   ],
+  "Decatur, AL": [
+    34.6060203,
+    -86.9838165
+  ],
+  "Deer Park, WA": [
+    47.9543679,
+    -117.4768479
+  ],
   "Deer Valley, Arizona": [
     33.686086,
     -112.1185607
@@ -664,6 +710,7 @@
     40.2317686,
     -82.9651045
   ],
+  "Delta (KAJZ), CO": null,
   "Delta, BC": [
     49.0846258,
     -123.057938
@@ -692,6 +739,10 @@
   "Doylestown, Pennsylvania": [
     40.3100446,
     -75.1304588
+  ],
+  "Draper, UT": [
+    40.5247777,
+    -111.8627989
   ],
   "Driggs, Idaho": [
     43.7231753,
@@ -729,6 +780,10 @@
   "East Peoria, Illinois": [
     40.666149,
     -89.5800978
+  ],
+  "Easton (KESN), MD": [
+    38.8031612,
+    -76.0685614
   ],
   "Eau Claire, WI": [
     44.811349,
@@ -783,6 +838,10 @@
     40.0502623,
     -105.049981
   ],
+  "Erie, MI": [
+    41.7934538,
+    -83.4971152
+  ],
   "Erie, Michigan": [
     41.7934538,
     -83.4971152
@@ -821,6 +880,10 @@
   "Fareham, England, United Kingdom": [
     50.8526637,
     -1.1783134
+  ],
+  "Farmville (KFVX), VA": [
+    37.3613508,
+    -78.4358293
   ],
   "Fayetteville, AR": [
     36.0625843,
@@ -924,6 +987,10 @@
     48.5342662,
     -123.017124
   ],
+  "Fullerton (KFUL), CA": [
+    33.8718286,
+    -117.9797076
+  ],
   "Fultz Eagle River, AK": null,
   "GA": [
     -0.8999695,
@@ -940,6 +1007,10 @@
   "Galesburg, Illinois": [
     40.9475652,
     -90.3712169
+  ],
+  "Gallia-Meigs (KGAS), OH": [
+    38.83448,
+    -82.1619366
   ],
   "Gauteng": [
     -25.9363439,
@@ -1012,6 +1083,10 @@
   "Grand Ledge, MI": [
     42.7524401,
     -84.7463572
+  ],
+  "Grand Prairie (KGPM), TX": [
+    32.6988865,
+    -97.04637
   ],
   "Grant, NE": [
     41.9231444,
@@ -1160,6 +1235,10 @@
     34.5038393,
     -93.0552437
   ],
+  "Houston (KIWS), TX": [
+    29.8191629,
+    -95.6737915
+  ],
   "Houston, TX": [
     29.7589382,
     -95.3676974
@@ -1205,6 +1284,14 @@
     40.0796606,
     -89.4337288
   ],
+  "Independence - 7S5, OR": [
+    44.8665042,
+    -123.1974675
+  ],
+  "Indiantown (X58), FL": [
+    27.0367199,
+    -80.4397739
+  ],
   "Info AeroSolutions Washington, PA": null,
   "Info Brian Watkins, CO": null,
   "Info Fort Nelson, BC": [
@@ -1218,6 +1305,10 @@
   "Inverness, FL": [
     28.8358176,
     -82.3303715
+  ],
+  "Iowa City, IA": [
+    41.6612561,
+    -91.5299106
   ],
   "Iraan, TX": [
     30.9138959,
@@ -1287,6 +1378,10 @@
     26.9342246,
     -80.0942087
   ],
+  "Justin, TX": [
+    33.0848442,
+    -97.2961286
+  ],
   "KBMC, UT": [
     41.5582521,
     -112.0627385
@@ -1295,6 +1390,10 @@
   "Kansas City, MO": [
     39.100105,
     -94.5781416
+  ],
+  "Kelseyville, CA": [
+    38.966921,
+    -122.8354355
   ],
   "Kenmore, WA": [
     47.7596715,
@@ -1435,6 +1534,7 @@
     42.7338254,
     -84.5546295
   ],
+  "Lantan, FL": null,
   "Las Vegas, NV": [
     36.1674263,
     -115.1484131
@@ -1463,6 +1563,10 @@
     37.6806669,
     -92.6637835
   ],
+  "Lebanon, TN": [
+    36.2079779,
+    -86.2910945
+  ],
   "Lee-On-The-Solent, England, United Kingdom": [
     50.8028983,
     -1.2013355
@@ -1484,6 +1588,7 @@
     46.4195913,
     -117.0216144
   ],
+  "Lexington (KLEX), KY": null,
   "Lexington, KY": [
     38.0464066,
     -84.4970393
@@ -1528,6 +1633,10 @@
     30.2961892,
     -82.9842885
   ],
+  "Livermore (KLVK), CA": [
+    37.693324,
+    -121.8187476
+  ],
   "Livermore, CA": [
     37.6820583,
     -121.768053
@@ -1555,6 +1664,10 @@
   "Long Beach, California": [
     33.7690164,
     -118.191604
+  ],
+  "Longmont, CO": [
+    40.1672117,
+    -105.101928
   ],
   "Los Angeles, CA": [
     34.0536909,
@@ -1623,7 +1736,12 @@
     40.5583739,
     -85.6591442
   ],
+  "Marston, MO": [
+    36.5189503,
+    -89.6125789
+  ],
   "Matt Hofeldt Middleton, WI": null,
+  "Matt Hofeldt at C29, WI": null,
   "Matt McCormack Kenosha, WI": null,
   "Matthews, NC": [
     35.1159532,
@@ -1857,6 +1975,10 @@
     45.1307013,
     -79.3839611
   ],
+  "Nampa (KMAN), ID": [
+    43.5810171,
+    -116.5207623
+  ],
   "Nampa, ID": [
     43.5780381,
     -116.5616885
@@ -1912,6 +2034,10 @@
   "Newport Beach, CA": [
     33.6170092,
     -117.9294401
+  ],
+  "Newport News (KPHF), VA": [
+    37.1322965,
+    -76.4940129
   ],
   "Newport News (Kphf), VA": [
     37.1322965,
@@ -1975,6 +2101,10 @@
     32.2956335,
     -80.9448103
   ],
+  "Okeechobee (KOBE), FL": [
+    27.2686992,
+    -80.8504327
+  ],
   "Okeechobee, FL": [
     27.3923408,
     -80.8873655
@@ -1983,6 +2113,7 @@
     34.9550817,
     -97.2684063
   ],
+  "Olathe (KOJC), KS": null,
   "Olathe, KS": [
     38.8838856,
     -94.81887
@@ -2038,6 +2169,10 @@
     -80.1139574
   ],
   "Pablo Bartlett Falbrook, CA": null,
+  "Pacoima, CA": [
+    34.2625025,
+    -118.427027
+  ],
   "Pagosa Springs, CO": [
     37.2695661,
     -107.010816
@@ -2073,6 +2208,10 @@
   "Panama City, FL": [
     30.1586518,
     -85.6602936
+  ],
+  "Panama, FL": [
+    30.1698381,
+    -85.755833
   ],
   "Panorama City, California": [
     34.2242902,
@@ -2187,6 +2326,10 @@
     26.2378597,
     -80.1247667
   ],
+  "Pontotoc (22M), MS": [
+    34.2756967,
+    -89.0384189
+  ],
   "Pontotoc, Mississippi": [
     34.2114655,
     -89.0382651
@@ -2267,6 +2410,10 @@
     37.8420743,
     -76.2757772
   ],
+  "Reno, NV": [
+    39.5261788,
+    -119.812658
+  ],
   "Rice Lake, WI": [
     45.5027926,
     -91.733423
@@ -2302,6 +2449,10 @@
     37.270973,
     -79.9414313
   ],
+  "Roanoke, Virginia": [
+    37.270973,
+    -79.9414313
+  ],
   "Rock Hill, SC": [
     34.9248667,
     -81.0250784
@@ -2327,6 +2478,10 @@
     -106.1579253
   ],
   "Ryan Crane Panama, FL": null,
+  "S Indiantown, FL": [
+    27.0273407,
+    -80.4820908
+  ],
   "SAN ANTONIO, TX": [
     29.4246002,
     -98.4951405
@@ -2446,6 +2601,10 @@
     40.1320592,
     -74.0345813
   ],
+  "Searcy, AR": [
+    35.9018987,
+    -92.7098744
+  ],
   "Seattle-BFI, WA": null,
   "Sells Peachtree Cty, GA": null,
   "Severna Park, MD": [
@@ -2489,9 +2648,21 @@
     54.7792074,
     -127.1760991
   ],
+  "Smyrna (KMQY), TN": [
+    36.0096195,
+    -86.5166523
+  ],
+  "Sonoma, CA": [
+    38.5110803,
+    -122.8473388
+  ],
   "South Bend, IN": [
     41.6833813,
     -86.2500066
+  ],
+  "South Boston (W87), VA": [
+    36.6987494,
+    -78.9013987
   ],
   "South Carolina": [
     33.6874388,
@@ -2546,6 +2717,10 @@
     38.7877791,
     -90.6747372
   ],
+  "St.George, UT": [
+    37.1098772,
+    -113.5832063
+  ],
   "Stayner, Ontario, Canada": [
     44.4194642,
     -80.0904451
@@ -2560,10 +2735,16 @@
   ],
   "Steve Charlesworth Vancouver, BC": null,
   "Steven Houseman Chillicothe, OH": null,
+  "Stevensville (K32S), MT": null,
+  "Stevensville, MT": [
+    46.510407,
+    -114.094385
+  ],
   "Stockton, CA": [
     37.9577016,
     -121.290779
   ],
+  "Stuart (KSUA), FL": null,
   "Stuart McBride Kimball, NE": null,
   "Stuart, FL": [
     27.197983,
@@ -2581,6 +2762,10 @@
   "Sugar Grove, IL": [
     41.7616204,
     -88.4439261
+  ],
+  "Sussex, NJ": [
+    41.133372,
+    -74.6930393
   ],
   "Swift Current, SK": [
     50.2849138,
@@ -2648,6 +2833,7 @@
     34.2576067,
     -88.7033859
   ],
+  "Twin Falls (KTWF), ID": null,
   "Twin Falls, ID": [
     42.5558542,
     -114.4700684
@@ -2666,6 +2852,10 @@
     -111.714358
   ],
   "VHE, AT": null,
+  "Vacaville, CA": [
+    38.3565773,
+    -121.9877444
+  ],
   "Van Nuys, CA": [
     34.1866193,
     -118.4486675
@@ -2772,6 +2962,10 @@
     43.0622536,
     -88.3123889
   ],
+  "Waynesboro (W13), VA": [
+    38.0686668,
+    -78.8893999
+  ],
   "Waynesville, NC": [
     35.4887476,
     -82.9888725
@@ -2792,6 +2986,10 @@
     33.991869,
     -81.0640341
   ],
+  "West Columbia, South Carolina": [
+    33.991869,
+    -81.0640341
+  ],
   "West Hampton, NY": [
     40.7763165,
     -72.7155239
@@ -2799,6 +2997,10 @@
   "West Milford, NJ": [
     41.1312069,
     -74.3673748
+  ],
+  "West Palm Beach (F45), FL": [
+    26.715364,
+    -80.0532942
   ],
   "West Palm Beach, FL": [
     26.715364,
