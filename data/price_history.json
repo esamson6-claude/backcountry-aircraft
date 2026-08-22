@@ -495,6 +495,12 @@
       "price": 120000
     }
   ],
+  "https://www.aerotrader.com/listing/1973-Cessna-A185F-5041802058": [
+    {
+      "date": "2026-08-22",
+      "price": 265000
+    }
+  ],
   "https://www.aerotrader.com/listing/1974-Cessna-172M+SKYHAWK-5040117637": [
     {
       "date": "2026-06-17",
@@ -5627,6 +5633,12 @@
     {
       "date": "2026-08-21",
       "price": 58000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2459715&s-type=aircraft": [
+    {
+      "date": "2026-08-22",
+      "price": 95000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2422000&s-type=aircraft": [
