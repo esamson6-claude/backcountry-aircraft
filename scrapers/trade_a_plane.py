@@ -153,6 +153,39 @@ def _page_url(base_url: str, page: int) -> str:
 _DETAIL_LOC_RE = re.compile(r"located in (.+?)\s+([A-Z]{2})\s+from", re.I)
 
 
+def _location_from_card(card) -> str | None:
+    """Read "<City>, <ST>" from the card's schema.org PostalAddress.
+
+    Each card carries the address as microdata:
+
+        <p class="left"><span itemprop="name">Jane Seller</span></p>
+        <p class="address" itemprop="address" itemscope
+           itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Johnstown</span> ,
+          <span itemprop="addressRegion">NY</span> USA
+        </p>
+
+    Reading those two spans is exact. The old approach — regexing "<Words>,
+    <ST>" out of the card's flattened text — could not tell a multi-word city
+    from a seller name abutting a single-word one, because the seller sits in
+    its own element immediately above. That turned "Johnstown, NY" into
+    "Samuel Barth Johnstown, NY" while "Egg Harbor City, NJ" was genuinely
+    three words, so no amount of tightening the pattern could separate them.
+
+    Falls back to the text scan for any card lacking the microdata.
+    """
+    city_el = card.find(attrs={"itemprop": "addressLocality"})
+    state_el = card.find(attrs={"itemprop": "addressRegion"})
+    if city_el and state_el:
+        city = city_el.get_text(" ", strip=True).strip(" ,")
+        state = state_el.get_text(" ", strip=True).strip(" ,")
+        if city and state:
+            return f"{city}, {state}"
+
+    loc_m = _LOC_RE.search(card.get_text(" ", strip=True))
+    return f"{loc_m.group(1).strip()}, {loc_m.group(2)}" if loc_m else None
+
+
 def _parse_single_listing(html: str, search: dict) -> list[Listing]:
     """Parse a search that redirected to one listing's detail page.
 
@@ -224,8 +257,7 @@ def _parse_page(html: str, search: dict, seen: set[str]) -> list[Listing]:
 
         url = urljoin(BASE, href)
         text = card.get_text(" ", strip=True)
-        loc_m = _LOC_RE.search(text)
-        location = f"{loc_m.group(1).strip()}, {loc_m.group(2)}" if loc_m else None
+        location = _location_from_card(card)
 
         title_m = re.match(
             r"((?:19|20)\d{2}\s+\S+\s+\S+[^A-Z]*[A-Z0-9\-]*)", text

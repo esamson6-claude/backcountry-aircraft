@@ -88,23 +88,74 @@ def _fetch_sitemap_urls() -> list[str]:
     return _sitemap_cache
 
 
-def _location_from_url(url: str) -> str | None:
-    """Pull '<City>, <ST>' from the URL slug.
+# Both the city and the state are hyphen-separated in the slug, so a lone
+# "<city>-<state>" split can't tell "west-columbia | south-carolina" from
+# "west-columbia-south | carolina". Match the multi-word states by name and
+# try them first; everything else is a single trailing word.
+_MULTI_WORD_STATES = (
+    "new-hampshire", "new-jersey", "new-mexico", "new-york",
+    "north-carolina", "north-dakota", "rhode-island", "south-carolina",
+    "south-dakota", "west-virginia", "district-of-columbia",
+)
+_SLUG_RE = re.compile(r"/([^/]*?)-(?:united-states|usa)/", re.I)
+# Sellers often paste a full street address into the location field, which the
+# slug preserves. Anything up to a house number, a ZIP, or a street suffix is
+# address, not city.
+_STREET_SUFFIXES = {
+    "st", "street", "ave", "avenue", "rd", "road", "dr", "drive", "blvd",
+    "boulevard", "pkwy", "parkway", "hwy", "highway", "ln", "lane", "way",
+    "ct", "court", "cir", "circle", "pl", "place", "ter", "terrace", "suite",
+    "unit", "apt", "box",
+}
 
-    Slugs vary, e.g.:
-      .../watsonville-ca-usa/...
-      .../78058-mountain-home-texas-united-states/...
+
+def _location_from_url(url: str) -> str | None:
+    """Pull '<City>, <State>' from the URL slug.
+
+    Slugs are free-text locations lowercased and hyphenated, so they vary a
+    lot and are parsed from the right — the country suffix is the only fixed
+    anchor:
+
+      .../watsonville-ca-usa/                              -> Watsonville, CA
+      .../78058-mountain-home-texas-united-states/         -> Mountain Home, Texas
+      .../29170-west-columbia-south-carolina-united-states/-> West Columbia, South Carolina
+      .../breckenridge-tx-76424-usa/                       -> Breckenridge, TX
+      .../shelby-west-parkway-265-35040-calera-alabama-united-states/
+                                                           -> Calera, Alabama
+      .../texas-usa/                                       -> Texas
     """
-    m = re.search(
-        r"/(?:\d{5}-)?([a-z][a-z\-]*?)-([a-z]+|[a-z]{2})-(?:united-states|usa)/",
-        url,
-        re.I,
-    )
+    m = _SLUG_RE.search(url)
     if not m:
         return None
-    city = m.group(1).replace("-", " ").title()
-    state = m.group(2).upper() if len(m.group(2)) == 2 else m.group(2).title()
-    return f"{city}, {state}"
+    parts = [p for p in m.group(1).lower().split("-") if p]
+
+    # A ZIP can trail the state ("...-tx-76424-usa"); drop it before parsing.
+    if parts and parts[-1].isdigit():
+        parts.pop()
+    # Keep only what follows the last house number / ZIP, then the last street
+    # suffix — both mark the end of the address portion.
+    for i in range(len(parts) - 1, -1, -1):
+        if parts[i].isdigit():
+            parts = parts[i + 1:]
+            break
+    for i in range(len(parts) - 1, -1, -1):
+        if parts[i] in _STREET_SUFFIXES:
+            parts = parts[i + 1:]
+            break
+    if not parts:
+        return None
+
+    # State is the trailing one or two tokens; everything before it is city.
+    if len(parts) >= 2 and "-".join(parts[-2:]) in _MULTI_WORD_STATES:
+        state = " ".join(parts[-2:]).title()
+        city_parts = parts[:-2]
+    else:
+        state = parts[-1].upper() if len(parts[-1]) == 2 else parts[-1].title()
+        city_parts = parts[:-1]
+
+    if not city_parts:
+        return state  # state-only slug, e.g. "texas-usa"
+    return f"{' '.join(city_parts).title()}, {state}"
 
 
 def _parse_detail(url: str, html: str) -> dict:
@@ -185,7 +236,11 @@ def scrape(search: dict) -> list[Listing]:
                 model=model,
                 price=data.get("price"),
                 total_time=data.get("total_time"),
-                location=data.get("location"),
+                # Derived from the URL, not the page, so compute it here
+                # rather than trusting detail_cache.json — entries cached
+                # before a parser fix would otherwise keep the old value
+                # forever, since cached URLs are never re-fetched.
+                location=_location_from_url(url),
                 title=data.get("title"),
                 description=data.get("description"),
                 image_url=data.get("image_url"),
