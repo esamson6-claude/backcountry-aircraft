@@ -3407,6 +3407,10 @@
     {
       "date": "2026-08-22",
       "price": 118267
+    },
+    {
+      "date": "2026-08-24",
+      "price": 118286
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3763,6 +3767,12 @@
     {
       "date": "2026-07-16",
       "price": 79900
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2459732&s-type=aircraft": [
+    {
+      "date": "2026-08-24",
+      "price": 56450
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+AURORA&listing_id=2447952&s-type=aircraft": [
@@ -5621,6 +5631,10 @@
     {
       "date": "2026-07-21",
       "price": 99995
+    },
+    {
+      "date": "2026-08-24",
+      "price": 94995
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2457271&s-type=aircraft": [
@@ -8193,6 +8207,12 @@
       "price": 265000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2459748&s-type=aircraft": [
+    {
+      "date": "2026-08-24",
+      "price": 310000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P172D&listing_id=2446668&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -8221,6 +8241,10 @@
     {
       "date": "2026-07-28",
       "price": 225000
+    },
+    {
+      "date": "2026-08-24",
+      "price": 214000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206B+STATIONAIR&listing_id=2456088&s-type=aircraft": [
@@ -9287,6 +9311,10 @@
     {
       "date": "2026-07-10",
       "price": 90000
+    },
+    {
+      "date": "2026-08-24",
+      "price": 69000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2425434&s-type=aircraft": [

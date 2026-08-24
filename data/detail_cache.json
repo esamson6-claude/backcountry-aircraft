@@ -758,6 +758,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2458390&s-type=aircraft": {
     "location": "Marion, IN"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2459732&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+AURORA&listing_id=2447952&s-type=aircraft": {
     "location": null
   },
@@ -2952,6 +2955,9 @@
     "location": "Santa Paula, CA"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2459651&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2459748&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P172D&listing_id=2446668&s-type=aircraft": {
