@@ -102,6 +102,10 @@
   "Andrew Bonner Decatur, AL": null,
   "Annie Vogel Middleton, WI": null,
   "Anthony Hoffman Draper, UT": null,
+  "Apache Junction, AZ": [
+    33.4150485,
+    -111.549577
+  ],
   "Ardrossan, AB": [
     53.5517087,
     -113.143322
@@ -266,6 +270,10 @@
   "Bethany, Oklahoma": [
     35.5186728,
     -97.6322648
+  ],
+  "Billings, MT": [
+    45.7874957,
+    -108.49607
   ],
   "Blackfoot, ID": [
     43.190039,
@@ -1158,6 +1166,10 @@
     46.2472045,
     -114.1555462
   ],
+  "Hamilton, TX": [
+    31.6429346,
+    -97.9715967
+  ],
   "Hampton, GA": [
     33.3870578,
     -84.2829784
@@ -1337,6 +1349,10 @@
   ],
   "Jared Segebartt Viola, ID": null,
   "Jason Williams Cypress, TX": null,
+  "Jasper, GA": [
+    33.3254635,
+    -83.6868559
+  ],
   "Jefferson, GA": [
     33.0380388,
     -82.436141
@@ -2306,6 +2322,10 @@
     40.4406968,
     -80.0025666
   ],
+  "Pittsford, NY": [
+    43.090959,
+    -77.515298
+  ],
   "Pittstown, NJ": [
     40.5821362,
     -74.9589826
@@ -2411,6 +2431,10 @@
     -113.767473
   ],
   "Redlands, CA": [
+    34.0550328,
+    -117.1827445
+  ],
+  "Redlands, California": [
     34.0550328,
     -117.1827445
   ],
@@ -2849,6 +2873,10 @@
   "Twin Falls, ID": [
     42.5558542,
     -114.4700684
+  ],
+  "Tyler, TX": [
+    32.3512601,
+    -95.3010624
   ],
   "USA Kerrville, TX": [
     30.075937,
