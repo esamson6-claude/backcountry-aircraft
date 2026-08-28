@@ -397,6 +397,10 @@
     48.4738136,
     -122.330453
   ],
+  "Burlington, Washington": [
+    48.4738136,
+    -122.330453
+  ],
   "Burnsville, NC": [
     35.9172243,
     -82.2996695
@@ -536,6 +540,10 @@
   ],
   "Chicago Aviation Muskoka, ON": null,
   "Chicago Aviation Scottsdale, AZ": null,
+  "Chicago, IL": [
+    41.8755616,
+    -87.6244212
+  ],
   "Chicago, Illinois": [
     41.8755616,
     -87.6244212
@@ -549,6 +557,10 @@
     -121.95255
   ],
   "Chino, CA": [
+    34.0133561,
+    -117.690075
+  ],
+  "Chino, California": [
     34.0133561,
     -117.690075
   ],
@@ -1127,6 +1139,10 @@
   "Greenville, SC": [
     34.851354,
     -82.3984882
+  ],
+  "Greenwood, Indiana": [
+    39.6136987,
+    -86.1095429
   ],
   "Greg Bongiorno Concord, NH": null,
   "Greg Phillips Kelseyville, CA": null,
