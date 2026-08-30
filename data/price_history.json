@@ -3467,6 +3467,10 @@
     {
       "date": "2026-08-29",
       "price": 117305
+    },
+    {
+      "date": "2026-08-30",
+      "price": 117289
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -9651,6 +9655,10 @@
     {
       "date": "2026-07-15",
       "price": 210000
+    },
+    {
+      "date": "2026-08-30",
+      "price": 200000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-235C&listing_id=2456978&s-type=aircraft": [
@@ -10015,6 +10023,12 @@
     {
       "date": "2026-05-30",
       "price": 1095000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?listing_id=2439248&s-type=aircraft": [
+    {
+      "date": "2026-08-30",
+      "price": 135000
     }
   ],
   "https://www.trade-a-plane.com/search?listing_id=2453708&s-type=aircraft": [

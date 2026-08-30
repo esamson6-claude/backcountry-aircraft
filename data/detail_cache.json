@@ -3821,6 +3821,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Turboprop&make=DEHAVILLAND&model=DHC-2T&listing_id=2458940&s-type=aircraft": {
     "location": "South St Paul, MN"
   },
+  "https://www.trade-a-plane.com/search?listing_id=2439248&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?listing_id=2453708&s-type=aircraft": {
     "location": null
   },
