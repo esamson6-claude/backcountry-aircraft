@@ -1,10 +1,8 @@
-# New listings — 2026-08-30
+# New listings — 2026-08-31
 
-3 new listings:
+2 new listings:
 
-- **1958 Helio Courier H-391B** — $135,000 — 4455 — Fairbanks, AK — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?listing_id=2439248&s-type=aircraft
-- **1960 Cessna 172 172** — $60,000 —  — Culpepper (Kcjr), VA — _aerotrader_  
-  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041322052
-- **1960 Cessna 172 172** — $105,000 —  — Newport News (Kphf), VA — _aerotrader_  
-  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041379682
+- **2003 Rans S-7 COURIER** — $69,500 — 900 TT — Pittstown, NJ — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-7+COURIER&listing_id=2459968&s-type=aircraft
+- **1979 Cessna 205/206/207 U206G** — $345,000 — 1571 TT — Clearwater, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2457612&s-type=aircraft
