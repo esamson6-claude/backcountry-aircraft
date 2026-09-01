@@ -1,8 +1,14 @@
-# New listings — 2026-08-31
+# New listings — 2026-09-01
 
-2 new listings:
+5 new listings:
 
-- **2003 Rans S-7 COURIER** — $69,500 — 900 TT — Pittstown, NJ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-7+COURIER&listing_id=2459968&s-type=aircraft
-- **1979 Cessna 205/206/207 U206G** — $345,000 — 1571 TT — Clearwater, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206G&listing_id=2457612&s-type=aircraft
+- **2021 Maule MX-7-180B** — $285,000 — 550 TT — Trapper Creek, AK — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2459963&s-type=aircraft
+- **1965 Cessna 172 172 Skyhawk** — $104,903 — 12,861 TT — Griffin, Georgia — _controller_  
+  https://www.controller.com/listing/for-sale/259925487/1965-cessna-172-skyhawk-piston-single-aircraft
+- **2025 Cessna 172 172** — $58,590 —  — Phoenix, AZ — _aerotrader_  
+  https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041933191
+- **2025 Cessna 172 172** — $58,590 —  — Phoenix, AZ — _aerotrader_  
+  https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041933211
+- **2025 Cessna 172 172** — $58,590 —  — Phoenix, AZ — _aerotrader_  
+  https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041933231

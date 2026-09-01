@@ -397,6 +397,10 @@
     {
       "date": "2026-08-25",
       "price": 129500
+    },
+    {
+      "date": "2026-09-01",
+      "price": 124500
     }
   ],
   "https://www.aerotrader.com/listing/1942-Boeing%2FStearman-450-5041339276": [
@@ -632,6 +636,24 @@
   "https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041890843": [
     {
       "date": "2026-08-27",
+      "price": 58590
+    }
+  ],
+  "https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041933191": [
+    {
+      "date": "2026-09-01",
+      "price": 58590
+    }
+  ],
+  "https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041933211": [
+    {
+      "date": "2026-09-01",
+      "price": 58590
+    }
+  ],
+  "https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5041933231": [
+    {
+      "date": "2026-09-01",
       "price": 58590
     }
   ],
@@ -1021,6 +1043,10 @@
     {
       "date": "2026-07-03",
       "price": 189000
+    },
+    {
+      "date": "2026-09-01",
+      "price": 179000
     }
   ],
   "https://www.controller.com/listing/for-sale/241518183/1954-piper-super-cub-piston-amphibious-slash-floatplanes": [
@@ -3475,6 +3501,10 @@
     {
       "date": "2026-08-31",
       "price": 117369
+    },
+    {
+      "date": "2026-09-01",
+      "price": 117554
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3809,6 +3839,10 @@
     {
       "date": "2026-08-21",
       "price": 225000
+    },
+    {
+      "date": "2026-09-01",
+      "price": 197500
     }
   ],
   "https://www.controller.com/listing/for-sale/259741819/2012-cessna-172s-skyhawk-sp-piston-single-aircraft": [
@@ -3827,6 +3861,12 @@
     {
       "date": "2026-08-27",
       "price": 410000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/259925487/1965-cessna-172-skyhawk-piston-single-aircraft": [
+    {
+      "date": "2026-09-01",
+      "price": 104903
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
@@ -4517,6 +4557,10 @@
     {
       "date": "2026-08-25",
       "price": 129500
+    },
+    {
+      "date": "2026-09-01",
+      "price": 124500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2442037&s-type=aircraft": [
@@ -9833,6 +9877,12 @@
     {
       "date": "2026-07-21",
       "price": 170000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2459963&s-type=aircraft": [
+    {
+      "date": "2026-09-01",
+      "price": 285000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180C&listing_id=2457606&s-type=aircraft": [
