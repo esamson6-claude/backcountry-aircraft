@@ -3537,6 +3537,10 @@
     {
       "date": "2026-09-03",
       "price": 117407
+    },
+    {
+      "date": "2026-09-04",
+      "price": 117722
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3931,6 +3935,12 @@
     {
       "date": "2026-09-03",
       "price": 159000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/260109601/2012-wag-aero-sport-trainer-experimental-slash-homebuilt-aircraft": [
+    {
+      "date": "2026-09-04",
+      "price": 95500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
@@ -4625,6 +4635,12 @@
     {
       "date": "2026-07-29",
       "price": 129000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2460171&s-type=aircraft": [
+    {
+      "date": "2026-09-04",
+      "price": 99500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=E75&listing_id=2455324&s-type=aircraft": [
@@ -10157,6 +10173,10 @@
     {
       "date": "2026-07-21",
       "price": 170000
+    },
+    {
+      "date": "2026-09-04",
+      "price": 160000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2459963&s-type=aircraft": [

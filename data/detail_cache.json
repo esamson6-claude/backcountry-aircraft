@@ -1166,6 +1166,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2453453&s-type=aircraft": {
     "location": "San Luis Obispo, CA"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2460171&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=E75&listing_id=2455324&s-type=aircraft": {
     "location": "Port Orange, FL"
   },
