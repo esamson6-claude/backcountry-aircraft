@@ -1,16 +1,26 @@
-# New listings — 2026-09-04
+# New listings — 2026-09-05
 
-6 new listings:
+11 new listings:
 
-- **1993 Maule MX-7-180B** — $160,000 — 1388 TT — Fall Creek, WI — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2454359&s-type=aircraft
-- **2009 Maule MX-7-180C** — $180,000 — 628.5 TT — Moultrie, GA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180C&listing_id=2457606&s-type=aircraft
-- **1989 Piper PA-18 Super Cub Super Cub** — price n/a — 74 TT — Bethany, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/254338435/1989-piper-super-cub-piston-single-aircraft
-- **2027 Cessna 172 172 Skyhawk** — price n/a — 0 TT — Chicago, Illinois — _controller_  
-  https://www.controller.com/listing/for-sale/259647103/2027-cessna-172-skyhawk-piston-single-aircraft
-- **2012 Wag-Aero Sportsman 2+2 Sport Trainer** — $95,500 — 700 TT — Mattoon, Illinois — _controller_  
-  https://www.controller.com/listing/for-sale/260109601/2012-wag-aero-sport-trainer-experimental-slash-homebuilt-aircraft
-- **1940 Stearman B75 N1** — $99,500 — 4432 TT — Sagle, ID — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2460171&s-type=aircraft
+- **2015 CubCrafters NOT SPECIFIED** — $324,500 — 300 TT — Oconto, WI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NOT+SPECIFIED&listing_id=2456999&s-type=aircraft
+- **1978 American Champion 8-KCAB DECATHLON** — $98,500 — 2474 TT — Bessemer, AL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2459246&s-type=aircraft
+- **1981 Cessna 172 172P SKYHAWK** — $167,500 — 1335 TT — Sparta, IL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2460126&s-type=aircraft
+- **1980 Cessna 172 172RG CUTLASS** — $112,900 — 3289 TT — DAYTON, OH — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2433520&s-type=aircraft
+- **1962 Cessna 172 172C SKYHAWK** — $69,500 — 3180 TT — Taylor, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2460211&s-type=aircraft
+- **2007 Cessna 172 172S Skyhawk** — $345,000 — 16,093 TT — Salt Lake City, Utah — _controller_  
+  https://www.controller.com/listing/for-sale/258919391/2007-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **1940 Stearman Stearman** — $99,500 —  — Sagle, Idaho — _aircraftforsale_  
+  https://aircraftforsale.com/aircraft/single-engine-piston/boeing-stearman/b75n1/sagle-idaho-united-states/boeing-stearman-b75n1-for-sale-602008
+- **1973 Cessna 185 185** — $265,000 — 3550 TTSN — Pampa, TX — _aerotrader_  
+  https://www.aerotrader.com/listing/1973-Cessna-A185F-5041802058
+- **? Cessna 172 172** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-172-5016588048
+- **1962 Cessna 172 172** — $69,500 — 3,180 TTAF — Taylor, TX — _aerotrader_  
+  https://www.aerotrader.com/listing/1962-Cessna-172C+SKYHAWK-5042011325
+- **? Cessna 205/206/207 205/206/207** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-205-5016587976
