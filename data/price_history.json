@@ -481,6 +481,10 @@
     {
       "date": "2026-09-05",
       "price": 69500
+    },
+    {
+      "date": "2026-09-06",
+      "price": 64500
     }
   ],
   "https://www.aerotrader.com/listing/1965-Cessna-172+SKYHAWK-5041451604": [
@@ -5751,6 +5755,10 @@
     {
       "date": "2026-09-05",
       "price": 69500
+    },
+    {
+      "date": "2026-09-06",
+      "price": 64500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2445493&s-type=aircraft": [
@@ -9459,6 +9467,12 @@
       "price": 349500
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2460221&s-type=aircraft": [
+    {
+      "date": "2026-09-06",
+      "price": 349000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX3&listing_id=2445121&s-type=aircraft": [
     {
       "date": "2026-07-15",
@@ -9623,6 +9637,12 @@
       "price": 179000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2460215&s-type=aircraft": [
+    {
+      "date": "2026-09-06",
+      "price": 254000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": [
     {
       "date": "2026-05-30",
@@ -9671,6 +9691,12 @@
     {
       "date": "2026-08-21",
       "price": 398000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2460217&s-type=aircraft": [
+    {
+      "date": "2026-09-06",
+      "price": 495000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2444708&s-type=aircraft": [
