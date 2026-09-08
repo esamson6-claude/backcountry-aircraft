@@ -3569,6 +3569,10 @@
     {
       "date": "2026-09-07",
       "price": 117581
+    },
+    {
+      "date": "2026-09-08",
+      "price": 117715
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -3851,6 +3855,10 @@
     {
       "date": "2026-08-07",
       "price": 85000
+    },
+    {
+      "date": "2026-09-08",
+      "price": 84500
     }
   ],
   "https://www.controller.com/listing/for-sale/259143257/1966-cessna-172-skyhawk-piston-single-aircraft": [
@@ -6025,6 +6033,10 @@
     {
       "date": "2026-08-28",
       "price": 105000
+    },
+    {
+      "date": "2026-09-08",
+      "price": 104900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2453036&s-type=aircraft": [
@@ -6133,6 +6145,10 @@
     {
       "date": "2026-08-28",
       "price": 90000
+    },
+    {
+      "date": "2026-09-08",
+      "price": 85000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2459966&s-type=aircraft": [
@@ -6343,6 +6359,12 @@
     {
       "date": "2026-08-21",
       "price": 118000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2460266&s-type=aircraft": [
+    {
+      "date": "2026-09-08",
+      "price": 172500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2455349&s-type=aircraft": [
@@ -7345,6 +7367,12 @@
       "price": 119000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2460224&s-type=aircraft": [
+    {
+      "date": "2026-09-08",
+      "price": 280000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2454649&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -8133,6 +8161,10 @@
     {
       "date": "2026-07-10",
       "price": 205000
+    },
+    {
+      "date": "2026-09-08",
+      "price": 198000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2458159&s-type=aircraft": [
