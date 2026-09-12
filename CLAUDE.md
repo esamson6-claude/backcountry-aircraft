@@ -80,7 +80,10 @@ Per-source required keys:
   under Bellanca), hence `_is_parts_or_service`. Ad titles are seller-written free
   text — misspellings ("DECATHALON") and transposed model codes ("8CKAB") are
   routine, so prefer `ad_pattern` over `ad_keyword`. The `Taildragger--*` tree
-  (parent 22200) maps almost 1:1 onto this site's makes.
+  (parent 22200) maps almost 1:1 onto this site's makes. Category pages only link
+  the **thumbnail** image size (~2-4 KB, visibly blurry at card width); the same
+  photo exists at **medium** (~70 KB) under a parallel path with the same id and
+  timestamp, so `_medium_image()` derives it without fetching the gallery page.
 - **aviat / vanbortel / aircraft.com** — single-dealer sites, a handful of listings
   each. Low counts are correct, not a bug.
 
@@ -130,6 +133,7 @@ When a local run collides with a daily cloud commit, resolve **per file**, not w
 ## Current status (2026-09-12)
 
 1,004 listings, 999 cards, 143 searches across 8 sources, 33 makes.
+Barnstormers photos are served at medium resolution (151 listings).
 (1,112 before 108 sold/sale-pending ads were filtered out.)
 
 **Trade-A-Plane reliability** was the largest coverage gap (a third of searches

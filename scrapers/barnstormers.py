@@ -56,11 +56,25 @@ _BODY_SPAN_RE = re.compile(r"class=['\"]?body['\"]?[^>]*>\s*([^<]+)</span>", re.
 _TAG_RE = re.compile(r"<[^>]+>")
 # Each classified row ends with a <table class='thumbtable'> holding the ad's
 # photos. Roughly half of Barnstormers ads have one; the rest are text-only.
+#
+# The category page only ever links the "thumbnail" size — about 2-4 KB, which
+# is visibly blurry once the site scales it up to card width. The same image
+# exists at a "medium" size (~70 KB) under a parallel path, which the ad's
+# own image gallery uses; the filename carries the same id and timestamp, so it
+# can be derived without fetching the gallery page. If a medium ever 404s the
+# page's onerror falls back to the placeholder.
 _THUMB_RE = re.compile(
     r"thumbtable.*?<img[^>]+src=['\"]"
     r"(https://barnstormers\.s3\.amazonaws\.com/media/listing_images/thumbnail/[^'\"]+)",
     re.S,
 )
+
+def _medium_image(url: str) -> str:
+    """Rewrite a Barnstormers thumbnail URL to its medium-resolution twin."""
+    return url.replace("/thumbnail/", "/medium/").replace(
+        "thumbnail_image_", "medium_image_"
+    )
+
 
 def _matcher(search: dict):
     """Return a predicate deciding whether an ad title belongs to this make.
@@ -148,7 +162,7 @@ def _parse_category(
                 price=price,
                 title=title.title() if title.isupper() else title,
                 description=(body or row_text)[:500],
-                image_url=thumb_m.group(1) if thumb_m else None,
+                image_url=_medium_image(thumb_m.group(1)) if thumb_m else None,
                 engine=extract_engine(body or row_text, default_model),
                 engine_time=extract_engine_time(body or row_text),
             )
