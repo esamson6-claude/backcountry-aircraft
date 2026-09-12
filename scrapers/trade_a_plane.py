@@ -118,8 +118,14 @@ def _get(url: str) -> str | None:
             time.sleep(3 * 2 ** (attempt - 1))  # 3s, 6s, 12s
         html = fetch_via_scrapingbee(url, tier="stealth")
         if html is None:
-            print(f"  [{SOURCE}] ScrapingBee gave up on {url}", file=sys.stderr)
-            return None
+            # None means ScrapingBee itself failed (its stealth pool 500s with
+            # "please try again" under load), NOT that we were blocked. This
+            # used to return immediately, so the only failure mode that needs a
+            # long backoff was the one that never got it — the inner helper's
+            # ~20s was the entire retry budget. Fall through to this loop's
+            # 3/6/12s instead. Failed requests aren't billed, so it costs time.
+            rejects.append("api-error")
+            continue
         if _is_challenge(html):
             rejects.append("challenge")
         elif not _is_complete(html):
@@ -299,7 +305,9 @@ def scrape(search: dict) -> list[Listing]:
     html = _get(_page_url(search["url"], 1))
     if html is None:
         raise ScraperFailure(
-            "Trade-A-Plane bot-challenge not cleared (direct + ScrapingBee stealth)"
+            "Trade-A-Plane fetch failed (direct + ScrapingBee stealth) — see the "
+            f"[{SOURCE}] line above for whether it was a challenge, a stub or "
+            "a ScrapingBee API error"
         )
     save_raw(f"{SOURCE}_{search['slug']}", html)
 

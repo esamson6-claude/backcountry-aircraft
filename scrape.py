@@ -204,6 +204,26 @@ _SERVICE_RE = re.compile(
 )
 
 
+# Sellers leave sold aircraft up, marking the status in the ad text: Trade-A-Plane
+# prefixes the description "SOLD - ", Barnstormers uses an action phrase
+# ("SALE PENDING •", "SOLD!!"), Controller writes "Description : PENDING SALE".
+#
+# Deliberately CASE-SENSITIVE. Every false positive found in the live data was
+# lowercase prose — "bought and sold over 70 aircraft" (a dealer bio), "will be
+# sold with a new set of tires", "then sold to the current owner", "dozens sold"
+# — while every genuine status marker was shouted. Matching case-insensitively
+# would delete live aircraft.
+_SOLD_RE = re.compile(
+    r"\bSOLD\b|\bSALE\s+PENDING\b|\bPENDING\s+SALE\b|\bUNDER\s+CONTRACT\b"
+    r"|\bPENDING\s*[-–—!.]"
+)
+
+
+def _is_sold(l: dict) -> bool:
+    """True for an ad whose text marks the aircraft as sold or sale-pending."""
+    return bool(_SOLD_RE.search(f"{l.get('title') or ''} {l.get('description') or ''}"))
+
+
 def _is_parts_or_service(l: dict) -> bool:
     """True for a parts/accessory/service ad rather than an aircraft."""
     title = l.get("title") or ""
@@ -1397,6 +1417,8 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
             if filt is not None and not filt(row):
                 continue
             if _is_solicitation(row):  # drop "Wanted/WTB/ISO" buy-side ads
+                continue
+            if _is_sold(row):  # already sold / sale pending — not on the market
                 continue
             # Barnstormers mixes parts/services into make categories.
             if row.get("source") == "barnstormers" and _is_parts_or_service(row):
