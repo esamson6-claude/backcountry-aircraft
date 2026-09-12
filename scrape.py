@@ -32,7 +32,27 @@ _DECATHLON_CITABRIA_RE = re.compile(
     r"DECATH|CITABRIA|8-?KCAB|8CKAB|7-?ECA|7-?GCAA|7-?GCBC|7-?KCAB", re.I
 )
 
-CHAMPION_AEROBATIC_MAKE = "Decathlon / Citabria"
+AEROBATIC_MAKE = "Aerobatic"
+
+# Any listing whose text mentions aerobatics is FLAGGED aerobatic (a site
+# toggle), but keeps its own make — an aerobatic-capable Stearman still belongs
+# under Stearman. Only aircraft whose identity IS aerobatic get AEROBATIC_MAKE.
+_AEROBATIC_TEXT_RE = re.compile(r"AEROBATIC|ACROBATIC|AEROBATICS", re.I)
+# "no aerobatic time" / "never flown aerobatics" is a selling point on a
+# non-aerobatic airframe, not a claim that the aircraft is one.
+_AEROBATIC_NEGATION_RE = re.compile(
+    r"\b(?:NO|NOT|NEVER|ZERO|WITHOUT)\b[^.;]{0,24}?\bAER?OBATIC", re.I
+)
+
+
+def is_aerobatic(row: dict) -> bool:
+    """True if this listing should appear under the site's Aerobatic filter."""
+    if row.get("make") == AEROBATIC_MAKE:
+        return True
+    blob = " ".join((row.get(k) or "") for k in ("title", "model", "description"))
+    if _AEROBATIC_NEGATION_RE.search(blob):
+        return False
+    return bool(_AEROBATIC_TEXT_RE.search(blob))
 
 
 def _refine_champion_make(row: dict) -> None:
@@ -50,7 +70,7 @@ def _refine_champion_make(row: dict) -> None:
     # otherwise file every Scout they list under the aerobatic chip.
     blob = " ".join((row.get(k) or "") for k in ("title", "model"))
     if _DECATHLON_CITABRIA_RE.search(blob):
-        row["make"] = CHAMPION_AEROBATIC_MAKE
+        row["make"] = AEROBATIC_MAKE
 
 
 def _keep_champion_lineage(l: dict) -> bool:
@@ -187,6 +207,10 @@ _SERVICE_RE = re.compile(
 def _is_parts_or_service(l: dict) -> bool:
     """True for a parts/accessory/service ad rather than an aircraft."""
     title = l.get("title") or ""
+    # Barnstormers slugs collapse spaces, so "Bucker Jungmann Jungmeister parts"
+    # arrives as "Buckerjungmannjungmeisteparts" — no word boundary to anchor on.
+    if re.search(r"PARTS?|PARTS$", title, re.I) or title.upper().endswith("PARTS"):
+        return True
     return bool(_PARTS_RE.search(title) or _SERVICE_RE.search(title))
 
 
@@ -1234,6 +1258,89 @@ for _make, _cats, _pat, _filt, _model in _BARNSTORMERS:
             **({"post_filter": _filt} if _filt else {}),
         }
     )
+
+
+# ---------------------------------------------------------------------------
+# Barnstormers "Aerobatic" tree — aerobatic types the backcountry makes above
+# don't cover (Pitts, Extra, Christen Eagle, Great Lakes, Skybolt, Waco...).
+# These have no other make on this site, so they carry AEROBATIC_MAKE and get
+# their own filter chip. Champion-lineage aerobatic categories are deliberately
+# NOT listed here — they're already scraped under American Champion and
+# relabelled by _refine_champion_make; dedupe by URL handles any overlap.
+#
+# The parent category (15818) mixes types, parts and engines, so the same
+# type-name pattern gates every entry: an ad has to name an aerobatic aircraft,
+# which drops "HOOKER HARNESS" and "LYCOMING O-540 ENGINE" without a blocklist.
+# ---------------------------------------------------------------------------
+_AEROBATIC_AD_PATTERN = (
+    r"PITTS|EXTRA\s*\d|CHRISTEN|EAGLE|GREAT\s*LAKES|SKYBOLT|WACO|BUCKER|JUNGMEISTER"
+    r"|JUNGMANN|SUKHOI|\bSU-\d|\bYAK\b|ZLIN|\bCAP-?\d|GILES|\bG-?20[02]\b|LASER"
+    r"|STAUDACHER|SBACH|XTREMEAIR|ZIVKO|\bEDGE\s*5[04]0|GAMEBIRD|ULTIMATE|CHIPMUNK"
+    r"|STAMPE|ACRO-?\s?(?:1|SPORT|DUSTER)|STARDUSTER|MINIPLANE|MARQUART|CHARGER"
+    r"|HIPERBIPE|LITTLE\s*TOOT|SKYOTE|ONE\s*DESIGN|DR-?10[79]|PANZL|SLICK|MARCHETTI"
+    r"|SF-?260|CASSUTT|AKROTECH|HARMON\s*ROCKET|PANTHER|VELOX|TECHNOAVIA|RUD-?AERO"
+    r"|FIREBOLT|SPEZIO|TU-?HOLER|STEWART\s*51|EAA\s*BIPLANE|DECATH|CITABRIA"
+)
+
+SEARCHES.append(
+    {
+        "make": AEROBATIC_MAKE,
+        "module": "scrapers.barnstormers",
+        "slug": "aerobatic",
+        "urls": [
+        "https://www.barnstormers.com/category-15818-Aerobatic.html",
+        "https://www.barnstormers.com/category-15819-Aerobatic--Acro-1.html",
+        "https://www.barnstormers.com/category-15820-Aerobatic--Acro-Sport.html",
+        "https://www.barnstormers.com/category-15821-Aerobatic--Acroduster.html",
+        "https://www.barnstormers.com/category-15825-Aerobatic--Akrotech.html",
+        "https://www.barnstormers.com/category-15829-Aerobatic--Baby-Great-Lakes.html",
+        "https://www.barnstormers.com/category-15836-Aerobatic--Bucker.html",
+        "https://www.barnstormers.com/category-15840-Aerobatic--CAP.html",
+        "https://www.barnstormers.com/category-15841-Aerobatic--Cassutt.html",
+        "https://www.barnstormers.com/category-15844-Aerobatic--Christen.html",
+        "https://www.barnstormers.com/category-15846-Aerobatic--CJ-6.html",
+        "https://www.barnstormers.com/category-15850-Aerobatic--DHC-1-Chipmunk.html",
+        "https://www.barnstormers.com/category-15851-Aerobatic--DR-109.html",
+        "https://www.barnstormers.com/category-15852-Aerobatic--EAA-Biplane.html",
+        "https://www.barnstormers.com/category-15856-Aerobatic--Extra.html",
+        "https://www.barnstormers.com/category-15859-Aerobatic--Firebolt.html",
+        "https://www.barnstormers.com/category-24123-Aerobatic--GameBird.html",
+        "https://www.barnstormers.com/category-15867-Aerobatic--Giles.html",
+        "https://www.barnstormers.com/category-15869-Aerobatic--Great-Lakes.html",
+        "https://www.barnstormers.com/category-15872-Aerobatic--Harmon-Rocket.html",
+        "https://www.barnstormers.com/category-15874-Aerobatic--Hiperbipe.html",
+        "https://www.barnstormers.com/category-15881-Aerobatic--Laser.html",
+        "https://www.barnstormers.com/category-15882-Aerobatic--Little-Toot.html",
+        "https://www.barnstormers.com/category-15883-Aerobatic--Marquart.html",
+        "https://www.barnstormers.com/category-15897-Aerobatic--Panther.html",
+        "https://www.barnstormers.com/category-15898-Aerobatic--Panzl.html",
+        "https://www.barnstormers.com/category-15901-Aerobatic--Pitts.html",
+        "https://www.barnstormers.com/category-15909-Aerobatic--Rud-Aero.html",
+        "https://www.barnstormers.com/category-15912-Aerobatic--Sbach.html",
+        "https://www.barnstormers.com/category-15916-Aerobatic--SIAI-Marchetti.html",
+        "https://www.barnstormers.com/category-15917-Aerobatic--Skybolt.html",
+        "https://www.barnstormers.com/category-15918-Aerobatic--Skyote.html",
+        "https://www.barnstormers.com/category-15919-Aerobatic--Slick.html",
+        "https://www.barnstormers.com/category-15921-Aerobatic--Smith-Miniplane.html",
+        "https://www.barnstormers.com/category-15925-Aerobatic--Spezio-Tu-Holer.html",
+        "https://www.barnstormers.com/category-15927-Aerobatic--Stampe.html",
+        "https://www.barnstormers.com/category-15928-Aerobatic--Starduster.html",
+        "https://www.barnstormers.com/category-15929-Aerobatic--Staudacher.html",
+        "https://www.barnstormers.com/category-15931-Aerobatic--Stewart.html",
+        "https://www.barnstormers.com/category-15934-Aerobatic--Sukhoi.html",
+        "https://www.barnstormers.com/category-15938-Aerobatic--Technoavia.html",
+        "https://www.barnstormers.com/category-15943-Aerobatic--Ultimate.html",
+        "https://www.barnstormers.com/category-15948-Aerobatic--Velox.html",
+        "https://www.barnstormers.com/category-15950-Aerobatic--Waco.html",
+        "https://www.barnstormers.com/category-15953-Aerobatic--XtremeAir.html",
+        "https://www.barnstormers.com/category-15954-Aerobatic--Yak.html",
+        "https://www.barnstormers.com/category-15956-Aerobatic--Zivko.html",
+        "https://www.barnstormers.com/category-15957-Aerobatic--Zlin.html",
+        ],
+        "ad_pattern": _AEROBATIC_AD_PATTERN,
+        "default_model": "Aerobatic",
+    }
+)
 
 
 FIELDS = [

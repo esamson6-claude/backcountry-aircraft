@@ -10,6 +10,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
+from scrape import is_aerobatic
+
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_DIR = PROJECT_ROOT / "data"
 DOCS_DIR = PROJECT_ROOT / "docs"
@@ -279,6 +281,7 @@ def render() -> Path:
         return _is_recent(r) and (r.get("make") or "") not in NEW_EXCLUDED_MAKES
 
     new_count = sum(1 for r in rows if _is_recent(r))
+    aero_count = sum(1 for r in rows if is_aerobatic(r))
 
     # Default order on refresh: recent (last 7 days) listings from makes OTHER than
     # Cessna 172 / 205/206/207 come first, newest -> oldest; everything else follows,
@@ -353,6 +356,9 @@ def render() -> Path:
         # NEW badge: first_seen within the last 7 days, every make (upper-left).
         is_new = _is_recent(r)
         new_attr = ' data-new="1"' if is_new else ""
+        # Aerobatic flag is a filter toggle, not a make: an aerobatic-capable
+        # Stearman stays under Stearman but is still findable as aerobatic.
+        aero_attr = ' data-aerobatic="1"' if is_aerobatic(r) else ""
         new_html = '<div class="new-badge">NEW</div>' if is_new else ""
         # Searchable text blob
         search_blob = html.escape(
@@ -380,7 +386,7 @@ def render() -> Path:
             f"""<a class="card" href="{url}" target="_blank" rel="noopener"
    data-make="{make}" data-source="{source}" data-url="{url}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
-   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}{new_attr}
+   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}{new_attr}{aero_attr}
    data-title="{title}" data-price-text="{price}" data-loc="{loc}" data-img="{img}">
   <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'">{new_html}<span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
@@ -599,6 +605,10 @@ def render() -> Path:
       <input id="drops-only" type="checkbox" style="vertical-align:middle;">
       Show only listings with recent price drops
     </label>
+    <label style="font-size:12px; color:var(--muted); cursor:pointer;">
+      <input id="aerobatic-only" type="checkbox" style="vertical-align:middle;">
+      Show only aerobatic aircraft ({aero_count})
+    </label>
   </div>
   <div class="chips">
     <span class="chip-row-label">Make:</span>
@@ -703,6 +713,7 @@ def render() -> Path:
   const yearMaxEl = document.getElementById('year-max');
   const dropsOnlyEl = document.getElementById('drops-only');
   const newOnlyEl = document.getElementById('new-only');
+  const aeroOnlyEl = document.getElementById('aerobatic-only');
 
   // Multi-select sets. Empty = no make/source filter (show all).
   // The "All" chip is purely cosmetic — it gets the active class when
@@ -743,6 +754,7 @@ def render() -> Path:
       if (yMax !== null && year > yMax) show = false;
       if (dropsOnlyEl.checked && c.dataset.drop !== '1') show = false;
       if (newOnlyEl.checked && c.dataset.new !== '1') show = false;
+      if (aeroOnlyEl.checked && c.dataset.aerobatic !== '1') show = false;
       if (favView && !favs.has(c.dataset.url)) show = false;
 
       c.classList.toggle('hidden', !show);
@@ -801,7 +813,7 @@ def render() -> Path:
   }}
   wireChipRow('.make-chip');
   wireChipRow('.source-chip');
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl]) {{
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl, aeroOnlyEl]) {{
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
   }}
