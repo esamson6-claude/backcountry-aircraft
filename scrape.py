@@ -23,6 +23,36 @@ def _keep_husky_180_or_c(l: dict) -> bool:
     return bool(re.search(r"\bA-1B\b|\bA-1C\b", blob))
 
 
+# The aerobatic side of the lineage: Decathlon (8KCAB, incl. Super and Xtreme)
+# and Citabria (7ECA/7GCAA/7GCBC/7KCAB). Model numbers are matched as well as
+# names because ads are often titled by designation alone — "2013 AMERICAN
+# CHAMPION 8-KCAB" — and marketplaces write them with or without the hyphen.
+# Scout (8GCBC) and Champ (7AC/7EC) stay under American Champion.
+_DECATHLON_CITABRIA_RE = re.compile(
+    r"DECATH|CITABRIA|8-?KCAB|8CKAB|7-?ECA|7-?GCAA|7-?GCBC|7-?KCAB", re.I
+)
+
+CHAMPION_AEROBATIC_MAKE = "Decathlon / Citabria"
+
+
+def _refine_champion_make(row: dict) -> None:
+    """Split the aerobatic types out of American Champion into their own make.
+
+    The Champion/Bellanca/American Champion lineage is scraped as one make
+    because marketplaces file an airframe under whichever badge it wore, but
+    the Decathlon and Citabria are the types people actually shop for, so they
+    get their own filter chip. Mutates `row` in place.
+    """
+    if row.get("make") != "American Champion":
+        return
+    # Title and model only — NOT description. Dealer ads carry boilerplate like
+    # "American Champion Decathlons, Scouts, Citabrias" in the body, which would
+    # otherwise file every Scout they list under the aerobatic chip.
+    blob = " ".join((row.get(k) or "") for k in ("title", "model"))
+    if _DECATHLON_CITABRIA_RE.search(blob):
+        row["make"] = CHAMPION_AEROBATIC_MAKE
+
+
 def _keep_champion_lineage(l: dict) -> bool:
     """Keep the Champion/Bellanca/American Champion taildragger line.
 
@@ -40,7 +70,7 @@ def _keep_champion_lineage(l: dict) -> bool:
     return bool(
         re.search(
             r"7ECA|7GCAA|7GCBC|7GCB|7KCAB|\b7AC\b|\b7EC\b"
-            r"|8KCAB|8CKAB|8GCBC|CHAMP|CITABRIA|DECATH[AO]L|SCOUT",
+            r"|8KCAB|8CKAB|8GCBC|CHAMP|CITABRIA|DECATH|SCOUT",
             blob,
         )
     )
@@ -1266,6 +1296,7 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
                 continue
             if _is_foreign(row):  # drop non-US listings — this is a US-market site
                 continue
+            _refine_champion_make(row)
             kept.append(row)
         dropped = len(scraped) - len(kept)
         suffix = f" ({dropped} filtered out)" if dropped else ""
