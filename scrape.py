@@ -33,6 +33,11 @@ _DECATHLON_CITABRIA_RE = re.compile(
 )
 
 AEROBATIC_MAKE = "Aerobatic"
+# American Champion's aerobatic line gets its own chip, separate from the
+# unrelated aerobatic types (Pitts, Extra, Christen Eagle...). Citabria and
+# Decathlon are the aerobatic models; Scout (8GCBC) and Champ (7AC/7EC) are
+# utility taildraggers and stay under plain "American Champion".
+AMCHAMP_AEROBATIC_MAKE = "American Champion Aerobatic"
 
 # Any listing whose text mentions aerobatics is FLAGGED aerobatic (a site
 # toggle), but keeps its own make — an aerobatic-capable Stearman still belongs
@@ -47,7 +52,7 @@ _AEROBATIC_NEGATION_RE = re.compile(
 
 def is_aerobatic(row: dict) -> bool:
     """True if this listing should appear under the site's Aerobatic filter."""
-    if row.get("make") == AEROBATIC_MAKE:
+    if row.get("make") in (AEROBATIC_MAKE, AMCHAMP_AEROBATIC_MAKE):
         return True
     blob = " ".join((row.get(k) or "") for k in ("title", "model", "description"))
     if _AEROBATIC_NEGATION_RE.search(blob):
@@ -63,14 +68,17 @@ def _refine_champion_make(row: dict) -> None:
     the Decathlon and Citabria are the types people actually shop for, so they
     get their own filter chip. Mutates `row` in place.
     """
-    if row.get("make") != "American Champion":
+    # Also fires on rows arriving as plain "Aerobatic": the Barnstormers
+    # aerobatic categories carry Decathlons and Citabrias too, and those belong
+    # on the American Champion chip rather than the general one.
+    if row.get("make") not in ("American Champion", AEROBATIC_MAKE):
         return
     # Title and model only — NOT description. Dealer ads carry boilerplate like
     # "American Champion Decathlons, Scouts, Citabrias" in the body, which would
     # otherwise file every Scout they list under the aerobatic chip.
     blob = " ".join((row.get(k) or "") for k in ("title", "model"))
     if _DECATHLON_CITABRIA_RE.search(blob):
-        row["make"] = AEROBATIC_MAKE
+        row["make"] = AMCHAMP_AEROBATIC_MAKE
 
 
 def _keep_champion_lineage(l: dict) -> bool:

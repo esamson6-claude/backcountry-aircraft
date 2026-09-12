@@ -112,8 +112,14 @@ Per-source required keys:
 `_refine_champion_make` relabels the aerobatic types.
 
 **Aerobatic** works two ways, because a listing can only sit under one make chip:
-- `make = "Aerobatic"` for aircraft whose identity is aerobatic (Decathlon,
-  Citabria, Pitts, Extra, Christen Eagle…)
+- `make = "American Champion Aerobatic"` for that marque's aerobatic line —
+  Citabria (7ECA/7GCAA/7GCBC/7KCAB) and Decathlon (8KCAB, incl. Super and
+  Xtreme). Scout (8GCBC) and Champ (7AC/7EC) are utility taildraggers and stay
+  under plain `American Champion`.
+- `make = "Aerobatic"` for unrelated aerobatic types (Pitts, Extra, Waco,
+  Christen Eagle, Chipmunk, Yak…), sourced from Barnstormers' aerobatic tree.
+  `_refine_champion_make` also fires on rows arriving as plain `Aerobatic`,
+  since those categories carry Decathlons and Citabrias too.
 - `is_aerobatic()` + an "Aerobatic only" site toggle flags *any* listing
   mentioning aerobatics while leaving its make alone, so an aerobatic-capable
   Stearman stays under Stearman. It ignores negations — "no aerobatic time" is a
@@ -132,7 +138,7 @@ When a local run collides with a daily cloud commit, resolve **per file**, not w
 
 ## Current status (2026-09-12)
 
-1,004 listings, 999 cards, 143 searches across 8 sources, 33 makes.
+1,004 listings, 999 cards, 143 searches across 8 sources, 34 makes.
 Barnstormers photos are served at medium resolution (151 listings).
 (1,112 before 108 sold/sale-pending ads were filtered out.)
 
