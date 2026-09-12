@@ -8,29 +8,47 @@
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1b-husky/78058-mountain-home-texas-united-states/aviat-a-1b-husky-for-sale-600412": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1b-husky/lake-havasu-city-arizona-united-states/aviat-a-1b-husky-for-sale-602033": {
+    "has_human": false
+  },
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1b-husky/mcallen-texas-united-states/aviat-a-1b-husky-for-sale-601342": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1b-husky/mcallen-texas-united-states/aviat-a-1b-husky-for-sale-601343": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1b-husky/mcallen-texas-united-states/aviat-a-1b-husky-for-sale-601735": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1c-180-husky/mcallen-texas-united-states/aviat-a-1c-180-husky-for-sale-600604": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1c-180-husky/mcallen-texas-united-states/aviat-a-1c-180-husky-for-sale-601527": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1c-180-husky/mcallen-texas-united-states/aviat-a-1c-180-husky-for-sale-601634": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1c-200-husky/mcallen-texas-united-states/aviat-a-1c-200-husky-for-sale-601635": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/aviat/a-1c-200-husky/missoula-montana-united-states/aviat-a-1c-200-husky-for-sale-601803": {
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/bellanca/8kcab/bessemer-alabama-united-states/bellanca-8kcab-for-sale-601785": {
+    "has_human": false
+  },
   "https://aircraftforsale.com/aircraft/single-engine-piston/boeing-stearman/a75n1-pt-17/santa-teresa-nm-88008-usa/boeing-stearman-a75n1-pt-17-for-sale-502501": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/boeing-stearman/b75n1/sagle-idaho-united-states/boeing-stearman-b75n1-for-sale-602008": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/boeing-stearman/pt-17/20654-sw-citrus-blvd-s-indiantown-fl-34956-usa/boeing-stearman-pt-17-for-sale-501495": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/170/97850-la-grande-oregon-united-states/cessna-170-for-sale-601808": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172-skyhawk/texas-united-states/cessna-172-skyhawk-for-sale-601566": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
@@ -39,10 +57,13 @@
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172d-skyhawk/texas-usa/cessna-172d-skyhawk-for-sale-501794": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172h-skyhawk/muscle-shoals-alabama-united-states/cessna-172h-skyhawk-for-sale-601487": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172k-skyhawk/covington-washington-united-states/cessna-172k-skyhawk-for-sale-601740": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172k-skyhawk/livermore-municipal-airport-lvk-680-terminal-cir-livermore-ca-94551-usa/cessna-172k-skyhawk-for-sale-501161": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
@@ -53,20 +74,26 @@
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/97801-pendleton-oregon-united-states/cessna-172m-skyhawk-for-sale-601641": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/98250-friday-harbor-washington-united-states/cessna-172m-skyhawk-for-sale-601757": {
+    "has_human": false
+  },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/arlington-washington-united-states/cessna-172m-skyhawk-for-sale-601662": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172m-skyhawk/san-diego-ca-usa/cessna-172m-skyhawk-for-sale-501038": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172n-skyhawk/85027-phoenix-arizona-united-states/cessna-172n-skyhawk-for-sale-601491": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172n-skyhawk/89423-minden-nevada-united-states/cessna-172n-skyhawk-for-sale-601022": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172n-skyhawk/aviation-drive-northwest-5202-24012-roanoke-virginia-united-states/cessna-172n-skyhawk-for-sale-601665": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172n-skyhawk/shelby-west-parkway-265-35040-calera-alabama-united-states/cessna-172n-skyhawk-for-sale-601742": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172rg-skyhawk/livermore-ca-usa/cessna-172rg-skyhawk-for-sale-501148": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
@@ -75,19 +102,25 @@
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172rg-skyhawk/mcallen-texas-united-states/cessna-172rg-skyhawk-for-sale-601175": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172s-skyhawk/29170-west-columbia-south-carolina-united-states/cessna-172s-skyhawk-for-sale-601731": {
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172s-skyhawk/kennesaw-georgia-united-states/cessna-172s-skyhawk-for-sale-602022": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/172s-skyhawk/united-states/cessna-172s-skyhawk-for-sale-601561": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/180-skywagon/watsonville-ca-usa/cessna-180-skywagon-for-sale-502363": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/180k-skywagon/97850-la-grande-oregon-united-states/cessna-180k-skywagon-for-sale-601403": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/185f-skywagon/mount-vernon-washington-united-states/cessna-185f-skywagon-for-sale-601555": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cessna/206h/baytown-tx-usa/cessna-206h-for-sale-501562": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
@@ -104,29 +137,44 @@
   "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/carbon-cub-ss-cc11-160/double-eagle-ii-airport-7401-atrisco-vista-blvd-albuquerque-nm-87120-usa/cubcrafters-carbon-cub-ss-cc11-160-for-sale-501817": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/carbon-cub-ss/gulf-shores-al-usa/2015-cubcrafters-carbon-cub-ss-for-sale-601733": {
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/carbon-cub-ss/wisconsin-rapids-wi-usa/2014-cubcrafters-carbon-cub-ss-for-sale-601796": {
+    "has_human": false
+  },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/nxcub/mesa-az-usa/2020-cubcrafters-nxcub-for-sale-601251": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/nxcub/phoenix-az-usa/2021-cubcrafters-nxcub-for-sale-601363": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/xcub/85262-scottsdale-arizona-united-states/cubcrafters-xcub-for-sale-601737": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/xcub/breckenridge-tx-76424-usa/2016-cubcrafters-xcub-for-sale-600470": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/cubcrafters/xcub/cokeville-wy-83114-usa/2022-cubcrafters-xcub-for-sale-601630": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/de-havilland/dhc-2-beaver/bridgeport-tx-76426-usa/de-havilland-dhc-2-beaver-for-sale-500218": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/helio/h-391b-courier/fairbanks-ak-usa/helio-h-391b-courier-for-sale-500646": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
+  },
+  "https://aircraftforsale.com/aircraft/single-engine-piston/helio/h-391b-courier/texas-united-states/helio-h-391b-courier-for-sale-601730": {
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/just/superstol/el-centro-ca-usa/just-superstol-for-sale-500008": {
-    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+    "has_human": false
   },
   "https://aircraftforsale.com/aircraft/single-engine-piston/maule/mxt-7-180/77864-madisonville-texas-united-states/maule-mxt-7-180-for-sale-600622": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, "
+  },
+  "https://www.aerotrader.com/listing/-Boeing%2FStearman-PT-13D+KAYDET-5041852613": {
+    "has_human": false
   },
   "https://www.aerotrader.com/listing/-Cessna-172+SKYHAWK-5037867817": {
     "has_human": false
@@ -152,10 +200,31 @@
   "https://www.aerotrader.com/listing/1959-Cessna-172-5040700905": {
     "has_human": false
   },
+  "https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041322052": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041379682": {
+    "has_human": false
+  },
   "https://www.aerotrader.com/listing/1961-Cessna-172-5040430000": {
     "has_human": false
   },
+  "https://www.aerotrader.com/listing/1965-Cessna-172+SKYHAWK-5041511818": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/1965-Cessna-172F+SKYHAWK-5041237098": {
+    "has_human": false
+  },
   "https://www.aerotrader.com/listing/1967-Cessna-172+SKYHAWK-5040937101": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/1969-Cessna-172-5041513440": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/1970-American+Champion-7-ECA+%28PRE+1995%29-5041944381": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/1973-Cessna-A185F-5041802058": {
     "has_human": false
   },
   "https://www.aerotrader.com/listing/1974-Cessna-172M+SKYHAWK-5040117637": {
@@ -164,7 +233,13 @@
   "https://www.aerotrader.com/listing/1977-Cessna-172+HAWK+XP-R172-5040831582": {
     "has_human": false
   },
+  "https://www.aerotrader.com/listing/1980-Cessna-172+HAWK+XP+II-5041817080": {
+    "has_human": false
+  },
   "https://www.aerotrader.com/listing/1980-Cessna-A185F-5031246398": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/1981-Cessna-172P+SKYHAWK-5041681806": {
     "has_human": false
   },
   "https://www.aerotrader.com/listing/1981-Cessna-172RG+CUTLASS-5040753544": {
@@ -174,6 +249,9 @@
     "has_human": false
   },
   "https://www.aerotrader.com/listing/2001-Cessna-172S+SKYHAWK+SP-5039918707": {
+    "has_human": false
+  },
+  "https://www.aerotrader.com/listing/2010-American+Champion-7-GCBC+EXPLORER-5041858817": {
     "has_human": false
   },
   "https://www.aerotrader.com/listing/2010-American+Champion-8-GCBC+SCOUT-5040136267": {
@@ -200,6 +278,9 @@
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/232744125/1980-cessna-a185f-amphibian-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/234016019/2003-piper-super-cub-piston-single-aircraft": {
     "has_human": false
   },
@@ -215,7 +296,19 @@
   "https://www.controller.com/listing/for-sale/237851237/2021-aviat-husky-a-1c-180-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/240633445/2022-cubcrafters-carbon-cub-ex-3-experimental-slash-homebuilt-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/240699223/1997-cessna-172r-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/241281081/1980-cessna-172rg-cutlass-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/241980391/1985-cessna-a185f-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/243498867/2018-cubcrafters-carbon-cub-fx-3-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/244007267/1999-cessna-206h-stationair-piston-single-aircraft": {
@@ -233,7 +326,22 @@
   "https://www.controller.com/listing/for-sale/246025289/1967-cessna-p206-super-skylane-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/246569133/2021-cubcrafters-carbon-cub-fx-3-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/247375095/1977-cessna-u206g-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/247423189/1981-cessna-u206g-stationair-turboprop-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/247913915/1952-piper-super-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/247947209/2019-cubcrafters-carbon-cub-fx-3-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/248628343/1970-cessna-a185e-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/248697255/1980-cessna-u206-amphibian-piston-amphibious-slash-floatplanes": {
@@ -245,6 +353,9 @@
   "https://www.controller.com/listing/for-sale/250041559/1953-piper-super-cub-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/250276483/2016-cubcrafters-xcub-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/250363283/2007-aviat-husky-a-1b-piston-single-aircraft": {
     "has_human": false
   },
@@ -254,19 +365,34 @@
   "https://www.controller.com/listing/for-sale/251221413/1980-cessna-172n-skyhawk-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/251405445/1967-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/251789417/1976-cessna-u206f-stationair-piston-amphibious-slash-floatplanes": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/252336589/1980-cessna-172n-skyhawk-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/252444053/1954-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/252532435/2017-murphy-super-rebel-experimental-slash-homebuilt-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/252565559/2024-cubcrafters-xcub-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/252652755/1954-cessna-170b-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/252750781/1982-cessna-u206g-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/253239271/2007-cubcrafters-cc11-100-sport-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/253429121/2020-cubcrafters-nxcub-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/253586547/1978-cessna-u206-stationair-piston-single-aircraft": {
@@ -281,7 +407,22 @@
   "https://www.controller.com/listing/for-sale/254195533/1999-aviat-husky-a-1b-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/254311915/1977-cessna-r172-hawk-xp-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/254338435/1989-piper-super-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/254492217/2021-cubcrafters-nxcub-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/254619999/1968-cessna-u206-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/254663471/1975-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/254710687/2019-cessna-172s-skyhawk-sp-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/254797729/1982-cessna-172rg-cutlass-piston-single-aircraft": {
@@ -293,16 +434,31 @@
   "https://www.controller.com/listing/for-sale/255053795/2013-aviat-husky-a-1c-180-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/255061757/1973-cessna-a185f-amphibian-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/255069401/2019-cessna-172s-skyhawk-sp-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/255253363/1952-cessna-170b-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/255476023/1984-cessna-172rg-cutlass-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/255532591/1974-cessna-172m-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/255552057/2008-american-champion-7-gcbc-explorer-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/255726711/1986-cessna-u206g-stationair-turboprop-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/255726965/1986-cessna-u206g-stationair-turboprop-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/255832221/1980-cessna-a185f-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/255957485/2011-aviat-husky-a-1c-180-piston-single-aircraft": {
@@ -320,6 +476,9 @@
   "https://www.controller.com/listing/for-sale/256107593/1956-cessna-172-skyhawk-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/256137049/1973-bellanca-citabria-7eca-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/256159869/2013-aviat-husky-a-1c-200-piston-amphibious-slash-floatplanes": {
     "has_human": false
   },
@@ -327,6 +486,9 @@
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/256300061/1967-cessna-p206-super-skylane-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/256359967/1998-american-champion-8-kcab-super-decathlon-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/256460209/2025-aviat-husky-a-1c-180-piston-single-aircraft": {
@@ -347,7 +509,13 @@
   "https://www.controller.com/listing/for-sale/256748973/1962-cessna-172-skyhawk-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/256750171/1956-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/256796107/1950-cessna-170a-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/256841091/2018-cubcrafters-carbon-cub-ex-2-experimental-slash-homebuilt-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/256862447/1990-piper-super-cub-piston-single-aircraft": {
@@ -360,6 +528,9 @@
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/256986993/1977-cessna-u206g-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257161589/1975-cessna-a185f-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/257163303/1962-cessna-172-skyhawk-piston-single-aircraft": {
@@ -386,7 +557,16 @@
   "https://www.controller.com/listing/for-sale/257322151/2000-cessna-172s-skyhawk-sp-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/257340983/2005-cessna-206h-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/257359803/2012-cessna-172s-skyhawk-sp-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257368451/1968-cessna-172-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257371079/2022-cubcrafters-xcub-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/257408697/1983-cessna-u206g-stationair-piston-amphibious-slash-floatplanes": {
@@ -401,6 +581,9 @@
   "https://www.controller.com/listing/for-sale/257595495/1977-cessna-r172-hawk-xp-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/257605589/2023-cubcrafters-carbon-cub-fx-2-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.controller.com/listing/for-sale/257615761/2000-cessna-172s-skyhawk-sp-piston-single-aircraft": {
     "has_human": false
   },
@@ -408,6 +591,9 @@
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/257636257/2000-aviat-husky-a-1b-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257638275/1977-cessna-a185f-piston-single-aircraft": {
     "has_human": false
   },
   "https://www.controller.com/listing/for-sale/257656217/1978-cessna-r172k-ii-piston-single-aircraft": {
@@ -425,22 +611,217 @@
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": {
     "has_human": false
   },
+  "https://www.controller.com/listing/for-sale/257758121/1953-piper-super-cub-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257823645/1957-dehavilland-dhc-2-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257825555/1980-cessna-172rg-cutlass-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257961643/1981-cessna-172p-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/257998251/1980-cessna-r172-hawk-xp-ii-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258024701/2013-american-champion-8-kcab-xtreme-decathlon-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258024977/2022-cubcrafters-carbon-cub-fx-3-experimental-slash-homebuilt-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258160041/1957-dehavilland-dhc-2-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258207517/1978-bellanca-citabria-7eca-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258210817/2021-cubcrafters-xcub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258250179/2015-cubcrafters-carbon-cub-ss-light-sport-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258253953/1953-cessna-170b-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258438469/1965-american-champion-7-eca-citabria-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258500291/1973-cessna-a185f-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258502779/2014-maule-m9-235-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258819357/1971-cessna-a185e-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258889459/2012-cessna-172r-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258904099/1972-bellanca-citabria-7kcab-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258919391/2007-cessna-172s-skyhawk-sp-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258939993/2004-american-champion-7-gcbc-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258983615/1979-bellanca-citabria-7gcbc-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/258994767/1969-cessna-180-floatplane-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259042117/1983-cessna-172p-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259082931/1967-cessna-u206-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259119917/1970-cessna-a185e-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259127077/1957-cessna-172-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259147121/1954-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259164541/2014-cubcrafters-carbon-cub-ss-light-sport-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259182751/2025-aviat-husky-a-1c-200-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259229107/1953-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259312785/1976-cessna-172m-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259317169/1948-cessna-170-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259378969/1978-cessna-180-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259385889/2022-cubcrafters-carbon-cub-fx-2-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259488261/2019-american-champion-7-gcbc-high-country-explorer-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259497425/1947-stinson-108-1-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259501553/1976-cessna-a185f-amphibian-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259543283/2018-aviat-husky-a-1c-180-piston-single-aircraft": {
+    "has_human": true
+  },
+  "https://www.controller.com/listing/for-sale/259547217/1981-cessna-206-turbine-turbine-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259551575/1978-bellanca-decathlon-8kcab-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259613749/1985-cessna-172p-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259660485/1955-piper-super-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259741819/2012-cessna-172s-skyhawk-sp-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259743811/1972-cessna-172l-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259760435/2010-american-champion-7-gcbc-explorer-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259796591/1974-cessna-172m-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259829737/2006-cessna-206h-stationair-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259853439/2011-cubcrafters-cc11-160-carbon-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259890227/2004-american-champion-8-gcbc-scout-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/259925487/1965-cessna-172-skyhawk-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260034125/1979-piper-super-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260109601/2012-wag-aero-sport-trainer-experimental-slash-homebuilt-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260140805/2022-cubcrafters-xcub-piston-amphibious-slash-floatplanes": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260176509/1979-cessna-r172-hawk-xp-ii-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260190979/1946-piper-super-cub-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260228355/2005-american-champion-8-kcab-super-decathlon-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260249953/1976-cessna-a185f-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260252151/1977-cessna-180k-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/260302179/2017-aviat-husky-a-1c-180-piston-single-aircraft": {
+    "has_human": false
+  },
+  "https://www.controller.com/listing/for-sale/34106439/2027-american-champion-8-kcab-xtreme-decathlon-piston-single-aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-EC&listing_id=2457053&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-EC&listing_id=2459260&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2422356&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2447952&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2448606&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2459732&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+%28PRE+1995%29&listing_id=2460069&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-ECA+AURORA&listing_id=2447952&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GC&listing_id=2422870&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GC&listing_id=2459673&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+ADVENTURE&listing_id=2441120&s-type=aircraft": {
@@ -450,6 +831,12 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+ADVENTURE&listing_id=2457224&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+ADVENTURE&listing_id=2457905&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+ADVENTURE&listing_id=2459093&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCAA+CITABRIA&listing_id=2444894&s-type=aircraft": {
@@ -476,10 +863,34 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2455353&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2459840&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2459854&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2412650&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2452450&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2455606&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2456002&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2459379&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2459602&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2459618&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+HIGH+COUNTRY+EXPLORER&listing_id=2459847&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2076211&s-type=aircraft": {
@@ -492,6 +903,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2457379&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2459250&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+DENALI+SCOUT&listing_id=2309488&s-type=aircraft": {
@@ -542,6 +956,15 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2456386&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2459344&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2459983&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2460287&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2076209&s-type=aircraft": {
     "has_human": false
   },
@@ -558,6 +981,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2456539&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+DECATHLON&listing_id=2459246&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2309490&s-type=aircraft": {
@@ -585,6 +1011,21 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2456604&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458177&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458576&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458844&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2458847&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2459788&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2404694&s-type=aircraft": {
@@ -626,16 +1067,37 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2457610&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458104&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458255&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458558&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2458584&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2440673&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2444392&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2447203&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2447550&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2448832&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2450387&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2450741&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2451781&s-type=aircraft": {
@@ -665,16 +1127,115 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2456992&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458221&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458648&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458653&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2458924&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2459201&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2459211&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2459642&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2459738&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1C&listing_id=2460277&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BEARHAWK&model=COMPANION&listing_id=2453591&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BEARHAWK&model=PATROL&listing_id=2453708&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2442442&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2448679&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2452743&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2455908&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2458301&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2458777&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2460124&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCAA&listing_id=2441121&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2427357&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2432218&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2455090&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2456771&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2459016&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7KCAB&listing_id=2424859&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7KCAB&listing_id=2439161&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7KCAB&listing_id=2458934&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2451973&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2454382&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2454727&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2459837&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2460398&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=SUPER+DECATHLON&listing_id=2446607&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=SUPER+DECATHLON&listing_id=2456945&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2411983&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2428619&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2438703&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=A75+N1&listing_id=2455807&s-type=aircraft": {
@@ -692,10 +1253,22 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2453453&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2460171&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=E75&listing_id=2455324&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=E75&listing_id=2460309&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=N2S-1&listing_id=2458040&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-13+KAYDET&listing_id=2455080&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-13D+KAYDET&listing_id=2459805&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2442037&s-type=aircraft": {
@@ -704,7 +1277,13 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2446179&s-type=aircraft": {
     "has_human": true
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17&listing_id=2460016&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-17+KAYDET&listing_id=2433204&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=PT-18+KAYDET&listing_id=2460078&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BUSH+CADDY&model=R80&listing_id=2455058&s-type=aircraft": {
@@ -716,6 +1295,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170&listing_id=2457387&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170&listing_id=2459323&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2395812&s-type=aircraft": {
     "has_human": false
   },
@@ -723,6 +1305,12 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2456248&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2459062&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2449796&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2452310&s-type=aircraft": {
@@ -735,6 +1323,15 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2457388&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2458395&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2459842&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2460302&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2407871&s-type=aircraft": {
@@ -765,6 +1362,15 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2457626&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2458730&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2459598&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2459975&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2444724&s-type=aircraft": {
@@ -812,6 +1418,42 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2457592&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2458536&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2458907&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459038&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459150&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459470&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459678&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459692&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459711&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2459918&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2460245&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2460259&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2460297&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2450491&s-type=aircraft": {
     "has_human": false
   },
@@ -824,10 +1466,25 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2456456&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2457449&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2458796&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2459698&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2460208&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2456381&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2456853&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2459325&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2442221&s-type=aircraft": {
@@ -857,6 +1514,27 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2457189&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2457702&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2457711&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2457881&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2458352&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2458786&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2459414&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+XP&listing_id=2458979&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2448959&s-type=aircraft": {
     "has_human": false
   },
@@ -864,6 +1542,21 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2455507&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2458258&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2458450&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2458460&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2459580&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2440095&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2451586&s-type=aircraft": {
@@ -878,10 +1571,22 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2457109&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2458130&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172B+SKYHAWK&listing_id=2458563&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2455538&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2456611&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2460211&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2460365&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2445493&s-type=aircraft": {
@@ -899,10 +1604,22 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2457475&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2459542&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2459733&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2444069&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2448467&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2452733&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2457842&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2449424&s-type=aircraft": {
@@ -926,6 +1643,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2457066&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2459498&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2460002&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2441349&s-type=aircraft": {
     "has_human": false
   },
@@ -933,6 +1656,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2452728&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2452908&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2453036&s-type=aircraft": {
@@ -956,7 +1682,28 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2457549&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2458047&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2458788&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2458942&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2459571&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2459715&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2459966&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2422000&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2449989&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2452291&s-type=aircraft": {
@@ -977,6 +1724,15 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2457605&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2459089&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2459585&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2460266&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2449411&s-type=aircraft": {
     "has_human": false
   },
@@ -987,6 +1743,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2457419&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2458862&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2406650&s-type=aircraft": {
@@ -1019,6 +1778,18 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2457506&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458416&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458557&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2459175&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2459229&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2409311&s-type=aircraft": {
     "has_human": false
   },
@@ -1032,6 +1803,18 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2456435&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2458041&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2458825&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2459900&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2460134&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2392233&s-type=aircraft": {
@@ -1065,6 +1848,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2447979&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2449699&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2450503&s-type=aircraft": {
@@ -1133,6 +1919,63 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2457589&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2457671&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458061&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458065&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458265&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458586&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458608&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458739&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2458822&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2459489&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2459514&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2459761&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2459940&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2459984&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460094&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460132&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460133&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460340&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460396&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2394935&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2397376&s-type=aircraft": {
     "has_human": false
   },
@@ -1170,6 +2013,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2449247&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2449466&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2454459&s-type=aircraft": {
@@ -1220,6 +2066,63 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2457627&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2457638&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458379&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458424&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458609&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2458818&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459014&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459054&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459219&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459240&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459256&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459433&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459484&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459546&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459690&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459709&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459994&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2460092&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2460102&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2460224&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2454976&s-type=aircraft": {
     "has_human": false
   },
@@ -1230,6 +2133,18 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2456661&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2458909&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2459273&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2459276&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2460126&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172Q+CUTLASS&listing_id=2451572&s-type=aircraft": {
@@ -1251,6 +2166,18 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2457257&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2457745&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2457835&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2459241&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2459274&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2428770&s-type=aircraft": {
@@ -1296,6 +2223,24 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2457541&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2457819&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2458463&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2459207&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2459320&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2459879&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2459936&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2413795&s-type=aircraft": {
@@ -1346,10 +2291,46 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457516&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457869&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2458250&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2458375&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2459051&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2459474&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2459776&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2459939&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2460104&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2460120&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2456758&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2457454&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2458009&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2459017&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2460390&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175&listing_id=2449255&s-type=aircraft": {
@@ -1365,6 +2346,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175A&listing_id=2457252&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175A&listing_id=2459564&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175C&listing_id=2455008&s-type=aircraft": {
@@ -1400,6 +2384,18 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2456630&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2458124&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2459176&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2459277&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2460329&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2451016&s-type=aircraft": {
     "has_human": false
   },
@@ -1412,7 +2408,13 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2456533&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2458159&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180A&listing_id=2456069&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180A&listing_id=2459430&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180C&listing_id=2449630&s-type=aircraft": {
@@ -1430,6 +2432,18 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2456461&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2458962&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2459449&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2459541&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2459643&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180J&listing_id=2454390&s-type=aircraft": {
     "has_human": false
   },
@@ -1437,6 +2451,15 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2454731&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2458111&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2459217&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2459607&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185&listing_id=2436256&s-type=aircraft": {
@@ -1478,7 +2501,13 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2456268&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185E&listing_id=2458706&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2444847&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2452078&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2454400&s-type=aircraft": {
@@ -1502,6 +2531,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2457588&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2458109&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195&listing_id=2456420&s-type=aircraft": {
     "has_human": false
   },
@@ -1523,10 +2555,25 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2457466&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2458087&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2458782&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2459680&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206+STATIONAIR&listing_id=2459919&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2441493&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2447240&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2459613&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2434231&s-type=aircraft": {
@@ -1544,7 +2591,25 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2456728&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2458140&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2458980&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2459517&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2448106&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2458801&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2459170&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185E+SKYWAGON&listing_id=2459529&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2429154&s-type=aircraft": {
@@ -1571,6 +2636,24 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2457081&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2458037&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2458115&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2458523&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2459651&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2459748&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2460353&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P172D&listing_id=2446668&s-type=aircraft": {
     "has_human": false
   },
@@ -1578,6 +2661,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206+SUPER+SKYLANE&listing_id=2457235&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206+SUPER+SKYLANE&listing_id=2458560&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P206B+STATIONAIR&listing_id=2456088&s-type=aircraft": {
@@ -1616,6 +2702,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2446282&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2446285&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2451442&s-type=aircraft": {
     "has_human": false
   },
@@ -1641,6 +2730,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2455922&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2456338&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2456398&s-type=aircraft": {
@@ -1670,7 +2762,46 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457685&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457829&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2458336&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2459224&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2459593&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2459884&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2460035&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2460046&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2460138&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2458686&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2459049&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2459390&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2459497&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2459785&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TP206C&listing_id=2442835&s-type=aircraft": {
@@ -1700,10 +2831,19 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206G&listing_id=2454874&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206G&listing_id=2460236&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206H+TURBO+STATIONAIR&listing_id=2450533&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206&listing_id=2455395&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206&listing_id=2459101&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206&listing_id=2460345&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206C&listing_id=2453419&s-type=aircraft": {
@@ -1721,7 +2861,13 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB&listing_id=2456321&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX&listing_id=2459617&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-2&listing_id=2453977&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-2&listing_id=2456225&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-2&listing_id=2457436&s-type=aircraft": {
@@ -1730,16 +2876,25 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-3&listing_id=2457406&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-3&listing_id=2458459&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX2&listing_id=2456225&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-2&listing_id=2453780&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2445121&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2452925&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2454846&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2455470&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2456226&s-type=aircraft": {
@@ -1749,6 +2904,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2457360&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2460221&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX3&listing_id=2455470&s-type=aircraft": {
@@ -1784,16 +2942,40 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2457116&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2458344&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2458345&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2459105&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2459596&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2460215&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2457595&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2459128&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-180+XCUB&listing_id=2445424&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2452748&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2458407&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2460217&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC393I-215+XCUB&listing_id=2454261&s-type=aircraft": {
@@ -1809,6 +2991,12 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NOT+SPECIFIED&listing_id=2456999&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2457911&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2459200&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2&listing_id=2440183&s-type=aircraft": {
@@ -1853,6 +3041,15 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2456873&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2457837&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2457840&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2458026&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=HELIO&model=H-391B&listing_id=2439248&s-type=aircraft": {
     "has_human": false
   },
@@ -1883,6 +3080,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=IV&listing_id=2456980&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SERIES+5&listing_id=2455853&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SERIES+6&listing_id=2455885&s-type=aircraft": {
     "has_human": false
   },
@@ -1893,6 +3093,12 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2454203&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2458327&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2459657&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-180V&listing_id=2453446&s-type=aircraft": {
@@ -1931,6 +3137,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-235C&listing_id=2456978&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235&listing_id=2458365&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235B&listing_id=2447607&s-type=aircraft": {
     "has_human": false
   },
@@ -1944,6 +3153,9 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2454161&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2456704&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2456997&s-type=aircraft": {
@@ -1964,10 +3176,16 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260C&listing_id=2457211&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-9&listing_id=2458585&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MT-7-235&listing_id=2437548&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MT-7-235&listing_id=2440256&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MT-7-235&listing_id=2459167&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MT-7-260&listing_id=2431556&s-type=aircraft": {
@@ -1991,6 +3209,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180A&listing_id=2434908&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2454359&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180B&listing_id=2459963&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MX-7-180C&listing_id=2457606&s-type=aircraft": {
     "has_human": false
   },
@@ -2003,10 +3227,19 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180&listing_id=2455383&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180&listing_id=2459318&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180A&listing_id=2420073&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180A&listing_id=2451683&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180A&listing_id=2457844&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180A&listing_id=2458495&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180B&listing_id=2456215&s-type=aircraft": {
@@ -2019,6 +3252,12 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-20+RAVEN&listing_id=2457544&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-7+COURIER&listing_id=2458605&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-7+COURIER&listing_id=2459968&s-type=aircraft": {
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108&listing_id=2455077&s-type=aircraft": {
@@ -2042,6 +3281,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=L-5&listing_id=2453509&s-type=aircraft": {
     "has_human": false
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=SR-9C&listing_id=2460350&s-type=aircraft": {
+    "has_human": false
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=V77&listing_id=2429864&s-type=aircraft": {
     "has_human": false
   },
@@ -2052,6 +3294,18 @@
     "has_human": false
   },
   "https://www.trade-a-plane.com/search?category_level1=Turboprop&make=DEHAVILLAND&model=DHC-2T&listing_id=2439795&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?listing_id=2439248&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?listing_id=2453708&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?listing_id=2455377&s-type=aircraft": {
+    "has_human": false
+  },
+  "https://www.trade-a-plane.com/search?listing_id=2459425&s-type=aircraft": {
     "has_human": false
   },
   "https://www.vanbortel.com/cessnas-for-sale/1978-cessna-a185f-n4800q": {
@@ -2069,8 +3323,17 @@
   "https://www.vanbortel.com/cessnas-for-sale/2008-cessna-t206h-n6206x": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64.data: The file format is inv"
   },
+  "https://www.vanbortel.com/cessnas-for-sale/2011-cessna-t206h-ti-bec": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64.data: The file format is inv"
+  },
   "https://www.vanbortel.com/cessnas-for-sale/2017-cessna-t206h-n46vb": {
     "has_human": false
+  },
+  "https://www.vanbortel.com/cessnas-for-sale/2019-cessna-t206h-n317ms": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64.data: The file format is inv"
+  },
+  "https://www.vanbortel.com/cessnas-for-sale/2022-cessna-t206h-n652j": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64.data: The file format is inv"
   },
   "https://www.vanbortel.com/cessnas-for-sale/2022-cessna-t206h-n79bt": {
     "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.0.content.0.image.source.base64.data: The file format is inv"

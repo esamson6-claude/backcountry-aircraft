@@ -23,6 +23,29 @@ def _keep_husky_180_or_c(l: dict) -> bool:
     return bool(re.search(r"\bA-1B\b|\bA-1C\b", blob))
 
 
+def _keep_champion_lineage(l: dict) -> bool:
+    """Keep the Champion/Bellanca/American Champion taildragger line.
+
+    The same designs were badged Champion, then Bellanca, then American
+    Champion, so all three land on one make. Bellanca's own retractable
+    Viking/Cruisair line shares the make name but is not a backcountry
+    airplane — reject it. Spelling variants seen live on Barnstormers:
+    "DECATHALON", and 8KCAB transposed to "8CKAB".
+    """
+    blob = " ".join(
+        [(l.get(k) or "").upper() for k in ("model", "description", "title")]
+    )
+    if re.search(r"VIKING|CRUISAIR|CRUISEMASTER|ARIES|\b14-\d", blob):
+        return False
+    return bool(
+        re.search(
+            r"7ECA|7GCAA|7GCBC|7GCB|7KCAB|\b7AC\b|\b7EC\b"
+            r"|8KCAB|8CKAB|8GCBC|CHAMP|CITABRIA|DECATH[AO]L|SCOUT",
+            blob,
+        )
+    )
+
+
 def _keep_dhc2(l: dict) -> bool:
     """DEHAVILLAND+DHC+SERIES includes DHC-1/2/3/6; keep only DHC-2 Beaver."""
     blob = " ".join(
@@ -109,6 +132,34 @@ def _is_solicitation(l: dict) -> bool:
     return False
 
 
+# Barnstormers files parts, accessories and services INTO the make categories
+# (a Citabria door latch and a ferry-pilot ad both sit under Bellanca), so
+# scraping a make category picks them up alongside the airframes. Scoped to
+# Barnstormers on purpose: the other sources are aircraft-only marketplaces,
+# and Trade-A-Plane titles carry boilerplate ("Get Financing") that trips
+# broad keyword lists.
+_PARTS_RE = re.compile(
+    r"\b(?:ASS(?:Y|EMBLY|EMBLIES)|GAUGE|GOVERNORS?|LATCH|BUSHINGS?|GASKETS?"
+    r"|MAGNETOS?|CARBURETORS?|CYLINDERS?|EXHAUST|MUFFLER|SPINNER|COWLING?"
+    r"|WINDSHIELD|UPHOLSTERY|HEADSETS?|TRANSPONDER|ALTIMETER|ELT|BRACKETS?"
+    r"|FAIRINGS?|WINGS|STRUTS?|ASSYS|SEATS?|TIRES?|BRAKES?|ASSEMBL"
+    r"|MOUNTS?|GEAR\s*LEGS?|ASSEMBLIES|ASSY|SKIS|ASSEM"
+    r"|ENGINE\s*MOUNTS?|SEAPLANE\s*ENGINE|ASSYS?|PARTS)\b",
+    re.I,
+)
+_SERVICE_RE = re.compile(
+    r"\b(?:FERRY\s*PILOT|CFI|FLIGHT\s*INSTRUCT\w*|INSTRUCTION|TRAINING|RIGGING"
+    r"|APPRAISALS?|TITLE\s*SEARCH|ESCROW|PAINT\s*SHOP|RESTORATION\s*SERVICES?)\b",
+    re.I,
+)
+
+
+def _is_parts_or_service(l: dict) -> bool:
+    """True for a parts/accessory/service ad rather than an aircraft."""
+    title = l.get("title") or ""
+    return bool(_PARTS_RE.search(title) or _SERVICE_RE.search(title))
+
+
 # Non-US listings — this project targets the US market. Foreign rows carry a
 # country name (or a Canadian province code like ", QC") in the location, while
 # US rows use "City, ST". We match country names + Canadian province codes only,
@@ -165,6 +216,31 @@ def _keep_cessna_170_175(l: dict) -> bool:
     return bool(re.search(r"\b170[A-C]?\b|\b175[A-C]?\b|SKYLARK", blob))
 
 
+def _keep_cessna_180(l: dict) -> bool:
+    """Keep only Cessna 180 Skywagons — see _keep_cessna_170_175 on why
+    Controller's per-model Cessna URLs need a defensive filter."""
+    blob = " ".join((l.get(k) or "").upper() for k in ("title", "description"))
+    if "CITATION" in blob:
+        return False
+    return bool(re.search(r"\b180[A-K]?\b|SKYWAGON", blob))
+
+
+def _keep_cessna_185(l: dict) -> bool:
+    """Keep only Cessna 185 Skywagons (A185E/A185F carry an A prefix)."""
+    blob = " ".join((l.get(k) or "").upper() for k in ("title", "description"))
+    if "CITATION" in blob:
+        return False
+    return bool(re.search(r"\bA?185[A-F]?\b|SKYWAGON", blob))
+
+
+def _keep_cessna_195(l: dict) -> bool:
+    """Keep only Cessna 195 Businessliners."""
+    blob = " ".join((l.get(k) or "").upper() for k in ("title", "description"))
+    if "CITATION" in blob:
+        return False
+    return bool(re.search(r"\b195[AB]?\b|BUSINESSLINER", blob))
+
+
 def _keep_wilga(l: dict) -> bool:
     """PZL-104 Wilga family (Wilga 35/80, PZL-104MA Wilga 2000, 104MF, 2000 Patrol).
 
@@ -193,15 +269,6 @@ SEARCHES: list[dict] = [
         "module": "scrapers.aircraftforsale",
         "slug": "aviat-husky",
         "sitemap_patterns": ["/aviat/a-1"],
-        "default_model": "Husky",
-        "post_filter": _keep_husky_180_or_c,
-    },
-    {
-        "make": "Aviat Husky",
-        "module": "scrapers.barnstormers",
-        "slug": "aviat-husky",
-        "url": "https://www.barnstormers.com/category-24045-Aviat-Aircraft.html",
-        "ad_keyword": "husky",
         "default_model": "Husky",
         "post_filter": _keep_husky_180_or_c,
     },
@@ -264,8 +331,21 @@ SEARCHES: list[dict] = [
         "sitemap_patterns": ["/cubcrafters/", "/cub-crafters/"],
         "default_model": "CubCrafters",
     },
+    {
+        "make": "CubCrafters",
+        "module": "scrapers.controller",
+        "slug": "cubcrafters",
+        "url": "https://www.controller.com/listings/for-sale/cubcrafters/aircraft",
+        "title_make_pattern": "CUBCRAFTERS",
+        "default_model": "CubCrafters",
+    },
 
-    # ---- American Champion (7GCBC Citabria + 8GCBC Scout) ----
+    # ---- American Champion / Bellanca / Champion (one lineage, one make) ----
+    # Champion built the 7-series, sold it to Bellanca (1970-80), and American
+    # Champion has built it since 1988. Marketplaces file the SAME airframe
+    # under whichever badge it wore, so every badge maps to "American Champion"
+    # and lands on one filter chip. Bellanca's own retractable Viking/Cruisair
+    # line shares the make name and is filtered out by _keep_champion_lineage.
     {
         "make": "American Champion",
         "module": "scrapers.trade_a_plane",
@@ -274,11 +354,63 @@ SEARCHES: list[dict] = [
         "default_model": "American Champion",
     },
     {
+        # Pre-1980 Decathlons/Citabrias live in a SEPARATE Trade-A-Plane result
+        # set under make=BELLANCA — the single biggest gap this config had.
+        "make": "American Champion",
+        "module": "scrapers.trade_a_plane",
+        "slug": "bellanca-champion",
+        "url": "https://www.trade-a-plane.com/filtered/search?make=BELLANCA&s-type=aircraft",
+        "default_model": "Bellanca",
+        "post_filter": _keep_champion_lineage,
+    },
+    {
         "make": "American Champion",
         "module": "scrapers.aircraftforsale",
         "slug": "american-champion",
-        "sitemap_patterns": ["/american-champion/", "/aeronca/", "/champion/"],
+        "sitemap_patterns": ["/american-champion/", "/aeronca/", "/champion/",
+                             "/bellanca/", "/citabria/", "/decathlon/"],
         "default_model": "American Champion",
+        "post_filter": _keep_champion_lineage,
+    },
+    {
+        "make": "American Champion",
+        "module": "scrapers.controller",
+        "slug": "american-champion",
+        "url": "https://www.controller.com/listings/for-sale/american-champion/aircraft",
+        "title_make_pattern": "AMERICAN\\s+CHAMPION",
+        "default_model": "American Champion",
+    },
+    {
+        "make": "American Champion",
+        "module": "scrapers.controller",
+        "slug": "bellanca-champion",
+        "url": "https://www.controller.com/listings/for-sale/bellanca/aircraft",
+        "title_make_pattern": "BELLANCA",
+        "default_model": "Bellanca",
+        "post_filter": _keep_champion_lineage,
+    },
+    {
+        "make": "American Champion",
+        "module": "scrapers.barnstormers",
+        "slug": "american-champion",
+        "urls": [
+            "https://www.barnstormers.com/category-22313-Taildragger--Decathlon.html",
+            "https://www.barnstormers.com/category-22222-Taildragger--American-Champion.html",
+            "https://www.barnstormers.com/category-22245-Taildragger--Bellanca.html",
+            "https://www.barnstormers.com/category-22289-Taildragger--Citabria.html",
+            "https://www.barnstormers.com/category-22283-Taildragger--Champion.html",
+            "https://www.barnstormers.com/category-16973-Bellanca.html",
+            "https://www.barnstormers.com/category-16409-Antique-Classic--American-Champion.html",
+            "https://www.barnstormers.com/category-15849-Aerobatic--Decathlon.html",
+        ],
+        # Regex, not a substring: live ads spell it "DECATHALON" and transpose
+        # 8KCAB to "8CKAB". _keep_champion_lineage does the precise filtering.
+        "ad_pattern": (
+            r"CHAMP|CITABRIA|DECATH|SCOUT|BELLANCA|AERONCA"
+            r"|7ECA|7GCAA|7GCBC|7GCB|7KCAB|7AC|7EC|8KCAB|8CKAB|8GCBC"
+        ),
+        "default_model": "American Champion",
+        "post_filter": _keep_champion_lineage,
     },
 
     # ---- Bearhawk (LSA + Patrol) ----
@@ -294,16 +426,6 @@ SEARCHES: list[dict] = [
         "module": "scrapers.aircraftforsale",
         "slug": "bearhawk",
         "sitemap_patterns": ["/bearhawk/"],
-        "default_model": "Bearhawk",
-    },
-    {
-        # Barnstormers is the primary marketplace for homebuilt/experimental
-        # aircraft like Bearhawk. Category 18715 is the dedicated Bearhawk page.
-        "make": "Bearhawk",
-        "module": "scrapers.barnstormers",
-        "slug": "bearhawk",
-        "url": "https://www.barnstormers.com/category-18715-Experimental--Bearhawk.html",
-        "ad_keyword": "bearhawk",
         "default_model": "Bearhawk",
     },
     {
@@ -438,6 +560,15 @@ SEARCHES: list[dict] = [
         "sitemap_patterns": ["/cessna/180"],
         "default_model": "180",
     },
+    {
+        "make": "Cessna 180",
+        "module": "scrapers.controller",
+        "slug": "cessna-180",
+        "url": "https://www.controller.com/listings/for-sale/cessna/180/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "180",
+        "post_filter": _keep_cessna_180,
+    },
 
     # ---- Cessna 185 ----
     {
@@ -453,6 +584,15 @@ SEARCHES: list[dict] = [
         "slug": "cessna-185",
         "sitemap_patterns": ["/cessna/185"],
         "default_model": "185",
+    },
+    {
+        "make": "Cessna 185",
+        "module": "scrapers.controller",
+        "slug": "cessna-185",
+        "url": "https://www.controller.com/listings/for-sale/cessna/185/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "185",
+        "post_filter": _keep_cessna_185,
     },
     {
         "make": "Cessna 185",
@@ -476,6 +616,15 @@ SEARCHES: list[dict] = [
         "slug": "cessna-195",
         "sitemap_patterns": ["/cessna/195", "/cessna/190"],
         "default_model": "195",
+    },
+    {
+        "make": "Cessna 195",
+        "module": "scrapers.controller",
+        "slug": "cessna-195",
+        "url": "https://www.controller.com/listings/for-sale/cessna/195/aircraft",
+        "title_make_pattern": "CESSNA",
+        "default_model": "195",
+        "post_filter": _keep_cessna_195,
     },
 
     # ---- Just Aircraft (Highlander + SuperSTOL) ----
@@ -509,6 +658,14 @@ SEARCHES: list[dict] = [
         "sitemap_patterns": ["/kitfox/"],
         "default_model": "Kitfox",
     },
+    {
+        "make": "Kitfox",
+        "module": "scrapers.controller",
+        "slug": "kitfox",
+        "url": "https://www.controller.com/listings/for-sale/kitfox/aircraft",
+        "title_make_pattern": "KITFOX",
+        "default_model": "Kitfox",
+    },
 
     # ---- Stinson 108 ----
     {
@@ -523,6 +680,14 @@ SEARCHES: list[dict] = [
         "module": "scrapers.aircraftforsale",
         "slug": "stinson-108",
         "sitemap_patterns": ["/stinson/108"],
+        "default_model": "Stinson 108",
+    },
+    {
+        "make": "Stinson 108",
+        "module": "scrapers.controller",
+        "slug": "stinson-108",
+        "url": "https://www.controller.com/listings/for-sale/stinson/aircraft",
+        "title_make_pattern": "STINSON",
         "default_model": "Stinson 108",
     },
 
@@ -541,6 +706,17 @@ SEARCHES: list[dict] = [
         "slug": "dhc-2",
         "sitemap_patterns": ["/havilland/dhc-2", "/de-havilland/dhc-2", "/dhc-2/"],
         "default_model": "DHC-2",
+    },
+    {
+        # Controller files every de Havilland together — Tiger Moth, Chipmunk,
+        # Otter — so _keep_dhc2 narrows it to Beavers.
+        "make": "DHC-2 Beaver",
+        "module": "scrapers.controller",
+        "slug": "dhc-2-beaver",
+        "url": "https://www.controller.com/listings/for-sale/dehavilland/aircraft",
+        "title_make_pattern": "DEHAVILLAND",
+        "default_model": "DHC-2",
+        "post_filter": _keep_dhc2,
     },
 
     # ---- Helio Courier ----
@@ -869,6 +1045,10 @@ SEARCHES: list[dict] = [
     {"make": "American Champion", "module": "scrapers.aerotrader", "slug": "american-champion",
      "at_make": "American Champion",
      "at_patterns": ["american-champion", "american+champion"], "default_model": "American Champion"},
+    {"make": "American Champion", "module": "scrapers.aerotrader", "slug": "bellanca-champion",
+     "at_make": "Bellanca",
+     "at_patterns": ["bellanca"], "default_model": "Bellanca",
+     "post_filter": _keep_champion_lineage},
     {"make": "Bearhawk", "module": "scrapers.aerotrader", "slug": "bearhawk",
      "at_make": "Other",
      "at_patterns": ["bearhawk"], "default_model": "Bearhawk"},
@@ -941,6 +1121,91 @@ SEARCHES: list[dict] = [
      "post_filter": _keep_wilga},
 ]
 
+
+# ---------------------------------------------------------------------------
+# Barnstormers: one entry per make, several categories each.
+#
+# Barnstormers cross-files the same airframe under a manufacturer category, an
+# Antique-Classic category and a Taildragger category, so a make needs all of
+# them; scrapers.barnstormers dedupes by listing id across a search's pages.
+# Kept as a table rather than 27 hand-written dicts — the only thing that
+# varies per make is (categories, title pattern, post-filter).
+#
+# `ad_pattern` is a regex because Barnstormers ad titles are free text written
+# by sellers: misspellings ("DECATHALON") and transposed model codes ("8CKAB")
+# are routine, and an exact substring test silently drops those airframes.
+# ---------------------------------------------------------------------------
+_BARNSTORMERS: list[tuple] = [
+    ("Aviat Husky", ["24045-Aviat-Aircraft", "22370-Taildragger--Husky"],
+     r"HUSKY", _keep_husky_180_or_c, "Husky"),
+    ("Bearhawk", ["18715-Experimental--Bearhawk", "22240-Taildragger--Bearhawk"],
+     r"BEARHAWK", None, "Bearhawk"),
+    ("BushCaddy", ["18731-Experimental--BushCaddy", "22257-Taildragger--BushCaddy"],
+     r"BUSH\s*CADDY", None, "BushCaddy"),
+    ("Cessna 170/175", ["17384-Cessna--C-170-Taildragger", "22267-Taildragger--C-170-Taildragger", "16437-Antique-Classic--C-170-Taildragger"],
+     r"\b17[05]\b", _keep_cessna_170_175, "170"),
+    ("Cessna 172", ["17385-Cessna--C-172", "17388-Cessna--C-172-Skyhawk", "17390-Cessna--C-172-Taildragger", "22268-Taildragger--C-172-Taildragger", "16438-Antique-Classic--C-172-Taildragger"],
+     r"\b172\b|SKYHAWK", None, "172"),
+    ("Cessna 180", ["17394-Cessna--C-180", "17396-Cessna--C-180-Skywagon", "22269-Taildragger--C-180-Skywagon", "16439-Antique-Classic--C-180-Skywagon"],
+     r"\b180\b|SKYWAGON", None, "180"),
+    ("Cessna 185", ["17400-Cessna--C-185", "17401-Cessna--C-185-Skywagon", "22270-Taildragger--C-185", "22271-Taildragger--C-185-Skywagon", "16441-Antique-Classic--C-185"],
+     r"\bA?185\b|SKYWAGON", None, "185"),
+    ("Cessna 195", ["17404-Cessna--C-195", "22274-Taildragger--C-195", "16443-Antique-Classic--C-195"],
+     r"\b195\b", None, "195"),
+    ("Cessna 205/206/207", ["17406-Cessna--C-206", "17495-Cessna--U206-Skywagon"],
+     r"\b20[567]\b|STATIONAIR", None, "206"),
+    ("Cessna L-19 Bird Dog", ["17459-Cessna--L-19-305A-Bird-Dog", "22391-Taildragger--L-19-305A-Bird-Dog", "16505-Antique-Classic--L-19-Bird-Dog"],
+     r"L-?19|BIRD\s*DOG|305A", _keep_bird_dog, "L-19"),
+    ("CubCrafters", ["17975-CubCrafters", "22298-Taildragger--CubCrafters", "18741-Experimental--Carbon-Cub-EX"],
+     r"CUB\s*CRAFTERS|CARBON\s*CUB|NXCUB|SPORT\s*CUB|CC1[189]", None, "CubCrafters"),
+    ("DHC-2 Beaver", ["18025-de-Havilland--DHC-2-Beaver", "22315-Taildragger--DHC-2-Beaver", "16469-Antique-Classic--DHC-2-Beaver"],
+     r"DHC-?2|BEAVER", _keep_dhc2, "DHC-2 Beaver"),
+    ("Found Bush Hawk", ["22254-Taildragger--Bush-Hawk"],
+     r"BUSH\s*HAWK|FOUND", None, "Bush Hawk"),
+    ("Glasair Sportsman 2+2", ["19418-Glasair", "19011-Experimental--Sportsman", "22514-Taildragger--Sportsman"],
+     r"SPORTSMAN|GLASAIR", None, "Sportsman 2+2"),
+    ("Helio Courier", ["16495-Antique-Classic--Helio", "22363-Taildragger--Helio"],
+     r"HELIO|COURIER", None, "Helio Courier"),
+    ("ICP Savannah", ["18974-Experimental--Savannah"],
+     r"SAVANNAH|\bICP\b", None, "Savannah"),
+    ("Just Aircraft", ["18860-Experimental--Just-Aircraft", "22379-Taildragger--Just-Aircraft"],
+     r"JUST\s*AIRCRAFT|SUPERSTOL|SUPER\s*STOL|HIGHLANDER", None, "Just Aircraft"),
+    ("Kitfox", ["18865-Experimental--Kitfox", "22384-Taildragger--Kitfox"],
+     r"KIT\s*FOX", None, "Kitfox"),
+    ("Maule", ["20575-Maule", "22404-Taildragger--Maule", "16510-Antique-Classic--Maule"],
+     r"MAULE", None, "Maule"),
+    ("Murphy Rebel", ["18901-Experimental--Murphy", "22418-Taildragger--Murphy"],
+     r"MURPHY|REBEL|MOOSE", None, "Rebel"),
+    ("Piper PA-18 Super Cub", ["21196-Piper--PA-18-Super-Cub", "21249-Piper--Super-Cub", "22437-Taildragger--PA-18-Super-Cub", "22530-Taildragger--Super-Cub", "16529-Antique-Classic--PA-18-Super-Cub", "16538-Antique-Classic--Piper-Super-Cub"],
+     r"PA-?18|SUPER\s*CUB", _keep_pa18, "PA-18 Super Cub"),
+    ("Rans", ["21686-Rans", "18956-Experimental--Rans", "22472-Taildragger--Rans"],
+     r"\bRANS\b|\bS-?(?:6|7|20)\b", _keep_rans_s6_s7_s20, "Rans"),
+    ("Stearman", ["19018-Experimental--Stearman", "22521-Taildragger--Stearman", "16567-Antique-Classic--Stearman"],
+     r"STEARMAN|PT-?1[37]|KAYDET", None, "Stearman"),
+    ("Stinson 108", ["16568-Antique-Classic--Stinson", "22523-Taildragger--Stinson"],
+     r"STINSON|\b108\b", None, "Stinson 108"),
+    ("Wag-Aero Sportsman 2+2", ["19077-Experimental--Wag-Aero", "22563-Taildragger--Wag-Aero"],
+     r"WAG-?\s*AERO", None, "Sportsman 2+2"),
+    ("Wilga", ["22567-Taildragger--Wilga"],
+     r"WILGA|\bPZL\b", _keep_wilga, "Wilga"),
+    ("Zenith", ["19092-Experimental--Zenith", "22573-Taildragger--Zenith"],
+     r"ZENITH|CH-?7[05]1|CH-?801", _keep_zenith_701_750_801, "Zenith"),
+]
+
+for _make, _cats, _pat, _filt, _model in _BARNSTORMERS:
+    SEARCHES.append(
+        {
+            "make": _make,
+            "module": "scrapers.barnstormers",
+            "slug": _make.lower().replace(" ", "-").replace("/", "-").replace("+", ""),
+            "urls": [f"https://www.barnstormers.com/category-{c}.html" for c in _cats],
+            "ad_pattern": _pat,
+            "default_model": _model,
+            **({"post_filter": _filt} if _filt else {}),
+        }
+    )
+
+
 FIELDS = [
     "source",
     "make",
@@ -995,6 +1260,9 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
             if filt is not None and not filt(row):
                 continue
             if _is_solicitation(row):  # drop "Wanted/WTB/ISO" buy-side ads
+                continue
+            # Barnstormers mixes parts/services into make categories.
+            if row.get("source") == "barnstormers" and _is_parts_or_service(row):
                 continue
             if _is_foreign(row):  # drop non-US listings — this is a US-market site
                 continue

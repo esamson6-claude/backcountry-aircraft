@@ -303,13 +303,12 @@ def render() -> Path:
     skipped_no_image = 0
     skipped_human = 0
     for r in rows:
-        # Skip listings that have no thumbnail — the grid only shows
-        # picture-bearing cards. (Most listings without an image come from
-        # Aviat factory or Barnstormers, where the scraper can't find a
-        # usable thumbnail from the search/category page.)
+        # Listings with no thumbnail still get a card, using PLACEHOLDER_IMG.
+        # Barnstormers ads — the main homebuilt/experimental marketplace — are
+        # routinely text-only, so hiding them dropped real aircraft (Bellanca
+        # Decathlons, Champion 7ECs) from the site entirely.
         if not (r.get("image_url") or "").strip():
             skipped_no_image += 1
-            continue
 
         # Skip listings whose thumbnail is a person photo (broker headshot etc.),
         # as classified by image_filter.py (keyed by listing URL).
@@ -329,7 +328,7 @@ def render() -> Path:
         source = html.escape(r.get("source") or "")
         make = html.escape(r.get("make") or "Unknown")
         url = html.escape(r.get("url") or "#", quote=True)
-        img = html.escape(r.get("image_url"), quote=True)
+        img = html.escape(r.get("image_url") or "", quote=True) or PLACEHOLDER_IMG
         first_seen = html.escape(r.get("first_seen") or "")
 
         # Numeric data attributes for sort/filter
@@ -546,7 +545,7 @@ def render() -> Path:
 <header>
   <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
     <div>
-      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_no_image - skipped_human}</span> shown</h1>
+      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_human}</span> shown</h1>
       <div class="subhead">Updated {date.today().isoformat()} · click any card to open the listing</div>
     </div>
     <div style="display:flex; gap:8px; align-items:center;">

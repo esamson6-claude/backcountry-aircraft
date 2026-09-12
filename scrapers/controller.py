@@ -33,7 +33,15 @@ BASE = "https://www.controller.com"
 SOURCE = "controller"
 SCRAPINGBEE_ENDPOINT = "https://app.scrapingbee.com/api/v1/"
 
-_INTERSTITIAL_RE = re.compile(r"Pardon Our Interruption", re.I)
+# Controller sits behind two different challenge systems: Imperva ("Pardon Our
+# Interruption") and Cloudflare ("Just a moment..."). Both return HTTP 200 with
+# a page that parses to zero listings, so a challenge that isn't recognised here
+# looks exactly like "this make has no aircraft for sale" — the listings then
+# silently disappear from the CSV.
+_INTERSTITIAL_RE = re.compile(
+    r"Pardon Our Interruption|Just a moment|Checking your browser|cf-browser-verification",
+    re.I,
+)
 
 
 def _fetch_via_scrapingbee(url: str) -> str | None:
@@ -128,12 +136,15 @@ def scrape(search: dict) -> list[Listing]:
                 "in .env to enable this source (free trial at scrapingbee.com)",
                 file=sys.stderr,
             )
-        else:
-            print(
-                "  [controller] all fetchers failed — check ScrapingBee credits",
-                file=sys.stderr,
-            )
-        return []
+            return []
+        # Key is set, so this is a real failure (challenge page or exhausted
+        # credits), not an unconfigured source. Raise rather than returning []:
+        # an empty list reads as "no listings for this make" and would drop
+        # every previously-seen aircraft, while ScraperFailure makes scrape.py
+        # carry the previous rows forward — same contract Trade-A-Plane uses.
+        raise ScraperFailure(
+            f"Controller fetch failed for {url} (bot challenge or credits)"
+        )
 
     save_raw(f"{SOURCE}_{search['slug']}", html)
 

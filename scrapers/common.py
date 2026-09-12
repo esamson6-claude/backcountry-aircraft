@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import os
 import re
+from datetime import date
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Optional
@@ -346,9 +347,25 @@ def first_price(text: str) -> Optional[str]:
     return m.group(0) if m else None
 
 
+# Oldest airframe this site tracks is a 1930s Stearman; anything earlier in a
+# listing is not a model year.
+_YEAR_MIN = 1920
+
+
 def first_year(text: str) -> Optional[int]:
-    m = _YEAR_RE.search(text or "")
-    return int(m.group(0)) if m else None
+    r"""First plausible aircraft model year in `text`.
+
+    Barnstormers ad copy is free-form, so a bare (?:19|20)\d{2} match also hits
+    phone numbers, serial numbers and prices — real examples seen live: "2068",
+    "2060". Skip anything outside the range an airframe can actually carry
+    (next model year is allowed; new aircraft are sold ahead of the calendar).
+    """
+    cap = date.today().year + 1
+    for m in _YEAR_RE.finditer(text or ""):
+        year = int(m.group(0))
+        if _YEAR_MIN <= year <= cap:
+            return year
+    return None
 
 
 def save_raw(name: str, html: str) -> None:
