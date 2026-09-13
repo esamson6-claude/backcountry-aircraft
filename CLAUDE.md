@@ -103,6 +103,18 @@ Per-source required keys:
   Trade-A-Plane embeds "Get Financing" in listing titles.
 - **`generate_html.py` renders every listing**, using `PLACEHOLDER_IMG` when there's
   no photo. It used to skip photo-less listings, which hid all of Barnstormers.
+- **Don't hand-edit `data/listings.csv`.** `scrape.py` rebuilds it from what the
+  current run actually returned, so a listing that disappears from a source is
+  dropped automatically — that self-healing is the only thing keeping dead ads
+  off the site. Editing or merging the CSV directly bypasses it and strands rows
+  the pipeline would have removed (it once left 10 dead Barnstormers ads live,
+  all with a stale `last_seen`). If a source needs refreshing, re-run its
+  searches and rebuild that source's rows from the result.
+- **Barnstormers serves dead ads.** Its category pages keep listing ads after
+  the seller pulls them ("Sorry, this ad is not presently available"), so ~0.3%
+  of freshly-scraped listings are already dead. Verifying each ad would cost
+  ~300 requests a run to catch one, and would not help with the bigger window —
+  ads die between daily runs regardless. Left alone on purpose.
 - **Model-designation regexes need care.** `DECATH[AO]L` matches the misspelling
   "DECATHALON" but *not* the correct "DECATHLON".
 - **`_is_sold` is case-sensitive on purpose.** Status markers are shouted
@@ -143,7 +155,7 @@ When a local run collides with a daily cloud commit, resolve **per file**, not w
 
 ## Current status (2026-09-12)
 
-1,004 listings, 999 cards, 143 searches across 8 sources, 34 makes.
+997 listings, 992 cards, 143 searches across 8 sources, 34 makes.
 Barnstormers photos are served at medium resolution; 190 of 307 listings
 have one (the rest are genuinely text-only ads).
 (1,112 before 108 sold/sale-pending ads were filtered out.)
