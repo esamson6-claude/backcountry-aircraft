@@ -237,7 +237,11 @@ _PARTS_RE = re.compile(
     # Airframe components. NOTE "COWLS?|COWLINGS?" — the earlier "COWLING?"
     # matched COWLIN/COWLING but never the bare "COWL" it was meant to catch.
     r"|LENS|WINDOWS?|DOORS?|CONE|STINGER|TAILSPRING|SPRINGS?|VALVES?|TANKS?"
-    r"|COLUMNS?|COWLS?|COWLINGS?|INTAKE|SHOCKS?|WHEELS?|WINGS?|WINGTIPS?"
+    r"|COLUMNS?|COWLS?|COWLINGS?|INTAKE|SHOCKS?|WHEELS?|WINGTIPS?"
+    # WING only in parts constructions. A bare \bWINGS?\b also matched
+    # "48 Cessna 170 rag wing" — a fabric-winged 170, i.e. an aircraft. Hiding
+    # a real airplane is worse than letting one stray wing through.
+    r"|WINGS|(?:RIGHT|LEFT|LH|RH)\s+WING|WING\s+(?:CORES?|TIPS?|KITS?|SPARS?|RIBS?)"
     r"|LANDING\s+GEAR|PONTOONS?|BAFFLES?|FIREWALL|BOOTS?|YOKES?|STARTER"
     r"|ALTERNATOR|BATTERY|RADIOS?|ANTENNAS?|SKYLIGHT|FLOATS?|NOS)\b",
     re.I,

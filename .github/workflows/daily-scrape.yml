@@ -54,5 +54,21 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Daily update: $(date -u +%Y-%m-%d)"
-            git push
+            # Rebase before pushing. A run takes over an hour, and any push to
+            # main during that window made this step fail and threw the whole
+            # scrape away — 91 minutes of work and the ScrapingBee spend with
+            # it. Data and docs are regenerated wholesale each run, so keeping
+            # this run's version on conflict is correct.
+            #
+            # -X theirs, NOT -X ours: during a rebase the sides are inverted.
+            # "ours" is the upstream being replayed onto, "theirs" is the commit
+            # being replayed — i.e. this run's data. -X ours would throw away
+            # the very scrape this step exists to publish.
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && exit 0
+              echo "push attempt $attempt failed; retrying"
+              sleep 10
+            done
+            echo "::error::could not push after 3 attempts"
+            exit 1
           fi

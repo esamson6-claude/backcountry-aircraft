@@ -252,37 +252,26 @@ git pull --ff-only  # the job may have committed while you worked
 git push
 ```
 
-**Never push while a scrape run is in progress.** The workflow ends in a plain
-`git push` with no pull or rebase, so your push makes its push fail and that
-day's refresh is lost. Check `gh run list` first.
+**Check `gh run list` before pushing.** The workflow now rebases before it
+pushes (`git pull --rebase -X theirs`, 3 attempts), so a mid-run push no longer
+destroys the scrape — but a run still takes over an hour, and racing it is
+pointless. Note `-X theirs` is correct despite reading backwards: during a
+rebase "ours" is the upstream being replayed onto and "theirs" is the commit
+being replayed, i.e. the run's own data.
 
 ## Current status (2026-09-13)
 
-~967 listings across 143 searches, 8 sources, 34 makes.
+931 listings across 143 searches, 8 sources, 34 makes. Working tree clean and
+everything pushed.
 
-**Unfinished, pick up here:** one local commit (`d202e19`, hide photo-less
-listings behind a toggle) is committed but NOT pushed, because a manually
-dispatched scrape (`gh run view 34758422425`) was still running and pushing
-would have killed its commit. To finish:
+**Known-good baseline.** The nightly job now rebases before pushing — a manual
+run on 2026-09-13 scraped for 91 minutes and then lost all of it because a push
+to `main` landed mid-run and its plain `git push` was rejected. That is fixed,
+but the underlying caution stands: a run takes over an hour, so check
+`gh run list` before pushing.
 
-1. Confirm the run finished: `gh run list --workflow="Daily listings refresh" --limit 3`
-2. `git pull` its data commit
-3. Re-apply the parts filter to the pulled data — commit `bddf20f` widened it
-   (cowl/wing/wheel/tank/"parting out"), and that run scraped with the older
-   code, so ~40 Barnstormers parts ads will be in its output:
-   ```bash
-   .venv/bin/python -c "
-   import csv, scrape
-   from pathlib import Path
-   p=Path('data/listings.csv'); rows=list(csv.DictReader(p.open())); f=list(rows[0].keys())
-   keep=[r for r in rows if not (r['source']=='barnstormers' and scrape._is_parts_or_service(r))]
-   print(len(rows),'->',len(keep))
-   import csv as c
-   w=c.DictWriter(p.open('w',newline=''),fieldnames=f); w.writeheader(); w.writerows(keep)"
-   ```
-4. `.venv/bin/python generate_html.py`, then commit data + docs and push.
-
-That run is also the first full cloud exercise of the new configuration — worth
-reading its log for the Trade-A-Plane failure count (the retry fix should cut it
-sharply) and the ScrapingBee credit spend against the 8000 budget.
+**Worth watching on the next run:** the Trade-A-Plane retry fix trades time for
+success — a failing search now retries roughly 4x longer before giving up, which
+took the run from ~45 to ~91 minutes. If runs keep growing, cap the retry budget
+per URL rather than reverting the fix.
 
