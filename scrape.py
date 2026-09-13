@@ -233,7 +233,13 @@ _PARTS_RE = re.compile(
     # Deliberately NOT "ENGINE" on its own ("Cessna 180, Fresh Engine" is an
     # aircraft), nor "TAILWHEEL" ("Yak 52 Tailwheel" is an aircraft), nor
     # "MT-\d" (the Maule MT-7 is a model).
-    r"|PROPELLERS?|PROPS?|INSTRUMENT\s+PANEL|CHECKOUTS?)\b",
+    r"|PROPELLERS?|PROPS?|INSTRUMENT\s+PANEL|CHECKOUTS?"
+    # Airframe components. NOTE "COWLS?|COWLINGS?" — the earlier "COWLING?"
+    # matched COWLIN/COWLING but never the bare "COWL" it was meant to catch.
+    r"|LENS|WINDOWS?|DOORS?|CONE|STINGER|TAILSPRING|SPRINGS?|VALVES?|TANKS?"
+    r"|COLUMNS?|COWLS?|COWLINGS?|INTAKE|SHOCKS?|WHEELS?|WINGS?|WINGTIPS?"
+    r"|LANDING\s+GEAR|PONTOONS?|BAFFLES?|FIREWALL|BOOTS?|YOKES?|STARTER"
+    r"|ALTERNATOR|BATTERY|RADIOS?|ANTENNAS?|SKYLIGHT|FLOATS?|NOS)\b",
     re.I,
 )
 _SERVICE_RE = re.compile(
@@ -302,9 +308,21 @@ def _is_not_a_specific_aircraft(l: dict) -> bool:
     return bool(year and year > date.today().year)
 
 
+# An aircraft can be "on floats" / "on amphib floats" — a $99,000 Murphy Rebel
+# On Amphib Floats is an airplane, while "Murphy 1800A Floats" is a float set.
+_ON_FLOATS_RE = re.compile(r"\bON\s+(?:\w+\s+){0,2}FLOATS?\b", re.I)
+# Phrases that only ever appear in a parts ad, worth reading the description
+# for: a $123 "Extra 300L" turns out to be "Parting out Extra 300L fuselage...".
+_PARTING_RE = re.compile(r"\bPARTING\s+OUT\b|\bNEW\s+OLD\s+STOCK\b", re.I)
+
+
 def _is_parts_or_service(l: dict) -> bool:
     """True for a parts/accessory/service ad rather than an aircraft."""
     title = l.get("title") or ""
+    if _PARTING_RE.search(f"{title} {l.get('description') or ''}"):
+        return True
+    if _ON_FLOATS_RE.search(title):
+        return False
     # Barnstormers slugs collapse spaces, so "Bucker Jungmann Jungmeister parts"
     # arrives as "Buckerjungmannjungmeisteparts" — no word boundary to anchor on.
     if re.search(r"PARTS?|PARTS$", title, re.I) or title.upper().endswith("PARTS"):
