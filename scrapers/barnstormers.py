@@ -69,6 +69,38 @@ _THUMB_RE = re.compile(
     re.S,
 )
 
+# A featured ad renders on the category page as a bare text link — no thumbnail
+# markup at all — so unlike a classified its photo can only come from the ad's
+# own gallery page. Worth the extra request: ~90% of featured ads have photos,
+# whereas a classified with no thumbtable genuinely has none (measured), so we
+# never fetch galleries for those.
+_GALLERY_IMG_RE = re.compile(
+    r"https://barnstormers\.s3\.amazonaws\.com/media/listing_images/medium/[^\"'\s>]+"
+)
+# One featured ad appears in several categories, so cache per run.
+_gallery_cache: dict[str, str | None] = {}
+
+
+def _gallery_image(ad_id: str) -> str | None:
+    """First medium-resolution photo from a featured ad's gallery page."""
+    if ad_id in _gallery_cache:
+        return _gallery_cache[ad_id]
+    result = None
+    try:
+        page = requests.get(
+            f"https://www.barnstormers.com/listing_images.php?id={ad_id}",
+            headers={"User-Agent": UA},
+            timeout=30,
+        ).text
+        m = _GALLERY_IMG_RE.search(page)
+        if m:
+            result = m.group(0)
+    except requests.RequestException:
+        pass  # a missing photo is not worth failing the whole category over
+    _gallery_cache[ad_id] = result
+    return result
+
+
 def _medium_image(url: str) -> str:
     """Rewrite a Barnstormers thumbnail URL to its medium-resolution twin."""
     return url.replace("/thumbnail/", "/medium/").replace(
@@ -121,6 +153,7 @@ def _parse_category(
                 price=first_price(ctx_window),
                 title=title,
                 description=ctx_window[:500],
+                image_url=_gallery_image(ad_id),
                 engine=extract_engine(ctx_window, default_model),
                 engine_time=extract_engine_time(ctx_window),
             )

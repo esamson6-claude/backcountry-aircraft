@@ -84,6 +84,11 @@ Per-source required keys:
   the **thumbnail** image size (~2-4 KB, visibly blurry at card width); the same
   photo exists at **medium** (~70 KB) under a parallel path with the same id and
   timestamp, so `_medium_image()` derives it without fetching the gallery page.
+  **Featured ads are different**: they render as a bare text link with no image
+  markup at all, so `_gallery_image()` fetches `listing_images.php?id=<adid>`
+  for those (cached per run; one featured ad appears in several categories).
+  Measured: ~90% of featured ads have photos, but a classified with no
+  thumbtable genuinely has none — so never spend requests on those.
 - **aviat / vanbortel / aircraft.com** — single-dealer sites, a handful of listings
   each. Low counts are correct, not a bug.
 
@@ -139,7 +144,8 @@ When a local run collides with a daily cloud commit, resolve **per file**, not w
 ## Current status (2026-09-12)
 
 1,004 listings, 999 cards, 143 searches across 8 sources, 34 makes.
-Barnstormers photos are served at medium resolution (151 listings).
+Barnstormers photos are served at medium resolution; 190 of 307 listings
+have one (the rest are genuinely text-only ads).
 (1,112 before 108 sold/sale-pending ads were filtered out.)
 
 **Trade-A-Plane reliability** was the largest coverage gap (a third of searches
