@@ -165,17 +165,124 @@ When a local run collides with a daily cloud commit, resolve **per file**, not w
 - `listings.html` / `docs/index.html` — **regenerate** from the merged CSV rather
   than resolving by hand
 
-## Current status (2026-09-12)
+## Picking this project back up
 
-967 listings, 962 cards, 143 searches across 8 sources, 34 makes.
-Barnstormers photos are served at medium resolution; 190 of 307 listings
-have one (the rest are genuinely text-only ads).
-(1,112 before 108 sold/sale-pending ads were filtered out.)
+Start here after any gap. The site runs itself, so the repo will have moved on
+without you.
 
-**Trade-A-Plane reliability** was the largest coverage gap (a third of searches
-failing per run) and is now understood: the failures were **ScrapingBee HTTP 500s**
-from its stealth pool under load, *not* WAF challenges. `_get` returned
-immediately on that case, so the only failure mode needing a long backoff was the
-one that never got it. It now falls through to the 3/6/12s retry loop like the
-others. Diagnose with the `[trade-a-plane] rejected ...` line, which names the
-mode: `api-error` (ScrapingBee), `challenge` (WAF), or `stub` (truncated page).
+### 1. Sync and orient (always)
+
+```bash
+cd ~/Projects/backcountry-aircraft
+git pull                       # the cloud job commits data most days
+git log --oneline -10
+```
+
+Open https://esamson6-claude.github.io/backcountry-aircraft/ and look at it.
+Most real problems here were found by looking at the page, not by reading code.
+
+### 2. Check the cloud job is healthy
+
+```bash
+gh run list --workflow="Daily listings refresh" --limit 5
+```
+
+Scheduled runs drift by hours — compare the clock to the cron before deciding a
+run failed, and use `gh workflow run "Daily listings refresh"` to run it now.
+
+### 3. Make the change
+
+Data/coverage work → `scrape.py` (the `SEARCHES` table and the `_is_*`/`_keep_*`
+filters). Appearance or filtering on the page → `generate_html.py`.
+
+**Test any text filter against real data before shipping it.** Every filter here
+has a near-miss story: `FINANCING` matched 19 real aircraft, a case-insensitive
+`sold` matched 8, `Reg# Not Listed` alone matched a $159,990 Cessna.
+
+```bash
+.venv/bin/python -c "
+import csv, scrape
+rows = list(csv.DictReader(open('data/listings.csv')))
+hits = [r for r in rows if scrape.YOUR_FILTER(r)]
+print(len(hits)); [print(r['source'], r['title'][:60], r['price']) for r in hits[:20]]"
+```
+
+### 4. Rebuild and look at it
+
+```bash
+.venv/bin/python generate_html.py          # writes docs/index.html
+```
+
+To render the page in a real browser (needed for anything visual — this is how
+the "Aerobatic Aerobatic" labels, the propeller listings and the broken image
+fallback were all caught):
+
+```bash
+export LD_LIBRARY_PATH=$HOME/.local/browserlibs/extracted/usr/lib/x86_64-linux-gnu
+```
+
+WSL lacks `libnspr4`/`libnss3`/`libasound2` and there is no sudo; those were
+installed without root via `apt-get download` + `dpkg-deb -x` into
+`~/.local/browserlibs`. If that directory is gone, redo those two steps.
+
+Always syntax-check the generated page — a bad line silently breaks every filter:
+
+```bash
+.venv/bin/python -c "
+import re; h=open('docs/index.html').read()
+open('/tmp/s.js','w').write('\n;\n'.join(re.findall(r'<script>(.*?)</script>', h, re.S)))"
+node --check /tmp/s.js
+```
+
+### 5. Full pipeline run (only when you need fresh data)
+
+```bash
+set -a && . ./.env && set +a
+.venv/bin/python scrape.py     # ~40 min, spends ScrapingBee credits
+```
+
+Usually unnecessary — let the cloud job produce data and just pull it.
+
+### 6. Commit and push
+
+```bash
+git add <specific files>
+git commit          # [tag] + why, per the Git Workflow section above
+git pull --ff-only  # the job may have committed while you worked
+git push
+```
+
+**Never push while a scrape run is in progress.** The workflow ends in a plain
+`git push` with no pull or rebase, so your push makes its push fail and that
+day's refresh is lost. Check `gh run list` first.
+
+## Current status (2026-09-13)
+
+~967 listings across 143 searches, 8 sources, 34 makes.
+
+**Unfinished, pick up here:** one local commit (`d202e19`, hide photo-less
+listings behind a toggle) is committed but NOT pushed, because a manually
+dispatched scrape (`gh run view 34758422425`) was still running and pushing
+would have killed its commit. To finish:
+
+1. Confirm the run finished: `gh run list --workflow="Daily listings refresh" --limit 3`
+2. `git pull` its data commit
+3. Re-apply the parts filter to the pulled data — commit `bddf20f` widened it
+   (cowl/wing/wheel/tank/"parting out"), and that run scraped with the older
+   code, so ~40 Barnstormers parts ads will be in its output:
+   ```bash
+   .venv/bin/python -c "
+   import csv, scrape
+   from pathlib import Path
+   p=Path('data/listings.csv'); rows=list(csv.DictReader(p.open())); f=list(rows[0].keys())
+   keep=[r for r in rows if not (r['source']=='barnstormers' and scrape._is_parts_or_service(r))]
+   print(len(rows),'->',len(keep))
+   import csv as c
+   w=c.DictWriter(p.open('w',newline=''),fieldnames=f); w.writeheader(); w.writerows(keep)"
+   ```
+4. `.venv/bin/python generate_html.py`, then commit data + docs and push.
+
+That run is also the first full cloud exercise of the new configuration — worth
+reading its log for the Trade-A-Plane failure count (the retry fix should cut it
+sharply) and the ScrapingBee credit spend against the 8000 budget.
+
