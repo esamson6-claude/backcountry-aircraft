@@ -77,12 +77,17 @@ def _load_human_listing_urls() -> set[str]:
     return set()
 
 
+# Attribute quotes are percent-encoded (%22), NOT raw apostrophes. This URI is
+# embedded in onerror="this.src='...'", so a raw ' closes the JS string early:
+# the old version produced `Unexpected identifier 'http'` on every failed image
+# and the fallback never rendered — broken since the first commit.
 PLACEHOLDER_IMG = (
     "data:image/svg+xml;utf8,"
-    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'>"
-    "<rect width='400' height='250' fill='%23e0e0e0'/>"
-    "<text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'"
-    " font-family='sans-serif' font-size='18' fill='%23888'>No image</text>"
+    "<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 250%22>"
+    "<rect width=%22400%22 height=%22250%22 fill=%22%23e0e0e0%22/>"
+    "<text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22"
+    " text-anchor=%22middle%22 font-family=%22sans-serif%22 font-size=%2218%22"
+    " fill=%22%23888%22>No image</text>"
     "</svg>"
 )
 
@@ -285,6 +290,7 @@ def render() -> Path:
 
     new_count = sum(1 for r in rows if _is_recent(r))
     aero_count = sum(1 for r in rows if is_aerobatic(r))
+    nophoto_count = sum(1 for r in rows if not (r.get("image_url") or "").strip())
 
     # Default order on refresh: recent (last 7 days) listings from makes OTHER than
     # Cessna 172 / 205/206/207 come first, newest -> oldest; everything else follows,
@@ -313,8 +319,13 @@ def render() -> Path:
         # Barnstormers ads — the main homebuilt/experimental marketplace — are
         # routinely text-only, so hiding them dropped real aircraft (Bellanca
         # Decathlons, Champion 7ECs) from the site entirely.
-        if not (r.get("image_url") or "").strip():
+        has_photo = bool((r.get("image_url") or "").strip())
+        if not has_photo:
             skipped_no_image += 1
+        # Photo-less listings are hidden by default (they read as filler in a
+        # photo grid) but stay one toggle away — several are real aircraft that
+        # Barnstormers simply lists as text.
+        nophoto_attr = "" if has_photo else ' data-nophoto="1"'
 
         # Skip listings whose thumbnail is a person photo (broker headshot etc.),
         # as classified by image_filter.py (keyed by listing URL).
@@ -326,7 +337,14 @@ def render() -> Path:
         # it, so repeating it gives "2025 Aerobatic Pitts S 1S". Use the model.
         _mk = r.get("make") or ""
         _md = r.get("model") or ""
-        _name = _md if (_mk in CATEGORY_MAKES and _md) else f"{_mk} {_md}".strip()
+        if _mk in CATEGORY_MAKES and _md:
+            _name = _md
+        elif _md and _md.lower() in _mk.lower():
+            # "Wag-Aero Sportsman 2+2" + model "Sportsman 2+2" would read
+            # "Wag-Aero Sportsman 2+2 Sportsman 2+2"; the make already says it.
+            _name = _mk
+        else:
+            _name = f"{_mk} {_md}".strip()
         title = html.escape(f"{r.get('year') or '?'} {_name}".strip())
         price = html.escape(r.get("price") or "Price n/a")
         airframe = html.escape(r.get("total_time") or "")
@@ -392,7 +410,7 @@ def render() -> Path:
             f"""<a class="card" href="{url}" target="_blank" rel="noopener"
    data-make="{make}" data-source="{source}" data-url="{url}"
    data-year="{year_n}" data-price="{price_n}" data-hours="{hours_n}"
-   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}{new_attr}{aero_attr}
+   data-search="{search_blob}"{lat_attr}{lng_attr}{drop_attr}{new_attr}{aero_attr}{nophoto_attr}
    data-title="{title}" data-price-text="{price}" data-loc="{loc}" data-img="{img}">
   <div class="thumb"><img loading="lazy" src="{img}" alt="{title}" onerror="this.src='{PLACEHOLDER_IMG}'">{new_html}<span class="fav-btn" role="button" tabindex="0" aria-pressed="false" aria-label="Save to favorites" title="Save to favorites">&#9829;</span></div>
   <div class="body">
@@ -567,7 +585,7 @@ def render() -> Path:
 <header>
   <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap;">
     <div>
-      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_human}</span> shown</h1>
+      <h1>Aircraft listings — <span id="count">{len(rows) - skipped_human - nophoto_count}</span> shown</h1>
       <div class="subhead">Updated {date.today().isoformat()} · click any card to open the listing</div>
     </div>
     <div style="display:flex; gap:8px; align-items:center;">
@@ -624,6 +642,10 @@ def render() -> Path:
     <label style="font-size:12px; color:var(--muted); cursor:pointer;">
       <input id="aerobatic-only" type="checkbox" style="vertical-align:middle;">
       Show only aerobatic aircraft ({aero_count})
+    </label>
+    <label style="font-size:12px; color:var(--muted); cursor:pointer;">
+      <input id="show-nophoto" type="checkbox" style="vertical-align:middle;">
+      Include listings without photos ({nophoto_count})
     </label>
   </div>
   <div class="chips">
@@ -739,6 +761,7 @@ def render() -> Path:
   const dropsOnlyEl = document.getElementById('drops-only');
   const newOnlyEl = document.getElementById('new-only');
   const aeroOnlyEl = document.getElementById('aerobatic-only');
+  const showNoPhotoEl = document.getElementById('show-nophoto');
 
   // Multi-select sets. Empty = no make/source filter (show all).
   // The "All" chip is purely cosmetic — it gets the active class when
@@ -767,7 +790,7 @@ def render() -> Path:
       (q ? 1 : 0) + (pMin !== null ? 1 : 0) + (pMax !== null ? 1 : 0) +
       (yMin !== null ? 1 : 0) + (yMax !== null ? 1 : 0) +
       (dropsOnlyEl.checked ? 1 : 0) + (newOnlyEl.checked ? 1 : 0) +
-      (aeroOnlyEl.checked ? 1 : 0) +
+      (aeroOnlyEl.checked ? 1 : 0) + (showNoPhotoEl.checked ? 1 : 0) +
       (activeMakes.size > 0 ? 1 : 0) + (activeSources.size > 0 ? 1 : 0);
     const badge = document.getElementById('filter-count');
     badge.textContent = nActive;
@@ -792,6 +815,7 @@ def render() -> Path:
       if (dropsOnlyEl.checked && c.dataset.drop !== '1') show = false;
       if (newOnlyEl.checked && c.dataset.new !== '1') show = false;
       if (aeroOnlyEl.checked && c.dataset.aerobatic !== '1') show = false;
+      if (!showNoPhotoEl.checked && c.dataset.nophoto === '1') show = false;
       if (favView && !favs.has(c.dataset.url)) show = false;
 
       c.classList.toggle('hidden', !show);
@@ -858,10 +882,15 @@ def render() -> Path:
   }}
   wireChipRow('.make-chip');
   wireChipRow('.source-chip');
-  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl, aeroOnlyEl]) {{
+  for (const el of [searchEl, priceMinEl, priceMaxEl, yearMinEl, yearMaxEl, sortEl, dropsOnlyEl, newOnlyEl, aeroOnlyEl, showNoPhotoEl]) {{
     el.addEventListener('input', apply);
     el.addEventListener('change', apply);
   }}
+
+  // Run the filters once at startup. Previously the initial DOM already matched
+  // the default state so this was unnecessary, but photo-less listings are now
+  // hidden by default — without this they render until the first interaction.
+  apply();
 
   // ---- Map view (Leaflet) ----
   let map = null;
