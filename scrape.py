@@ -263,6 +263,45 @@ def _is_sold(l: dict) -> bool:
     return bool(_SOLD_RE.search(f"{l.get('title') or ''} {l.get('description') or ''}"))
 
 
+# Dealer ads that aren't a specific airframe you can go and look at. Four
+# shapes, all seen live on Trade-A-Plane and Controller:
+#   * lead-gen — "Don't see what you're looking for? We have or can find
+#     aircraft you want at a price you can afford!" (also belly-pod and
+#     flight-simulator ads running under an aircraft make)
+#   * "Reg# TBD" / "Reg# NEW" — a build slot, configured to order, not yet flown
+#   * no price AND "Reg# Not Listed" AND "TT: Not Listed" — a dealer placeholder
+#     with no airframe behind it
+#   * a model year later than this one — cannot be a flying aircraft yet
+#
+# The price test matters: plenty of REAL aircraft list neither registration nor
+# hours (a $159,990 Cessna 170B, a $349,000 Carbon Cub), and dropping on
+# "Reg# Not Listed" alone deletes them. A genuine aircraft with no price still
+# carries hours or a registration.
+_LEADGEN_RE = re.compile(
+    r"don'?t\s+see\s+what\s+you'?re\s+looking\s+for"
+    r"|we\s+have\s+or\s+can\s+find\s+aircraft",
+    re.I,
+)
+_TBD_REG_RE = re.compile(r"Reg#\s*(?:TBD|NEW)\b", re.I)
+_NO_REG_RE = re.compile(r"Reg#\s*Not\s*Listed", re.I)
+_NO_TT_RE = re.compile(r"TT:\s*Not\s*Listed", re.I)
+
+
+def _is_not_a_specific_aircraft(l: dict) -> bool:
+    """True for a dealer ad with no particular airframe behind it."""
+    desc = l.get("description") or ""
+    if _LEADGEN_RE.search(desc) or _TBD_REG_RE.search(desc):
+        return True
+    has_price = bool((l.get("price") or "").strip())
+    if not has_price and _NO_REG_RE.search(desc) and _NO_TT_RE.search(desc):
+        return True
+    try:
+        year = int(l.get("year") or 0)
+    except (TypeError, ValueError):
+        year = 0
+    return bool(year and year > date.today().year)
+
+
 def _is_parts_or_service(l: dict) -> bool:
     """True for a parts/accessory/service ad rather than an aircraft."""
     title = l.get("title") or ""
@@ -1458,6 +1497,8 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
             if _is_solicitation(row):  # drop "Wanted/WTB/ISO" buy-side ads
                 continue
             if _is_sold(row):  # already sold / sale pending — not on the market
+                continue
+            if _is_not_a_specific_aircraft(row):  # dealer ad, not an airframe
                 continue
             # Barnstormers mixes parts/services into make categories.
             if row.get("source") == "barnstormers" and _is_parts_or_service(row):

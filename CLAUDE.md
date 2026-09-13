@@ -103,6 +103,12 @@ Per-source required keys:
   Trade-A-Plane embeds "Get Financing" in listing titles.
 - **`generate_html.py` renders every listing**, using `PLACEHOLDER_IMG` when there's
   no photo. It used to skip photo-less listings, which hid all of Barnstormers.
+- **Dealer ads are not always aircraft.** `_is_not_a_specific_aircraft` drops
+  lead-gen ("we can find aircraft you want"), build slots (`Reg# TBD`/`NEW`),
+  dealer placeholders (no price AND `Reg# Not Listed` AND `TT: Not Listed`) and
+  future model years. The no-price condition is load-bearing — plenty of real
+  aircraft list neither registration nor hours, and dropping on
+  `Reg# Not Listed` alone deletes a $159,990 Cessna 170B.
 - **Don't hand-edit `data/listings.csv`.** `scrape.py` rebuilds it from what the
   current run actually returned, so a listing that disappears from a source is
   dropped automatically — that self-healing is the only thing keeping dead ads
@@ -155,7 +161,7 @@ When a local run collides with a daily cloud commit, resolve **per file**, not w
 
 ## Current status (2026-09-12)
 
-997 listings, 992 cards, 143 searches across 8 sources, 34 makes.
+967 listings, 962 cards, 143 searches across 8 sources, 34 makes.
 Barnstormers photos are served at medium resolution; 190 of 307 listings
 have one (the rest are genuinely text-only ads).
 (1,112 before 108 sold/sale-pending ads were filtered out.)
