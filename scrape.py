@@ -60,6 +60,32 @@ def is_aerobatic(row: dict) -> bool:
     return bool(_AEROBATIC_TEXT_RE.search(blob))
 
 
+_LEADING_YEAR_RE = re.compile(r"^\s*(?:19|20)\d{2}\s+")
+
+
+def _refine_aerobatic_model(row: dict) -> None:
+    """Replace a placeholder model on an aerobatic listing with the real type.
+
+    Those come from Barnstormers' aerobatic categories as one make, so they all
+    share default_model="Aerobatic" — which rendered as "2025 Aerobatic
+    Aerobatic" on a card. The ad title minus any leading year IS the model
+    ("1992 Pitts S 1S" -> "Pitts S 1S"). Mutates `row` in place.
+    """
+    make = row.get("make") or ""
+    if make not in (AEROBATIC_MAKE, AMCHAMP_AEROBATIC_MAKE):
+        return
+    # Only replace a placeholder model — one that just echoes the category
+    # ("Aerobatic", "American Champion") rather than naming the aircraft.
+    # A real designation like "8-KCAB SUPER DECATHLON" is left alone.
+    model = (row.get("model") or "").strip().lower()
+    if model and model not in make.lower():
+        return
+    title = (row.get("title") or "").strip()
+    model = _LEADING_YEAR_RE.sub("", title).strip()
+    if model:
+        row["model"] = model[:60]
+
+
 def _refine_champion_make(row: dict) -> None:
     """Split the aerobatic types out of American Champion into their own make.
 
@@ -202,7 +228,12 @@ _PARTS_RE = re.compile(
     r"|WINDSHIELD|UPHOLSTERY|HEADSETS?|TRANSPONDER|ALTIMETER|ELT|BRACKETS?"
     r"|FAIRINGS?|WINGS|STRUTS?|ASSYS|SEATS?|TIRES?|BRAKES?|ASSEMBL"
     r"|MOUNTS?|GEAR\s*LEGS?|ASSEMBLIES|ASSY|SKIS|ASSEM"
-    r"|ENGINE\s*MOUNTS?|SEAPLANE\s*ENGINE|ASSYS?|PARTS)\b",
+    r"|ENGINE\s*MOUNTS?|SEAPLANE\s*ENGINE|ASSYS?|PARTS"
+    # Propellers and panels are sold as parts inside the aircraft categories.
+    # Deliberately NOT "ENGINE" on its own ("Cessna 180, Fresh Engine" is an
+    # aircraft), nor "TAILWHEEL" ("Yak 52 Tailwheel" is an aircraft), nor
+    # "MT-\d" (the Maule MT-7 is a model).
+    r"|PROPELLERS?|PROPS?|INSTRUMENT\s+PANEL|CHECKOUTS?)\b",
     re.I,
 )
 _SERVICE_RE = re.compile(
@@ -1434,6 +1465,7 @@ def run_all() -> tuple[list[dict], set[tuple[str, str]]]:
             if _is_foreign(row):  # drop non-US listings — this is a US-market site
                 continue
             _refine_champion_make(row)
+            _refine_aerobatic_model(row)
             kept.append(row)
         dropped = len(scraped) - len(kept)
         suffix = f" ({dropped} filtered out)" if dropped else ""

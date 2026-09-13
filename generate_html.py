@@ -12,6 +12,9 @@ from urllib.parse import urlparse
 
 from scrape import is_aerobatic
 
+# Makes that name a category rather than a manufacturer.
+CATEGORY_MAKES = {"Aerobatic", "American Champion Aerobatic"}
+
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_DIR = PROJECT_ROOT / "data"
 DOCS_DIR = PROJECT_ROOT / "docs"
@@ -319,9 +322,12 @@ def render() -> Path:
             skipped_human += 1
             continue
 
-        title = html.escape(
-            f"{r.get('year') or '?'} {r.get('make') or ''} {r.get('model') or ''}".strip()
-        )
+        # "Aerobatic" is a category, not a manufacturer — the chip already says
+        # it, so repeating it gives "2025 Aerobatic Pitts S 1S". Use the model.
+        _mk = r.get("make") or ""
+        _md = r.get("model") or ""
+        _name = _md if (_mk in CATEGORY_MAKES and _md) else f"{_mk} {_md}".strip()
+        title = html.escape(f"{r.get('year') or '?'} {_name}".strip())
         price = html.escape(r.get("price") or "Price n/a")
         airframe = html.escape(r.get("total_time") or "")
         eng_time = html.escape(r.get("engine_time") or "")
@@ -436,18 +442,28 @@ def render() -> Path:
             position:sticky; top:0; z-index:30; }}  /* above card hearts (z-index 2), below Leaflet panes */
   h1 {{ margin:0 0 4px 0; font-size:18px; font-weight:600; }}
   .subhead {{ color:var(--muted); font-size:12px; margin-bottom:10px; }}
-  .filter-toggle {{ display:none; padding:6px 14px; border:1px solid var(--border);
+  /* The filter panel is a dropdown at every width. Expanded, it ran to two
+     thirds of a 13" laptop screen and pushed the listings below the fold. */
+  .filter-toggle {{ display:inline-flex; align-items:center; gap:6px;
+                    padding:6px 14px; border:1px solid var(--border);
                     border-radius:6px; background:var(--bg); color:var(--fg); font:inherit;
                     cursor:pointer; }}
-  #filter-panel {{ display:block; }}
+  .filter-toggle:hover {{ border-color:var(--accent); }}
+  .filter-toggle[aria-expanded="true"] {{ border-color:var(--accent); }}
+  /* Count of active filters, so a collapsed panel can't hide why the grid
+     looks short. */
+  #filter-count {{ display:none; background:var(--accent); color:#fff;
+                   border-radius:999px; font-size:11px; font-weight:600;
+                   padding:1px 6px; }}
+  #filter-count.on {{ display:inline-block; }}
+  #filter-panel {{ display:none; margin-top:12px; padding-top:12px;
+                   border-top:1px solid var(--border); }}
+  #filter-panel.open {{ display:block; }}
   @media (max-width: 759px) {{
     /* On mobile the controls are tall; don't pin the entire header to the
        viewport top — let it scroll away. The toggle still lets users
        reopen the panel from anywhere on the page via the floating button. */
     header {{ position:static; padding:10px 14px; }}
-    .filter-toggle {{ display:inline-flex; align-items:center; gap:6px; }}
-    #filter-panel {{ display:none; margin-top:10px; }}
-    #filter-panel.open {{ display:block; }}
     /* Floating "Filters" button visible while scrolling listings */
     #floating-filter {{ position:fixed; right:14px; bottom:14px; z-index:5;
                         background:var(--accent); color:#fff; border:0; padding:10px 16px;
@@ -555,7 +571,7 @@ def render() -> Path:
       <div class="subhead">Updated {date.today().isoformat()} · click any card to open the listing</div>
     </div>
     <div style="display:flex; gap:8px; align-items:center;">
-      <button class="filter-toggle" id="filter-toggle" aria-expanded="false">Filters ▾</button>
+      <button class="filter-toggle" id="filter-toggle" aria-expanded="false"><span id="filter-label">Filters</span> <span id="filter-count"></span> <span id="filter-caret">▾</span></button>
       <div class="view-toggle">
         <button id="view-grid" class="active">Grid</button>
         <button id="view-favorites">♥ Favorites<span id="fav-badge">0</span></button>
@@ -691,7 +707,7 @@ def render() -> Path:
   document.addEventListener('click', heartHandler);
   document.addEventListener('keydown', heartHandler);
 
-  // Mobile filter-panel toggle (button in header + floating button at bottom-right)
+  // Filter-panel dropdown (header button at all widths; floating button on mobile)
   const filterPanel = document.getElementById('filter-panel');
   const filterToggle = document.getElementById('filter-toggle');
   const floatingFilter = document.getElementById('floating-filter');
@@ -699,8 +715,7 @@ def render() -> Path:
     const open = !filterPanel.classList.contains('open');
     filterPanel.classList.toggle('open', open);
     filterToggle.setAttribute('aria-expanded', String(open));
-    filterToggle.textContent = open ? 'Filters ▴' : 'Filters ▾';
-    if (open) filterPanel.scrollIntoView({{behavior: 'smooth', block: 'start'}});
+    document.getElementById('filter-caret').textContent = open ? '▴' : '▾';
   }}
   filterToggle.addEventListener('click', toggleFilters);
   floatingFilter.addEventListener('click', toggleFilters);
@@ -735,6 +750,18 @@ def render() -> Path:
     const activeMakes = activeChips('.make-chip');
     const activeSources = activeChips('.source-chip');
     const favView = document.body.classList.contains('fav-view');
+
+    // With the panel collapsed by default, an active filter is invisible —
+    // show how many are set so a short grid is never a mystery.
+    const nActive =
+      (q ? 1 : 0) + (pMin !== null ? 1 : 0) + (pMax !== null ? 1 : 0) +
+      (yMin !== null ? 1 : 0) + (yMax !== null ? 1 : 0) +
+      (dropsOnlyEl.checked ? 1 : 0) + (newOnlyEl.checked ? 1 : 0) +
+      (aeroOnlyEl.checked ? 1 : 0) +
+      (activeMakes.size > 0 ? 1 : 0) + (activeSources.size > 0 ? 1 : 0);
+    const badge = document.getElementById('filter-count');
+    badge.textContent = nActive;
+    badge.classList.toggle('on', nActive > 0);
 
     let visible = [];
     for (const c of cards) {{
