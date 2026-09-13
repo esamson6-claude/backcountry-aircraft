@@ -2,8 +2,15 @@ name: Daily listings refresh
 
 on:
   schedule:
-    # 13:00 UTC daily ≈ 9:00 AM ET (8 AM EST / 9 AM EDT)
-    - cron: '0 13 * * *'
+    # 06:17 UTC daily. Deliberately off-peak and off-the-hour: GitHub runs
+    # scheduled workflows on a best-effort queue, and the old '0 13' slot —
+    # top of the hour, inside US working hours — was starting 2.5 to 5 hours
+    # late every day (measured over 8 runs: +161 to +299 minutes), so the
+    # "9 AM ET" it promised actually landed closer to midday.
+    #
+    # 06:17 UTC is ~2:17 AM ET. Even if the queue still delays it by the old
+    # worst case, the refresh finishes before morning in the US.
+    - cron: '17 6 * * *'
   workflow_dispatch: {}  # allow manual triggering from the Actions tab
 
 jobs:

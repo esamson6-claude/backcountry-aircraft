@@ -9,8 +9,14 @@ as a filterable website.
 ## How it runs
 
 **The site updates itself.** `.github/workflows/daily-scrape.yml` runs at
-`0 13 * * *` (9 AM ET), scrapes everything, and commits the new data straight to
-`main`. No local machine is involved.
+`17 6 * * *` (~2:17 AM ET), scrapes everything, and commits the new data
+straight to `main`. No local machine is involved.
+
+The time is off-peak and off-the-hour on purpose. GitHub runs scheduled
+workflows on a best-effort queue: the previous `0 13` slot started 2.5-5 hours
+late on every one of the last 8 runs. Expect *some* drift regardless — if a run
+seems missing, check the clock against the cron before assuming it failed, and
+use `workflow_dispatch` to run it on demand.
 
 **Consequence for local work:** the repo gains ~1 commit/day on its own, so
 `git pull` before starting and before pushing, or you'll diverge. Data files
