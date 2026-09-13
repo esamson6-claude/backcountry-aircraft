@@ -20018,11 +20018,21 @@ $120,000++ sp... more info joe dory aviation llc caldwell , id usa (208) 484-xxx
   }
   let favs = loadFavs();
   function saveFavs() { localStorage.setItem(FAV_KEY, JSON.stringify([...favs])); }
-  function updateFavBadge() {
-    favBadge.textContent = favs.size;
-    favBadge.style.display = favs.size ? 'inline-block' : 'none';
-  }
   const cardByUrl = new Map(cards.map(c => [c.dataset.url, c]));
+  // Favourites are stored per-browser and survive rebuilds, but listings come
+  // and go — sold, withdrawn, filtered out. Count only the ones still on the
+  // page, or the badge claims favourites that have no card to show. The stored
+  // set is left intact on purpose: a listing that reappears keeps its heart.
+  function liveFavCount() {
+    let n = 0;
+    for (const u of favs) if (cardByUrl.has(u)) n++;
+    return n;
+  }
+  function updateFavBadge() {
+    const n = liveFavCount();
+    favBadge.textContent = n;
+    favBadge.style.display = n ? 'inline-block' : 'none';
+  }
   function markCardFav(card) {
     const btn = card.querySelector('.fav-btn');
     const on = favs.has(card.dataset.url);
@@ -20163,9 +20173,17 @@ $120,000++ sp... more info joe dory aviation llc caldwell , id usa (208) 484-xxx
 
     countEl.textContent = visible.length;
     if (visible.length === 0) {
-      emptyEl.textContent = (favView && favs.size === 0)
-        ? 'No favorites yet — tap the ♥ on any listing to save it here.'
-        : 'No listings match the current filters.';
+      let msg = 'No listings match the current filters.';
+      if (favView) {
+        // Distinguish "never saved anything" from "everything saved has since
+        // left the site" — otherwise the empty page looks like a bug.
+        msg = favs.size === 0
+          ? 'No favorites yet — tap the ♥ on any listing to save it here.'
+          : (liveFavCount() === 0
+              ? 'Your saved listings are no longer on the site — they were sold or withdrawn.'
+              : 'No favorites match the current filters.');
+      }
+      emptyEl.textContent = msg;
       emptyEl.style.display = 'block';
     } else {
       emptyEl.style.display = 'none';
