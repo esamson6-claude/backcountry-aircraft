@@ -123,6 +123,10 @@
     -111.763275
   ],
   "Arizona Aircraft Carefree, AZ": null,
+  "Arkansas": [
+    35.2048883,
+    -92.4479108
+  ],
   "Arlington, TX": [
     32.7355816,
     -97.1071186
@@ -1956,6 +1960,10 @@
     36.5189503,
     -89.6125789
   ],
+  "Marstons Mills, MA": [
+    41.653384,
+    -70.4132249
+  ],
   "Matt Hofeldt Middleton, WI": null,
   "Matt Hofeldt at C29, WI": null,
   "Matt McCormack Kenosha, WI": null,
@@ -2526,6 +2534,10 @@
     -84.5898256
   ],
   "Pedro Cobos Puebla, PU": null,
+  "Pekin, IL": [
+    40.5687911,
+    -89.6501621
+  ],
   "Pembroke Pines, FL": [
     26.0061943,
     -80.2872086
@@ -2792,6 +2804,10 @@
   "Rock Hill, SC": [
     34.9248667,
     -81.0250784
+  ],
+  "Rockland, ME": [
+    44.1048327,
+    -69.1091823
   ],
   "Rockwall, TX": [
     32.8923464,
@@ -3064,6 +3080,10 @@
   "Spokane, WA": [
     47.6571934,
     -117.42351
+  ],
+  "Springboro, OH": [
+    39.5522815,
+    -84.2332718
   ],
   "St George, Utah": [
     37.1098772,
@@ -3417,6 +3437,10 @@
   "West Columbia, South Carolina": [
     33.991869,
     -81.0640341
+  ],
+  "West Fargo, ND": [
+    46.874967,
+    -96.900362
   ],
   "West Hampton, NY": [
     40.7763165,
