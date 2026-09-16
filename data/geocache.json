@@ -178,6 +178,10 @@
   ],
   "Auckland, North Island, New Zealand": null,
   "Audio Panel, PS": null,
+  "Aurora, OR": [
+    45.2310497,
+    -122.755035
+  ],
   "Austin, TX": [
     30.2711286,
     -97.7436995
@@ -1246,6 +1250,10 @@
   "Grants Pass, OR": [
     42.4393707,
     -123.3272489
+  ],
+  "Grapeview, WA": [
+    47.332314,
+    -122.8287846
   ],
   "Greeley, CO": [
     40.4233142,
@@ -3502,6 +3510,10 @@
   "Windermere, FL": [
     28.4944695,
     -81.5345547
+  ],
+  "Winnsboro, TX": [
+    32.9573449,
+    -95.2902224
   ],
   "Winston-Salem, NC": [
     36.0998131,
