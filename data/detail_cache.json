@@ -878,6 +878,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC&listing_id=2457500&s-type=aircraft": {
     "location": "Fairmount, ND"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC&listing_id=2460583&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-GCBC+EXPLORER&listing_id=2412649&s-type=aircraft": {
     "location": "Nampa, ID"
   },
@@ -1676,6 +1679,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2460208&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2460557&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2449943&s-type=aircraft": {
     "location": "Gulfport, MS"
   },
@@ -1770,6 +1776,9 @@
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2460482&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2460530&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+XP&listing_id=2458693&s-type=aircraft": {
@@ -2040,6 +2049,9 @@
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2460427&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2460568&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172I+SKYHAWK&listing_id=2449411&s-type=aircraft": {
@@ -2840,6 +2852,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457744&s-type=aircraft": {
     "location": "PMP, FL"
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457745&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457753&s-type=aircraft": {
     "location": "San Jose, CA"
   },
@@ -2874,6 +2889,9 @@
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2460120&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2460282&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172SP+SKYHAWK+SP&listing_id=2456758&s-type=aircraft": {
@@ -2973,6 +2991,9 @@
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2460329&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2460536&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2451016&s-type=aircraft": {
@@ -3228,6 +3249,9 @@
     "location": "Hawkesbury, ON"
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2459613&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206G+STATIONAIR&listing_id=2460565&s-type=aircraft": {
     "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2434231&s-type=aircraft": {
