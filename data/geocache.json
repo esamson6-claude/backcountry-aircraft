@@ -671,6 +671,10 @@
     31.7800712,
     -97.5793301
   ],
+  "Clinton, Arkansas": [
+    35.5928879,
+    -92.4573348
+  ],
   "Clyde Kornegay Brownsville, TX": null,
   "Coeur D'Alene, ID": [
     47.6742994,
@@ -1426,6 +1430,10 @@
     25.4718946,
     -80.4759905
   ],
+  "Hood River, OR": [
+    45.5311636,
+    -121.6475587
+  ],
   "Hot Springs, AR": [
     34.5038393,
     -93.0552437
@@ -1916,6 +1924,10 @@
   "Louisville, KY": [
     38.2542376,
     -85.759407
+  ],
+  "Loveland, Colorado": [
+    40.3977612,
+    -105.07498
   ],
   "Ltd Pampa, TX": null,
   "Lubbock, Texas": [
@@ -2841,6 +2853,10 @@
     40.8075225,
     -73.1359924
   ],
+  "Russellville, Arkansas": [
+    35.2784173,
+    -93.1337856
+  ],
   "Russellville, KY": [
     36.8453199,
     -86.887219
@@ -2925,6 +2941,10 @@
   "San Diego, CA": [
     32.7174202,
     -117.162772
+  ],
+  "San Diego, California": [
+    32.7157062,
+    -117.1638284
   ],
   "San Fernando, CA": [
     34.28497,
