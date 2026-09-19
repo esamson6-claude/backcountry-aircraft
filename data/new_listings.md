@@ -1,40 +1,36 @@
-# New listings — 2026-09-18
+# New listings — 2026-09-19
 
-18 new listings:
+16 new listings:
 
-- **2019 CubCrafters CARBON CUB FX-3** — $249,000 — 1467 TT — Hood River, OR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2460459&s-type=aircraft
-- **1978 American Champion Aerobatic Citabria 7Gcaa** — $109,900 — 1,417 TT — Tulsa, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/260483011/1978-bellanca-citabria-7gcaa-piston-single-aircraft
-- **1950 Cessna 170/175 170A** — $80,000 — 2735 TT — Henderson, NV — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170A&listing_id=2460582&s-type=aircraft
-- **1969 Cessna 180 180H** — $249,950 — 3921 AFTT — Spanaway, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180H&listing_id=2459541&s-type=aircraft
-- **1962 Cessna 185 185A** — $250,000 — 9524 TT — Little Rock, AR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185A&listing_id=2453669&s-type=aircraft
-- **1975 Cessna 185 A185F** — $650,000 — 5,234 TT — Loveland, Colorado — _controller_  
-  https://www.controller.com/listing/for-sale/260483397/1975-cessna-a185f-piston-single-aircraft
-- **1968 Cessna 172 172G SKYHAWK** — $58,000 — 9340 TT — Miami, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2459571&s-type=aircraft
-- **2025 Cessna 172 172S Skyhawk** — $7,000 — 340 TT — Atlanta, Georgia — _controller_  
-  https://www.controller.com/listing/for-sale/243870901/2025-cessna-172s-skyhawk-sp-piston-single-aircraft
-- **1986 Cessna 172 172P Skyhawk** — price n/a — 6,412 TT — Clinton, Arkansas — _controller_  
-  https://www.controller.com/listing/for-sale/260263205/1986-cessna-172p-skyhawk-piston-single-aircraft
-- **1976 Cessna 172 172N Skyhawk** — $120,000 — 3,718 TT — San Diego, California — _controller_  
-  https://www.controller.com/listing/for-sale/260283597/1976-cessna-172n-skyhawk-piston-single-aircraft
-- **1960 Cessna 172 172 Skyhawk** — $94,900 — 4,989 TT — Russellville, Arkansas — _controller_  
-  https://www.controller.com/listing/for-sale/260294245/1960-cessna-172-skyhawk-piston-single-aircraft
-- **2024 Cessna 172 172** — $699,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2073489-2024-Cessna-172S-Skyhawk.html
-- **1956 Cessna 180 180** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1951896-C-180-straight-vertical-stablz.html
-- **1962 Cessna 185 185** — $250,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2036398-1962-Cessna-Skywagon-185A.html
-- **2014 CubCrafters CubCrafters** — $235,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2048274-Carbon-Cub-SS.html
-- **1952 Piper PA-18 Super Cub PA-18 Super Cub** — $165,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2002034-1952-Piper-PA-18-SuperCub.html
-- **? Zenith Zenith** — $40,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2073530-Zenair-CH-701.html
-- **1988 Aerobatic Pitts S-1Se** — $45,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2068349-Pitts-S-1SE.html
+- **2018 CubCrafters Xcub** — $350,000 — 152 TT — South Burlington, Vermont — _controller_  
+  https://www.controller.com/listing/for-sale/260516599/2018-cubcrafters-xcub-piston-single-aircraft
+- **1976 Cessna 172 172M SKYHAWK** — $159,000 — 2725 TT — Owosso, MI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460642&s-type=aircraft
+- **2002 Cessna 172 172S SKYHAWK SP** — $329,500 — 1698 TT — Watertown, WI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2451496&s-type=aircraft
+- **1986 Cessna 172 172%2F180 CONVERSION** — $146,000 — 6412 TT — Clinton, AR — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2460357&s-type=aircraft
+- **1974 Cessna 172 172M SKYHAWK** — $167,000 — 10334 TT — Burlington, VT — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460630&s-type=aircraft
+- **1957 Cessna 172 172 Skyhawk** — $84,500 — 5,495 TT — Monte Vista, Colorado — _controller_  
+  https://www.controller.com/listing/for-sale/259127077/1957-cessna-172-skyhawk-piston-single-aircraft
+- **2007 Cessna 205/206/207 206H STATIONAIR** — $650,000 — 1257 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2456728&s-type=aircraft
+- **? Cessna 172 172** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-172-5016588048
+- **1970 Cessna 205/206/207 205/206/207** — $312,000 —  — Grapeview, WA — _aerotrader_  
+  https://www.aerotrader.com/listing/1970-Cessna-206-5042132039
+- **2000 Cessna 172 172** — $285,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2054508-Cessna-172.html
+- **1967 Cessna 205/206/207 206** — $195,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2054509-Cessna-206.html
+- **2021 Just Aircraft Just Aircraft** — $210,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2059220-Just-Super-STOl.html
+- **? Just Aircraft Just Aircraft** — $85,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2072301-Just-Aircraft-Escapade.html
+- **? Kitfox Kitfox** — $30,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2055510-Kitfox-4-Speedster-Project.html
+- **1955 Piper PA-18 Super Cub PA-18 Super Cub** — $235,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2060966-1955-PA-18-180.html
+- **? Aerobatic Starduster Too For Sale** — $65,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2059231-Starduster-too-for-sale.html
