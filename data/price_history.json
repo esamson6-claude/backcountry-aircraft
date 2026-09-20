@@ -1159,6 +1159,12 @@
       "price": 48000
     }
   ],
+  "https://www.barnstormers.com/classified-2045614-Maule-IO540-carbon-engCowl.html": [
+    {
+      "date": "2026-09-20",
+      "price": 2000
+    }
+  ],
   "https://www.barnstormers.com/classified-2045671-2014-ZLIN-Savage-Cub-Titan-340.html": [
     {
       "date": "2026-09-14",
@@ -1301,6 +1307,12 @@
     {
       "date": "2026-09-11",
       "price": 195500
+    }
+  ],
+  "https://www.barnstormers.com/classified-2053188-GLASAIR-RG1.html": [
+    {
+      "date": "2026-09-20",
+      "price": 18000
     }
   ],
   "https://www.barnstormers.com/classified-2053671-Kitfox-IV-Rotax-912UL.html": [
@@ -1729,6 +1741,12 @@
     {
       "date": "2026-09-11",
       "price": 210000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2067720-1958-Cessna-C-172.html": [
+    {
+      "date": "2026-09-20",
+      "price": 48000
     }
   ],
   "https://www.barnstormers.com/classified-2067826-73-American-Champion-8KCAB.html": [
@@ -5299,6 +5317,10 @@
     {
       "date": "2026-09-19",
       "price": 116333
+    },
+    {
+      "date": "2026-09-20",
+      "price": 116236
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
