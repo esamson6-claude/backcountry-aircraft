@@ -1005,6 +1005,12 @@
       "price": 215000
     }
   ],
+  "https://www.barnstormers.com/classified-2017029-Cessna-170-Left-Elevator.html": [
+    {
+      "date": "2026-09-27",
+      "price": 1000
+    }
+  ],
   "https://www.barnstormers.com/classified-2019523-Great-Lakes.html": [
     {
       "date": "2026-09-14",
@@ -1123,6 +1129,10 @@
     {
       "date": "2026-09-11",
       "price": 229000
+    },
+    {
+      "date": "2026-09-27",
+      "price": 209000
     }
   ],
   "https://www.barnstormers.com/classified-2036398-1962-Cessna-Skywagon-185A.html": [
@@ -1533,6 +1543,12 @@
       "price": 99000
     }
   ],
+  "https://www.barnstormers.com/classified-2056626-New-Oversized-C-206C-207-Fork.html": [
+    {
+      "date": "2026-09-27",
+      "price": 3850
+    }
+  ],
   "https://www.barnstormers.com/classified-2057123-WACO-UPF-7.html": [
     {
       "date": "2026-09-14",
@@ -1867,6 +1883,10 @@
     {
       "date": "2026-09-11",
       "price": 210000
+    },
+    {
+      "date": "2026-09-27",
+      "price": 195000
     }
   ],
   "https://www.barnstormers.com/classified-2067720-1958-Cessna-C-172.html": [
@@ -2503,10 +2523,34 @@
       "price": 57000
     }
   ],
+  "https://www.barnstormers.com/classified-2074949-1974-Citabria-7GCBC-Metal-Wing.html": [
+    {
+      "date": "2026-09-27",
+      "price": 54500
+    }
+  ],
   "https://www.barnstormers.com/classified-2074960-2021-Cessna-206.html": [
     {
       "date": "2026-09-26",
       "price": 795500
+    }
+  ],
+  "https://www.barnstormers.com/classified-2074982-1974-Cessna-172-M-Skyhawk.html": [
+    {
+      "date": "2026-09-27",
+      "price": 86000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2074987-Murphy-Rebel-Kit.html": [
+    {
+      "date": "2026-09-27",
+      "price": 12500
+    }
+  ],
+  "https://www.barnstormers.com/classified-2075041-1972-Cessna-180H-Skywagon.html": [
+    {
+      "date": "2026-09-27",
+      "price": 295000
     }
   ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -5589,6 +5633,10 @@
     {
       "date": "2026-09-26",
       "price": 115351
+    },
+    {
+      "date": "2026-09-27",
+      "price": 115345
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -9855,6 +9903,10 @@
     {
       "date": "2026-09-23",
       "price": 139000
+    },
+    {
+      "date": "2026-09-27",
+      "price": 139900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2460396&s-type=aircraft": [
