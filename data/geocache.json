@@ -691,6 +691,10 @@
     35.5928879,
     -92.4573348
   ],
+  "Clintondale, NY": [
+    41.692102,
+    -74.043616
+  ],
   "Clyde Kornegay Brownsville, TX": null,
   "Coeur D'Alene, ID": [
     47.6742994,
@@ -1295,6 +1299,10 @@
     47.332314,
     -122.8287846
   ],
+  "Great Bend, KS": [
+    38.3625063,
+    -98.7804087
+  ],
   "Greeley, CO": [
     40.4233142,
     -104.7091322
@@ -1310,6 +1318,10 @@
   "Greenup, KY": [
     38.5108112,
     -82.9180186
+  ],
+  "Greenville, ME": [
+    45.458955,
+    -69.5916835
   ],
   "Greenville, NC": [
     35.613224,
@@ -1769,6 +1781,10 @@
   "Lagrange, Georgia": [
     33.039291,
     -85.0313269
+  ],
+  "Lagrangeville, NY": [
+    41.6504465,
+    -73.7642453
   ],
   "Lake Elmo, Minnesota": [
     45.0021685,
@@ -2285,6 +2301,10 @@
   "Mt Washington, NH": [
     44.2704946,
     -71.3033045
+  ],
+  "Mt. Olive, NC": [
+    35.1965532,
+    -78.0663788
   ],
   "Mulcaire Camp Verde, AZ": null,
   "Murray, KY": [
