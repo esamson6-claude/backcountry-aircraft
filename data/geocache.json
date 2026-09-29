@@ -342,6 +342,10 @@
   "Blake Barrymore Hailey, ID": null,
   "Blattmachr Anchorage, AK": null,
   "Boccuti Ambler, PA": null,
+  "Boerne, TX": [
+    29.7946641,
+    -98.7319703
+  ],
   "Bonneville, AB": [
     53.5241436,
     -113.3119515
@@ -1814,6 +1818,10 @@
     46.1699705,
     -89.4049091
   ],
+  "Lansing, MI": [
+    42.7338254,
+    -84.5546295
+  ],
   "Lansing, Michigan": [
     42.7338254,
     -84.5546295
@@ -2146,6 +2154,10 @@
   "Michigan": [
     43.6211955,
     -84.6824346
+  ],
+  "Middle River, MD": [
+    39.3416961,
+    -76.4271818
   ],
   "Middleton, WI": [
     43.0962919,
