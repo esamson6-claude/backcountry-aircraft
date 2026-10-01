@@ -1,46 +1,44 @@
-# New listings — 2026-09-30
+# New listings — 2026-10-01
 
-21 new listings:
+20 new listings:
 
-- **2013 American Champion Aerobatic 8-Kcab Xtreme** — $221,999 — 433 TT — Clearwater, Florida — _controller_  
-  https://www.controller.com/listing/for-sale/258024701/2013-american-champion-8-kcab-xtreme-decathlon-piston-single-aircraft
-- **2005 American Champion Aerobatic 8-Kcab Super** — $189,500 — 2,085 TT — Olathe, Kansas — _controller_  
-  https://www.controller.com/listing/for-sale/260228355/2005-american-champion-8-kcab-super-decathlon-piston-single-aircraft
-- **2019 American Champion Aerobatic 7-Gcbc High** — $229,500 — 1,370 TT — Olathe, Kansas — _controller_  
-  https://www.controller.com/listing/for-sale/259488261/2019-american-champion-7-gcbc-high-country-explorer-piston-single-aircraft
-- **2004 American Champion Aerobatic 7-Gcbc High** — $229,500 — 475 TT — Mayfield, Kentucky — _controller_  
-  https://www.controller.com/listing/for-sale/260458213/2004-american-champion-7-gcbc-high-country-explorer-piston-single-aircraft
-- **2004 American Champion Aerobatic 7-Gcbc** — $185,000 — 399 TT — Houston, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/258939993/2004-american-champion-7-gcbc-piston-single-aircraft
-- **1965 American Champion Aerobatic 7-Eca Citabria** — $59,900 — 1,891 TT — Lexington, Kentucky — _controller_  
-  https://www.controller.com/listing/for-sale/258438469/1965-american-champion-7-eca-citabria-piston-single-aircraft
-- **? American Champion Aerobatic Restored Citabria 7Eca** — $39,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2008257-Restored-Citabria-7ECA.html
-- **1973 Cessna 185 A185F** — $389,000 — 8974 TT — Camp Verde, AZ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2460669&s-type=aircraft
-- **2004 Cessna 172 172S SKYHAWK SP** — $220,000 — 9600 TT — Phoenix, AZ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2457745&s-type=aircraft
-- **1998 Cessna 172 172R SKYHAWK** — $240,000 — 10500 TT — Phoenix, AZ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2457835&s-type=aircraft
-- **1969 Cessna 172 172K SKYHAWK** — $79,000 — 6,601 TT — Millinocket, ME — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2460976&s-type=aircraft
-- **1965 Cessna 172 172F SKYHAWK** — $99,500 — 12861 TT — Kennesaw, GA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2460002&s-type=aircraft
-- **2005 Cessna 205/206/207 206H STATIONAIR** — $419,000 — 4179 TT — Homestead, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=206H+STATIONAIR&listing_id=2460975&s-type=aircraft
-- **2010 Cessna 205/206/207 T206H STATIONAIR** — $519,000 — 1131 TT — Phoenix, AZ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2457154&s-type=aircraft
-- **1965 Cessna 205/206/207 P206 Super** — $259,000 — 1,620 TT — West Fargo, North Dakota — _controller_  
-  https://www.controller.com/listing/for-sale/260870443/1965-cessna-p206-super-skylane-piston-single-aircraft
-- **1953 Cessna 195 195** — $168,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2075572-1953-Cessna-195.html
-- **? Glasair Sportsman 2+2 Sportsman 2+2** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2075493&adtitle=Glasair-FT-Super-II-S
-- **? Piper PA-18 Super Cub PA-18 Super Cub** — $185,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2075602-180hp-Supercub.html
-- **1974 Piper PA-18 Super Cub PA-18 Super Cub** — $105,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2061331-Alaska-Ready-Super-Cub.html
-- **1943 Stearman Stearman** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=1851644&adtitle=1943-Stearman---25percent-Share-SNS
-- **? Stinson 108 Stinson 108** — $17,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2025784-Stinson-108-2-Lycoming.html
+- **1953 Cessna 170/175 170B** — price n/a — 3112 TT — San Antonio, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2461040&s-type=aircraft
+- **1978 Cessna 180 180K** — $270,000 — 1630 TT — Mills, WY — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180K&listing_id=2461050&s-type=aircraft
+- **1975 Cessna 185 A185F** — $540,000 — 459 TT — Liberal, Kansas — _controller_  
+  https://www.controller.com/listing/for-sale/257412531/1975-cessna-a185f-piston-single-aircraft
+- **1998 Cessna 172 172R SKYHAWK** — $325,000 — 3280 TT — St Petersburg, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2461011&s-type=aircraft
+- **1997 Cessna 172 172 SKYHAWK** — $299,000 — 1599 TT — Tampa, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2460846&s-type=aircraft
+- **1956 Cessna 172 172** — $69,000 — 4364.22 TTSN — Franklinton, LA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2460932&s-type=aircraft
+- **1977 Cessna 172 172N SKYHAWK** — $134,500 — 6400 TT — Waukesha, WI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2461026&s-type=aircraft
+- **1979 Cessna 172 172N SKYHAWK** — price n/a — 19679 TT — Tracy, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2446484&s-type=aircraft
+- **1966 Cessna 172 172 Skyhawk** — $109,000 — 2,843 TT — Rigby, Idaho — _controller_  
+  https://www.controller.com/listing/for-sale/260926245/1966-cessna-172-skyhawk-piston-single-aircraft
+- **1977 Cessna 172 R172 Hawk** — $150,000 — 2,457 TT — Pontotoc, Mississippi — _controller_  
+  https://www.controller.com/listing/for-sale/254311915/1977-cessna-r172-hawk-xp-piston-single-aircraft
+- **1977 Cessna 172 172** — $134,500 —  — Waukesha, WI — _aerotrader_  
+  https://www.aerotrader.com/listing/1977-Cessna-172N+SKYHAWK-5042403096
+- **2025 Cessna 172 172** — $58,590 —  — Phoenix, AZ — _aerotrader_  
+  https://www.aerotrader.com/listing/2025-Cessna-172+Skyhawk-5042398389
+- **2000 Aviat Husky Husky** — $189,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2075673-BEAUTIFUL-2000-HUSKY-A-1B,-180.html
+- **? Just Aircraft Just Aircraft** — $85,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2075616-Just-Aircraft-Highlander.html
+- **2002 Kitfox Kitfox** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2075740-2002-SkystarKitfox-|-N9003C.html
+- **1990 Aerobatic Sukhoi SU26MX** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2075792&adtitle=1990-Sukhoi-SU26MX
+- **1990 Aerobatic Skybolt** — $65,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2008940-1990-SKYBOLT.html
+- **? Aerobatic Great Lakes Services** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-1766807-Great-Lakes-Services.html
+- **? Aerobatic Extra 330 Sc Worldwide** — $450,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2075811-Extra-330-Sc-worldwide.html
+- **1983 Aerobatic Ss101 Superstarduster** — $35,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2075720-1983-SS101-SuperStarduster.html
