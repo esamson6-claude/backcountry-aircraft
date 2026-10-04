@@ -1,44 +1,36 @@
-# New listings — 2026-10-03
+# New listings — 2026-10-04
 
-20 new listings:
+16 new listings:
 
-- **2023 CubCrafters CARBON CUB FX-3** — $399,000 — 127 TT — Delta, CO — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2456408&s-type=aircraft
-- **2021 CubCrafters CCX-2300** — $420,000 — 172 TT — Prescott, AZ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CCX-2300&listing_id=2456750&s-type=aircraft
-- **2019 CubCrafters CARBON CUB EX-2** — $245,000 — 335 TT — Morgan, UT — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+EX-2&listing_id=2456225&s-type=aircraft
-- **1977 American Champion Aerobatic SUPER DECATHLON** — $95,900 — 1132 TT — Long Beach, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=SUPER+DECATHLON&listing_id=2456839&s-type=aircraft
-- **2026 American Champion Aerobatic 7-Gcbc** — $389,900 — 60 TT — Woodruff, Wisconsin — _controller_  
-  https://www.controller.com/listing/for-sale/260985103/2026-american-champion-7-gcbc-piston-single-aircraft
-- **1977 American Champion Aerobatic Super Decathlon** — $95,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2052355-1977-Super-Decathlon.html
-- **1959 Cessna 170/175 175** — $62,000 — 2,776 TT — Goldsboro, North Carolina — _controller_  
-  https://www.controller.com/listing/for-sale/260963683/1959-cessna-175-piston-single-aircraft
-- **1983 Cessna 172 172P SKYHAWK** — $150,000 — 14900 TT — Weyers Cave, VA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2461092&s-type=aircraft
-- **1980 Cessna 172 172P SKYHAWK** — $149,900 — 10334 TT — Charleston, SC — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2461111&s-type=aircraft
-- **1964 Cessna 172 172E SKYHAWK** — $84,990 — 2469 TT — Windham, CT — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2461088&s-type=aircraft
-- **1960 Cessna 172 172A SKYHAWK** — $109,000 — 6800 TT — Gaithersburg, MD — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2459580&s-type=aircraft
-- **? Cessna 172 172** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2057980-Cessna-172.html
-- **1964 Cessna 172 172** — $97,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2076036-1964-Skyhawk-172E.html
-- **1961 Cessna 172 172** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2053991-1961-CESSNA-172C-SKYHAWK.html
-- **2021 CubCrafters CubCrafters** — $420,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2051838-2021-CubCrafters-Nx-Cub.html
-- **2000 Glasair Sportsman 2+2 Sportsman 2+2** — $139,500 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2076037-2000-Glasair-Super-II-S-FT.html
-- **? Murphy Rebel Rebel** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1331636-MURPHY---BUILDING-YOUR-DREAM.html
-- **? Murphy Rebel Rebel** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1965169-Murphy-Elite-Kits-for-Sale.html
-- **? Zenith Zenith** — $41,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2007984-Zenith-CH-701.html
-- **1990 Aerobatic Extra 300 Aeio-540-L1B5** — $60,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2069088-1990-Extra-300-AEIO-540-L1B5.html
+- **1975 Maule M-5-210C** — $115,000 — 2170 TT — Bend, OR — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-210C&listing_id=2447631&s-type=aircraft
+- **1966 Cessna 172 172G SKYHAWK** — $99,000 — 5482 TT — Limington, ME — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2452908&s-type=aircraft
+- **1998 Cessna 172 172R SKYHAWK** — $204,999 — 7677 TT — INSTRUCTION, OR — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2441481&s-type=aircraft
+- **1980 Cessna 185 185** — price n/a — 2096 AFTT — Baton Rouge, LA — _aerotrader_  
+  https://www.aerotrader.com/listing/1980-Cessna-A185F-5031246398
+- **? Cessna 172 172** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-172-5016588048
+- **? Cessna 205/206/207 205/206/207** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-205-5016587976
+- **? Cessna 205/206/207 205/206/207** — price n/a —  — Charleston, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-206+STATIONAIR-5016588011
+- **? Cessna 170/175 170** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2069867&adtitle=Award-winner-170-for-sale
+- **? Cessna 180 180** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076070&adtitle=Cessna-180-project
+- **1972 Maule Maule** — $69,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2059305-1972-Maule-M-4-220c.html
+- **2015 Piper PA-18 Super Cub PA-18 Super Cub** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2053430-Mackey-SQ-4-Ultimate-Super-Cub.html
+- **? Rans Rans** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2021084-RANS-S7-GOODIES.html
+- **? Aerobatic For Sale Skybolt Yellowbird** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076163&adtitle=For-Sale-Skybolt-Yellowbird
+- **? Aerobatic Acrosport Biplane Project** — $3,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076257-Acrosport-Biplane-Project.html
+- **1997 Aerobatic Len Fox Giles G-200** — $129,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2057522-1997-Len-Fox-Giles-G-200.html
+- **1979 Aerobatic Yak-50 420Hp 3 Blade Best Y50** — $95,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-1994722-YAK-50-420HP-3-Blade-Best-Y50.html
