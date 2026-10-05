@@ -1,36 +1,40 @@
-# New listings — 2026-10-04
+# New listings — 2026-10-05
 
-16 new listings:
+18 new listings:
 
-- **1975 Maule M-5-210C** — $115,000 — 2170 TT — Bend, OR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-210C&listing_id=2447631&s-type=aircraft
-- **1966 Cessna 172 172G SKYHAWK** — $99,000 — 5482 TT — Limington, ME — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2452908&s-type=aircraft
-- **1998 Cessna 172 172R SKYHAWK** — $204,999 — 7677 TT — INSTRUCTION, OR — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2441481&s-type=aircraft
-- **1980 Cessna 185 185** — price n/a — 2096 AFTT — Baton Rouge, LA — _aerotrader_  
-  https://www.aerotrader.com/listing/1980-Cessna-A185F-5031246398
-- **? Cessna 172 172** — price n/a —  — Charleston, SC — _aerotrader_  
-  https://www.aerotrader.com/listing/-Cessna-172-5016588048
-- **? Cessna 205/206/207 205/206/207** — price n/a —  — Charleston, SC — _aerotrader_  
-  https://www.aerotrader.com/listing/-Cessna-205-5016587976
-- **? Cessna 205/206/207 205/206/207** — price n/a —  — Charleston, SC — _aerotrader_  
-  https://www.aerotrader.com/listing/-Cessna-206+STATIONAIR-5016588011
-- **? Cessna 170/175 170** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2069867&adtitle=Award-winner-170-for-sale
-- **? Cessna 180 180** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076070&adtitle=Cessna-180-project
-- **1972 Maule Maule** — $69,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2059305-1972-Maule-M-4-220c.html
-- **2015 Piper PA-18 Super Cub PA-18 Super Cub** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2053430-Mackey-SQ-4-Ultimate-Super-Cub.html
-- **? Rans Rans** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2021084-RANS-S7-GOODIES.html
-- **? Aerobatic For Sale Skybolt Yellowbird** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076163&adtitle=For-Sale-Skybolt-Yellowbird
-- **? Aerobatic Acrosport Biplane Project** — $3,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2076257-Acrosport-Biplane-Project.html
-- **1997 Aerobatic Len Fox Giles G-200** — $129,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2057522-1997-Len-Fox-Giles-G-200.html
-- **1979 Aerobatic Yak-50 420Hp 3 Blade Best Y50** — $95,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1994722-YAK-50-420HP-3-Blade-Best-Y50.html
+- **1973 American Champion Aerobatic Citabria 7Gcbc** — $55,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2023369-1973-Citabria-7GCBC.html
+- **1976 American Champion Aerobatic 0 Smoh Citabria On Floats** — $56,200 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2038723-0-SMOH-Citabria-on-Floats.html
+- **1973 American Champion Aerobatic 7Kcab Citabria For Sale** — $46,500 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2042190-1973-7KCAB-Citabria-For-Sale.html
+- **1974 American Champion Aerobatic Bellanca Citabria** — $60,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076421-1974-Bellanca-Citabria.html
+- **1980 Cessna 172 172RG CUTLASS** — $185,000 — 5960 TT — Westminster, MD — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2461137&s-type=aircraft
+- **1978 Cessna 172 172N SKYHAWK** — $119,000 — 4759 TT — Ironwood, MI — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459786&s-type=aircraft
+- **1963 Cessna 172 172** — $99,000 — 11285 TT — Franklin, NC — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2457475&s-type=aircraft
+- **2000 Cessna 205/206/207 T206H STATIONAIR** — $389,000 — 5698 TT — Kissimmee (KISM), FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2461161&s-type=aircraft
+- **? Bearhawk Bearhawk** — $49,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2049814-BEARHAWK-4-QUICKBUILD-KIT.html
+- **1975 Cessna 172 172** — $75,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2070075-1975-Cessna-172-M-model.html
+- **? Cessna 205/206/207 206** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-1955951-INTERNATIONAL-206--210-FERRY.html
+- **2016 Glasair Sportsman 2+2 Sportsman 2+2** — $359,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2073260-Glasair-Sportsman-with-amphibs.html
+- **? Kitfox Kitfox** — $97,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076334-Kitfox-Series-5--VERY-NICE!!.html
+- **? Murphy Rebel Rebel** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076312&adtitle=Murphy-Yukon
+- **? Piper PA-18 Super Cub PA-18 Super Cub** — $550 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076451-PIPER-PA-18-NOSE-BOWL.html
+- **? Zenith Zenith** — $7,500 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076392-Zenith-CH750-STOL-Kit.html
+- **? Aerobatic Pitts S-2B** — $89,500 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2029374-Pitts-S-2B.html
+- **1987 Aerobatic Pitts S-2B** — $110,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2075304-Pitts-S-2B.html
