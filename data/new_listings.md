@@ -1,26 +1,48 @@
-# New listings — 2026-10-06
+# New listings — 2026-10-07
 
-11 new listings:
+22 new listings:
 
-- **1999 Aviat Husky HUSKY A-1B** — $200,000 — 1160 TT — Columbia, SC — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AVIAT&model=HUSKY+A-1B&listing_id=2461176&s-type=aircraft
-- **1972 American Champion Aerobatic Citabria 7Kcab 1972** — $43,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2076558-CITABRIA-7KCAB-1972.html
-- **? American Champion Aerobatic 75 Citabria 7Eca,** — $59,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2065226-75-Citabria-7ECA,.html
-- **1946 Stinson 108 108-1** — $45,000 — 3305 TT — Placerville, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-1&listing_id=2461179&s-type=aircraft
-- **1959 DHC-2 Beaver DHC-2 MK I** — $650,000 — 11197 TT — Gig Harbor, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2461172&s-type=aircraft
-- **1977 Cessna 172 172** — $189,900 — 4750 TT — Bolton, MS — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2461175&s-type=aircraft
-- **1975 Cessna 172 172M SKYHAWK** — $125,000 —  — Los Angeles, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461194&s-type=aircraft
-- **1967 Cessna 172 172H SKYHAWK** — $110,000 —  — Anchorage, AK — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2461149&s-type=aircraft
-- **1948 Cessna 170/175 170** — $67,500 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2070928-1948-Cessna-170-Backcountry.html
-- **1974 Cessna 205/206/207 206** — $380,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2076324-1974-Cessna-206.html
-- **1953 Piper PA-18 Super Cub PA-18 Super Cub** — $249,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2076626-Piper-PA18-Supercub-Amphibian.html
+- **2014 Maule M9-235** — $450,000 — 261 TT — Chandler, Arizona — _controller_  
+  https://www.controller.com/listing/for-sale/258502779/2014-maule-m9-235-piston-single-aircraft
+- **2021 CubCrafters NXCUB** — $460,000 — 416 TT — Abilene, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2459200&s-type=aircraft
+- **1972 American Champion Aerobatic Ballanca Citabria 7Eca** — $65,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2056555-1972-Ballanca-Citabria-7ECA.html
+- **1972 American Champion Aerobatic Bellanca Citabria 1972 Gcbc** — $100,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2070554-Bellanca-Citabria-1972-GCBC.html
+- **1956 Cessna 180 180** — $180,000 — 4,556 TT — Bakersfield, California — _controller_  
+  https://www.controller.com/listing/for-sale/261100755/1956-cessna-180-piston-single-aircraft
+- **1977 Cessna 185 185F** — $349,900 — 1801.0 — Camarillo, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185F&listing_id=2452078&s-type=aircraft
+- **2015 Just Aircraft JA-30 SUPERSTOL** — $99,000 — 280 TT — Galax, VA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=JUST+AIRCRAFT&model=JA-30+SUPERSTOL&listing_id=2461227&s-type=aircraft
+- **1946 Stinson 108 108-1** — $45,000 — 3,305 TT — Placerville, California — _controller_  
+  https://www.controller.com/listing/for-sale/261111323/1946-stinson-108-1-piston-single-aircraft
+- **1976 Cessna 172 172 SKYHAWK** — $129,500 — 9252 TT — Ukiah, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2460015&s-type=aircraft
+- **1964 Cessna 172 172E SKYHAWK** — $149,500 — 3061 TT — Arlington, WA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2461213&s-type=aircraft
+- **2022 Cessna 172 172S Skyhawk** — $549,900 — 2,230 TT — Eden Prairie, Minnesota — _controller_  
+  https://www.controller.com/listing/for-sale/260693435/2022-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **? Cessna 172 172** — price n/a —  — Chattanooga, TN — _aerotrader_  
+  https://www.aerotrader.com/listing/-Cessna-172+SKYHAWK-5042534496
+- **? Cessna 170/175 170** — $9,950 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2033803-Cessna-170B172175-Fuel-Cells.html
+- **? Glasair Sportsman 2+2 Sportsman 2+2** — $165,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2069178-Beautiful-Glasair-SH-III.html
+- **2014 Glasair Sportsman 2+2 Sportsman 2+2** — $105,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076715-2014-Sportsman-2+2-$105,000.html
+- **? Just Aircraft Just Aircraft** — $99,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2018319-Just-Aircraft-Superstol-912ULS.html
+- **1954 Piper PA-18 Super Cub PA-18 Super Cub** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076847-1954-PA-18-Super-Cub.html
+- **? Stinson 108 Stinson 108** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076725&adtitle=Stinson-108-3-Project-Plan-48
+- **1946 Stinson 108 Stinson 108** — $45,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076787-1946-Stinson-108-1-Voyager.html
+- **? Zenith Zenith** — $99,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2076722-Zenith-CH750-Cruzer.html
+- **? Aerobatic Gorgeous Steen Skybolt** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2076834&adtitle=Gorgeous-Steen-Skybolt
+- **2004 Aerobatic Yakovlev Yak 52 Tailwheel** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2070097&adtitle=2004-Yakovlev-Yak-52-Tailwheel
