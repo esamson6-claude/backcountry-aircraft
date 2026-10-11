@@ -629,6 +629,10 @@
     {
       "date": "2026-09-16",
       "price": 312000
+    },
+    {
+      "date": "2026-10-11",
+      "price": 295000
     }
   ],
   "https://www.aerotrader.com/listing/1973-Cessna-A185F-5041802058": [
@@ -847,6 +851,12 @@
     {
       "date": "2026-09-11",
       "price": 76900
+    }
+  ],
+  "https://www.barnstormers.com/classified-1920221-Murphy-T-Moose.html": [
+    {
+      "date": "2026-10-11",
+      "price": 920000
     }
   ],
   "https://www.barnstormers.com/classified-1921918-2011-Wag-Aero-Sport-Trainer.html": [
@@ -2247,6 +2257,10 @@
     {
       "date": "2026-09-14",
       "price": 87000
+    },
+    {
+      "date": "2026-10-11",
+      "price": 80000
     }
   ],
   "https://www.barnstormers.com/classified-2069640-1954-PA18-135L21-160HP.html": [
@@ -2941,6 +2955,10 @@
     {
       "date": "2026-10-05",
       "price": 60000
+    },
+    {
+      "date": "2026-10-11",
+      "price": 50000
     }
   ],
   "https://www.barnstormers.com/classified-2076558-CITABRIA-7KCAB-1972.html": [
@@ -3007,6 +3025,18 @@
     {
       "date": "2026-10-10",
       "price": 235000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2077548-100-HP-Wag-Aero-Airplane.html": [
+    {
+      "date": "2026-10-11",
+      "price": 58000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2077567-Stinson-108-1.html": [
+    {
+      "date": "2026-10-11",
+      "price": 29500
     }
   ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -8743,6 +8773,10 @@
     {
       "date": "2026-10-06",
       "price": 169900
+    },
+    {
+      "date": "2026-10-11",
+      "price": 179900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2460899&s-type=aircraft": [
@@ -8767,6 +8801,12 @@
     {
       "date": "2026-10-06",
       "price": 189900
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2461342&s-type=aircraft": [
+    {
+      "date": "2026-10-11",
+      "price": 75000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2450491&s-type=aircraft": [
@@ -13125,6 +13165,12 @@
     {
       "date": "2026-09-30",
       "price": 389000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2461340&s-type=aircraft": [
+    {
+      "date": "2026-10-11",
+      "price": 210000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=P172D&listing_id=2446668&s-type=aircraft": [
