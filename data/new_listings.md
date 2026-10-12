@@ -1,30 +1,32 @@
-# New listings — 2026-10-11
+# New listings — 2026-10-12
 
-13 new listings:
+14 new listings:
 
-- **? American Champion American Champion** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2037051-champ-emblem.html
-- **1978 Cessna 185 A185F** — $210,000 — 7430 TT —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2461340&s-type=aircraft
-- **1956 Cessna 172 172** — $75,000 — 3700 TT — Caldwell, ID — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2461342&s-type=aircraft
+- **1947 Stinson 108 108-2** — $70,000 — 3423 TT — BALTIMORE, MD — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=STINSON&model=108-2&listing_id=2461288&s-type=aircraft
+- **2023 Rans S-20 RAVEN** — $159,000 — 95 TT — Dickinson, ND — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=RANS&model=S-20+RAVEN&listing_id=2458709&s-type=aircraft
+- **1966 Cessna 172 172 SKYHAWK** — $137,000 — 5760 TT — Nampa, ID — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2461347&s-type=aircraft
+- **1997 Cessna 172 172R SKYHAWK** — $189,000 — 10457 TT — Reno, NV — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2461348&s-type=aircraft
+- **1978 Cessna 172 172N SKYHAWK** — $115,999 — 11800 TT — Santa Teresa, NM — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2461375&s-type=aircraft
+- **1976 Cessna 172 172M SKYHAWK** — $119,000 — 10115 TT — Hemet, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461372&s-type=aircraft
+- **1965 Cessna 172 172F SKYHAWK** — $55,000 — 3800 TT — San Jose, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172F+SKYHAWK&listing_id=2457066&s-type=aircraft
+- **1968 Cessna 172 172** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2054626-C-172-carb-air-box-long-style.html
+- **1977 Cessna 172 172** — $148,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2072658-1977-172-N.html
 - **? DHC-2 Beaver DHC-2 Beaver** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2077502-DHC2-Elevator-trim-rods-C2T47A.html
-- **2007 Glasair Sportsman 2+2 Sportsman 2+2** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2058287&adtitle=2007-Glasair-Sportsman-2+2
-- **? Maule Maule** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2028679-Maule-Spinners-and-Bulkheads.html
-- **? Murphy Rebel Rebel** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2036230&adtitle=MURPHY-RADICAL-KIT
-- **? Murphy Rebel Rebel** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1743090-Moose-and-SR-Gear-Upgrades.html
-- **? Murphy Rebel Rebel** — $920,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1920221-Murphy-T-Moose.html
-- **? Stinson 108 Stinson 108** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1212773-Stinson,Franklin,-Rubber.html
-- **1946 Stinson 108 Stinson 108** — $29,500 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2077567-Stinson-108-1.html
-- **2026 Wag-Aero Sportsman 2+2 Sportsman 2+2** — $58,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2077548-100-HP-Wag-Aero-Airplane.html
-- **1979 Aerobatic Pitts S2-A** — $80,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2069447-Pitts-S2-A.html
+  https://www.barnstormers.com/classified-2077665-NS-Fuel-caps-dhc2.html
+- **? DHC-2 Beaver DHC-2 Beaver** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2077664-NS-Fuel-selector-dhc2.html
+- **1977 Maule Maule** — $175,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2077784-1977-Maule-M-5-235C.html
+- **2008 Rans Rans** — $46,950 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-1918614-2008-Rans-S-6-Coyote-II.html
+- **? Aerobatic Aviat Pitts S2C / S2B** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-1811007-Aviat-Pitts-S2C--S2B.html

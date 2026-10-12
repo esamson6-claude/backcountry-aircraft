@@ -200,6 +200,10 @@
   "Aviation LLC Fairbanks, AK": null,
   "Aviation Port Orange, FL": null,
   "Aviation Services Plymouth, MA": null,
+  "BALTIMORE, MD": [
+    39.2908816,
+    -76.610759
+  ],
   "Baggs, WY": [
     41.035798,
     -107.657569
@@ -1485,6 +1489,10 @@
     -111.4132963
   ],
   "Helmut Guehr Mocksville, NC": null,
+  "Hemet, CA": [
+    33.7475203,
+    -116.9719684
+  ],
   "Henderson, NV": [
     36.0319602,
     -114.9822716
