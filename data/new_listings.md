@@ -1,60 +1,58 @@
-# New listings — 2026-10-20
+# New listings — 2026-10-21
 
-28 new listings:
+27 new listings:
 
-- **2004 American Champion Aerobatic 7-Gcbc** — price n/a — 399 TT — Spring, Texas — _controller_  
-  https://www.controller.com/listing/for-sale/261486341/2004-american-champion-7-gcbc-piston-single-aircraft
-- **1952 Cessna 170/175 170B** — $99,900 — 4999 TT — Chesapeake (PVG), VA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2461616&s-type=aircraft
-- **1958 DHC-2 Beaver DHC-2 MK I** — $695,000 — 13960 TT — Kenmore, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2435813&s-type=aircraft
-- **1955 DHC-2 Beaver DHC-2 MK I** — $825,000 — 12522 TT — Kenmore, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=DEHAVILLAND&model=DHC-2+MK+I&listing_id=2458026&s-type=aircraft
-- **2019 Cessna 172 172S SKYHAWK SP** — $120 — 999 —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2461625&s-type=aircraft
-- **2019 Cessna 172 172S SKYHAWK SP** — $120 — 999 —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2461626&s-type=aircraft
-- **2019 Cessna 172 172S SKYHAWK SP** — $120 — 937 —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2461627&s-type=aircraft
-- **2019 Cessna 172 172S SKYHAWK SP** — $120 — 1009 —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2461628&s-type=aircraft
-- **1999 Cessna 172 172R SKYHAWK** — $90 — 2962 TT — Jackson, TN — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2461637&s-type=aircraft
-- **1976 Cessna 172 172M SKYHAWK** — $80 — 2398 TT — Inverness, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461634&s-type=aircraft
-- **1975 Cessna 172 172M SKYHAWK** — $95 — 3470 TT — Inverness, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461631&s-type=aircraft
-- **1975 Cessna 172 172M SKYHAWK** — $80 — 2126 TT — Inverness, FL — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461639&s-type=aircraft
-- **1966 Cessna 172 172G SKYHAWK** — $115,000 — 4409 TT — Concord, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172G+SKYHAWK&listing_id=2461585&s-type=aircraft
-- **1977 Cessna 205/206/207 TU206G** — $242,000 — 12100 TT — Temple, TX — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=TU206G&listing_id=2461613&s-type=aircraft
-- **2000 Cessna 172 172** — $285,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2054508-Cessna-172.html
-- **1957 Cessna 172 172** — $1 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2074606-1957-Cessna-172.html
-- **1957 Cessna 172 172** — $1 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2074607-1957-Cessna-172.html
-- **1980 Cessna 172 172** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2079045-Cessna-172N-Skyhawk-|-N90FR.html
-- **1964 Cessna 172 172** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2078323&adtitle=1964-Cessna-172-F,-VERY-CLEAN
-- **? Cessna 205/206/207 206** — $2,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1970725-Cessna-206-HD-Nose-Fork.html
-- **? CubCrafters CubCrafters** — $365,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2079005-cubcrafters-EX3.html
-- **? Glasair Sportsman 2+2 Sportsman 2+2** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1753683-Glasair-Sportsman-in-CANADA.html
-- **? Stearman Stearman** — $100 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2079096-Stearman-B-13-2-lever-quadrant.html
-- **2000 Aerobatic Waco Classic Ymf-5C** — $315,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2073244-Waco-Classic-YMF-5C.html
-- **1998 Aerobatic Extra200** — $170,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2079025-Extra200.html
-- **? Aerobatic Pitts S1S Project** — $30,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2074556-Pitts-S1S-Project.html
-- **2014 Aerobatic Zlin Savage Cub Titan 340** — $65,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2045671-2014-ZLIN-Savage-Cub-Titan-340.html
-- **1995 Aerobatic Meticulous 1995 Extra 300L** — $249,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2012032-Meticulous-1995-Extra-300L.html
+- **1975 American Champion Aerobatic DECATHLON 8KCAB** — $130,000 — 2445 TT — Olivehurst, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2454727&s-type=aircraft
+- **2008 American Champion Aerobatic Super Decathlon 8Kcab** — $225,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079280-2008-SUPER-DECATHLON-8KCAB.html
+- **? American Champion Aerobatic Ready 2 Buy Citabria Or Scout** — $150,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2037615-Ready-2-Buy-Citabria-or-Scout.html
+- **1960 Cessna 170/175 175** — $54,500 — 3640 TT — whittier, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175&listing_id=2461678&s-type=aircraft
+- **1950 Cessna 195 195A** — $159,500 — 3893 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=195A&listing_id=2461692&s-type=aircraft
+- **1950 Cessna 195 195** — $159,500 — 3,893 TT — Yeşilköy, Eskisehir, Turkey — _controller_  
+  https://www.controller.com/listing/for-sale/261546405/1950-cessna-195-piston-single-aircraft
+- **1977 Cessna 172 172 HAWK XP-R172** — $125,000 — 3451 TT — Sedona, AZ — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP-R172&listing_id=2461654&s-type=aircraft
+- **1980 Cessna 172 172RG CUTLASS** — $169,000 — 7,262 — Port Saint Lucie, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2461683&s-type=aircraft
+- **1973 Cessna 172 172M SKYHAWK** — $105,000 — 6935 TT — Chatham, MA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461675&s-type=aircraft
+- **1970 Cessna 172 172L SKYHAWK** — $109,000 — 10958 TT — Walnut Cove, NC — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2461696&s-type=aircraft
+- **1967 Cessna 172 172 SKYHAWK** — $71,000 — 5460 TT — Denton, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2457702&s-type=aircraft
+- **1964 Cessna 172 172E SKYHAWK** — $185,000 — 4485 TT — Fort Worth, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2461682&s-type=aircraft
+- **1979 Cessna 172 172N SKYHAWK** — price n/a — 1592 TT — Pittsburgh, PA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2461677&s-type=aircraft
+- **1973 American Champion Aerobatic Bellanca** — $39,750 —  — Anderson, IN — _aerotrader_  
+  https://www.aerotrader.com/listing/1973-Bellanca-CITABRIA+7ECA-5042713614
+- **1970 Cessna 172 172** — $109,000 — 10958 TTAF — Rock Hill, SC — _aerotrader_  
+  https://www.aerotrader.com/listing/1970-Cessna-172-5042704820
+- **1960 Cessna 172 172** — $60,000 —  — Culpepper (Kcjr), VA — _aerotrader_  
+  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041322052
+- **1960 Cessna 172 172** — $89,000 —  — Newport News (Kphf), VA — _aerotrader_  
+  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041379682
+- **1979 Cessna 172 172** — $132,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079242-1979-Skyhawk.html
+- **1979 Cessna 172 172** — $132,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079243-1979-Skyhawk.html
+- **1973 Cessna 172 172** — $105,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079206-1973-Cessna-172M-Skyhawk.html
+- **1961 Piper PA-18 Super Cub PA-18 Super Cub** — $110,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079100-1961-Supercub.html
+- **1941 Stearman Stearman** — $169,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2047652-Stearman.html
+- **? Stinson 108 Stinson 108** — $18,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079129-Stinson-108-3-project.html
+- **2002 Aerobatic Extra 300L** — $295,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079292-2002-Extra-300L.html
+- **2007 Aerobatic Extra 300Sr** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2033980-EXTRA-300SR.html
+- **1978 Aerobatic Great Lakes 2T-1A-2** — $72,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2078637-1978-Great-Lakes-2T-1A-2.html
+- **1990 Aerobatic Staudacher S-300 Aerobatic** — $130,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2014055-Staudacher-S-300-Aerobatic.html
