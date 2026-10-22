@@ -2105,6 +2105,12 @@
       "price": 265000
     }
   ],
+  "https://www.barnstormers.com/classified-2065153-76-Citabria-7ECA,-In-annual!.html": [
+    {
+      "date": "2026-10-22",
+      "price": 28000
+    }
+  ],
   "https://www.barnstormers.com/classified-2065226-75-Citabria-7ECA,.html": [
     {
       "date": "2026-10-06",
@@ -2919,6 +2925,10 @@
     {
       "date": "2026-09-24",
       "price": 265000
+    },
+    {
+      "date": "2026-10-22",
+      "price": 250000
     }
   ],
   "https://www.barnstormers.com/classified-2074556-Pitts-S1S-Project.html": [
@@ -3365,6 +3375,36 @@
     {
       "date": "2026-10-21",
       "price": 295000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2079315-Bellanca-Citabria.html": [
+    {
+      "date": "2026-10-22",
+      "price": 39750
+    }
+  ],
+  "https://www.barnstormers.com/classified-2079367-1980-Cessna-172N-Skyhawk.html": [
+    {
+      "date": "2026-10-22",
+      "price": 169900
+    }
+  ],
+  "https://www.barnstormers.com/classified-2079379-Beaver-ski-axle-gear.html": [
+    {
+      "date": "2026-10-22",
+      "price": 16000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2079403-Cessna-180-landing-gears.html": [
+    {
+      "date": "2026-10-22",
+      "price": 10500
+    }
+  ],
+  "https://www.barnstormers.com/classified-2079478-ZENITH-801-AIRFRAME-FOR-SALE.html": [
+    {
+      "date": "2026-10-22",
+      "price": 15000
     }
   ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -5171,6 +5211,10 @@
     {
       "date": "2026-05-30",
       "price": 365000
+    },
+    {
+      "date": "2026-10-22",
+      "price": 325000
     }
   ],
   "https://www.controller.com/listing/for-sale/256091053/1985-cessna-172p-skyhawk-piston-single-aircraft": [
@@ -6579,6 +6623,10 @@
     {
       "date": "2026-10-21",
       "price": 113668
+    },
+    {
+      "date": "2026-10-22",
+      "price": 113851
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -7445,6 +7493,10 @@
     {
       "date": "2026-10-10",
       "price": 160000
+    },
+    {
+      "date": "2026-10-22",
+      "price": 169000
     }
   ],
   "https://www.controller.com/listing/for-sale/261336031/1949-cessna-170a-piston-single-aircraft": [
@@ -7491,6 +7543,18 @@
     {
       "date": "2026-10-21",
       "price": 159500
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/261580945/2018-cubcrafters-carbon-cub-ex-2-experimental-slash-homebuilt-aircraft": [
+    {
+      "date": "2026-10-22",
+      "price": 259000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/261582069/2001-american-champion-8-gcbc-scout-piston-single-aircraft": [
+    {
+      "date": "2026-10-22",
+      "price": 185000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
@@ -7989,6 +8053,12 @@
       "price": 124000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+SUPER+DECATHLON&listing_id=2461743&s-type=aircraft": [
+    {
+      "date": "2026-10-22",
+      "price": 148500
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-KCAB+XTREME+DECATHLON&listing_id=2453843&s-type=aircraft": [
     {
       "date": "2026-05-30",
@@ -8319,6 +8389,18 @@
     {
       "date": "2026-10-17",
       "price": 85000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2461702&s-type=aircraft": [
+    {
+      "date": "2026-10-22",
+      "price": 39750
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCAA&listing_id=2461735&s-type=aircraft": [
+    {
+      "date": "2026-10-22",
+      "price": 55500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2427357&s-type=aircraft": [
@@ -10711,6 +10793,10 @@
     {
       "date": "2026-10-12",
       "price": 161500
+    },
+    {
+      "date": "2026-10-22",
+      "price": 159500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172H+SKYHAWK&listing_id=2460568&s-type=aircraft": [
@@ -12041,6 +12127,10 @@
     {
       "date": "2026-08-21",
       "price": 120500
+    },
+    {
+      "date": "2026-10-22",
+      "price": 99500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459709&s-type=aircraft": [
@@ -12123,6 +12213,12 @@
     {
       "date": "2026-10-12",
       "price": 115999
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2461746&s-type=aircraft": [
+    {
+      "date": "2026-10-22",
+      "price": 145000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2454649&s-type=aircraft": [
@@ -13903,6 +13999,10 @@
     {
       "date": "2026-08-21",
       "price": 299000
+    },
+    {
+      "date": "2026-10-22",
+      "price": 279000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2429154&s-type=aircraft": [
@@ -14041,6 +14141,10 @@
     {
       "date": "2026-10-16",
       "price": 379000
+    },
+    {
+      "date": "2026-10-22",
+      "price": 369000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=A185F&listing_id=2461340&s-type=aircraft": [
@@ -15559,6 +15663,10 @@
     {
       "date": "2026-09-24",
       "price": 265000
+    },
+    {
+      "date": "2026-10-22",
+      "price": 250000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260&listing_id=2437807&s-type=aircraft": [
