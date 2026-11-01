@@ -643,6 +643,10 @@
     {
       "date": "2026-10-21",
       "price": 109000
+    },
+    {
+      "date": "2026-11-01",
+      "price": 99500
     }
   ],
   "https://www.aerotrader.com/listing/1970-Cessna-206-5042132039": [
@@ -713,6 +717,18 @@
     {
       "date": "2026-10-01",
       "price": 134500
+    }
+  ],
+  "https://www.aerotrader.com/listing/1978-Cessna-172-5042842897": [
+    {
+      "date": "2026-11-01",
+      "price": 138000
+    }
+  ],
+  "https://www.aerotrader.com/listing/1978-Cessna-172-5042842948": [
+    {
+      "date": "2026-11-01",
+      "price": 138000
     }
   ],
   "https://www.aerotrader.com/listing/1980-Cessna-172+HAWK+XP+II-5041817080": [
@@ -1603,6 +1619,10 @@
     {
       "date": "2026-10-15",
       "price": 389000
+    },
+    {
+      "date": "2026-11-01",
+      "price": 365000
     }
   ],
   "https://www.barnstormers.com/classified-2051048-NEW-STEARMAN-WING-KITS-PACKAGE.html": [
@@ -3281,6 +3301,10 @@
     {
       "date": "2026-10-07",
       "price": 99000
+    },
+    {
+      "date": "2026-11-01",
+      "price": 95000
     }
   ],
   "https://www.barnstormers.com/classified-2076787-1946-Stinson-108-1-Voyager.html": [
@@ -3691,6 +3715,24 @@
     {
       "date": "2026-10-31",
       "price": 3500
+    }
+  ],
+  "https://www.barnstormers.com/classified-2081189-Glasair-SIIS-RG.html": [
+    {
+      "date": "2026-11-01",
+      "price": 40000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2081199-PA-18-PROJECT.html": [
+    {
+      "date": "2026-11-01",
+      "price": 50000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2081235-1946-AERONCA-CHAMP.html": [
+    {
+      "date": "2026-11-01",
+      "price": 35000
     }
   ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -7683,6 +7725,10 @@
     {
       "date": "2026-10-24",
       "price": 375000
+    },
+    {
+      "date": "2026-11-01",
+      "price": 295000
     }
   ],
   "https://www.controller.com/listing/for-sale/260423101/1975-cessna-u206f-stationair-piston-single-aircraft": [
@@ -9543,6 +9589,10 @@
     {
       "date": "2026-10-23",
       "price": 124900
+    },
+    {
+      "date": "2026-11-01",
+      "price": 115000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2461793&s-type=aircraft": [
@@ -11793,6 +11843,10 @@
     {
       "date": "2026-10-21",
       "price": 109000
+    },
+    {
+      "date": "2026-11-01",
+      "price": 99500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2461759&s-type=aircraft": [
@@ -14175,6 +14229,12 @@
       "price": 250000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185A&listing_id=2462063&s-type=aircraft": [
+    {
+      "date": "2026-11-01",
+      "price": 162500
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=185D&listing_id=2452762&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -15641,6 +15701,10 @@
     {
       "date": "2026-10-15",
       "price": 389000
+    },
+    {
+      "date": "2026-11-01",
+      "price": 365000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2457360&s-type=aircraft": [
