@@ -435,6 +435,10 @@
     {
       "date": "2026-08-10",
       "price": 529000
+    },
+    {
+      "date": "2026-11-05",
+      "price": 489000
     }
   ],
   "https://aviataircraft.com/husky-aircraft-used-inventory/#N71HY": [
@@ -789,6 +793,12 @@
       "price": 245000
     }
   ],
+  "https://www.aerotrader.com/listing/1999-Cessna-172-5042888777": [
+    {
+      "date": "2026-11-05",
+      "price": 265000
+    }
+  ],
   "https://www.aerotrader.com/listing/2001-Cessna-172S+SKYHAWK+SP-5039918707": [
     {
       "date": "2026-06-17",
@@ -1071,6 +1081,10 @@
     {
       "date": "2026-09-11",
       "price": 36000
+    },
+    {
+      "date": "2026-11-05",
+      "price": 35000
     }
   ],
   "https://www.barnstormers.com/classified-1994325-Stolp-Starduster-Too.html": [
@@ -1697,6 +1711,10 @@
     {
       "date": "2026-10-03",
       "price": 95900
+    },
+    {
+      "date": "2026-11-05",
+      "price": 83500
     }
   ],
   "https://www.barnstormers.com/classified-2052743-1980-Super-Decathalon.html": [
@@ -3827,6 +3845,30 @@
       "price": 139000
     }
   ],
+  "https://www.barnstormers.com/classified-2081897-1964-Cessna-172E-Skyhawk.html": [
+    {
+      "date": "2026-11-05",
+      "price": 90000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2081908-1968-Champion-7-ECA-Citabria.html": [
+    {
+      "date": "2026-11-05",
+      "price": 54900
+    }
+  ],
+  "https://www.barnstormers.com/classified-2081915-2021-Acro-AcroSport-II.html": [
+    {
+      "date": "2026-11-05",
+      "price": 39900
+    }
+  ],
+  "https://www.barnstormers.com/classified-2081994-Citabria-7ECA.html": [
+    {
+      "date": "2026-11-05",
+      "price": 75000
+    }
+  ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
     {
       "date": "2026-05-30",
@@ -4825,6 +4867,12 @@
     {
       "date": "2026-08-06",
       "price": 425000
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/251935611/1980-cessna-u206g-stationair-ii-piston-single-aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 399900
     }
   ],
   "https://www.controller.com/listing/for-sale/251978477/1977-cessna-172n-skyhawk-piston-single-aircraft": [
@@ -7105,6 +7153,10 @@
     {
       "date": "2026-11-04",
       "price": 113779
+    },
+    {
+      "date": "2026-11-05",
+      "price": 114028
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -7357,6 +7409,10 @@
     {
       "date": "2026-07-24",
       "price": 450000
+    },
+    {
+      "date": "2026-11-05",
+      "price": 440000
     }
   ],
   "https://www.controller.com/listing/for-sale/258527535/1980-cessna-a185f-amphibian-piston-amphibious-slash-floatplanes": [
@@ -8153,10 +8209,22 @@
       "price": 643000
     }
   ],
+  "https://www.controller.com/listing/for-sale/261922373/1980-cessna-r172-hawk-xp-piston-single-aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 124900
+    }
+  ],
   "https://www.controller.com/listing/for-sale/262008933/2023-murphy-moose-experimental-slash-homebuilt-aircraft": [
     {
       "date": "2026-11-03",
       "price": 249900
+    }
+  ],
+  "https://www.controller.com/listing/for-sale/262084735/1979-cessna-r172-hawk-xp-ii-piston-single-aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 115000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-AC&listing_id=2444177&s-type=aircraft": [
@@ -9175,6 +9243,10 @@
     {
       "date": "2026-10-25",
       "price": 89900
+    },
+    {
+      "date": "2026-11-05",
+      "price": 83500
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=SUPER+DECATHLON&listing_id=2456945&s-type=aircraft": [
@@ -10559,6 +10631,12 @@
       "price": 89000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2462069&s-type=aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 259000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+XP&listing_id=2458693&s-type=aircraft": [
     {
       "date": "2026-07-25",
@@ -10757,6 +10835,10 @@
     {
       "date": "2026-10-27",
       "price": 91000
+    },
+    {
+      "date": "2026-11-05",
+      "price": 88000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2449929&s-type=aircraft": [
@@ -12013,6 +12095,12 @@
       "price": 135000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2461930&s-type=aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 120000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2433445&s-type=aircraft": [
     {
       "date": "2026-06-14",
@@ -12603,6 +12691,10 @@
     {
       "date": "2026-10-31",
       "price": 79000
+    },
+    {
+      "date": "2026-11-05",
+      "price": 69000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2434774&s-type=aircraft": [
@@ -15471,6 +15563,12 @@
       "price": 439500
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2462180&s-type=aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 549000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2456659&s-type=aircraft": [
     {
       "date": "2026-05-31",
@@ -17159,6 +17257,12 @@
     {
       "date": "2026-09-10",
       "price": 179900
+    }
+  ],
+  "https://www.trade-a-plane.com/search?listing_id=2462185&s-type=aircraft": [
+    {
+      "date": "2026-11-05",
+      "price": 249900
     }
   ],
   "https://www.vanbortel.com/cessnas-for-sale/1978-cessna-a185f-n4800q": [
