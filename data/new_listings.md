@@ -1,56 +1,60 @@
-# New listings — 2026-11-05
+# New listings — 2026-11-06
 
-26 new listings:
+28 new listings:
 
-- **2025 Aviat Husky Husky A-1C-200** — $489,000 —  —  — _aviat_  
-  https://aviataircraft.com/husky-aircraft-used-inventory/#N579LM
-- **1968 American Champion Aerobatic Champion 7-Eca Citabria** — $54,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2081908-1968-Champion-7-ECA-Citabria.html
-- **? American Champion Aerobatic Restored Citabria 7Eca** — $39,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2008257-Restored-Citabria-7ECA.html
-- **? American Champion Aerobatic Citabria 7Eca** — $75,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2081994-Citabria-7ECA.html
-- **1977 American Champion Aerobatic Super Decathlon** — $83,500 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2052355-1977-Super-Decathlon.html
-- **2023 Murphy Rebel MOOSE** — $249,900 — 200 — Placerville, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?listing_id=2462185&s-type=aircraft
-- **1983 Cessna 172 172 SKYHAWK** — $259,000 — 3285 hrs — Tarzana, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2462069&s-type=aircraft
-- **1969 Cessna 172 172K SKYHAWK** — $120,000 — 7796 TT —  — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172K+SKYHAWK&listing_id=2458557&s-type=aircraft
-- **1972 Cessna 172 172L SKYHAWK** — $120,000 — 3377 TT — Fullerton, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2461930&s-type=aircraft
-- **2024 Cessna 172 172S SKYHAWK SP** — price n/a — 899 TT — MCCallen, TX — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2462192&s-type=aircraft
-- **1998 Cessna 172 172S SKYHAWK SP** — price n/a — 2958 TT — Prescott, AZ — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2461834&s-type=aircraft
-- **1980 Cessna 172 R172 Hawk** — $124,900 — 3,844 TT — Deer Valley, Arizona — _controller_  
-  https://www.controller.com/listing/for-sale/261922373/1980-cessna-r172-hawk-xp-piston-single-aircraft
-- **1977 Cessna 172 R172 Hawk** — $150,000 — 2,457 TT — Pontotoc, Mississippi — _controller_  
-  https://www.controller.com/listing/for-sale/254311915/1977-cessna-r172-hawk-xp-piston-single-aircraft
-- **1979 Cessna 172 R172 Hawk** — $115,000 — 5,262 TT — Placerville, California — _controller_  
-  https://www.controller.com/listing/for-sale/262084735/1979-cessna-r172-hawk-xp-ii-piston-single-aircraft
-- **2006 Cessna 205/206/207 T206H STATIONAIR** — $549,000 — 1072 TT — Seattle, WA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2462180&s-type=aircraft
-- **1980 Cessna 205/206/207 U206G Stationair** — $399,900 — 4,021 TT — Tulsa, Oklahoma — _controller_  
-  https://www.controller.com/listing/for-sale/251935611/1980-cessna-u206g-stationair-ii-piston-single-aircraft
-- **1999 Cessna 172 172** — $265,000 — 8500 TT — Goodyear, AZ — _aerotrader_  
-  https://www.aerotrader.com/listing/1999-Cessna-172-5042888777
-- **2013 Aviat Husky Husky** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=1955645&adtitle=2013-Husky-A-1C-180
-- **1963 Cessna 172 172** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2081790&adtitle=1963-Cessna-172-D
-- **1964 Cessna 172 172** — $90,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2081897-1964-Cessna-172E-Skyhawk.html
-- **? Rans Rans** — $35,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1992533-RANS-S-6-ES-116,-TW.html
-- **? Stearman Stearman** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2022047-Stearman-Flying-Wires.html
-- **2018 Stinson 108 Stinson 108** — $395,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2072171-Stinson-SR-9C.html
-- **1971 Aerobatic PITTS S 1S** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=1971294&adtitle=PITTS-S-1S
-- **? Aerobatic Great Lakes Services** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1766807-Great-Lakes-Services.html
-- **2021 Aerobatic Acro Acrosport Ii** — $39,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2081915-2021-Acro-AcroSport-II.html
+- **2025 Aviat Husky A-1C-200** — $489,000 — 25 TT — Middleton, Wisconsin — _controller_  
+  https://www.controller.com/listing/for-sale/259182751/2025-aviat-husky-a-1c-200-piston-single-aircraft
+- **2010 Aviat Husky A-1C-180** — $234,900 — 545 TT — Lexington, Kentucky — _controller_  
+  https://www.controller.com/listing/for-sale/262120423/2010-aviat-husky-a-1c-180-piston-single-aircraft
+- **2024 CubCrafters NXCUB** — $475,000 — 48 TT — Santa Maria, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=NXCUB&listing_id=2462233&s-type=aircraft
+- **1983 Cessna 172 172P SKYHAWK** — $259,000 — 3285 TT — Chino, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172P+SKYHAWK&listing_id=2462069&s-type=aircraft
+- **1972 Cessna 172 172 SKYHAWK** — $275,000 — 7300 TT — Sebring, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+SKYHAWK&listing_id=2462217&s-type=aircraft
+- **1979 Cessna 172 172 HAWK XP II** — $125,000 — 5262 TT — Placerville, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172+HAWK+XP+II&listing_id=2462215&s-type=aircraft
+- **1972 Cessna 172 172L SKYHAWK** — $130,000 — 11300 TT — Miami, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172L+SKYHAWK&listing_id=2461235&s-type=aircraft
+- **1981 Cessna 172 172** — price n/a — 5354 TT — Stuart, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2462241&s-type=aircraft
+- **1974 Cessna 172 172M SKYHAWK** — price n/a — 9140 TT — Stuart, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2462242&s-type=aircraft
+- **1961 Cessna 172 172C SKYHAWK** — price n/a —  — Midland, VA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172C+SKYHAWK&listing_id=2462211&s-type=aircraft
+- **2008 Cessna 172 172S Skyhawk** — $434,900 — 3,725 TT — Kennesaw, Georgia — _controller_  
+  https://www.controller.com/listing/for-sale/260100615/2008-cessna-172s-skyhawk-sp-piston-single-aircraft
+- **1998 Cessna 172 172R Skyhawk** — $279,900 — 5,009 TT — Miami, Florida — _controller_  
+  https://www.controller.com/listing/for-sale/261969877/1998-cessna-172r-skyhawk-piston-single-aircraft
+- **1981 Cessna 172 172P Skyhawk** — $269,900 — 4,200 TT — Miami, Florida — _controller_  
+  https://www.controller.com/listing/for-sale/261965451/1981-cessna-172p-skyhawk-piston-single-aircraft
+- **1972 Cessna 172 172M Skyhawk** — $80,000 — 4,633 TT — Columbia, Missouri — _controller_  
+  https://www.controller.com/listing/for-sale/261978011/1972-cessna-172m-skyhawk-piston-single-aircraft
+- **1966 Cessna 172 172H Skyhawk** — $89,000 — 3,460 TT — Flint, Michigan — _controller_  
+  https://www.controller.com/listing/for-sale/262081179/1966-cessna-172h-skyhawk-piston-single-aircraft
+- **1975 Cessna 172 172** — $149,900 —  — Petersburg (Kptb), VA — _aerotrader_  
+  https://www.aerotrader.com/listing/1975-Cessna-172M+SKYHAWK-5042745512
+- **1960 Cessna 172 172** — $54,900 —  — Culpepper (Kcjr), VA — _aerotrader_  
+  https://www.aerotrader.com/listing/1960-Cessna-172A+SKYHAWK-5041322052
+- **1979 Cessna 172 172** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2082146-1979-Cessna-172N-Skyhawk.html
+- **1966 Cessna 172 172** — $82,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2082238-1966-Cessna-172-G.html
+- **1953 Cessna 180 180** — $164,900 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2065890-1953-Cessna-180.html
+- **1978 Cessna 205/206/207 206** — $307,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2034370-1978-Cessna-Stationair-U206-AG.html
+- **2024 CubCrafters CubCrafters** — $475,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2082249-2024-CUBCRAFTERS-NXCUB.html
+- **? DHC-2 Beaver DHC-2 Beaver** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2082180-Beaver-tie-rod-C2UT249.html
+- **? Kitfox Kitfox** — $80,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2050095-Kitfox-model34-Rotax912-114hp.html
+- **1977 Maule Maule** — $175,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2077784-1977-Maule-M5-235C.html
+- **1972 Aerobatic Siai Marchetti SF 260** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2082215&adtitle=1972-Siai-Marchetti-SF-260
+- **? Aerobatic Unique Cap222** — price n/a —  —  — _barnstormers_  
+  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2055432&adtitle=Unique-Cap222
+- **? Aerobatic 83 Superstarduster Ss101/Sa101** — $35,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2082236-83-SuperStarduster-SS101SA101.html
