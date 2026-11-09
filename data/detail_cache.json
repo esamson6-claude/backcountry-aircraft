@@ -1719,6 +1719,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2461793&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172%2F180+CONVERSION&listing_id=2462268&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2269039&s-type=aircraft": {
     "location": "Pittstown, NJ"
   },
@@ -3528,6 +3531,12 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175A&listing_id=2462071&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175A&listing_id=2462321&s-type=aircraft": {
+    "location": null
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175B&listing_id=2462287&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=175C&listing_id=2455008&s-type=aircraft": {
     "location": "Caldwell, ID"
   },
@@ -4233,6 +4242,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2462180&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2462198&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR+HD&listing_id=2436760&s-type=aircraft": {
     "location": null
   },
@@ -4734,6 +4746,9 @@
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2459657&s-type=aircraft": {
     "location": null
   },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=KITFOX&model=SUPER+SPORT&listing_id=2462304&s-type=aircraft": {
+    "location": null
+  },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-4-180V&listing_id=2453446&s-type=aircraft": {
     "location": "El Cajon, CA"
   },
@@ -4757,6 +4772,9 @@
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2450269&s-type=aircraft": {
     "location": "Ogden, UT"
+  },
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-180C&listing_id=2462279&s-type=aircraft": {
+    "location": null
   },
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-5-210C&listing_id=2447631&s-type=aircraft": {
     "location": "Bend, OR"
