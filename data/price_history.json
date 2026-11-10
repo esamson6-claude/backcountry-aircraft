@@ -803,6 +803,10 @@
     {
       "date": "2026-06-17",
       "price": 315000
+    },
+    {
+      "date": "2026-11-10",
+      "price": 295000
     }
   ],
   "https://www.aerotrader.com/listing/2010-American+Champion-7-GCBC+EXPLORER-5041858817": [
@@ -3727,6 +3731,10 @@
     {
       "date": "2026-10-27",
       "price": 132000
+    },
+    {
+      "date": "2026-11-10",
+      "price": 125000
     }
   ],
   "https://www.barnstormers.com/classified-2080376-Complete-1947-Stinson-108-2.html": [
@@ -4001,6 +4009,24 @@
     {
       "date": "2026-11-09",
       "price": 65000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2082788-WACO-UPF-7.html": [
+    {
+      "date": "2026-11-10",
+      "price": 289855
+    }
+  ],
+  "https://www.barnstormers.com/classified-2082800-WACO-UPF-7.html": [
+    {
+      "date": "2026-11-10",
+      "price": 308660
+    }
+  ],
+  "https://www.barnstormers.com/classified-2082934-1946-AERONCA-CHAMP.html": [
+    {
+      "date": "2026-11-10",
+      "price": 33900
     }
   ],
   "https://www.controller.com/listing/for-sale/220797383/2013-aviat-husky-a-1c-180-piston-single-aircraft": [
@@ -5645,6 +5671,10 @@
     {
       "date": "2026-10-13",
       "price": 424900
+    },
+    {
+      "date": "2026-11-10",
+      "price": 395900
     }
   ],
   "https://www.controller.com/listing/for-sale/254619999/1968-cessna-u206-stationair-piston-single-aircraft": [
@@ -7315,6 +7345,10 @@
     {
       "date": "2026-11-09",
       "price": 113010
+    },
+    {
+      "date": "2026-11-10",
+      "price": 113679
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -8787,6 +8821,12 @@
     {
       "date": "2026-08-11",
       "price": 87500
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=7-KCAB+CITABRIA&listing_id=2462344&s-type=aircraft": [
+    {
+      "date": "2026-11-10",
+      "price": 64900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=AMERICAN+CHAMPION&model=8-GCBC+SCOUT&listing_id=2427230&s-type=aircraft": [
@@ -11237,6 +11277,12 @@
       "price": 129500
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172D+SKYHAWK&listing_id=2462339&s-type=aircraft": [
+    {
+      "date": "2026-11-10",
+      "price": 90000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172E+SKYHAWK&listing_id=2444069&s-type=aircraft": [
     {
       "date": "2026-06-26",
@@ -12897,6 +12943,12 @@
       "price": 140000
     }
   ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461454&s-type=aircraft": [
+    {
+      "date": "2026-11-10",
+      "price": 115000
+    }
+  ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172M+SKYHAWK&listing_id=2461481&s-type=aircraft": [
     {
       "date": "2026-10-15",
@@ -13351,6 +13403,10 @@
     {
       "date": "2026-08-21",
       "price": 125000
+    },
+    {
+      "date": "2026-11-10",
+      "price": 105000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2459786&s-type=aircraft": [
@@ -13425,6 +13481,10 @@
     {
       "date": "2026-10-26",
       "price": 127500
+    },
+    {
+      "date": "2026-11-10",
+      "price": 125000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172N+SKYHAWK&listing_id=2461375&s-type=aircraft": [
@@ -13723,6 +13783,12 @@
     {
       "date": "2026-10-20",
       "price": 179000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172R+SKYHAWK&listing_id=2462358&s-type=aircraft": [
+    {
+      "date": "2026-11-10",
+      "price": 215000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172RG+CUTLASS&listing_id=2431722&s-type=aircraft": [
@@ -16561,6 +16627,12 @@
     {
       "date": "2026-09-06",
       "price": 254000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2462332&s-type=aircraft": [
+    {
+      "date": "2026-11-10",
+      "price": 165000
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC18-180+TOP+CUB&listing_id=2455190&s-type=aircraft": [
