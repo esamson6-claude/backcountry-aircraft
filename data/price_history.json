@@ -2149,6 +2149,10 @@
     {
       "date": "2026-09-11",
       "price": 435000
+    },
+    {
+      "date": "2026-11-15",
+      "price": 420000
     }
   ],
   "https://www.barnstormers.com/classified-2061331-Alaska-Ready-Super-Cub.html": [
@@ -2567,6 +2571,10 @@
     {
       "date": "2026-10-07",
       "price": 165000
+    },
+    {
+      "date": "2026-11-15",
+      "price": 159000
     }
   ],
   "https://www.barnstormers.com/classified-2069349-Glasair-Super-II.html": [
@@ -3505,6 +3513,10 @@
     {
       "date": "2026-10-13",
       "price": 339000
+    },
+    {
+      "date": "2026-11-15",
+      "price": 349000
     }
   ],
   "https://www.barnstormers.com/classified-2077872-Sukhoi-SU-31.html": [
@@ -3517,6 +3529,12 @@
     {
       "date": "2026-10-15",
       "price": 69500
+    }
+  ],
+  "https://www.barnstormers.com/classified-2078180-Glasair-III-New-build!.html": [
+    {
+      "date": "2026-11-15",
+      "price": 225000
     }
   ],
   "https://www.barnstormers.com/classified-2078233-1977-Bellanca-Citabria-7ECA.html": [
@@ -4126,6 +4144,18 @@
   "https://www.barnstormers.com/classified-2083616-1946-AERONCA-CHAMP.html": [
     {
       "date": "2026-11-14",
+      "price": 33900
+    }
+  ],
+  "https://www.barnstormers.com/classified-2083762-Glasair-III-with-new-panel.html": [
+    {
+      "date": "2026-11-15",
+      "price": 150000
+    }
+  ],
+  "https://www.barnstormers.com/classified-2083858-1946-AERONCA-CHAMP.html": [
+    {
+      "date": "2026-11-15",
       "price": 33900
     }
   ],
@@ -7469,6 +7499,10 @@
     {
       "date": "2026-11-14",
       "price": 111624
+    },
+    {
+      "date": "2026-11-15",
+      "price": 111619
     }
   ],
   "https://www.controller.com/listing/for-sale/257741673/1979-cessna-u206g-stationair-piston-single-aircraft": [
@@ -17803,6 +17837,12 @@
     {
       "date": "2026-08-07",
       "price": 125000
+    }
+  ],
+  "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180A&listing_id=2462541&s-type=aircraft": [
+    {
+      "date": "2026-11-15",
+      "price": 184900
     }
   ],
   "https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=MXT-7-180B&listing_id=2456215&s-type=aircraft": [
