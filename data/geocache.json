@@ -38,6 +38,9 @@
     -110.933402
   ],
   "Air LLC Kerrville, TX": null,
+  "AirSpace Auctions Pittsburgh, PA": null,
+  "AirSpace Auctions Richmond, VA": null,
+  "AirSpace Auctions Stanton, MI": null,
   "Aircraft Blaine, MN": null,
   "Aircraft LLC Denver, CO": null,
   "Aircraft LLC Nampa, ID": null,
@@ -82,6 +85,7 @@
     55.001251,
     -115.002136
   ],
+  "Aldrich Morel Miami, FL": null,
   "Alene Aviation Hayden, ID": null,
   "Alene, ID": [
     47.6742994,
@@ -128,6 +132,7 @@
     -82.652962
   ],
   "Andrew Bonner Decatur, AL": null,
+  "Andrew Hartt Millinocket, ME": null,
   "Andy Redley Maryville, TN": null,
   "Annie Vogel Middleton, WI": null,
   "Anthony Hoffman Draper, UT": null,
@@ -202,6 +207,7 @@
     -122.2301808
   ],
   "Auckland, North Island, New Zealand": null,
+  "Auctions Santa Monica, CA": null,
   "Audio Panel, PS": null,
   "Aurora, OR": [
     45.2310497,
@@ -218,6 +224,7 @@
   "Aviation Port Orange, FL": null,
   "Aviation Services Plymouth, MA": null,
   "Axis Auto-Pilot, XM": null,
+  "Azar Santa Teresa, NM": null,
   "BALTIMORE, MD": [
     39.2908816,
     -76.610759
@@ -317,6 +324,7 @@
     -94.8832791
   ],
   "Ben International Falls, MN": null,
+  "Ben LaBarre Hayward, WI": null,
   "Bend, OR": [
     44.0581728,
     -121.3153096
@@ -455,6 +463,7 @@
   ],
   "Brest Moses Lake, WA": null,
   "Bret Chilcott Derby, KS": null,
+  "Brian Campbell Elizabethtown, NC": null,
   "Brian Young Endicott, NY": null,
   "Bridgeport, TX": [
     33.2101155,
@@ -594,6 +603,7 @@
     36.7014631,
     -118.755997
   ],
+  "Calvin Kramp Superior, WI": null,
   "Camarillo, CA": [
     34.2176371,
     -119.0383541
@@ -747,6 +757,7 @@
     34.0133561,
     -117.690075
   ],
+  "Christenson West Fargo, ND": null,
   "Christopher Butrico Vancouver, WA": null,
   "Christopher Travland Austin, TX": null,
   "Cincinnati, OH": [
@@ -838,6 +849,10 @@
     39.9622601,
     -83.0007065
   ],
+  "Comm, MX": [
+    43.3435855,
+    17.8076584
+  ],
   "Concord, CA": [
     37.9768525,
     -122.0335624
@@ -856,6 +871,11 @@
   ],
   "Connor OBrien Bend, OR": null,
   "Consulting La Grande, OR": null,
+  "Consulting Olive Branch, MS": null,
+  "Consulting Seattle, WA": [
+    47.3011143,
+    -122.3170888
+  ],
   "Coral Springs, FL": [
     26.271192,
     -80.2706044
@@ -938,6 +958,7 @@
   ],
   "Damien Sansom Slocomb, AL": null,
   "Dan Roseland Sonoma, CA": null,
+  "Daniel Gilbert Kodiak, AK": null,
   "Darrel Robbins Petaluma, CA": null,
   "David City (93Y), NE": [
     41.2527355,
@@ -965,6 +986,7 @@
     34.2928774,
     -91.3378987
   ],
+  "Dean Castillo Tampa, FL": null,
   "Decatur, AL": [
     34.6060203,
     -86.9838165
@@ -1118,6 +1140,7 @@
     37.8173015,
     -96.8537388
   ],
+  "Eliux Velazquez Homestead, FL": null,
   "Elizabethton, TN": [
     36.3487756,
     -82.2107617
@@ -1159,6 +1182,7 @@
     41.7934538,
     -83.4971152
   ],
+  "Eriksen South Fork, CO": null,
   "Estero, FL": [
     26.4381474,
     -81.8067537
@@ -1172,6 +1196,7 @@
     47.9793437,
     -122.2127011
   ],
+  "Exchange North Perry, FL": null,
   "FM, KT": null,
   "Fairbanks, AK": [
     64.837845,
@@ -1459,6 +1484,8 @@
     33.4672279,
     -112.3853489
   ],
+  "Gordon Ramsay Bentonville, AR": null,
+  "Gordon Ramsay Boerne, TX": null,
   "Goslar, Germany": [
     51.9059936,
     10.4266284
@@ -1591,6 +1618,7 @@
     -70.8378746
   ],
   "Hangar Gurus Kirkland, WA": null,
+  "Hannah Neill Camas, WA": null,
   "Harrisburg, AR": [
     35.5631272,
     -90.7185589
@@ -1699,6 +1727,10 @@
     29.8191629,
     -95.6737915
   ],
+  "Houston Airport Houston, TX": [
+    29.9841416,
+    -95.332986
+  ],
   "Houston, TX": [
     29.7589382,
     -95.3676974
@@ -1745,6 +1777,7 @@
     40.0796606,
     -89.4337288
   ],
+  "In The Hill, IL": null,
   "Independence - 7S5, OR": [
     44.8665042,
     -123.1974675
@@ -1816,11 +1849,13 @@
     -79.2380322
   ],
   "Jared Segebartt Viola, ID": null,
+  "Jarema Boyne Falls, MI": null,
   "Jason Williams Cypress, TX": null,
   "Jasper, GA": [
     33.3254635,
     -83.6868559
   ],
+  "Jeff Jennings Kenly, NC": null,
   "Jefferson, GA": [
     33.0380388,
     -82.436141
@@ -1830,12 +1865,16 @@
     -81.4734376
   ],
   "Jeffrey Thomas Corona, CA": null,
+  "Jeffrey Trueman Concord, CA": null,
   "Jeremy Richards Lebanon, TN": null,
+  "Jesse McClintock Camarillo, CA": null,
   "Joe McDonough Middleton, WI": null,
   "Johannesburg, Gauteng, South Africa": [
     -26.205,
     28.049722
   ],
+  "John Spatuzzi Griffin, GA": null,
+  "John Stikes Kennesaw, GA": null,
   "John's Island, SC": [
     32.7224939,
     -80.0771681
@@ -1891,6 +1930,7 @@
     -122.8354355
   ],
   "Ken Leblanc Franklinton, LA": null,
+  "Ken Schmick Fonddulac, WI": null,
   "Kenly, NC": [
     35.5959363,
     -78.1240031
@@ -2274,6 +2314,7 @@
     38.6654653,
     -78.4600202
   ],
+  "Lyle Walker Katy, TX": null,
   "Lynchburg, VA": [
     37.4137536,
     -79.1422464
@@ -2345,6 +2386,10 @@
   "Marstons Mills, MA": [
     41.653384,
     -70.4132249
+  ],
+  "Marysville, CA": [
+    39.1457247,
+    -121.5913516
   ],
   "Maryville, TN": [
     35.7564719,
@@ -2434,6 +2479,7 @@
     35.146026,
     -90.0517786
   ],
+  "Mermigas Belle Vernon, PA": null,
   "Merritt Island, Florida": [
     28.2662775,
     -80.6636984
@@ -2491,6 +2537,7 @@
   ],
   "Mike Goulian Middleton, WI": null,
   "Mike Goulian Plymouth, MA": null,
+  "Mike Kennedy Orlando, FL": null,
   "Millinocket, ME": [
     45.6487248,
     -68.6849429
@@ -2580,13 +2627,16 @@
   "More Info Corona, CA": null,
   "More Info Everett, WA": null,
   "More Info Greenville, SC": null,
+  "More Info Hemet, CA": null,
   "More Info Jackson, MS": null,
   "More Info Lantan, FL": null,
   "More Info Leask, SK": null,
   "More Info Lenoir, NC": null,
+  "More Info Miami, FL": null,
   "More Info Minooka, IL": null,
   "More Info Mitcham, SA": null,
   "More Info Newellton, LA": null,
+  "More Info Robesonia, PA": null,
   "More Info Salida, CO": null,
   "More Info Sebring, FL": null,
   "More Info Vancouver, WA": null,
@@ -2872,10 +2922,15 @@
     34.9617605,
     -89.8295315
   ],
+  "Olive, NC": [
+    35.1965532,
+    -78.0663788
+  ],
   "Olivehurst, CA": [
     39.0797035,
     -121.5528966
   ],
+  "Oltman Sandia Park, NM": null,
   "Omaha, NE": [
     41.2587459,
     -95.9383758
@@ -2920,10 +2975,15 @@
     28.5421218,
     -81.379045
   ],
+  "Oro Valley, AZ": [
+    32.4000525,
+    -110.955317
+  ],
   "Orr, MN": [
     48.053527,
     -92.831002
   ],
+  "Oscar Barber Topping, VA": null,
   "Oshkosh, Wisconsin": [
     44.0206919,
     -88.5408574
@@ -2963,6 +3023,7 @@
     -80.1139574
   ],
   "Pablo Bartlett Falbrook, CA": null,
+  "Pabon San Fernando, CA": null,
   "Pacoima, CA": [
     34.2625025,
     -118.427027
@@ -3036,6 +3097,7 @@
     14.5466577,
     120.9832575
   ],
+  "Patrick Coughlin Nashua, NH": null,
   "Paul Joseph Charleston, SC": [
     32.8496907,
     -79.9970465
@@ -3094,12 +3156,17 @@
     38.2325829,
     -122.636465
   ],
+  "Peter Halstead Franklin, NC": null,
   "Peterborough, Ontario, Canada": [
     44.3048009,
     -78.3199496
   ],
   "Petersburg (KPTB), VA": null,
   "Petersburg (Kptb), VA": null,
+  "Petersburg, FL": [
+    27.7712264,
+    -82.6340259
+  ],
   "Petersburg, Virginia": [
     37.227928,
     -77.4019268
@@ -3300,16 +3367,19 @@
     37.8420743,
     -76.2757772
   ],
+  "Regiomontanos MCCallen, TX": null,
   "Reno, NV": [
     39.5261788,
     -119.812658
   ],
+  "Ricardo Silva Temple, TX": null,
   "Rice Lake, WI": [
     45.5027926,
     -91.733423
   ],
   "Richard Bartlett Sussex, NJ": null,
   "Richard Coates Andalusia, AL": null,
+  "Richard Snider Buckeye, AZ": null,
   "Richard Wissenbach Stevensville, MT": null,
   "Richland, MI": [
     42.3761504,
@@ -3347,6 +3417,7 @@
     37.270973,
     -79.9414313
   ],
+  "Robert Rabe Sacramento, CA": null,
   "Robesonia, PA": [
     40.3517591,
     -76.134389
@@ -3375,6 +3446,8 @@
     40.8075225,
     -73.1359924
   ],
+  "Ross Coyer Orr, MN": null,
+  "Russell Pruitt Jefferson, GA": null,
   "Russellville, Arkansas": [
     35.2784173,
     -93.1337856
@@ -3389,6 +3462,7 @@
   ],
   "Ryan Crane Panama, FL": null,
   "Ryan Spencer Sanger, TX": null,
+  "Ryan Stewart Benton, KS": null,
   "S Indiantown, FL": [
     27.0273407,
     -80.4820908
@@ -3401,6 +3475,7 @@
     38.2110702,
     -85.217294
   ],
+  "SMOH, PS": null,
   "SOH, PM": null,
   "Sacramento, CA": [
     38.5810606,
@@ -3489,6 +3564,7 @@
     29.8826436,
     -97.9405828
   ],
+  "Sand Middle River, MD": null,
   "Sandpoint, Idaho": [
     48.2761306,
     -116.5487835
@@ -3552,6 +3628,7 @@
     10.7578121
   ],
   "Scott Cunningham Justin, TX": null,
+  "Scott Krause Tulsa, OK": null,
   "Scottsdale, AZ": [
     33.4942189,
     -111.926018
@@ -3753,6 +3830,7 @@
     37.1098772,
     -113.5832063
   ],
+  "Stacey Williams Midland, VA": null,
   "Stafford (KRMN), VA": [
     38.3989258,
     -77.4555815
@@ -3773,6 +3851,7 @@
     32.2201387,
     -98.2045388
   ],
+  "Steve Bush Salida, CO": null,
   "Steve Charlesworth Vancouver, BC": null,
   "Steve Kamm Ketchikan, AK": null,
   "Steven Houseman Chillicothe, OH": null,
@@ -3840,6 +3919,7 @@
     50.2849138,
     -107.7984496
   ],
+  "TKS, HD": null,
   "Tampa, FL": [
     27.9449854,
     -82.4583107
@@ -3901,6 +3981,7 @@
   "Tim Mcwilliams Houston, TX": null,
   "Timm Central Florida, FL": null,
   "Timothy Ross Rivers, MB": null,
+  "Tindall Fort Pierce, FL": null,
   "Titusville, FL": [
     28.6126236,
     -80.8079545
@@ -3928,6 +4009,7 @@
     -150.3925522
   ],
   "Trever Throop Hamilton, MT": null,
+  "Tristan Bennett Victoria, TX": null,
   "Troutdale, OR": [
     45.5392862,
     -122.3873133
@@ -3965,6 +4047,7 @@
     32.3512601,
     -95.3010624
   ],
+  "USA Fredericksburg, TX": null,
   "USA Kerrville, TX": [
     30.075937,
     -99.1057728
@@ -4045,6 +4128,7 @@
   ],
   "Vikram Toor Brampton, ON": null,
   "Vince Ronkonkoma, NY": null,
+  "Vincent Russo Morgantown, WV": null,
   "Viola, ID": [
     46.8385007,
     -117.0246114
@@ -4179,6 +4263,7 @@
     40.7763165,
     -72.7155239
   ],
+  "West Ironwood, MI": null,
   "West Milford, NJ": [
     41.1312069,
     -74.3673748
@@ -4278,6 +4363,7 @@
     44.3917589,
     -89.8228767
   ],
+  "Woodford Madison, WI": null,
   "Woodruff, Wisconsin": [
     45.8590476,
     -89.6117528
@@ -4296,6 +4382,7 @@
   ],
   "Zachary Rawson Tulsa, OK": null,
   "Zack Hood River, OR": null,
+  "Zebulon LaClef Leon, KS": null,
   "agua dulce, CA": [
     34.4963817,
     -118.3256348
