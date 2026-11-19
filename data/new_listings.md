@@ -1,52 +1,52 @@
-# New listings — 2026-11-18
+# New listings — 2026-11-19
 
 24 new listings:
 
-- **2000 Maule M-7-235C** — $216,000 — 730 TT — Clyde Kornegay Brownsville, TX — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-235C&listing_id=2446957&s-type=aircraft
-- **1959 Cessna 180 180 SKYWAGON** — $145,000 — 11,572 hrs — Kalbermatter Santa Paula, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180+SKYWAGON&listing_id=2462632&s-type=aircraft
-- **1960 Cessna 172 172A SKYHAWK** — $90,000 —  — Guy Rozner Gaithersburg, MD — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172A+SKYHAWK&listing_id=2462653&s-type=aircraft
-- **2006 Cessna 172 172S SKYHAWK SP** — price n/a — 721 TT — Inc Jamestown, NY — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172S+SKYHAWK+SP&listing_id=2462634&s-type=aircraft
-- **1942 Stearman N2S-1** — $145,000 — 1620 TT — Lucy Camarillo, CA — _trade-a-plane_  
-  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=N2S-1&listing_id=2458040&s-type=aircraft
-- **1999 Cessna 172 172** — $265,000 — 8500 TT — Goodyear, AZ — _aerotrader_  
-  https://www.aerotrader.com/listing/1999-Cessna-172-5042888777
-- **1958 Cessna 172 172** — $60,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2083514-1958-Cessna-172.html
-- **? Cessna 172 172** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-1784930-Clean-Low-Time-NDH-Cessna-172.html
-- **1966 Cessna 172 172** — $128,500 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2068588-1966-Cessna-Skyhawk-172G.html
-- **1949 Cessna 195 195** — $185,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2084311-1949-Cessna-195-A.html
-- **2014 CubCrafters CubCrafters** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2084436&adtitle=2014-Cubcrafters-Carbon-Cub
-- **2024 CubCrafters CubCrafters** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2084388&adtitle=2024-CUBCRAFTERS-EX3
-- **2024 CubCrafters CubCrafters** — $475,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2084441-2024-CUBCRAFTERS-NXCUB.html
-- **2020 CubCrafters CubCrafters** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2084339-2020-CubCrafters-Carbon-Cub-SS.html
-- **2022 CubCrafters CubCrafters** — $279,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2061098-2022-Carbon-Cub-EX-3.html
-- **? Glasair Sportsman 2+2 Sportsman 2+2** — $249,900 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2071569-Sportsman-2+2-TWTT-Built.html
-- **? Glasair Sportsman 2+2 Sportsman 2+2** — $50,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2081063-Glasair-Super-II-S-FT.html
-- **? Kitfox Kitfox** — $1 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2084479-KITFOX-7-Supersport.html
-- **2021 Kitfox Kitfox** — $59,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2051967-2021-KITFOX-7-STI-KIT.html
-- **? Maule Maule** — $1 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2084475-Maule-M5-235C.html
-- **1979 Piper PA-18 Super Cub PA-18 Super Cub** — $145,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2068135-1979-Piper-PA-18-Suber-Cub.html
-- **2018 Aerobatic Skybolt** — price n/a —  —  — _barnstormers_  
-  https://www.barnstormers.com/adclick.php?type=featured_category_clicks&id=2018027&adtitle=Skybolt
-- **2022 Aerobatic Dr-107 One Design – 2022** — $99,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2010267-DR-107-One-Design-–-2022.html
-- **? Aerobatic Jungmann Lom Conversion** — $6,000 —  —  — _barnstormers_  
-  https://www.barnstormers.com/classified-2068451-Jungmann-LOM-Conversion.html
+- **2013 Maule M-7-260C** — $325,000 — 250 TT — Seth Wolf Abbeville, LA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=MAULE&model=M-7-260C&listing_id=2462686&s-type=aircraft
+- **2014 CubCrafters CC11-160 CARBON CUB SS** — price n/a — 285 TT — Hodges Santa Maria, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2462530&s-type=aircraft
+- **2021 CubCrafters CC19-215 XCUB** — $398,000 — 195 TT — Southwest Aero Scottsdale, AZ — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC19-215+XCUB&listing_id=2458407&s-type=aircraft
+- **2020 CubCrafters CCX-2300** — $428,000 — 375 TT — Ladd Klinglesmith Phoenix, AZ — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CCX-2300&listing_id=2462692&s-type=aircraft
+- **2019 CubCrafters CARBON CUB FX-3** — $328,000 — 475 TT — Extended Gear, TK — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CARBON+CUB+FX-3&listing_id=2462696&s-type=aircraft
+- **2020 CubCrafters CC11-160 CARBON CUB SS** — price n/a — 195 TT — AirSpace Auctions Fishers, IN — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CUBCRAFTERS&model=CC11-160+CARBON+CUB+SS&listing_id=2462670&s-type=aircraft
+- **1975 American Champion Aerobatic DECATHLON 8KCAB** — $130,000 — 2445 TT — Marysville, CA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2454727&s-type=aircraft
+- **1972 American Champion Aerobatic CITABRIA 7ECA** — $65,000 — 2982 TT — Vincent Russo Morgantown, WV — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2452743&s-type=aircraft
+- **1979 American Champion Aerobatic CITABRIA 7GCBC** — $105,000 — 3365 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7GCBC&listing_id=2459016&s-type=aircraft
+- **1975 American Champion Aerobatic CITABRIA 7ECA** — $85,000 — 1875 TT — In The Hill, IL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=CITABRIA+7ECA&listing_id=2461559&s-type=aircraft
+- **1975 American Champion Aerobatic DECATHLON 8KCAB** — price n/a — 1385 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BELLANCA&model=DECATHLON+8KCAB&listing_id=2460398&s-type=aircraft
+- **? American Champion Aerobatic Citabria 7Kcab Project** — $10,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2079910-Citabria-7KCAB-Project.html
+- **1952 Cessna 170/175 170B** — $128,500 — 5112 TT — Hinds San Angelo, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=170B&listing_id=2460302&s-type=aircraft
+- **1958 Cessna 180 180** — $139,000 — 4308 TT — Bedell Santa Fe, NM — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=180&listing_id=2460329&s-type=aircraft
+- **1977 Cessna 172 172** — $154,500 — 3580 TT — Pullman, WA — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=172&listing_id=2454191&s-type=aircraft
+- **2002 Cessna 205/206/207 T206H STATIONAIR** — $295,500 — 3775 TT — Reid Sulphur Springs, TX — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=T206H+STATIONAIR&listing_id=2452979&s-type=aircraft
+- **1969 Cessna 205/206/207 U206** — $249,900 — 4496 TT —  — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=CESSNA&model=U206&listing_id=2458042&s-type=aircraft
+- **1941 Stearman B75 N1** — $119,500 — 7760 TT — Ocala, FL — _trade-a-plane_  
+  https://www.trade-a-plane.com/search?category_level1=Single+Engine+Piston&make=BOEING%2FSTEARMAN&model=B75+N1&listing_id=2462676&s-type=aircraft
+- **1958 Cessna 180 180** — $139,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2067170-1958-Cessna-180.html
+- **2019 CubCrafters CubCrafters** — $328,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2084622-2019-CUBCRAFTERS-FX-3.html
+- **2020 CubCrafters CubCrafters** — $428,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2084613-2020-CubCrafters-Nx-Cub.html
+- **2002 Maule Maule** — $250,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2074521-2002-MAULE-M-7-235C.html
+- **? Maule Maule** — $2,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2045614-Maule-IO540-carbon-engCowl.html
+- **1944 Stinson 108 Stinson 108** — $155,000 —  —  — _barnstormers_  
+  https://www.barnstormers.com/classified-2064384-Stinson-V-77-Reliant.html

@@ -38,6 +38,7 @@
     -110.933402
   ],
   "Air LLC Kerrville, TX": null,
+  "AirSpace Auctions Fishers, IN": null,
   "AirSpace Auctions Pittsburgh, PA": null,
   "AirSpace Auctions Richmond, VA": null,
   "AirSpace Auctions Stanton, MI": null,
@@ -299,6 +300,7 @@
     39.8516455,
     -120.4064368
   ],
+  "Bedell Santa Fe, NM": null,
   "Belgrade, Montana": [
     45.776288,
     -111.1771685
@@ -1197,6 +1199,7 @@
     -122.2127011
   ],
   "Exchange North Perry, FL": null,
+  "Extended Gear, TK": null,
   "FM, KT": null,
   "Fairbanks, AK": [
     64.837845,
@@ -1581,6 +1584,7 @@
     30.3674198,
     -89.0928155
   ],
+  "Guy Lieser Westbend, WI": null,
   "Guy Rozner Gaithersburg, MD": null,
   "HAWKESBURY, ON": [
     45.610281,
@@ -1625,6 +1629,7 @@
     -90.7185589
   ],
   "Hartley Paul Kenmore, WA": null,
+  "Hattaway Double Oak, TX": null,
   "Hawkesbury, BC": [
     53.5496338,
     -129.1002215
@@ -1691,6 +1696,7 @@
     45.5228939,
     -122.989827
   ],
+  "Hinds San Angelo, TX": null,
   "Hodges Santa Maria, CA": [
     36.8184949,
     -76.4098999
@@ -1757,6 +1763,7 @@
     34.0106208,
     -95.513122
   ],
+  "Hunter Nitzsky Meadville, PA": null,
   "Hunters, Washington": [
     48.1172016,
     -118.2020358
@@ -1793,6 +1800,8 @@
     58.8055781,
     -122.7146356
   ],
+  "Info Priest River, ID": null,
+  "Info South Fork, CO": null,
   "Info St George, UT": null,
   "Info Trevor Nampa, ID": null,
   "International Falls, MN": [
@@ -2071,6 +2080,7 @@
   "Ladd Klinglesmith Longmont, CO": null,
   "Ladd Klinglesmith Mack, CO": null,
   "Ladd Klinglesmith Morgan, UT": null,
+  "Ladd Klinglesmith Phoenix, AZ": null,
   "Lafayette, TN": [
     36.5208223,
     -86.0260366
@@ -2871,6 +2881,10 @@
     36.3556031,
     -89.1748819
   ],
+  "Ocala, FL": [
+    29.1871986,
+    -82.1400923
+  ],
   "Oconto, WI": [
     44.9988053,
     -88.2480072
@@ -3369,7 +3383,9 @@
     37.8420743,
     -76.2757772
   ],
+  "Reeves Palm Harbor, FL": null,
   "Regiomontanos MCCallen, TX": null,
+  "Reid Sulphur Springs, TX": null,
   "Reno, NV": [
     39.5261788,
     -119.812658
@@ -3665,6 +3681,7 @@
     -111.7614394
   ],
   "Sells Peachtree Cty, GA": null,
+  "Seth Wolf Abbeville, LA": null,
   "Severna Park, MD": [
     39.0826193,
     -76.5719676
