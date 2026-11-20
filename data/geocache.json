@@ -1094,6 +1094,10 @@
     61.2700284,
     -149.3863924
   ],
+  "Eagle River, Wisconsin": [
+    45.9153992,
+    -89.2507968
+  ],
   "East Hampton, New York": [
     40.9633868,
     -72.1847598
@@ -1723,6 +1727,10 @@
     -121.6475587
   ],
   "Hot Springs, AR": [
+    34.5038393,
+    -93.0552437
+  ],
+  "Hot Springs, Arkansas": [
     34.5038393,
     -93.0552437
   ],
@@ -2550,6 +2558,7 @@
   "Mike Goulian Middleton, WI": null,
   "Mike Goulian Plymouth, MA": null,
   "Mike Kennedy Orlando, FL": null,
+  "Mike Schrader Columbus, MT": null,
   "Millinocket, ME": [
     45.6487248,
     -68.6849429
@@ -2627,6 +2636,10 @@
     -74.4099745
   ],
   "Mooresville, NC": [
+    35.5848596,
+    -80.8100724
+  ],
+  "Mooresville, North Carolina": [
     35.5848596,
     -80.8100724
   ],
@@ -3390,6 +3403,10 @@
     39.5261788,
     -119.812658
   ],
+  "Renton, WA": [
+    47.4799078,
+    -122.2034496
+  ],
   "Ricardo Silva Temple, TX": null,
   "Rice Lake, WI": [
     45.5027926,
@@ -4074,6 +4091,10 @@
   "Ukiah, CA": [
     39.1501662,
     -123.2077861
+  ],
+  "Union City, Tennessee": [
+    36.4242303,
+    -89.0570096
   ],
   "Upland, CA": [
     34.09751,
