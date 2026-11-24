@@ -242,6 +242,10 @@
     35.3738712,
     -119.019463
   ],
+  "Ballico, California": [
+    37.4522281,
+    -120.7018434
+  ],
   "Bangor, ME": [
     44.8016255,
     -68.7713289
@@ -393,6 +397,10 @@
   "Blech Queen Creek, AZ": null,
   "Boccuti Ambler, PA": null,
   "Boerne, TX": [
+    29.7946641,
+    -98.7319703
+  ],
+  "Boerne, Texas": [
     29.7946641,
     -98.7319703
   ],
@@ -1873,6 +1881,7 @@
     -81.6579179
   ],
   "James Hanchett Cheboygan, MI": null,
+  "James Walsh Hayden, ID": null,
   "Jamestown, NY": [
     42.0965167,
     -79.2380322
@@ -2054,6 +2063,7 @@
     40.4864444,
     -86.1336351
   ],
+  "Kyle Cam Mesa, AZ": null,
   "Kyle Tufts Bangor, ME": null,
   "LLC Baton Rouge, LA": [
     30.3555069,
@@ -2335,6 +2345,7 @@
     40.3977612,
     -105.07498
   ],
+  "Loyd Hook Tulsa, OK": null,
   "Ltd Pampa, TX": null,
   "Lubbock, Texas": [
     33.5855677,
@@ -2395,6 +2406,7 @@
     -98.2756505
   ],
   "Marcel Kobberdahl Aitkin, MN": null,
+  "Marchesi Port Orange, FL": null,
   "Marietta, SC": [
     35.0209502,
     -82.501512
@@ -2676,6 +2688,7 @@
   "More Info Robesonia, PA": null,
   "More Info Salida, CO": null,
   "More Info Sebring, FL": null,
+  "More Info Tulsa, OK": null,
   "More Info Vancouver, WA": null,
   "More Info Whitefish, SD": null,
   "More Info Winterset, IA": null,
@@ -3449,6 +3462,7 @@
     37.5385087,
     -77.43428
   ],
+  "Rick Bartle Tucson, AZ": null,
   "Ridgeland (3J1), SC": [
     32.4807435,
     -80.980386
